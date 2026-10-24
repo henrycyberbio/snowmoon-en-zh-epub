@@ -1,5 +1,7 @@
 # Snowmoon 双语 EPUB
 
+[English](README.en.md)     简体中文
+
 遵循 Vitalik 对《Snowmoon》衍生制作管线的开放要求，本仓库公开本次双语 EPUB 制作所使用的提示词、代码及必要源材料，供他人复现、修改和继续改进译本。
 
 双语版覆盖全 32 章，英文在前、中文在后，保留原有图表、对白配色和设备面板。
@@ -67,13 +69,13 @@ uv run python book/build_full.py --chapters-root work/chapters --output output
 
 ## 许可与致谢
 
-原作、中文底稿及本仓库代码与校订按 GNU GPLv3 提供，许可全文见 `COPYING`。[1][2]
+原作、中文底稿及本仓库代码与校订按 GNU GPLv3 提供，许可全文见 `COPYING`。[^1][^2]
 
 ### 原作与中文译本
 
-感谢 **Vitalik Buterin** 创作并开放《Snowmoon》。作者声明文字由本人撰写，Kimi K3 与 Qwen 3.8 Flash Next 辅助原作校对与网页制作。[1]
+感谢 **Vitalik Buterin** 创作并开放《Snowmoon》。作者声明文字由本人撰写，Kimi K3 与 Qwen 3.8 Flash Next 辅助原作校对与网页制作。[^1]
 
-特别感谢 **XiaoHai67890/snowmoon-zh** 提供完整中文译本、图示与可编辑源稿，原译校署名为 **Codex（AI）**。[2] 本项目在其简体中文校订版 v1.1 基础上进行针对性修订和双语排版。英文使用 2026-10-23 网站快照，中文固定于提交 `55f9a20b383ee124eb3eeffd137844d4b45990d6`。输入来源与哈希见 `inputs/manifest.json`，原源包校验清单见 [3]。
+特别感谢 **XiaoHai67890/snowmoon-zh** 提供完整中文译本、图示与可编辑源稿，原译校署名为 **Codex（AI）**。[^2] 本项目在其简体中文校订版 v1.1 基础上进行针对性修订和双语排版。英文使用 2026-10-23 网站快照，中文固定于提交 `55f9a20b383ee124eb3eeffd137844d4b45990d6`。输入来源与哈希见 `inputs/manifest.json`，原源包校验清单见 [^3]。
 
 ### 本项目使用的模型
 
@@ -93,8 +95,8 @@ uv run python book/build_full.py --chapters-root work/chapters --output output
 
 ### 来源
 
-[1] https://vitalik.eth.limo/snowmoon
+[^1]: https://vitalik.eth.limo/snowmoon
 
-[2] https://raw.githubusercontent.com/XiaoHai67890/snowmoon-zh/55f9a20b383ee124eb3eeffd137844d4b45990d6/README.md
+[^2]: https://github.com/XiaoHai67890/snowmoon-zh/
 
-[3] https://raw.githubusercontent.com/XiaoHai67890/snowmoon-zh/55f9a20b383ee124eb3eeffd137844d4b45990d6/SHA256SUMS
+[^3]: https://raw.githubusercontent.com/XiaoHai67890/snowmoon-zh/55f9a20b383ee124eb3eeffd137844d4b45990d6/SHA256SUMS
