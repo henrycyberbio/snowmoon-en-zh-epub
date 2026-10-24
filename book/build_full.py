@@ -227,19 +227,75 @@ def chapter_xhtml(R, ch, w, title):
     return head + body + tail
 
 
-def front_xhtml(R, title, subtitle, scope_note, css):
+# ------------------------------------------------------- front matter (扉页)
+# The author's three closing declarations, transcribed verbatim from
+# https://vitalik.eth.limo/snowmoon/ (checked 2026-10-25).  Pinned here on
+# purpose: the build must never depend on a live fetch, and the English wording
+# is the author's own, so it is copied rather than paraphrased.  Each English
+# paragraph is followed by a full Chinese translation of that same paragraph.
+GPL_URL = "https://www.gnu.org/licenses/gpl-3.0.html"
+TRANSLATORS = (("XiaoHai67890", "https://github.com/XiaoHai67890"),
+               ("henrycyberbio", "https://github.com/henrycyberbio"))
+DECLARATIONS = (
+    ("License:", "许可", (
+        ('Snowmoon is released under the <a href="%s">GPL v3</a>' % GPL_URL,
+         '《雪月》以 <a href="%s">GPL v3</a> 许可发布。' % GPL_URL),
+        ("Yes, I said GPL v3, not CC-BY-SA. My legal theory, which Kimi K3 says is "
+         "plausible, is that you are free to go turn it into a movie or a vibe-coded "
+         "anime or whatever, but if you do that, you are required to open-source the "
+         "pipeline (AI prompts, scripts, task-specific harness, etc) and other "
+         "non-commodity materials that you used to make it so that other people can "
+         "build on top of your work.",
+         "是的，我说的是 GPL v3，不是 CC-BY-SA。我的法律理论——Kimi K3 认为它说得通——是："
+         "你可以放手把它改成电影、改成一部用 vibe coding 制作的动画，或者随便什么别的东西。"
+         "但如果你真这么做了，就必须把制作它所用的流水线（AI 提示词、脚本、针对具体任务的 "
+         "harness 等）以及其他非通用的制作材料开源出来，好让别人能在你的成果之上继续搭建。"),
+    )),
+    ("AI usage declaration:", "AI 使用声明", (
+        ("All words were written directly by me.",
+         "书中所有文字都由我本人直接写成。"),
+        ("Spelling, grammar and style checking, verifying consistency of the rules of "
+         "Minpentai and Dzegoban, the HTML and CSS format and style, and the SVGs were "
+         "done with assistance from Kimi K3 and Qwen 3.8 Flash Next.",
+         "拼写、语法和文风检查，Minpentai 与 Dzegoban 规则一致性的核验，HTML 和 CSS 的格式与"
+         "样式，以及所有 SVG，都是在 Kimi K3 和 Qwen 3.8 Flash Next 的协助下完成的。"),
+    )),
+    # the author's own love/AI wordplay: the label really is "爱 usage declaration:"
+    ("爱 usage declaration:", "爱 使用声明", (
+        ("Snowmoon was written with love.",
+         "《雪月》是带着爱写成的。"),
+    )),
+)
+
+
+def front_xhtml(R, title, css, scope_note=""):
+    translators = "、".join('<a href="%s">%s</a>' % (url, R.esc(name))
+                            for name, url in TRANSLATORS)
+    blocks = []
+    for label_en, label_zh, paras in DECLARATIONS:
+        blocks.append('<h3 class="bm-title"><span lang="en" xml:lang="en">%s</span> '
+                      '<span lang="zh-Hans" xml:lang="zh-Hans">%s</span></h3>'
+                      % (R.esc(label_en), R.esc(label_zh)))
+        for en, zh in paras:
+            blocks.append('<p class="bm-p" lang="en" xml:lang="en">%s</p>' % en)
+            blocks.append('<p class="bm-p" lang="zh-Hans" xml:lang="zh-Hans">%s</p>' % zh)
+    note = '<p class="bm-p">%s</p>' % R.esc(scope_note) if scope_note else ""
+    page = ('<div class="page" id="c-title">'
+            '<h1 class="ch-title"><span class="t-en" lang="en" xml:lang="en">Snowmoon</span> '
+            '<span class="t-zh" lang="zh-Hans" xml:lang="zh-Hans">雪月</span></h1>'
+            '<p class="bm-p">作者：Vitalik Buterin</p>'
+            '<p class="bm-p">译者：%s</p>'
+            '<p class="bm-p">License: <a href="%s">GPL v3</a></p>%s'
+            '<h2 class="bm-title"><span lang="zh-Hans" xml:lang="zh-Hans">原作者声明</span>'
+            ' / <span lang="en" xml:lang="en">Original author\'s statements</span></h2>'
+            % (translators, GPL_URL, note)
+            + "".join(blocks) + '</div>')
     return ('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n'
             '<html xmlns="%s" xmlns:epub="%s" xml:lang="zh-Hans" lang="zh-Hans">\n<head>\n'
             '<meta charset="utf-8"/>\n<title>%s</title>\n'
             '<link rel="stylesheet" type="text/css" href="%s"/>\n</head>\n<body>\n'
-            '<div class="page" id="c-title"><h1 class="ch-title"><span class="t-en">Snowmoon</span>'
-            '<span class="t-zh">雪月 · 英中对照</span></h1>'
-            '<p class="bm-p">作者：Vitalik Buterin</p>'
-            '<p class="bm-p">%s</p>'
-            '<p class="bm-p">%s</p>'
-            '<p class="bm-p">%s</p></div>\n</body>\n</html>\n'
-            % (XHTML_NS, EPUB_NS, R.esc(title), css, R.esc(subtitle), R.esc(scope_note),
-               "英文原文取自作者官网页面，中文底稿来自社区既有全译本；两种语言并列显示，页面不依赖脚本。"))
+            '%s\n</body>\n</html>\n'
+            % (XHTML_NS, EPUB_NS, R.esc(title), css, page))
 
 
 def notes_xhtml(R, chapters, title, css):
@@ -630,9 +686,9 @@ def main():
     shutil.copyfile(os.path.join(out, "assets", "style.css"), os.path.join(oebps, "style.css"))
 
     docs = {"nav.xhtml": nav_xhtml(R, chapters, title),
-            "text/front.xhtml": front_xhtml(R, title, label,
-                                            "本文件只覆盖下列章节，不代表全书。" if subset else "全书共 %d 章。" % len(chapters),
-                                            "style.css")}
+            "text/front.xhtml": front_xhtml(
+                R, title, "style.css",
+                "本文件只覆盖下列章节，不代表全书。" if subset else "")}
     images = []
     for ch in chapters:
         nn = "%02d" % ch["n"]
