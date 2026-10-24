@@ -10,3 +10,4 @@ build/
 *.xlsx
 !release/*.xlsx
 .env
+.hermes-tmp.*
