@@ -1,0 +1,543 @@
+{
+  "chapter": 21,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-21.html",
+  "sha256": "c2b27b19329c84cd06bed6b578be236858244472d9816feb23c7cd359090978d",
+  "segments": [
+    {
+      "id": "21-001",
+      "type": "heading",
+      "en": "Chapter 21"
+    },
+    {
+      "id": "21-002",
+      "type": "dateline",
+      "en": "Meldan, Veridia · 3724 Mistime 20"
+    },
+    {
+      "id": "21-003",
+      "type": "body",
+      "en": "Seila, Vil, Daia, Lily and Zven were all seated around the table in Seila's house, waiting for dinner to arrive."
+    },
+    {
+      "id": "21-004",
+      "type": "body",
+      "en": "\"Thank you guys for coming and keeping us company\", Seila said softly. \"It really means a lot to me.\""
+    },
+    {
+      "id": "21-005",
+      "type": "body",
+      "en": "\"Any more news from Febric and Hreda?\""
+    },
+    {
+      "id": "21-006",
+      "type": "body",
+      "en": "\"I just sent them some more zipcoins for their personal expenses a few days ago. They're just living the life they can inside Greater Plum Harbor. The schools are full, but one of the other refugees was a math teacher, and we're hiring her to informally give them and a few other kids some lessons.\""
+    },
+    {
+      "id": "21-007",
+      "type": "body",
+      "en": "\"No word on when there will be any way for them to get back here?\""
+    },
+    {
+      "id": "21-008",
+      "type": "body",
+      "en": "\"Still none. At this point I'm starting to suspect that the Arctics' plan to reunify everyone is to just invade the rest of Veridia too.\""
+    },
+    {
+      "id": "21-009",
+      "type": "body",
+      "en": "\"Well at least they're safe.\""
+    },
+    {
+      "id": "21-010",
+      "type": "body",
+      "en": "Seila sighed."
+    },
+    {
+      "id": "21-011",
+      "type": "body",
+      "en": "\"How is your lawsuit against Divergent going?\""
+    },
+    {
+      "id": "21-012",
+      "type": "body",
+      "en": "This time Vil sighed."
+    },
+    {
+      "id": "21-013",
+      "type": "body",
+      "en": "\"We won in the original trial a few months ago. But then they appealed. So a whole different group of judges got selected to hear the case, and a month ago they ruled in our favor too. But only a few days ago, we learned that they're appealing a second time.\""
+    },
+    {
+      "id": "21-014",
+      "type": "body",
+      "en": "\"Can they just keep on doing that forever? Do another appeal, another five judges get sortitioned in, you have to convince them all over again, and keep doing that until you're too tired to keep going and then you give up and settle for like a quarter of the money?\""
+    },
+    {
+      "id": "21-015",
+      "type": "body",
+      "en": "\"Fortunately no, there are Veridian common law rules where judges can rule a case to be in bad faith, and require the submitter to give the other side a bunch of extra money as a penalty. That often happens to frivolous appeals.\""
+    },
+    {
+      "id": "21-016",
+      "type": "body",
+      "en": "\"Here, their latest appeal document has some new footage from Jump's internal monitoring systems. Of course it was all encrypted, but some former employee had access and handed it over. They found some video and messages that make some of us look bad. So they're arguing it's a genuine appeal because of that. But really the video says nothing that's actually relevant to the case. I'm hoping these judges can see through what Divergent is doing more quickly than the previous round's judges did. We're accusing them of making a bad-faith appeal in our defense statement, with luck that should close things quickly.\""
+    },
+    {
+      "id": "21-017",
+      "type": "body",
+      "en": "\"These hedge funds really are mean, aren't they.\""
+    },
+    {
+      "id": "21-018",
+      "type": "body",
+      "en": "\"If judging wasn't anonymized, randomly selected and split into two and a half groups each round, I'm sure they would find a way to threaten or bribe the judges too.\""
+    },
+    {
+      "id": "21-019",
+      "type": "body",
+      "en": "At that point, Lily rushed into the room."
+    },
+    {
+      "id": "21-020",
+      "type": "body",
+      "en": "\"Uncle Vil, Aunt Daia, Mom! I got eighty one percent on my latest civics test!\""
+    },
+    {
+      "id": "21-021",
+      "type": "body",
+      "en": "\"Congratulations, Lily!\", Daia replied."
+    },
+    {
+      "id": "21-022",
+      "type": "body",
+      "en": "\"Normally I would say, now you've earned your trip to Northglade.\", Vil added. \"But, well...\""
+    },
+    {
+      "id": "21-023",
+      "type": "body",
+      "en": "\"If it's safe in a few months and Gladias doesn't need me, I'll take you somewhere in the United Cities instead. Maybe Mabuli\", Seila offered."
+    },
+    {
+      "id": "21-024",
+      "type": "body",
+      "en": "The doorbell rang. Before anyone else could react, Zven ran to the door to get the food."
+    },
+    {
+      "id": "21-025",
+      "type": "body",
+      "en": "Zven opened the door, picked up two bags from a robot, and closed the door. Zven brought the food back to the table, and immediately began unpacking. He, Seila, Daia, Vil and Lily each found the boxes with their own meals, and the five of them began eating."
+    },
+    {
+      "id": "21-026",
+      "type": "body",
+      "en": "\"How was your time in school been, Zven?\", Daia asked."
+    },
+    {
+      "id": "21-027",
+      "type": "body",
+      "en": "\"My team won another Helisport game yesterday!\", Zven replied excitedly."
+    },
+    {
+      "id": "21-028",
+      "type": "body",
+      "en": "\"I also got ninety five on a physics exam a month ago. My teacher is really impressed.\""
+    },
+    {
+      "id": "21-029",
+      "type": "body",
+      "en": "\"That's amazing\", Seila replied."
+    },
+    {
+      "id": "21-030",
+      "type": "body",
+      "en": "\"So a few days ago he took me out privately to a garage, and showed me a mini rocket. He let me take a look inside, and then press the button to let it blast off. It was so fun!\""
+    },
+    {
+      "id": "21-031",
+      "type": "body",
+      "en": "\"I want to build a rocket when I grow up! And then I want to fly in it. Maybe I'll even be able to go to the moon one day!\""
+    },
+    {
+      "id": "21-032",
+      "type": "body",
+      "en": "\"Sounds like you won't need me to take you on any adventures!\", Vil added."
+    },
+    {
+      "id": "21-033",
+      "type": "body",
+      "en": "Daia continued asking the family table for status updates."
+    },
+    {
+      "id": "21-034",
+      "type": "body",
+      "en": "\"So what else is new for you, Seila?\""
+    },
+    {
+      "id": "21-035",
+      "type": "body",
+      "en": "\"Well aside from Febric and Hreda, I've basically been thinking nonstop about those meetings with the other Order members I had recently.\""
+    },
+    {
+      "id": "21-036",
+      "type": "body",
+      "en": "\"Are you able to say more?\""
+    },
+    {
+      "id": "21-037",
+      "type": "body",
+      "en": "\"Not the specifics. But in general, it feels like there's a really coordinated effort to try to manipulate the Order, they're saying different things to different people to manipulate each person based on their exact position, they have amazing spying powers, and their objectives don't even seem to be anything commercial.\""
+    },
+    {
+      "id": "21-038",
+      "type": "body",
+      "en": "\"Is it the Arctics?\", Zven blurted out, with the excitement of a hero in a detective novel solving a mystery."
+    },
+    {
+      "id": "21-039",
+      "type": "body",
+      "en": "The table went silent."
+    },
+    {
+      "id": "21-040",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "21-041",
+      "type": "body",
+      "en": "Seila was sitting in the chair in her basement, and was staring at her hand device."
+    },
+    {
+      "id": "21-042",
+      "type": "body",
+      "en": "Come on, she thought. Gladias should be awake any minute now."
+    },
+    {
+      "id": "21-043",
+      "type": "body",
+      "en": "She hit her palm against her face for a fifth time, ashamed at how blind she had been. Gladias had been having these secret meetings for half a year, and she had not asked anything, assuming that he had things under control - and that anything Gladias could not figure out himself, his shadowy friend Mov could."
+    },
+    {
+      "id": "21-044",
+      "type": "body",
+      "en": "But as it turned out, Gladias and Mov had been successfully hoodwinked by this man the whole time. And when his original pretense - that he was just a kindly man who cared about peace and freedom - fell through, they then got hoodwinked *again* by his mask, his pretense that he was from Silverchat."
+    },
+    {
+      "id": "21-045",
+      "type": "body",
+      "en": "Seila herself had seen through the Silverchat ruse within a day - really, she had felt doubts within minutes. But she had not gone further quickly enough. She had entertained the thought that it might be the Arctics, but she had dismissed it - none of Delwart's lines seemed anything like anything she had ever heard from Lord Ephelion. Why would an Arctic say anything nice about peace and freedom? But now the picture had all come together. When you have eliminated the impossible, whatever remains, how improbable, must be the truth."
+    },
+    {
+      "id": "21-046",
+      "type": "body",
+      "en": "Her watch buzzed. It was Gladias."
+    },
+    {
+      "id": "21-047",
+      "type": "body",
+      "en": "She immediately called."
+    },
+    {
+      "id": "21-048",
+      "type": "body",
+      "en": "\"Seila! I miss you so much. How are you?\""
+    },
+    {
+      "id": "21-049",
+      "type": "body",
+      "en": "At first, she wanted to scream."
+    },
+    {
+      "id": "21-050",
+      "type": "body",
+      "en": "\"Gladias, you idiot! Do you know what you've done?!!!!\""
+    },
+    {
+      "id": "21-051",
+      "type": "body",
+      "en": "At first, silence."
+    },
+    {
+      "id": "21-052",
+      "type": "body",
+      "en": "\"What's wrong, Seila?\""
+    },
+    {
+      "id": "21-053",
+      "type": "body",
+      "en": "\"Delwart.\""
+    },
+    {
+      "id": "21-054",
+      "type": "body",
+      "en": "Silence again."
+    },
+    {
+      "id": "21-055",
+      "type": "body",
+      "en": "\"I see. Did Mov catch you up?\""
+    },
+    {
+      "id": "21-056",
+      "type": "body",
+      "en": "\"Mov was an idiot too. And you're a double idiot for trusting him. Yes, he did catch me up, Gladias. But I saw through Delwart's lies almost immediately, and I dragged Mov out to do some sleuthing myself.\""
+    },
+    {
+      "id": "21-057",
+      "type": "body",
+      "en": "\"What did you find?\""
+    },
+    {
+      "id": "21-058",
+      "type": "body",
+      "en": "\"He's not working for Silverchat, you incredibly naive idiot!\""
+    },
+    {
+      "id": "21-059",
+      "type": "body",
+      "en": "\"What?\""
+    },
+    {
+      "id": "21-060",
+      "type": "body",
+      "en": "Silence again, this time from Seila's side, as she figured out the next thing she would say."
+    },
+    {
+      "id": "21-061",
+      "type": "body",
+      "en": "\"What do you know?\""
+    },
+    {
+      "id": "21-062",
+      "type": "body",
+      "en": "\"We tracked down two of the other Keepers that Delwart talked to. One of them was on a rubric for data retention in environmental sensors. Delwart tracked him down, the same way he tracked you down. And he was telling him to not bother pushing for more privacy preservation in any of the security or environmental the data collection.\""
+    },
+    {
+      "id": "21-063",
+      "type": "body",
+      "en": "\"We then tracked down another. She was on a rubric for education. Delwart was telling *her* to remove the incentives for private schools to have proper Veridian civics education.\""
+    },
+    {
+      "id": "21-064",
+      "type": "body",
+      "en": "\"And then finally, just to confirm, we found a Keeper who was on the rubric that Silverchat should care the most about - social media openness and interoperability - and neither Delwart nor anyone else had tracked down any of them at all.\""
+    },
+    {
+      "id": "21-065",
+      "type": "body",
+      "en": "\"But ... Mov overheard Delwart talking to a Silverchat person, how did that happen? Is this someone else trying to corrupt Silverchat too? Convince them to up-boost some content favoring whatever their position is?\""
+    },
+    {
+      "id": "21-066",
+      "type": "body",
+      "en": "\"No, you idiot. Delwart faked that. Come on, his spying ability is much better than Mov's, at some point he must have caught on to the fact that Mov was following him, and one day he planted that seed on purpose, to make his cover story more believable.\""
+    },
+    {
+      "id": "21-067",
+      "type": "body",
+      "en": "\"So...\""
+    },
+    {
+      "id": "21-068",
+      "type": "body",
+      "en": "\"Think about what we now know about Delwart's goals. You thought he cares about freedom - but not when he's pushing for unrestricted surveillance. You thought he is anti-war, but he never mentioned that to the second Keeper at all. And then eventually you thought he cares about Silverchat - but he never found his way at all into the Keeper group that was working on the rubric that Silverchat would care about the most!\""
+    },
+    {
+      "id": "21-069",
+      "type": "body",
+      "en": "\"There's three Keeper groups, they don't talk to each other. He could always have gotten into the other two.\""
+    },
+    {
+      "id": "21-070",
+      "type": "body",
+      "en": "\"IT'S ABOUT THE PREPONDERANCE OF EVIDENCE\", Seila snapped. \"Remember the probability update formula, Hreda has shouted it at us many times. Each individual unit of evidence might only shift the odds ratio by a factor of two or three. But when there's three independent factors that all point in the same direction, that multiplies up to shifting the odds ratio a factor of eight to twenty seven.\""
+    },
+    {
+      "id": "21-071",
+      "type": "body",
+      "en": "\"Okay, so what do you think Delwart's real motives are?\""
+    },
+    {
+      "id": "21-072",
+      "type": "body",
+      "en": "\"He's an Arctic.\""
+    },
+    {
+      "id": "21-073",
+      "type": "body",
+      "en": "\"WHAT?\""
+    },
+    {
+      "id": "21-074",
+      "type": "body",
+      "en": "\"That's really hard to believe. Nothing he has ever said to me sounds anything like Lord Ephelion.\""
+    },
+    {
+      "id": "21-075",
+      "type": "body",
+      "en": "\"Gladias... how can you be so naive?\""
+    },
+    {
+      "id": "21-076",
+      "type": "body",
+      "en": "\"Ephelion and Delwart are not intellectuals, they are propagandists. Their goal is not to seek and share what they think is the truth. Their goal is to adjust the discourse environment, either of one person or of a whole country, so suit their interests. To turn bystanders into friends, and enemies into bystanders.\""
+    },
+    {
+      "id": "21-077",
+      "type": "body",
+      "en": "\"Ephelion's goal is to inspire people inside Veridia to join the Arctic cause. So he's openly saying a version of the Arctic cause that some smart, but sick and twisted, people in Veridia will find appealing.\""
+    },
+    {
+      "id": "21-078",
+      "type": "body",
+      "en": "\"Delwart's goal is to break down the Order. He knows he can't make the Order pro-Arctic, but what he *can* do is make it ineffective. And so it's a better message for him to be sometimes pro-freedom, sometimes pro-peace, sometimes whatever else, depending on the rubric and the person he's talking to.\""
+    },
+    {
+      "id": "21-079",
+      "type": "body",
+      "en": "\"Why are you so certain?\""
+    },
+    {
+      "id": "21-080",
+      "type": "body",
+      "en": "\"PREPONDERANCE OF EVIDENCE. Let's list it all.\""
+    },
+    {
+      "id": "21-081",
+      "type": "body",
+      "en": "\"What are Delwart's goals? Not the goals he says he has, but the goals that are visible from his actions?\""
+    },
+    {
+      "id": "21-082",
+      "type": "body",
+      "en": "\"One: reduce support for open source defense hardware. One point for freedom, one point for peace, one point for Arctics, zero points for Silverchat.\""
+    },
+    {
+      "id": "21-083",
+      "type": "body",
+      "en": "\"Two: push for unrestricted surveillance. One point against freedom, zero points for peace, one point for Arctics, zero points for Silverchat.\""
+    },
+    {
+      "id": "21-084",
+      "type": "body",
+      "en": "\"Three: push for Veridian schools to not teach people Veridian civics. Delwart specifically said: 'people should learn to love Veridia by seeing how great it is on their own'. One point for freedom, zero points for peace, one point for Arctics, zero points for Silverchat.\""
+    },
+    {
+      "id": "21-085",
+      "type": "body",
+      "en": "\"Four: not participate in the social media openness and interoperability rubric. Fine, there's three Keeper groups, we can multiply this one by half. Zero points for freedom, zero points for peace, zero points for Arctics, minus half a point for Silverchat.\""
+    },
+    {
+      "id": "21-086",
+      "type": "body",
+      "en": "\"Five: once he blew his cover, he sent you off to Dzego. You might say, that's a good suggestion, Veridia should learn from Dzego more. But that's not the only interpretation. The other interpretation is that he wanted you out of the way, halfway across the world so that once you got suspicious, you would not interfere with any of his plans! Both are possible. So one point for every possibility.\""
+    },
+    {
+      "id": "21-087",
+      "type": "body",
+      "en": "\"Six: his spying capabilities, beyond any corporation, far beyond some nonprofit group of idealists. Minus one point for an idealistic freedom lover or a peace lover, zero points for Silverchat, one point for Arctics.\""
+    },
+    {
+      "id": "21-088",
+      "type": "body",
+      "en": "\"Sum it up. Arctics five, freedom two, peace two, Silverchat one half. And if you say it's a Silverchat person who also cares about freedom, then, well, we're at plus one half. I'd even multiply the last point, about spying capabilities by two, then you get six points for Arctics and zero or a half for any of the other explanations.\""
+    },
+    {
+      "id": "21-089",
+      "type": "body",
+      "en": "\"And notice what it took, Gladias. He got to you, and through you he got to one third of one discussion group. The military, the parliament, media platforms - he and his friends walked straight through all of them. The only doors that he couldn't break were the ones whose keys he couldn't find: the Order, the Courts, the graph funding. Privacy isn't a luxury, it's why we're still here.\""
+    },
+    {
+      "id": "21-090",
+      "type": "body",
+      "en": "Seila stopped talking. For a few moments, Gladias stayed silent."
+    },
+    {
+      "id": "21-091",
+      "type": "body",
+      "en": "\"I'm sorry, Seila.\""
+    },
+    {
+      "id": "21-092",
+      "type": "body",
+      "en": "\"I'm sorry I didn't trust you enough to involve you in this. I love you. I should have trusted and respected not just your heart, but also your mind.\""
+    },
+    {
+      "id": "21-093",
+      "type": "body",
+      "en": "Silence again."
+    },
+    {
+      "id": "21-094",
+      "type": "body",
+      "en": "\"So what do we do?\""
+    },
+    {
+      "id": "21-095",
+      "type": "body",
+      "en": "\"I hope that Delwart was wrong that you would be useless in Dzego, and you have something amazing to show from all the adventures you've been having there while I've been crying because our kids are stuck in an enclave surrounded by Arctics and trying to clean up your mess.\""
+    },
+    {
+      "id": "21-096",
+      "type": "body",
+      "en": "\"I think I understand their military well now. Or rather, their shadow military. The official Dzego military is as compromised as ours, and the same situation for the rest of the government. But they've basically built up their Minpentai championship as a sort of secret army training ground, making the bet this whole time that the war that will matter will be a drone war - more similar to Minpentai than to anything like Helisport.\""
+    },
+    {
+      "id": "21-097",
+      "type": "body",
+      "en": "\"I've been doing my best to convince them that the next battle will be in Veridia, not Dzego - we're ahead on technology and industry that might be a threat to them, but behind on thinking at all about defense - and that if they want to save themselves, they need to come help us over here first.\""
+    },
+    {
+      "id": "21-098",
+      "type": "body",
+      "en": "\"Good. I hope for the kids' sake, and for Veridia's, and for yours, that you're actually going to have a plan to make that happen.\""
+    },
+    {
+      "id": "21-099",
+      "type": "body",
+      "en": "\"Convincing the Dzegojan is only half the battle. We also have to convince the Veridians to accept them. And not the Keepers, the parliament. The same parliament whose subcommittee just barely accepted you as a Keeper, eleven to ten, despite having no valid reason to think anything negatively of you - unless they had some magic foresight about how naive you are, which I doubt.\""
+    },
+    {
+      "id": "21-100",
+      "type": "body",
+      "en": "\"I know.\""
+    },
+    {
+      "id": "21-101",
+      "type": "body",
+      "en": "\"Do you have any idea how we can do that?\""
+    },
+    {
+      "id": "21-102",
+      "type": "body",
+      "en": "\"I do not.\""
+    },
+    {
+      "id": "21-103",
+      "type": "body",
+      "en": "\"I can try to figure this out. But you will have to trust me.\""
+    },
+    {
+      "id": "21-104",
+      "type": "body",
+      "en": "\"I will, I promise.\""
+    },
+    {
+      "id": "21-105",
+      "type": "body",
+      "en": "\"No more secrets, okay?\""
+    },
+    {
+      "id": "21-106",
+      "type": "body",
+      "en": "\"Okay.\""
+    },
+    {
+      "id": "21-107",
+      "type": "body",
+      "en": "\"I promise.\""
+    }
+  ],
+  "figures": []
+}

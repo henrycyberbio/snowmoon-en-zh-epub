@@ -1,0 +1,779 @@
+{
+  "chapter": 22,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-22.html",
+  "sha256": "43cc856f38b7215f4d40b6ec8730064622eeeafa73e70cf1e99564fb8963fc3f",
+  "segments": [
+    {
+      "id": "22-001",
+      "type": "heading",
+      "en": "Chapter 22"
+    },
+    {
+      "id": "22-002",
+      "type": "dateline",
+      "en": "Freetown, United Cities · 3724 Mistime 22"
+    },
+    {
+      "id": "22-003",
+      "type": "body",
+      "en": "Jahn, sitting in a taxi, looked out through the window. He saw Freetown's usual chaotic mixture of buildings: some glass and steel, some concrete, some stone, some tall, some short, some beautiful, some ugly."
+    },
+    {
+      "id": "22-004",
+      "type": "body",
+      "en": "The taxi passed under a highway, and he could see piles of uncollected garbage on the sides of the road. Almost immediately after the highway, the taxi passed by a small park to the left, and a tall industrial building on the right. A movie with subtitles was playing, projected onto the industrial building's wall. Jahn looked again to the left, to see where the movie was projected from. Just before the taxi moved too far away for Jahn to be able to see, he found the projector, hidden under a bench in the park. Even without Graph Funding or rubrics, he thought, some people will always provide public goods."
+    },
+    {
+      "id": "22-005",
+      "type": "body",
+      "en": "On the whole, everything seemed normal - though Jahn could just barely notice that the amount of activity on the streets seemed to be lower than usual."
+    },
+    {
+      "id": "22-006",
+      "type": "body",
+      "en": "The taxi passed under another highway. On the other side, on the side of one of the buildings, Jahn noticed a large advertisement."
+    },
+    {
+      "id": "22-007",
+      "type": "body",
+      "en": "> Buy a luxurious room in a shelter, right on the northern edge of central Freetown.\n> 10 meters underground, maximum-grade physical, bio and info filtration and insulation.\n> Only 325,000 zipcoins!"
+    },
+    {
+      "id": "22-008",
+      "type": "body",
+      "en": "A minute later, another advertisement:"
+    },
+    {
+      "id": "22-009",
+      "type": "body",
+      "en": "> Shelters for the common man, in all shapes and sizes.\n> Prices start at only 50,000 zipcoins, mortgage plans available!"
+    },
+    {
+      "id": "22-010",
+      "type": "body",
+      "en": "As the taxi continued west, it entered the region that the advertisement was talking about. Here, Jahn saw a type of activity that, to him, seemed to have been steadily increasing for the past six months: construction of roads. Jahn had also seen many shelters being constructed, but roads were a close second - particularly on the northern side of the town."
+    },
+    {
+      "id": "22-011",
+      "type": "body",
+      "en": "Jahn's hand device buzzed in his lap."
+    },
+    {
+      "id": "22-012",
+      "type": "body",
+      "en": "| Taxi fare |  |  |\n| --- | --- | --- |\n| Driver base fare |  | 3.69 |\n| Per-minute toll | 9 min | 1.89 |\n| Per-kilometer toll | 5.65 km | 1.26 |\n| Acceleration and deceleration toll | 113 m/s Δv | 1.03 |\n| Road congestion toll |  | 1.50 |\n| Road congestion toll |  | 1.00 |\n| Road congestion toll |  | 2.25 |\n| Total |  | 12.52 |"
+    },
+    {
+      "id": "22-013",
+      "type": "body",
+      "en": "\"Hey, Chief?\", Jahn asked the driver."
+    },
+    {
+      "id": "22-014",
+      "type": "body",
+      "en": "\"What is it?\", the driver replied."
+    },
+    {
+      "id": "22-015",
+      "type": "body",
+      "en": "\"Do you know why there's so many congestion charges this time? The road seems quite a bit less congested than usual, why would the tolls be going that high?\""
+    },
+    {
+      "id": "22-016",
+      "type": "body",
+      "en": "\"Ah yeah, they're bumping up every tax and toll they can. Funding defense, they say.\""
+    },
+    {
+      "id": "22-017",
+      "type": "body",
+      "en": "\"Huh, the roads too?\""
+    },
+    {
+      "id": "22-018",
+      "type": "body",
+      "en": "\"Are they bumping up any other fees on you?\", the driver asked."
+    },
+    {
+      "id": "22-019",
+      "type": "body",
+      "en": "\"Actually not the government\", Jahn replied. \"At least, not directly. But, the shelters. I heard some interesting gossip there.\""
+    },
+    {
+      "id": "22-020",
+      "type": "body",
+      "en": "\"And what is that?\""
+    },
+    {
+      "id": "22-021",
+      "type": "body",
+      "en": "\"The best shelters were originally owned by a few defense companies. Soon after Redshire got annexed, they got together and formed a cartel. Sold off a lot of the shelter space for money, and used that to modernize their armor and weapons a bunch.\""
+    },
+    {
+      "id": "22-022",
+      "type": "body",
+      "en": "\"Huh, all private companies? I guess that's their property, their rules. Less shelter space left for us poor folks than if they just rationed it, but hey, they are trying. And if they use that money to defend us well, less chance we'll end up needing any shelters in the first place. And with fewer cars on the road, I'm enjoying the roads more too.\""
+    },
+    {
+      "id": "22-023",
+      "type": "body",
+      "en": "\"Well, yes that's the polite story. Freetown's economic philosophy at its finest. But I'm getting the feeling it's not *quite* that clean. The government seems to be making a special effort to build roads in exactly those places that make it easier to get to and from the shelters. There's no evidence of any collusion between them and the companies - that would get knocked down hard by the courts - but my theory is that it's a sort of retroactive reward. Create the expectation that if you use your private property for the public good, then the government will twist the public work that it does in order to make life easier for you. It's a trick to work around the maximum budget rule - pay people without actually directly paying them.\""
+    },
+    {
+      "id": "22-024",
+      "type": "body",
+      "en": "\"And if you refuse to use your private property in public-spirited ways, well... if things get really bad the next step might be that they'll start closing some roads for 'maintenance'. Though I guess people can always fly.\""
+    },
+    {
+      "id": "22-025",
+      "type": "body",
+      "en": "\"The Greater Plum Harbor has been refusing to fund anything that could be seen as going against the Arctics, they're scared that their node in Northglade might get shut down. I guess that's where we'll find out how good Freetown is at staying 'free'.\""
+    },
+    {
+      "id": "22-026",
+      "type": "body",
+      "en": "\"And at defending itself.\""
+    },
+    {
+      "id": "22-027",
+      "type": "body",
+      "en": "The driver and Jahn stayed silent for a minute. Soon, the taxi slowed to a halt. Jahn looked outside the window. He had arrived at the Freetown Economics Institute."
+    },
+    {
+      "id": "22-028",
+      "type": "body",
+      "en": "\"Thank you Chief, and have a good day!\""
+    },
+    {
+      "id": "22-029",
+      "type": "body",
+      "en": "\"You too, boss\", the driver replied."
+    },
+    {
+      "id": "22-030",
+      "type": "body",
+      "en": "Jahn opened the door, and got out of the taxi."
+    },
+    {
+      "id": "22-031",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "22-032",
+      "type": "body",
+      "en": "Jahn passed through the turnstile in the Freetown Economics Institute, and walked toward the restaurant."
+    },
+    {
+      "id": "22-033",
+      "type": "body",
+      "en": "After a minute of walking, he arrived. He saw a familiar face: Utaku."
+    },
+    {
+      "id": "22-034",
+      "type": "body",
+      "en": "\"Utaku! Surprised to see you still here.\""
+    },
+    {
+      "id": "22-035",
+      "type": "body",
+      "en": "\"My parents told me to come back. They think Freetown is taking defense more seriously than the other United Cities, so it's safer than Belpaki here.\""
+    },
+    {
+      "id": "22-036",
+      "type": "body",
+      "en": "\"Do you think that?\""
+    },
+    {
+      "id": "22-037",
+      "type": "body",
+      "en": "\"There have been some moves recently to create a unified defense grid between the aks. I'll be more optimistic if that goes through. But even then, I worry it's more theater than anything substantive.\""
+    },
+    {
+      "id": "22-038",
+      "type": "body",
+      "en": "\"Has Freetown been doing anything substantive?\""
+    },
+    {
+      "id": "22-039",
+      "type": "body",
+      "en": "\"Well the big corps are paying insurance on all their property, the rates tripled when Redshire was annexed, and doubled again after Northglade. And then apparently the rates dropped back down by a quarter when the corps announced their recent defense packages.\""
+    },
+    {
+      "id": "22-040",
+      "type": "body",
+      "en": "\"So ... somehow the market incentives seem to be working.\""
+    },
+    {
+      "id": "22-041",
+      "type": "body",
+      "en": "\"You know, I've been talking to Zei from Dzego lately, and learning how quickly they've gotten everyone to start caring about privacy, now about bio safety, average indoor CO2 levels dropped by over a hundred points within a month. All coordinated by machinery that they originally created, supposedly, to upgrade their language - and to give us a much more sensible distance and time system.\""
+    },
+    {
+      "id": "22-042",
+      "type": "body",
+      "en": "\"I've been getting this feeling that maybe almost any system can work well if people accept it and believe in it.\""
+    },
+    {
+      "id": "22-043",
+      "type": "body",
+      "en": "\"Do people in Freetown believe strongly in economic freedom? Everyone in the Economics Institute does, obviously, but what about regular people?\""
+    },
+    {
+      "id": "22-044",
+      "type": "body",
+      "en": "\"Are you familiar with the early history of the United Cities, a hundred years ago?\""
+    },
+    {
+      "id": "22-045",
+      "type": "body",
+      "en": "\"Vaguely. I know there were some wars, both between some of the cities and against the Arctics.\""
+    },
+    {
+      "id": "22-046",
+      "type": "body",
+      "en": "\"But do you know how those wars got resolved?\""
+    },
+    {
+      "id": "22-047",
+      "type": "body",
+      "en": "\"Eventually the armies of this continent came together and cooperated more, and that was a big part of why the Arctic offensive against Dzego was finally stopped.\""
+    },
+    {
+      "id": "22-048",
+      "type": "body",
+      "en": "\"Coming together in a crisis is easy. What's hard is keeping that spirit together through the easy times, the boring times, the times when the founding generation dies out and the kids and the grandkids need someone to fight against and have a hard time resisting the urge to start turning on each other.\""
+    },
+    {
+      "id": "22-049",
+      "type": "body",
+      "en": "\"So what happened? The co-governance system, I'm guessing?\""
+    },
+    {
+      "id": "22-050",
+      "type": "body",
+      "en": "\"That's one part of it. Each city gave a percent of the votes in its parliament to its neighbors - not enough to threaten the cities' independence and their unique cultures, but enough that future politicians would not have an incentive to ignore their surrounding continent completely.\""
+    },
+    {
+      "id": "22-051",
+      "type": "body",
+      "en": "\"But also, they did another thing to preserve unique cultures. They had a period during which they subsidized people swapping homes and citizenships. People who felt more at home in another city were able to move easily and change their allegiance to their new home.\""
+    },
+    {
+      "id": "22-052",
+      "type": "body",
+      "en": "\"The government of Freetown made a decision. They passed a new constitution, the one we still have today, which limited the government's power to regulate and tax anything down to a bare minimum. And then they said: this is what we are about. If you are scared of it, go to another city, but if you like it, no matter which city you're from, we welcome you. They even did a personality test without telling people what it's for, and then gave bigger subsidies to people who got what the government thought was a compatible result.\""
+    },
+    {
+      "id": "22-053",
+      "type": "body",
+      "en": "\"Wow, I did not know that.\""
+    },
+    {
+      "id": "22-054",
+      "type": "body",
+      "en": "\"Actually Arturia did a similar thing, in a somewhat opposite direction. They described their values as being about peace and quiet, research and learning, and they filtered by conscientiousness and test scores. Today, their whole society is sort of like a big university. If you go against the system too much, you get pushed harder and harder to leave and go to Freetown. But if you're fine with the system, you can learn a lot and have a lot of fun inside it. They actually do quite a lot of good science and have reliable infrastructure.\""
+    },
+    {
+      "id": "22-055",
+      "type": "body",
+      "en": "\"The strongest legitimacy comes from people buying in to an idea voluntarily - signing the form, knowing exactly what they are getting themselves into and what they are giving up.\""
+    },
+    {
+      "id": "22-056",
+      "type": "body",
+      "en": "\"That sounds like selection matters too. Different styles work for different people. Maybe a Freetown made out of people from Arturia would be a disaster, and same with the reverse.\""
+    },
+    {
+      "id": "22-057",
+      "type": "body",
+      "en": "\"Of course, now we're several generations into people being just born here, like people get born anywhere else. But for now, Freetown has held.\""
+    },
+    {
+      "id": "22-058",
+      "type": "body",
+      "en": "\"Do you think some people are ... genetically more freedom-loving than others? And Freetown got a lot of those people back then, and those genes got passed down?\""
+    },
+    {
+      "id": "22-059",
+      "type": "body",
+      "en": "\"People here bring that idea up from time to time. To me it feels unlikely. All the congestion tolls that I paid to get here, all the turnstiles, I somehow doubt that there can exist a gene that would register all that as being \"free\". You need to have a pretty deep education to understand how it's free - how it's all part of a market, each person and institution allocating their private property as they see fit, and how all these payments give people the ability to honestly self-report whether or not they truly value something more than the resources that it costs to make it available for them, and how that's better and more civilized than the government just deciding what things it thinks are wasteful and banning them.\""
+    },
+    {
+      "id": "22-060",
+      "type": "body",
+      "en": "\"I think there might be a core that even someone from the medieval era would understand. I don't bother you, you don't bother me. We're all each just trying to live our own lives, if we can help each other that's great, but not at the expense of leaving each other space to be in peace. You don't get the forager freedom of the great outdoors, especially not in the city, but within your own box you are the master.\""
+    },
+    {
+      "id": "22-061",
+      "type": "body",
+      "en": "\"At least, that's what Freetown always feels like to me.\""
+    },
+    {
+      "id": "22-062",
+      "type": "body",
+      "en": "\"Although ... I do love the economists here. Well, the intellectual culture in general. I like that you can honestly bring up the genetics stuff, and even if people disagree, it's not like Belpaki where they just immediately think you must be an Arctic or something.\""
+    },
+    {
+      "id": "22-063",
+      "type": "body",
+      "en": "\"Changing the subject a bit, of course I know why they would never tell either of us, but I am curious what these defense companies are up to. What do they think the threat model is? Same type of invasion as Redshire and Northglade? But what happens if we resist harder? And how are they going to fight back?\""
+    },
+    {
+      "id": "22-064",
+      "type": "body",
+      "en": "\"Well, funny you ask. I actually do know some gossip, although ... this is military, I don't think I'm allowed to tell you.\""
+    },
+    {
+      "id": "22-065",
+      "type": "body",
+      "en": "\"Huh, I'm surprised you got into those circles at all. Were they interested in your thoughts as an economist on how to raise more funding for defense?\""
+    },
+    {
+      "id": "22-066",
+      "type": "body",
+      "en": "Jahn sighed. \"Unfortunately, I really can't tell you. Freedom of speech is great for many things, but ... not for military secrets.\""
+    },
+    {
+      "id": "22-067",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "22-068",
+      "type": "body",
+      "en": "Jahn ordered a dish with vegetables and a tea, and stayed in the restaurant area studying the internet to better understand exactly the question Utaku had asked: what options Freetown still had to raise more funding for defense. He took out a computer, and made a table, scoring different options in three columns: how much money it could raise, how much economic collateral damage it would cause, and how much it risked making Freetown less ... free."
+    },
+    {
+      "id": "22-069",
+      "type": "body",
+      "en": "A longhour later, Jahn's watch buzzed. It was Zei, asking for a call."
+    },
+    {
+      "id": "22-070",
+      "type": "body",
+      "en": "Jahn picked up his computer and his glass of water, and moved over to a nearby calling booth."
+    },
+    {
+      "id": "22-071",
+      "type": "body",
+      "en": "\"What's up, Zei?\""
+    },
+    {
+      "id": "22-072",
+      "type": "body",
+      "en": "\"Thank you again for that connection you made with the defense companies last month. I actually have some interesting updates there!\""
+    },
+    {
+      "id": "22-073",
+      "type": "body",
+      "en": "\"Hey, I only connected you to the Economics Institute director, the connection to the companies was his doing.\""
+    },
+    {
+      "id": "22-074",
+      "type": "body",
+      "en": "\"But what is it?\""
+    },
+    {
+      "id": "22-075",
+      "type": "body",
+      "en": "\"Well, first let me give you a status update. Do you know what the Dzego folks have been doing with the defense companies' help?\""
+    },
+    {
+      "id": "22-076",
+      "type": "body",
+      "en": "\"I do not.\""
+    },
+    {
+      "id": "22-077",
+      "type": "body",
+      "en": "\"They've been hunting down Arctic drones in Redshire.\""
+    },
+    {
+      "id": "22-078",
+      "type": "body",
+      "en": "\"If you're allowed to ... tell me more?\""
+    },
+    {
+      "id": "22-079",
+      "type": "body",
+      "en": "\"How about I show you more?\""
+    },
+    {
+      "id": "22-080",
+      "type": "body",
+      "en": "Jahn's computer buzzed, and he saw a file download. It was a view-once file. If Jahn wanted, he could of course save it clandestinely through the operating system, or just take a picture of the screen with another device. But by default, once opened, the file would stay viewable for five minutes, cannot be copied, and would self-delete at the end. Politeness dictated not interfering with these defaults."
+    },
+    {
+      "id": "22-081",
+      "type": "body",
+      "en": "Jahn clicked on the file, and a view opened up."
+    },
+    {
+      "id": "22-082",
+      "type": "body",
+      "en": "![第22章图1](assets/ch22-fig01.svg)"
+    },
+    {
+      "id": "22-083",
+      "type": "body",
+      "en": "\"What am I looking at here?\""
+    },
+    {
+      "id": "22-084",
+      "type": "body",
+      "en": "\"This is happening right now as we speak. It's our clandestine kill chain on an Arctic ground drone in Redshire.\""
+    },
+    {
+      "id": "22-085",
+      "type": "body",
+      "en": "\"The red square is the enemy. The blue circles are seven of our own drones, that we arranged in a hexagon. Their role is to jam communications. Right now, they are dormant, waiting for the Arctic drone to get fully inside.\""
+    },
+    {
+      "id": "22-086",
+      "type": "body",
+      "en": "\"So what happens next?\""
+    },
+    {
+      "id": "22-087",
+      "type": "body",
+      "en": "\"Ah, well let's find out together.\""
+    },
+    {
+      "id": "22-088",
+      "type": "body",
+      "en": "About ten ticks later, another view-once file appeared on Jahn's screen."
+    },
+    {
+      "id": "22-089",
+      "type": "body",
+      "en": "![第22章图2](assets/ch22-fig02.svg)"
+    },
+    {
+      "id": "22-090",
+      "type": "body",
+      "en": "\"Just waiting a little bit longer.\""
+    },
+    {
+      "id": "22-091",
+      "type": "body",
+      "en": "\"I'm excited.\""
+    },
+    {
+      "id": "22-092",
+      "type": "body",
+      "en": "\"And ... action.\""
+    },
+    {
+      "id": "22-093",
+      "type": "body",
+      "en": "![第22章图3](assets/ch22-fig03.svg)"
+    },
+    {
+      "id": "22-094",
+      "type": "body",
+      "en": "\"Do you see it?\""
+    },
+    {
+      "id": "22-095",
+      "type": "body",
+      "en": "\"Yep.\""
+    },
+    {
+      "id": "22-096",
+      "type": "body",
+      "en": "\"The jammer drones are jamming. The red X signifies that there was a hit on the target. It's supposed to be two hits: one on its main antenna, and the other on its legs, to prevent it from leaving the jamming area. And the blue triangles are our two attack drones.\""
+    },
+    {
+      "id": "22-097",
+      "type": "body",
+      "en": "The conversation paused for about twenty ticks."
+    },
+    {
+      "id": "22-098",
+      "type": "body",
+      "en": "![第22章图4](assets/ch22-fig04.svg)"
+    },
+    {
+      "id": "22-099",
+      "type": "body",
+      "en": "\"Still not dead? What's taking so long?\""
+    },
+    {
+      "id": "22-100",
+      "type": "body",
+      "en": "\"Our drones, the triangles, are not actually trying to make a kill - if we wanted to do that, we could have just done that with a bigger first strike.\""
+    },
+    {
+      "id": "22-101",
+      "type": "body",
+      "en": "\"So what are they doing?\""
+    },
+    {
+      "id": "22-102",
+      "type": "body",
+      "en": "\"They are dancing.\""
+    },
+    {
+      "id": "22-103",
+      "type": "body",
+      "en": "\"Dancing?\""
+    },
+    {
+      "id": "22-104",
+      "type": "body",
+      "en": "\"Their goal is to *survive* as long as possible, trying any kind of trick to avoid getting killed, ideally get mistaken for an Arctic drone or even an animal, and eventually only kill when the target is too close to escaping the trap.\""
+    },
+    {
+      "id": "22-105",
+      "type": "body",
+      "en": "\"That's our goal. Using Arctic drones as target practice to improve our ability to kill them is expensive. But using Arctic drones as practice to improve our ability to *survive* them, that we can do, for basically as long as either of the triangles is still alive. Then the seven drones in the hexagon can finish the kill, and make sure to fry the target's circuits so the Arctics don't get any training data themselves.\""
+    },
+    {
+      "id": "22-106",
+      "type": "body",
+      "en": "\"Wait ...\""
+    },
+    {
+      "id": "22-107",
+      "type": "body",
+      "en": "\"What's the matter?\""
+    },
+    {
+      "id": "22-108",
+      "type": "body",
+      "en": "\"We have a problem.\""
+    },
+    {
+      "id": "22-109",
+      "type": "body",
+      "en": "![第22章图5](assets/ch22-fig05.svg)"
+    },
+    {
+      "id": "22-110",
+      "type": "body",
+      "en": "\"Arctic reinforcements? Are you going to take over and pilot your drones to victory now?\""
+    },
+    {
+      "id": "22-111",
+      "type": "body",
+      "en": "\"Yep, that's exactly what I'm doing. Temporarily have the two damaged-but-alive jammers play dead, lure the attackers to center, jammers reactivate, reform a circle, and then make a kill.\""
+    },
+    {
+      "id": "22-112",
+      "type": "body",
+      "en": "\"Do your thing, no need to give me a play by play.\""
+    },
+    {
+      "id": "22-113",
+      "type": "body",
+      "en": "\"I'm talking to the AI and letting you listen.\""
+    },
+    {
+      "id": "22-114",
+      "type": "body",
+      "en": "\"Circles, finish the northwest square now. Goal: all comms and memory dead.\""
+    },
+    {
+      "id": "22-115",
+      "type": "body",
+      "en": "\"Deactivate all jamming except left and top left.\""
+    },
+    {
+      "id": "22-116",
+      "type": "body",
+      "en": "\"When it makes sense, reform the circle, reactivate jamming and strike. Maximize surprise.\""
+    },
+    {
+      "id": "22-117",
+      "type": "body",
+      "en": "\"No-\""
+    },
+    {
+      "id": "22-118",
+      "type": "body",
+      "en": "\"Wha-\""
+    },
+    {
+      "id": "22-119",
+      "type": "body",
+      "en": "Jahn stopped mid-word, remembering that he was not supposed to distract Zei."
+    },
+    {
+      "id": "22-120",
+      "type": "body",
+      "en": "\"They started jamming, I got disconnected.\""
+    },
+    {
+      "id": "22-121",
+      "type": "body",
+      "en": "\"Nothing for me to do now. It's just our AI against the Arctics, AI plus human. And if our jamming works, our AI against theirs.\""
+    },
+    {
+      "id": "22-122",
+      "type": "body",
+      "en": "They both waited silently."
+    },
+    {
+      "id": "22-123",
+      "type": "body",
+      "en": "Ten ticks."
+    },
+    {
+      "id": "22-124",
+      "type": "body",
+      "en": "Twenty ticks."
+    },
+    {
+      "id": "22-125",
+      "type": "body",
+      "en": "Thirty ticks."
+    },
+    {
+      "id": "22-126",
+      "type": "body",
+      "en": "Finally, the download icon turned on again on Jahn's computer."
+    },
+    {
+      "id": "22-127",
+      "type": "body",
+      "en": "![第22章图6](assets/ch22-fig06.svg)"
+    },
+    {
+      "id": "22-128",
+      "type": "body",
+      "en": "\"That was really close.\""
+    },
+    {
+      "id": "22-129",
+      "type": "body",
+      "en": "\"Wow.\""
+    },
+    {
+      "id": "22-130",
+      "type": "body",
+      "en": "\"Only one undamaged drone on our side. Last step is that it will walk around and chip and memory-kill all the drones, first the Arctics and then the rest of our own just in case. It needs to do that before more Arctic drones come.\""
+    },
+    {
+      "id": "22-131",
+      "type": "body",
+      "en": "\"Can the damaged ones help?\""
+    },
+    {
+      "id": "22-132",
+      "type": "body",
+      "en": "\"They can't move. They can still attack, but proper chip and memory-killing is best done from ten centimeters away.\""
+    },
+    {
+      "id": "22-133",
+      "type": "body",
+      "en": "\"Even then we can't actually be certain that the Arctics won't be able to salvage training data. We can just hope for the best.\""
+    },
+    {
+      "id": "22-134",
+      "type": "body",
+      "en": "\"Okay... I gave it the instructions, now I'm just watching.\""
+    },
+    {
+      "id": "22-135",
+      "type": "body",
+      "en": "\"I am curious. How does your internet link into Redshire work?\""
+    },
+    {
+      "id": "22-136",
+      "type": "body",
+      "en": "\"Ah, that's one of our other big projects. The problem now is that the Arctics have confiscated all the un-backdoored electronics. There's still many watches, hand devices and compute boxes left hidden in various places, but the Arctics will be able to tell if any device tries to transmit things. So what we do is steganography.\""
+    },
+    {
+      "id": "22-137",
+      "type": "body",
+      "en": "\"Two people pretend to have a voice or video call. While the call is happening, the un-backdoored device is sitting nearby, and it's softly playing audio. That audio stream sounds random - it's representing encrypted data wrapped in an erasure code that's highly noise-tolerant - but we use the same tricks I told you before with the health data to maximize how much data we can hide, so that it appears to anyone or any bot spying on the call that there's nothing abnormal.\""
+    },
+    {
+      "id": "22-138",
+      "type": "body",
+      "en": "\"One of ... do you have more big projects?\""
+    },
+    {
+      "id": "22-139",
+      "type": "body",
+      "en": "\"Well, the next step is that we want to actually kidnap an Arctic drone and bring it back to Dzego for analysis.\""
+    },
+    {
+      "id": "22-140",
+      "type": "body",
+      "en": "\"Wow.\""
+    },
+    {
+      "id": "22-141",
+      "type": "body",
+      "en": "\"Actually, that's what I'll ask for your help one more time for.\""
+    },
+    {
+      "id": "22-142",
+      "type": "body",
+      "en": "\"So what do you need?\""
+    },
+    {
+      "id": "22-143",
+      "type": "body",
+      "en": "\"I want you to introduce me to another defense corp. Preferably not through the Institute director, find a different path.\""
+    },
+    {
+      "id": "22-144",
+      "type": "body",
+      "en": "\"Why?\""
+    },
+    {
+      "id": "22-145",
+      "type": "body",
+      "en": "\"The company the Institute director introduced does seaborne well, I want to find one of the others, that are better at airborne.\""
+    },
+    {
+      "id": "22-146",
+      "type": "body",
+      "en": "\"Also, come on, it's Freetown, this is a market. You gotta talk to multiple people and compare them against each other, to make sure they're not screwing you over.\""
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch22-fig01.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch22-fig02.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch22-fig03.svg",
+      "labels": [
+        "x"
+      ]
+    },
+    {
+      "file": "assets/ch22-fig04.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch22-fig05.svg",
+      "labels": [
+        "x",
+        "x",
+        "x"
+      ]
+    },
+    {
+      "file": "assets/ch22-fig06.svg",
+      "labels": [
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x"
+      ]
+    }
+  ]
+}

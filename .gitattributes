@@ -1,0 +1,5 @@
+# Frozen inputs must keep their exact bytes on checkout, on every machine:
+# inputs/manifest.json records file hashes, and a core.autocrlf=true checkout
+# would rewrite LF to CRLF in the snapshot HTML and upstream JSON.
+inputs/** -text
+release/** -text

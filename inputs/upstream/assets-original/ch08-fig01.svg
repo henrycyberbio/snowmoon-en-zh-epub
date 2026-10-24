@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#245"/>
+<text x="100.0" y="20" font-family="sans-serif" font-size="12" fill="lightblue" text-anchor="middle">Acceptance vote: Gladias</text>
+<circle cx="100.0" cy="46.0" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="120.4" cy="49.2" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="138.8" cy="58.6" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="153.4" cy="73.2" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="162.8" cy="91.6" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="166.0" cy="112.0" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="162.8" cy="132.4" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="153.4" cy="150.8" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="138.8" cy="165.4" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="120.4" cy="174.8" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="100.0" cy="178.0" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="79.6" cy="174.8" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="61.2" cy="165.4" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="46.6" cy="150.8" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="37.2" cy="132.4" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="34.0" cy="112.0" r="8" fill="#6c6" stroke="#245" stroke-width="1"/>
+<circle cx="37.2" cy="91.6" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="46.6" cy="73.2" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="61.2" cy="58.6" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+<circle cx="79.6" cy="49.2" r="8" fill="#f66" stroke="#245" stroke-width="1"/>
+</svg>

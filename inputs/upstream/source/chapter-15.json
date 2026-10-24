@@ -1,0 +1,603 @@
+{
+  "chapter": 15,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-15.html",
+  "sha256": "64723d2dab98aaf119cd46815076404b7b94e6b7c20b2a4ac77f4beb462de0b8",
+  "segments": [
+    {
+      "id": "15-001",
+      "type": "heading",
+      "en": "Chapter 15"
+    },
+    {
+      "id": "15-002",
+      "type": "dateline",
+      "en": "Freetown, United Cities · 3724 Firemoon 17"
+    },
+    {
+      "id": "15-003",
+      "type": "body",
+      "en": "Jahn passed through the turnstile in the Freetown Economics Institute, and walked toward the restaurant."
+    },
+    {
+      "id": "15-004",
+      "type": "body",
+      "en": "It was still early morning, and Jahn had intentionally not yet looked at any of the news on that day - better to clear his mind, and enjoy whatever the lecture on the restaurant screen would end up being."
+    },
+    {
+      "id": "15-005",
+      "type": "body",
+      "en": "After a minute of walking, he arrived."
+    },
+    {
+      "id": "15-006",
+      "type": "body",
+      "en": "When he saw what was on the screen, his eyes froze with horror."
+    },
+    {
+      "id": "15-007",
+      "type": "body",
+      "en": "> Special broadcast\n> ARCTIC EMPIRE INVADES AND ANNEXES REDSHIRE"
+    },
+    {
+      "id": "15-008",
+      "type": "body",
+      "en": "Jahn began to listen intently to the reporter relaying the details of what happened."
+    },
+    {
+      "id": "15-009",
+      "type": "body",
+      "en": "> At 15,500 this morning, a large number of Arctic drones and aircraft landed all across the major cities and military bases in Redshire, timed simultaneously with a massive land invasion from the north with thousands of vehicles coming out of never-before-seen underground tunnels.\n> The Redshire military was caught completely unprepared, and many suspect corruption at the highest ranks.\n> Major battles lasted less than two longhours, with very limited casualties. Almost all Redshire garrisons have by now surrendered."
+    },
+    {
+      "id": "15-010",
+      "type": "body",
+      "en": "He saw about ten people sitting in the restaurant, including Utaku, who seemed just as shocked as Jahn was."
+    },
+    {
+      "id": "15-011",
+      "type": "body",
+      "en": "> Three government aeroplanes containing President Albor, Prime Minister Celedil and most of the parliament attempted to take off. All three were shot down. Current indications suggest no survivors.\n> The president's son, Tafindel, is believed to be in Arctic captivity."
+    },
+    {
+      "id": "15-012",
+      "type": "body",
+      "en": "The reporter paused briefly, and then began speaking again."
+    },
+    {
+      "id": "15-013",
+      "type": "body",
+      "en": "> JUST IN:\n> The last Redshire garrison in the south has agreed on a conditional surrender. The garrison staff, plus thirty other personnel including two senators, will be allowed to fly to Devanvil, in exchange for the garrison discontinuing all attempts to defend itself.\n> The three aeroplanes will leave in five minutes, and will be the only aeroplanes allowed to leave. Arctic authorities are not allowing any other vehicles to enter or leave Redshire. They have cut off all communications and are already actively setting up jamming equipment."
+    },
+    {
+      "id": "15-014",
+      "type": "body",
+      "en": "\"What do we do now?\", Jahn, by this point standing beside the table with Utaku, mumbled."
+    },
+    {
+      "id": "15-015",
+      "type": "body",
+      "en": "\"Take the threat seriously\", Utaku replied."
+    },
+    {
+      "id": "15-016",
+      "type": "body",
+      "en": "Before Jahn could look away, Utaku had already begun typing frantically on her hand device."
+    },
+    {
+      "id": "15-017",
+      "type": "dateline",
+      "en": "Meldan, Veridia"
+    },
+    {
+      "id": "15-018",
+      "type": "body",
+      "en": "Gladias and Seila stared at the screen with Febric and Hreda beside them. They had just woken up at sunrise, light coming in clean through the window, the trees on the footpath outside already throwing long morning shadows. The news was the first thing they saw."
+    },
+    {
+      "id": "15-019",
+      "type": "body",
+      "en": "Zven was still asleep, and Lily was still in her room."
+    },
+    {
+      "id": "15-020",
+      "type": "body",
+      "en": "Seila took out her hand device, and began frantically typing."
+    },
+    {
+      "id": "15-021",
+      "type": "body",
+      "en": "| Message |  | To |\n| --- | --- | --- |\n| Please tell me you're in Freetown and you're okay. | → | Jahn |\n\nSend"
+    },
+    {
+      "id": "15-022",
+      "type": "body",
+      "en": "She clicked send."
+    },
+    {
+      "id": "15-023",
+      "type": "body",
+      "en": "A few ticks later:"
+    },
+    {
+      "id": "15-024",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Jahn | → | Don't worry, I am in Freetown. | 32117 |"
+    },
+    {
+      "id": "15-025",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Jahn | → | We've somehow been taking defense seriously here, and Freetown is about as far from Redshire as you can get in the United Cities, except for Silverbeach and Mabuli. | 32124 |"
+    },
+    {
+      "id": "15-026",
+      "type": "body",
+      "en": "Seila sighed with relief."
+    },
+    {
+      "id": "15-027",
+      "type": "body",
+      "en": "Gladias saw Seila messaging Jahn, and put his hand on her shoulder to comfort her. He did not respond further."
+    },
+    {
+      "id": "15-028",
+      "type": "body",
+      "en": "His mind soon shifted to the rubrics. Now we're definitely not adjusting the hardware openness rubric next month, he thought. Maybe we'll even be increasing the tax brackets."
+    },
+    {
+      "id": "15-029",
+      "type": "body",
+      "en": "A moment after that, he flashed with anger toward Delwart."
+    },
+    {
+      "id": "15-030",
+      "type": "body",
+      "en": "Seila left the room to wake up Zven and get Lily. Within twenty minutes, the four of them were on their way to school, and Gladias and Seila were alone in the house."
+    },
+    {
+      "id": "15-031",
+      "type": "body",
+      "en": "Gladias went down to the basement and closed the door."
+    },
+    {
+      "id": "15-032",
+      "type": "body",
+      "en": "\"What do we do now, Mov?\", he whispered through his neck band."
+    },
+    {
+      "id": "15-033",
+      "type": "body",
+      "en": "\"Well clearly Delwart was wrong about a lot of things. And next time we talk to him, we *really* have a lot of questions to ask. We need a straight answer, not excuses.\""
+    },
+    {
+      "id": "15-034",
+      "type": "body",
+      "en": "\"Remember, it's not just him turning out to be so wrong on the politics. It's about what I learned a month and a half ago - the sheer level of organization of whatever it is that he's doing.\""
+    },
+    {
+      "id": "15-035",
+      "type": "body",
+      "en": "\"Did you manage to track him down any more after that time?\""
+    },
+    {
+      "id": "15-036",
+      "type": "body",
+      "en": "\"Only two more times after that. First was a meeting with someone in a privacy robe, not sure who, and they were talking a bunch about Silverchat. Second was a meeting with a Keeper, I made out some conversation about Dreadknot. Nothing more since about a month ago, he either changed his location or he got much better at hiding.\""
+    },
+    {
+      "id": "15-037",
+      "type": "body",
+      "en": "\"So when is the vote?\""
+    },
+    {
+      "id": "15-038",
+      "type": "body",
+      "en": "\"First one is in about twenty days.\""
+    },
+    {
+      "id": "15-039",
+      "type": "body",
+      "en": "\"Delwart might make a move to try to 'verify' that you voted in the correct way. So remember the machinery that the Order set up to make sure he can't do that.\""
+    },
+    {
+      "id": "15-040",
+      "type": "body",
+      "en": "\"Only votes signed with a valid key count\", Gladias recited. \"You generate your voting key by meeting at least 3 of 5 people from your Key Allocation Group and registering each blinded share of the voting key with them. Once that's done, the information of which keys are and are not valid is only decryptable by the obfuscated circuit under the conditions that it specifies.\""
+    },
+    {
+      "id": "15-041",
+      "type": "body",
+      "en": "\"So neither Delwart nor anyone else - technically, not even I - will know which key, how many keys or if any key actually got successfully registered. Only the result of the vote gets decrypted. So Delwart can't tell which votes I submit are real or fake. I don't have the ability to prove that to him, even if I wanted to. For Delwart to be able to take over my votes, he would have to take over my identity, which means going to the KAG and *pretending to be me in person* - difficult because the whole point of the KAG is that it includes people I've met in person.\""
+    },
+    {
+      "id": "15-042",
+      "type": "body",
+      "en": "\"Humans - the ultimate trusted hardware.\""
+    },
+    {
+      "id": "15-043",
+      "type": "body",
+      "en": "\"You've studied well.\""
+    },
+    {
+      "id": "15-044",
+      "type": "body",
+      "en": "\"But I *hope* that this all won't be necessary, and Delwart is going to give me some sensible explanation for all this.\""
+    },
+    {
+      "id": "15-045",
+      "type": "body",
+      "en": "\"Hope is not a strategy.\""
+    },
+    {
+      "id": "15-046",
+      "type": "body",
+      "en": "\"Indeed it's not.\""
+    },
+    {
+      "id": "15-047",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego"
+    },
+    {
+      "id": "15-048",
+      "type": "body",
+      "en": "Zei anxiously tapped buttons on his hand device, and sent off a message for a fifth time."
+    },
+    {
+      "id": "15-049",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| Are you okay????! Please tell me where you are. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-050",
+      "type": "body",
+      "en": "He sat crying at a table in the lobby restaurant of his hotel. There was a tea and a rice and vegetable dish on the table in front of him. He had drunk the tea quickly; the robot had already refilled it four times. The rice and vegetables were uneaten for almost a longhour."
+    },
+    {
+      "id": "15-051",
+      "type": "body",
+      "en": "Finally, he got a message in response."
+    },
+    {
+      "id": "15-052",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | Don't worry, I am alive. Though it looks like I'm not going to be getting back to Dzego anytime soon. | 84690 |"
+    },
+    {
+      "id": "15-053",
+      "type": "body",
+      "en": "It was not the outcome Zei wanted, but still much better than the outcome he feared. He breathed a sigh of relief."
+    },
+    {
+      "id": "15-054",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | I found a way to send messages out. Some Arctic soldier and his friend, or his AI, or something, coded up a way to embed hidden text messages inside real-time health data that he is sending back home to command. And someone else in command is relaying that signal into a weather feed, which is then going up to the satellites. He's making a whole bunch of zipcoins anonymously rebroadcasting messages for people. | 84714 |"
+    },
+    {
+      "id": "15-055",
+      "type": "body",
+      "en": "Zei wiped off his tears, and started typing intently."
+    },
+    {
+      "id": "15-056",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| Wow. Are you ... in touch with this soldier? | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-057",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | I have an anonymous link. | 84723 |"
+    },
+    {
+      "id": "15-058",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| Ask him how he's encoding the messages that he's putting into his health data. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-059",
+      "type": "body",
+      "en": "Zei thought for a moment, and realized that perhaps the time had arrived for him to become the instructor. He took out a keyboard and started typing furiously."
+    },
+    {
+      "id": "15-060",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| Or actually, on second thought, he won't answer. But tell him that randomly flipping the least-significant bits, the strategy that everyone always reaches for when they encounter this problem for the first time, is not the ideal solution. Sometimes higher-order bits are totally fine to flip, and sometimes flipping even a least-significant bit is dangerous. What you want to do is: * Train a language model on the actual distribution, so that conditional on what all the other bits are, it can give you probabilities for whether a given bit should be 0 or 1 * Split the data up into buckets - make sure to use the decryption key itself to choose the buckets randomly - and require the bits in the i'th bucket to XOR to the i'th bit in the ciphertext. Within each bucket, use the model to determine which bit's probabilities are closest to 50/50 - meaning both values are \"natural\" for that bit to have in that context - and flip that bit to make the bucket XOR correct. So you're letting the LLM decide which bits are \"least significant\" and okay to flip, instead of just always taking the lowest-order binary digit in each number. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-061",
+      "type": "body",
+      "en": "Zei sat back briefly, proud that he had managed to understand and explain not just a complicated concept, but *the exact complicated concept that was needed for this exact job*."
+    },
+    {
+      "id": "15-062",
+      "type": "body",
+      "en": "He decided to keep going, out of a feeling of personal pride in his understanding as much as out of a desire to let more people in Redshire sneak information past the Arctic censors."
+    },
+    {
+      "id": "15-063",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| If you want to go even further, you can make the buckets partially overlap. Say: * the first bucket is 0...199 * the second is 20...219 * the third is 40...239 and so on, though remember the whole order should be a pseudorandom permutation. Also, choose only a random half of the positions in each bucket to go into the XOR, so there are always bits to flip that affect one bucket but not the bucket before or after it. So say, 204 might be part of the second bucket _but not_ the third. The happy-path algorithm is: * choose a bit to flip in 0...199 to make the first bucket XOR correctly * choose a bit to flip in 200...219 to make the second bucket XOR correctly * choose a bit to flip in 220...239 to make the third bucket XOR correctly and so on... But if, let's say, 240...259 gives you 20 bits in a row where _none of them_ are reasonable to flip - think, a very clear picture of a night sky, so you get 20 pixels in a row that are really supposed to be exactly black - or the equivalent of that for health data - then you walk back and try to find a combination of bits to flip in 220...239 that makes both of the last two buckets XOR correctly, and if that fails, you walk back further and try to find a combination of bits to flip in 200...239 to make the last three buckets XOR correctly, and so on. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-064",
+      "type": "body",
+      "en": "He then realized that his last message might have come off too much as him trying to be a hotshot, so he sent a followup."
+    },
+    {
+      "id": "15-065",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| I learned that from Den's cryptography textbooks. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-066",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | I'll forward that to him. But I suspect that for him, first priority is going to be finding higher-bandwidth channels to hide data inside. Optimizing which bits to flip is really smart but it's maybe a 2x gain, finding a better data stream might be a 1000x gain. Always take the dumb 1000x gain before the super-clever 2x gain. | 85190 |"
+    },
+    {
+      "id": "15-067",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | I learned that in business school. | 85200 |"
+    },
+    {
+      "id": "15-068",
+      "type": "body",
+      "en": "Zei felt more optimistic about how much of an improvement a better steganographic encoding would be, but decided not to press the point further."
+    },
+    {
+      "id": "15-069",
+      "type": "body",
+      "en": "| tie |  | dun |\n| --- | --- | --- |\n| Alright, well stay safe. And let me know if there's anything that I can do, or that smart people in my network could do, to help you get out of there safely. | → | Deluin |\n\nbe"
+    },
+    {
+      "id": "15-070",
+      "type": "body",
+      "en": "Zei thought about saying \"or that the Kungaupei could do\", or even \"or that advanced Dzegojan secret societies could do\", instead. But he realized that first, it would be a breach of confidentiality to let an outsider, especially an outsider now in hostile occupied territory, know about the existence of those things, and second, he couldn't fully trust the connection - he hadn't even asked Deluin a security question yet. And so \"smart people in my network\" it was."
+    },
+    {
+      "id": "15-071",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | Will do. Thank you for caring about me. | 84821 |"
+    },
+    {
+      "id": "15-072",
+      "type": "body",
+      "en": "Zei put down his hand device, and breathed out. His eyes briefly wandered around the restaurant, and he saw that by this point there was no one else there. He finally began eating his rice and vegetable dish."
+    },
+    {
+      "id": "15-073",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "15-074",
+      "type": "body",
+      "en": "Zei felt someone put their hands on his shoulder."
+    },
+    {
+      "id": "15-075",
+      "type": "body",
+      "en": "Zei turned around. It was Su."
+    },
+    {
+      "id": "15-076",
+      "type": "body",
+      "en": "\"So sorry to hear about Deluin.\""
+    },
+    {
+      "id": "15-077",
+      "type": "body",
+      "en": "\"I assume the Kungaupei are figuring out how to get him out?\""
+    },
+    {
+      "id": "15-078",
+      "type": "body",
+      "en": "Zei realized that technically he had just committed an error: he had not actually confirmed that Su knew or was supposed to know about the Kungaupei - so far that was just Den and Mu."
+    },
+    {
+      "id": "15-079",
+      "type": "body",
+      "en": "\"That was the first thing I asked Den\", Su began to reply. Zei gave out a barely audible sigh of relief. \"So far they've acquired a bunch of internet links into Redshire, and they got a message from Deluin a minute ago, so at least he's safe for now. We'll let you know if there's any kind of rescue plan possible.\""
+    },
+    {
+      "id": "15-080",
+      "type": "body",
+      "en": "Zei nodded silently."
+    },
+    {
+      "id": "15-081",
+      "type": "body",
+      "en": "\"The finals are cancelled\", Su added."
+    },
+    {
+      "id": "15-082",
+      "type": "body",
+      "en": "\"Cancelled? Not postponed? What if he comes back tomorrow?\""
+    },
+    {
+      "id": "15-083",
+      "type": "body",
+      "en": "\"Even if he does, at this point it's just not right to have more games. Also we don't want to give the audience false hope, and we don't want to distract people.\""
+    },
+    {
+      "id": "15-084",
+      "type": "body",
+      "en": "\"You're the champion this year. And if Deluin does come back, we'll give him the same trophy and the same prize money that we're giving you.\""
+    },
+    {
+      "id": "15-085",
+      "type": "body",
+      "en": "\"No...\", Zei pleaded. \"I don't want to win like this.\""
+    },
+    {
+      "id": "15-086",
+      "type": "body",
+      "en": "\"I know it's already late today, but you should go talk to Den. He's in Sadzu Du, in the southern mountain pyramid right now. He might want you here, or maybe in Pafogai. He will know better than me.\""
+    },
+    {
+      "id": "15-087",
+      "type": "body",
+      "en": "Zei nodded. Of course this was all more important than the game, he understood. He hoped that Den would put him in Pafogai, so that he could see Fin and his mom again."
+    },
+    {
+      "id": "15-088",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "15-089",
+      "type": "body",
+      "en": "Zei's car arrived at an entrance to the mountain pyramid that he had not been at before. This was a series of doors on the side of the mountain pyramid, much nearer to ground level than the usual entrance, though further from the city. The car stopped, its door lined up perfectly with one of the mountain pyramid doors. The car door and the mountain pyramid door slid open simultaneously."
+    },
+    {
+      "id": "15-090",
+      "type": "body",
+      "en": "Zei stepped out, and walked down the hallway."
+    },
+    {
+      "id": "15-091",
+      "type": "body",
+      "en": "A hundred meters and a left and right turn later, he arrived at a door."
+    },
+    {
+      "id": "15-092",
+      "type": "body",
+      "en": "He put his watch against a green circle. The door opened."
+    },
+    {
+      "id": "15-093",
+      "type": "body",
+      "en": "Zei saw a long room, with a table at the end. Den was sitting on the other side, alone."
+    },
+    {
+      "id": "15-094",
+      "type": "body",
+      "en": "Zei sat down."
+    },
+    {
+      "id": "15-095",
+      "type": "body",
+      "en": "\"Thank you for coming, Zei.\""
+    },
+    {
+      "id": "15-096",
+      "type": "body",
+      "en": "Zei nodded silently."
+    },
+    {
+      "id": "15-097",
+      "type": "body",
+      "en": "\"I think you're one of the very few people who is in a position to help Dzego get through this next year.\""
+    },
+    {
+      "id": "15-098",
+      "type": "body",
+      "en": "Zei's eyes opened wide. He was now the national Minpentai champion, and he was getting far in his studies from Den's cryptography books, yes, but ... he still did not know how that made him valuable at this exact moment."
+    },
+    {
+      "id": "15-099",
+      "type": "body",
+      "en": "\"In your last Minpentai game, you did two things that were crucial to winning. Do you remember what they are?\""
+    },
+    {
+      "id": "15-100",
+      "type": "body",
+      "en": "\"I can think of a few answers, but I'm not sure if any of them are what you had in mind.\""
+    },
+    {
+      "id": "15-101",
+      "type": "body",
+      "en": "\"First, you hunkered down and played defense, and outlasted your opponent.\""
+    },
+    {
+      "id": "15-102",
+      "type": "body",
+      "en": "\"Second, you made the most out of a very limited-bandwidth information channel, by pre-publishing most of the data - the symbol-carrying spaceship - and then using only a few bits of manipulation at the end to deploy the most important parts of your strategy.\""
+    },
+    {
+      "id": "15-103",
+      "type": "body",
+      "en": "\"Actually a very similar tactic to what you used in your other game months earlier, when you sent out a spaceship that encoded basically every possible glider attack strategy, and then another glider to choose which specific one you wanted to use.\""
+    },
+    {
+      "id": "15-104",
+      "type": "body",
+      "en": "\"How is this related?\""
+    },
+    {
+      "id": "15-105",
+      "type": "body",
+      "en": "\"We have contact with Deluin. Do you know how we accomplished that?\""
+    },
+    {
+      "id": "15-106",
+      "type": "body",
+      "en": "\"Actually, he got in touch with me and he told me. Some Arctic soldier is charging people zipcoins to hide their messages in his health data.\""
+    },
+    {
+      "id": "15-107",
+      "type": "body",
+      "en": "\"Correct. And so everyone is dropping down to the most efficient, lowest-bandwidth form of communication they can use - raw text - and pushing all that through him. One soldier's health data, communications for thousands of people.\""
+    },
+    {
+      "id": "15-108",
+      "type": "body",
+      "en": "\"A quarter longhour ago the rates he was charging suddenly dropped by two thirds - we suspect he found some more efficient way to encode data. Interestingly enough neither he nor anyone else has found any better channel than health data so far.\""
+    },
+    {
+      "id": "15-109",
+      "type": "body",
+      "en": "\"Okay, now I wonder if that was me. I told Deluin to tell the soldier to train an LLM on his own health data and then modify the health data that he is sending out in-flight by flipping the bits that the LLM says are safest to flip, and using XOR over buckets to encode the message so he has a lot of freedom in choosing which bit to flip. Much better for reducing the 'suspiciousness' per bit of hidden data encoded, so he could afford to hide more data inside the same cover traffic.\""
+    },
+    {
+      "id": "15-110",
+      "type": "body",
+      "en": "Den's eyes opened up."
+    },
+    {
+      "id": "15-111",
+      "type": "body",
+      "en": "\"Well we have no way to know if he used that specific trick-\""
+    },
+    {
+      "id": "15-112",
+      "type": "body",
+      "en": "Zei remembered to check his watch."
+    },
+    {
+      "id": "15-113",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Deluin | → | Arctic soldier says thanks, it helped a lot. | 92115 |"
+    },
+    {
+      "id": "15-114",
+      "type": "body",
+      "en": "\"Looks like he did.\""
+    },
+    {
+      "id": "15-115",
+      "type": "body",
+      "en": "\"See, you've helped the anti-Arctic resistance already.\""
+    },
+    {
+      "id": "15-116",
+      "type": "body",
+      "en": "\"Look, Zei. What's happening now is, our hand has been forced. We can't just keep improving our capabilities secretly anymore. Dzegojan society has to come out of hiding.\""
+    },
+    {
+      "id": "15-117",
+      "type": "body",
+      "en": "\"The shadow society has to become the society. The shadow government has to become the government. We have to sprint to deploy everything that we have figured out across all of Dzego - before the Arctics can make any moves on us.\""
+    },
+    {
+      "id": "15-118",
+      "type": "body",
+      "en": "\"The part of this most relevant to you - the cryptographic infrastructure we need so that our coordination can keep functioning and we what needs to be secret can stay secret - is run out of Pafogai Du. So I want you to take the train back - Su can reschedule your ticket for tomorrow - and I'll message you about whom you should reach out to next.\""
+    },
+    {
+      "id": "15-119",
+      "type": "body",
+      "en": "\"For now, maybe see if you can come up with any more ideas for that soldier to sell more packets. That seems to be even better cryptography training for you than my textbooks.\""
+    }
+  ],
+  "figures": []
+}

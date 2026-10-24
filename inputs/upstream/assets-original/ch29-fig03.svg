@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="240" height="240" fill="#348"/>
+<circle cx="40" cy="84" r="3.6" fill="#cef"/>
+<circle cx="55" cy="79" r="3.6" fill="#cef"/>
+<circle cx="70" cy="74" r="3.6" fill="#cef"/>
+<circle cx="80" cy="84" r="3.6" fill="#cef"/>
+<circle cx="90" cy="94" r="3.6" fill="#cef"/>
+<circle cx="100" cy="114" r="3.6" fill="#cef"/>
+<circle cx="135" cy="215" r="3.6" fill="#cef"/>
+<circle cx="145" cy="225" r="3.6" fill="#cef"/>
+<circle cx="155" cy="235" r="3.6" fill="#cef"/>
+<circle cx="30" cy="65" r="3.6" fill="#f00"/>
+<circle cx="45" cy="60" r="3.6" fill="#f00"/>
+<circle cx="60" cy="55" r="3.6" fill="#f00"/>
+<circle cx="100" cy="65" r="3.6" fill="#f00"/>
+<circle cx="105" cy="80" r="3.6" fill="#f00"/>
+<circle cx="110" cy="95" r="3.6" fill="#f00"/>
+<circle cx="120" cy="110" r="3.6" fill="#f00"/>
+</svg>

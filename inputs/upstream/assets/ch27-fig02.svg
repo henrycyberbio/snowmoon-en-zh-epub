@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" role="img" aria-labelledby="ttl desc" viewBox="0 0 400 240">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><title id="ttl">你更希望由谁领导维里迪亚军队？</title>
+<desc id="desc">Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.</desc>
+<defs>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#57ccff" stop-opacity="0.16"/>
+<stop offset="70%" stop-color="#57ccff" stop-opacity="0.05"/>
+<stop offset="100%" stop-color="#57ccff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="400" height="240" fill="#334488"/>
+<circle cx="200" cy="138" r="88" fill="url(#glow)"/>
+<g font-family="Songti SC, Noto Serif CJK SC, serif">
+<text x="200" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="#cceeff">你更希望由谁领导维里迪亚军队？</text>
+<circle cx="200" cy="138" r="60" fill="none" stroke="#cceeff" stroke-opacity="0.18" stroke-width="0.8"/>
+<g id="slices">
+<path d="M 200 138 L 200 83 A 55 55 0 0 1 240.09 100.35 Z" fill="#dbeeff" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 200 138 L 240.09 100.35 A 55 55 0 0 1 246.44 167.47 Z" fill="#4a90d9" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 200 138 L 246.44 167.47 A 55 55 0 0 1 220.25 189.14 Z" fill="#6fe0cf" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 200 138 L 220.25 189.14 A 55 55 0 0 1 167.67 182.5 Z" fill="#98a8f8" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 200 138 L 167.67 182.5 A 55 55 0 0 1 193.11 83.43 Z" fill="#57ccff" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 200 138 L 193.11 83.43 A 55 55 0 0 1 200 83 Z" fill="#2fbfae" stroke="#334488" stroke-width="1.2" stroke-linejoin="round"/>
+</g>
+<g id="leaders">
+<polyline points="213.54,106.7 223.83,82.93 263,82.93" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="233.95,134.79 259.73,132.35 263,132.35" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="221.74,164.27 238.25,184.23 263,184.23" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="195.73,171.83 192.48,197.53 137,197.53" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="166.97,129.52 141.89,123.08 137,123.08" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196.89,88.6 196.23,78.12 137,78.12" fill="none" stroke="#101f38" stroke-width="2.2" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="213.54,106.7 223.83,82.93 263,82.93" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="233.95,134.79 259.73,132.35 263,132.35" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="221.74,164.27 238.25,184.23 263,184.23" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="195.73,171.83 192.48,197.53 137,197.53" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="166.97,129.52 141.89,123.08 137,123.08" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196.89,88.6 196.23,78.12 137,78.12" fill="none" stroke="#e8f6ff" stroke-width="1.0" stroke-opacity="0.95" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="markers">
+<circle cx="213.54" cy="106.7" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+<circle cx="233.95" cy="134.79" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+<circle cx="221.74" cy="164.27" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+<circle cx="195.73" cy="171.83" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+<circle cx="166.97" cy="129.52" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+<circle cx="196.89" cy="88.6" r="2.1" fill="#334488" stroke="#e8f6ff" stroke-width="0.9"/>
+</g>
+<g id="labels">
+<g text-anchor="start">
+<text x="268" y="75.85" font-size="10.5" fill="#cceeff">现任领导层</text>
+<text x="268" y="91.45" font-size="13" font-weight="700" fill="#dbeeff">13%</text>
+</g>
+<g text-anchor="start">
+<text x="268" y="118.44" font-size="10.5" fill="#cceeff">议会选出的</text>
+<text x="268" y="132.09" font-size="10.5" fill="#cceeff">新领导层</text>
+<text x="268" y="147.69" font-size="13" font-weight="700" fill="#4a90d9">21%</text>
+</g>
+<g text-anchor="start">
+<text x="268" y="177.15" font-size="10.5" fill="#cceeff">银语</text>
+<text x="268" y="192.75" font-size="13" font-weight="700" fill="#6fe0cf">10%</text>
+</g>
+<g text-anchor="end">
+<text x="132" y="190.44" font-size="10.5" fill="#cceeff">北极人</text>
+<text x="132" y="206.04" font-size="13" font-weight="700" fill="#98a8f8">16%</text>
+</g>
+<g text-anchor="end">
+<text x="132" y="115.99" font-size="10.5" fill="#cceeff">昆高会</text>
+<text x="132" y="131.59" font-size="13" font-weight="700" fill="#57ccff">38%</text>
+</g>
+<g text-anchor="end">
+<text x="132" y="64.21" font-size="10.5" fill="#cceeff">阿图里亚军事</text>
+<text x="132" y="77.86" font-size="10.5" fill="#cceeff">顾问</text>
+<text x="132" y="93.46" font-size="13" font-weight="700" fill="#2fbfae">2%</text>
+</g>
+</g>
+</g>
+</svg>

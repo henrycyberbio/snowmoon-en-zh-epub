@@ -1,0 +1,199 @@
+{
+  "schema": "snowmoon-svg-metadata-targets/1",
+  "note": "Actual recheck request input for the chapter-27 hidden <title>/<desc> candidates. Values are the literal strings submitted at the time; adopted results live in edits.json.",
+  "targets": [
+    {
+      "target_id": "27-118",
+      "asset": "assets/ch27-fig01-zh.svg",
+      "elements": [
+        {
+          "element": "title",
+          "id_attr": "ttl",
+          "english": "How much confidence do you have in the Veridian military?",
+          "current_chinese": "How much confidence do you have in the Veridian military?",
+          "candidate_chinese": "你对维里迪亚军队有多大信心？"
+        },
+        {
+          "element": "desc",
+          "id_attr": "desc",
+          "english": "How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+          "current_chinese": "How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+          "candidate_chinese": "你对维里迪亚军队有多大信心？：毫无信心 39%，一点信心 25%，有些信心 15%，很有信心 12%，完全信任 9%。"
+        }
+      ],
+      "visible_labels": [
+        {
+          "en": "None at all",
+          "zh": "毫无信心",
+          "value": "39%"
+        },
+        {
+          "en": "A little",
+          "zh": "一点信心",
+          "value": "25%"
+        },
+        {
+          "en": "Some",
+          "zh": "有些信心",
+          "value": "15%"
+        },
+        {
+          "en": "A lot",
+          "zh": "很有信心",
+          "value": "12%"
+        },
+        {
+          "en": "Total confidence",
+          "zh": "完全信任",
+          "value": "9%"
+        }
+      ],
+      "visible_text": [
+        "你对维里迪亚军队",
+        "有多大信心？",
+        "毫无信心",
+        "39%",
+        "一点信心",
+        "25%",
+        "有些信心",
+        "15%",
+        "很有信心",
+        "12%",
+        "完全信任",
+        "9%"
+      ]
+    },
+    {
+      "target_id": "27-120",
+      "asset": "assets/ch27-fig02-zh.svg",
+      "elements": [
+        {
+          "element": "desc",
+          "id_attr": "desc",
+          "english": "Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.",
+          "current_chinese": "Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.",
+          "candidate_chinese": "你更希望由谁领导维里迪亚军队？：现任领导层 13%，议会选出的新领导层 21%，银语 10%，北极人 16%，昆高会 38%，阿图里亚军事顾问 2%。"
+        }
+      ],
+      "visible_labels": [
+        {
+          "en": "Its current leadership",
+          "zh": "现任领导层",
+          "value": "13%"
+        },
+        {
+          "en": "A new leadership chosen by parliament",
+          "zh": "议会选出的新领导层",
+          "value": "21%"
+        },
+        {
+          "en": "Silverchat",
+          "zh": "银语",
+          "value": "10%"
+        },
+        {
+          "en": "The Arctics",
+          "zh": "北极人",
+          "value": "16%"
+        },
+        {
+          "en": "Kungaupei",
+          "zh": "昆高会",
+          "value": "38%"
+        },
+        {
+          "en": "Arturian military advisors",
+          "zh": "阿图里亚军事顾问",
+          "value": "2%"
+        }
+      ],
+      "visible_text": [
+        "你更希望由谁领导维里迪亚军队？",
+        "现任领导层",
+        "13%",
+        "议会选出的",
+        "新领导层",
+        "21%",
+        "银语",
+        "10%",
+        "北极人",
+        "16%",
+        "昆高会",
+        "38%",
+        "阿图里亚军事",
+        "顾问",
+        "2%"
+      ]
+    },
+    {
+      "target_id": "27-125",
+      "asset": "assets/ch27-fig03-zh.svg",
+      "elements": [
+        {
+          "element": "title",
+          "id_attr": "ttl",
+          "english": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties",
+          "current_chinese": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties",
+          "candidate_chinese": "你更希望由谁领导维里迪亚军队？——仅限与北岸有关联的受访者"
+        },
+        {
+          "element": "desc",
+          "id_attr": "desc",
+          "english": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties: Its current leadership 6%, A new leadership chosen by parliament 8%, Silverchat 16%, The Arctics 13%, Kungaupei 52%, Arturian military advisors 5%.",
+          "current_chinese": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties: Its current leadership 6%, A new leadership chosen by parliament 8%, Silverchat 16%, The Arctics 13%, Kungaupei 52%, Arturian military advisors 5%.",
+          "candidate_chinese": "你更希望由谁领导维里迪亚军队？——仅限与北岸有关联的受访者：现任领导层 6%，议会选出的新领导层 8%，银语 16%，北极人 13%，昆高会 52%，阿图里亚军事顾问 5%。"
+        }
+      ],
+      "visible_labels": [
+        {
+          "en": "Its current leadership",
+          "zh": "现任领导层",
+          "value": "6%"
+        },
+        {
+          "en": "A new leadership chosen by parliament",
+          "zh": "议会选出的新领导层",
+          "value": "8%"
+        },
+        {
+          "en": "Silverchat",
+          "zh": "银语",
+          "value": "16%"
+        },
+        {
+          "en": "The Arctics",
+          "zh": "北极人",
+          "value": "13%"
+        },
+        {
+          "en": "Kungaupei",
+          "zh": "昆高会",
+          "value": "52%"
+        },
+        {
+          "en": "Arturian military advisors",
+          "zh": "阿图里亚军事顾问",
+          "value": "5%"
+        }
+      ],
+      "visible_text": [
+        "你更希望由谁领导维里迪亚军队？",
+        "仅限与北岸有关联的受访者",
+        "现任领导层",
+        "6%",
+        "议会选出的",
+        "新领导层",
+        "8%",
+        "银语",
+        "16%",
+        "北极人",
+        "13%",
+        "昆高会",
+        "52%",
+        "阿图里亚军事",
+        "顾问",
+        "5%"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "chapter": 12,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-12.html",
+  "sha256": "c4b9566694b702a38d7c345d63cb0109086dfde52f5f0d64b6502670c55f082e",
+  "segments": [
+    {
+      "id": "12-001",
+      "type": "heading",
+      "en": "Chapter 12"
+    },
+    {
+      "id": "12-002",
+      "type": "dateline",
+      "en": "Sadzu Du, Dzego · 3724 Grasstime 22"
+    },
+    {
+      "id": "12-003",
+      "type": "body",
+      "en": "Zei looked out of the window of the train, as the train began to slow down."
+    },
+    {
+      "id": "12-004",
+      "type": "body",
+      "en": "At first, he saw trees. Then, he began to see buildings with greater and greater density. Finally, after a few minutes, he saw the station."
+    },
+    {
+      "id": "12-005",
+      "type": "body",
+      "en": "A sign slowly passed across the window."
+    },
+    {
+      "id": "12-006",
+      "type": "body",
+      "en": "sa dzu du",
+      "rich_html": "<center><div class=\"dz-card dz-mono\" style=\"font-family:'TeX Gyre Chorus',cursive;font-size:17px;line-height:1.55\"><div class=\"dz-line dz-blank\" style=\"height:1em\"></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:2ch\"><span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">sa dzu du</span></span></div>\n<div class=\"dz-line dz-blank\" style=\"height:1em\"></div></div></center>\n"
+    },
+    {
+      "id": "12-007",
+      "type": "body",
+      "en": "\"Main city\", Dzego's helpfully-named capital city."
+    },
+    {
+      "id": "12-008",
+      "type": "body",
+      "en": "The train came to a stop, and Zei could hear the doors open. The other passengers stood up, and started to gather their belongings."
+    },
+    {
+      "id": "12-009",
+      "type": "body",
+      "en": "Zei decided he was not in a rush to leave first, and would maximize the quality of his time instead. For about two minutes, he finished his game of Minpentai against a bot."
+    },
+    {
+      "id": "12-010",
+      "type": "body",
+      "en": "Fin had never gotten around to writing the harness to fine-tune the AI to play well on custom rulesets, and so Zei was still playing against the stock AI."
+    },
+    {
+      "id": "12-011",
+      "type": "body",
+      "en": "At that moment, the other AIs resigned. Zei had beaten them one-on-three. To compensate for their lack of skill, he had adjusted the game to only give him one corner and three other AIs the other three corners, and put them all on the same team against him. Even despite this, Zei had won. He realized that the three-on-one did not even help the AIs that much - playing in that style was not in their training data, so they made basic mistakes and cannibalized each other's negentropy."
+    },
+    {
+      "id": "12-012",
+      "type": "body",
+      "en": "Zei put away his hand device and sighed."
+    },
+    {
+      "id": "12-013",
+      "type": "body",
+      "en": "By this point, the other passengers were almost all off the train. Zei grabbed his bag, and stood up and began to walk out of the train as well."
+    },
+    {
+      "id": "12-014",
+      "type": "body",
+      "en": "When he stepped out, there were six people wearing Minpentai priest robes waiting for him."
+    },
+    {
+      "id": "12-015",
+      "type": "body",
+      "en": "\"Welcome to Sadzu Du, Zei\", the lead priest, an older woman about the same age as Mu, said to him."
+    },
+    {
+      "id": "12-016",
+      "type": "body",
+      "en": "\"Excited to be here\", Zei quickly replied. \"Only my second time to the capital.\""
+    },
+    {
+      "id": "12-017",
+      "type": "body",
+      "en": "\"I'm Su by the way. I'm one of the organizers of the nationals.\""
+    },
+    {
+      "id": "12-018",
+      "type": "body",
+      "en": "\"Well nice to meet you, Su.\""
+    },
+    {
+      "id": "12-019",
+      "type": "body",
+      "en": "\"So what's on my itinerary these next few days?\""
+    },
+    {
+      "id": "12-020",
+      "type": "body",
+      "en": "\"Check in to the hotel, then orientation tomorrow morning. Thirty-two contestants, the brightest young minds in Minpentai across all of Dzego. You'll get to meet them all.\""
+    },
+    {
+      "id": "12-021",
+      "type": "body",
+      "en": "Su led Zei to a room that contained many doors. One of the doors slid open, and on the other side Zei could see the inside of a black car, identical to the one that Den had used to take him to the chip fab a few months earlier."
+    },
+    {
+      "id": "12-022",
+      "type": "body",
+      "en": "\"Unfortunately, I'll have to leave you here, Zei. There's another contestant arriving here on a train in half a longhour. But have a good ride and have a good rest.\""
+    },
+    {
+      "id": "12-023",
+      "type": "body",
+      "en": "\"Thank you so much.\""
+    },
+    {
+      "id": "12-024",
+      "type": "body",
+      "en": "Zei got into the car, and the door closed. The car started moving."
+    },
+    {
+      "id": "12-025",
+      "type": "body",
+      "en": "Zei stared outside the window of the car, marveling at the buildings and trees in the city. Parts of it looked not too different from Pafogai Du, though here there were fewer electronics stores, and instead a wider variety of venues. Some medicine stores."
+    },
+    {
+      "id": "12-026",
+      "type": "body",
+      "en": "On the window of one of the stores, Zei saw a sign:"
+    },
+    {
+      "id": "12-027",
+      "type": "body",
+      "en": "ti ka dia shu fe cen su jui hui",
+      "rich_html": "<center><div class=\"dz-card dz-mono\" style=\"font-family:'TeX Gyre Chorus',cursive;font-size:17px;line-height:1.55\"><div class=\"dz-line dz-blank\" style=\"height:1em\"></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:2ch\"><span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">ti</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ka</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">dia shu</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">cen su jui hui</span></span></span></div>\n<div class=\"dz-line dz-blank\" style=\"height:1em\"></div></div></center>\n"
+    },
+    {
+      "id": "12-028",
+      "type": "body",
+      "en": "\"Get your longevity package here\""
+    },
+    {
+      "id": "12-029",
+      "type": "body",
+      "en": "Soon the health stores gave way to some stores selling artistic furniture and other household items."
+    },
+    {
+      "id": "12-030",
+      "type": "body",
+      "en": "And after that a few traditional-looking restaurants and tea houses, in a style mimicking Dzego's own medieval era."
+    },
+    {
+      "id": "12-031",
+      "type": "body",
+      "en": "For a moment, the buildings on the right side stopped completely, and Zei could see a park. Behind the park, Zei could see several mountain pyramids, each about half as tall as the mountain pyramid south of Pafogai Du."
+    },
+    {
+      "id": "12-032",
+      "type": "body",
+      "en": "A minute later, the park ended, and the car crossed a bridge across a small river. Zei could see the buildings get denser further ahead."
+    },
+    {
+      "id": "12-033",
+      "type": "body",
+      "en": "The road slowly descended underground, and turned into a tunnel."
+    },
+    {
+      "id": "12-034",
+      "type": "body",
+      "en": "A few minutes and a few turns later, the car stopped. When the car's door opened, it was pressed tightly against another door, completely shielding Zei from being visible from outside the car and the building he was entering."
+    },
+    {
+      "id": "12-035",
+      "type": "body",
+      "en": "Zei stepped out. He was in a hotel."
+    },
+    {
+      "id": "12-036",
+      "type": "body",
+      "en": "He walked over to the nearest green circle, and tapped his watch against it."
+    },
+    {
+      "id": "12-037",
+      "type": "body",
+      "en": "| sen hen zi li die fe 150 zo lia kin **✓** | man dun li jie hu **✓** |\n| --- | --- |\n\ncau tie zen\n\nci fan zi li 304"
+    },
+    {
+      "id": "12-038",
+      "type": "body",
+      "en": "Reputation above 150 verified. Payment not needed. Approved, room number is 304."
+    },
+    {
+      "id": "12-039",
+      "type": "body",
+      "en": "Zei's watch buzzed, confirming his room key."
+    },
+    {
+      "id": "12-040",
+      "type": "body",
+      "en": "Zei entered his room, and took a shower."
+    },
+    {
+      "id": "12-041",
+      "type": "body",
+      "en": "He promptly went to sleep."
+    },
+    {
+      "id": "12-042",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "12-043",
+      "type": "body",
+      "en": "An alarm buzzed."
+    },
+    {
+      "id": "12-044",
+      "type": "body",
+      "en": "Zei tapped on his watch to check what time it was. 30,003, the watch said. Only half a longhour before the commencement ceremony. He tapped a few buttons on the room service menu, and ordered a fruit and vegetable juice."
+    },
+    {
+      "id": "12-045",
+      "type": "body",
+      "en": "He put on his clothes."
+    },
+    {
+      "id": "12-046",
+      "type": "body",
+      "en": "Three minutes later, the juice arrived, and Zei quickly drank it. He immediately felt energized - or at least, energized enough to take the trip to the venue."
+    },
+    {
+      "id": "12-047",
+      "type": "body",
+      "en": "Without wasting any more time, he opened the door, and went downstairs."
+    },
+    {
+      "id": "12-048",
+      "type": "body",
+      "en": "A black car was already waiting for him. Zei walked through the lobby, and immediately stepped through the hotel door and car door that were already open and pressed tightly against each other. The door closed."
+    },
+    {
+      "id": "12-049",
+      "type": "body",
+      "en": "As the car began to move, Zei took out the cryptography textbook that Den had recommended to him in one of their meetings, and continued reading it where he had left off."
+    },
+    {
+      "id": "12-050",
+      "type": "body",
+      "en": "The section was on hash functions. In the middle of the page, there was a large diagram."
+    },
+    {
+      "id": "12-051",
+      "type": "body",
+      "en": "![第12章图1](assets/ch12-fig01.svg)"
+    },
+    {
+      "id": "12-052",
+      "type": "body",
+      "en": "\"Conception of a hash algorithm\"."
+    },
+    {
+      "id": "12-053",
+      "type": "body",
+      "en": "Zei read the accompanying text."
+    },
+    {
+      "id": "12-054",
+      "type": "body",
+      "en": "Hash algorithms, it said, were there to create a shrunken fingerprint of a large piece of information, that still uniquely identifies the original. The goal is for it to be infeasibly hard to find two different pieces of data that have the same hash."
+    },
+    {
+      "id": "12-055",
+      "type": "body",
+      "en": "Hashes inherently destroy information - representing a larger thing with a smaller thing is their entire goal. But there is a paradox: in the internal workings of all the best hash functions that we build, the largest component is an *entropy-preserving* transformation: a permutation."
+    },
+    {
+      "id": "12-056",
+      "type": "body",
+      "en": "The core building block maps inputs to outputs one-to-one. And not only that, it can be *efficiently* run both forwards and backwards. The shrinking, and the irreversibility, comes from a simple layer on top: a deletion, and an xor of part of the original input, added to the end."
+    },
+    {
+      "id": "12-057",
+      "type": "body",
+      "en": "Why do this? Why build irreversibility on top of reversibility? The reason is subtle. If you build irreversibility directly, then you cannot control when entropy is destroyed. If you apply an irreversible round function enough times, then about half the entropy collapses, bringing the protocol's security down along with it. And so even when destroying information is your final goal, it's best to cleanly separate out the piece that's going that - destroy information in one precise spot in the algorithm, on your own terms."
+    },
+    {
+      "id": "12-058",
+      "type": "body",
+      "en": "Zei put away his hand device, and leaned back."
+    },
+    {
+      "id": "12-059",
+      "type": "body",
+      "en": "It's all entropy, isn't it, he thought to himself."
+    },
+    {
+      "id": "12-060",
+      "type": "body",
+      "en": "A minute later, the car suddenly slowed down, and turned left. To his right, Zei could see an area blocked off by safety tape with various large vehicles further inside."
+    },
+    {
+      "id": "12-061",
+      "type": "body",
+      "en": "\"What happened?\", Zei asked in a voice loud enough that the driver would unambiguously recognize that the question was meant for him."
+    },
+    {
+      "id": "12-062",
+      "type": "body",
+      "en": "\"Explosion in an advanced biology research lab. Probably the Arctics, as usual. They're going to spend days cleaning up to make sure everything is safe.\""
+    },
+    {
+      "id": "12-063",
+      "type": "body",
+      "en": "A few minutes after that, the car slowed down and came to a stop. The door opened, leading straight into a hallway."
+    },
+    {
+      "id": "12-064",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "12-065",
+      "type": "body",
+      "en": "Zei walked through the tunnel, and down the stairs."
+    },
+    {
+      "id": "12-066",
+      "type": "body",
+      "en": "He saw a door in front of him. The door looked similar to the door to the Minpentai room inside the mountain pyramid in Pafogai Du: a series of stone bricks, curving near the top into an arch, and the symbol at the top: two horizontal arms, meeting in the middle with clashing fists."
+    },
+    {
+      "id": "12-067",
+      "type": "body",
+      "en": "However, this door was noticeably larger, more well-maintained, and the decorations more grand."
+    },
+    {
+      "id": "12-068",
+      "type": "body",
+      "en": "Zei tapped his watch against the green circle, and the door opened. He walked through."
+    },
+    {
+      "id": "12-069",
+      "type": "body",
+      "en": "He entered a room with about fifty chairs, with about twenty contestants already sitting down. On the stage, he recognized Su. Beside her, there were three other priests."
+    },
+    {
+      "id": "12-070",
+      "type": "body",
+      "en": "Zei sat down. Over the next fifteen minutes, other contestants sat down in their own chairs."
+    },
+    {
+      "id": "12-071",
+      "type": "body",
+      "en": "An older teenage boy sat down beside Zei."
+    },
+    {
+      "id": "12-072",
+      "type": "body",
+      "en": "\"Hi, I'm Deluin\", he said."
+    },
+    {
+      "id": "12-073",
+      "type": "body",
+      "en": "That's not a very Dzegojan name, Zei thought."
+    },
+    {
+      "id": "12-074",
+      "type": "body",
+      "en": "\"I'm Zei.\""
+    },
+    {
+      "id": "12-075",
+      "type": "body",
+      "en": "\"Where are you from?\""
+    },
+    {
+      "id": "12-076",
+      "type": "body",
+      "en": "\"Ah, I'm from Redshire. My name gave me away, didn't it?\""
+    },
+    {
+      "id": "12-077",
+      "type": "body",
+      "en": "Zei laughed. \"Do you get that reaction from everyone?\""
+    },
+    {
+      "id": "12-078",
+      "type": "body",
+      "en": "Deluin laughed along with Zei."
+    },
+    {
+      "id": "12-079",
+      "type": "body",
+      "en": "\"De lu hin, they call me here. 'A fork with the appearance of'. Lovely name, don't you think?\""
+    },
+    {
+      "id": "12-080",
+      "type": "body",
+      "en": "\"Are you studying here? Did your parents immigrate?\""
+    },
+    {
+      "id": "12-081",
+      "type": "body",
+      "en": "\"Ah, I'm a foreign contestant. They brought in four foreign contestants this time, to make things more fun.\""
+    },
+    {
+      "id": "12-082",
+      "type": "body",
+      "en": "\"Are you excited?\""
+    },
+    {
+      "id": "12-083",
+      "type": "body",
+      "en": "\"Absolutely. Actually my first time in Dzego, super cool place.\""
+    },
+    {
+      "id": "12-084",
+      "type": "body",
+      "en": "A bell rang, and the contestants quickly quieted down."
+    },
+    {
+      "id": "12-085",
+      "type": "body",
+      "en": "\"Welcome to the national Minpentai championship\", Su began. \"I am honored to see so many brilliant contestants this year, and I hope that everyone arriving had a good evening and a good morning.\""
+    },
+    {
+      "id": "12-086",
+      "type": "body",
+      "en": "\"I am pleased to introduce our lead organizer, Taskmaster Jin.\""
+    },
+    {
+      "id": "12-087",
+      "type": "body",
+      "en": "One of the other priests stepped forward, and began speaking."
+    },
+    {
+      "id": "12-088",
+      "type": "body",
+      "en": "\"This is a special moment for all of us in Dzego, not just for us and for you, but for millions of Dzegojan who watch the games from across the country, as they will get to watch the brightest minds from Dzego's new generation face off against each other.\""
+    },
+    {
+      "id": "12-089",
+      "type": "body",
+      "en": "\"I'm also honored to announce that this year, we have four distinguished foreign guests participating along with us.\""
+    },
+    {
+      "id": "12-090",
+      "type": "body",
+      "en": "\"Today, we will have a walk through the Minpentai museum, right here inside this mountain pyramid. Tomorrow, we will have some tourist excursions around Sadzu Du, and in the evening you will get a chance to rest. Two days after, the first championship games will begin.\""
+    },
+    {
+      "id": "12-091",
+      "type": "body",
+      "en": "\"There will be six rounds of qualifying games, with an eight-day-long break in between each game.\""
+    },
+    {
+      "id": "12-092",
+      "type": "body",
+      "en": "\"Out of the thirty-two of you, the four players who win the most games will advance to the semifinals. If there is no win threshold that exactly four players pass, we will break ties by the geometric average of the number of turns that you survived before losing your losing games and the inverse of the number of turns that you needed to win your winning games, counted up to a maximum of eight thousand turns. Thus, there is no incentive to resign before eight thousand turns. If there are still ties, we will insert an additional qualifying round.\""
+    },
+    {
+      "id": "12-093",
+      "type": "body",
+      "en": "\"I hope you can enjoy the games, enjoy everything that Sadzu Du has to offer, but also, just as importantly, enjoy each other. Here you are not enemies, you are temporary competitors. Off the arena, you should consider each other friends, and remember that we are all part of a shared project together. Dze go ba fau gie.\""
+    },
+    {
+      "id": "12-094",
+      "type": "body",
+      "en": "\"Dze go ba fau gie\", all the contestants replied in unison."
+    },
+    {
+      "id": "12-095",
+      "type": "body",
+      "en": "\"Now, please follow Su. She will lead the excursion through the museum.\""
+    },
+    {
+      "id": "12-096",
+      "type": "dateline",
+      "en": "3724 Grasstime 25"
+    },
+    {
+      "id": "12-097",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Bai | → | [dia lau shau] | 23098 |"
+    },
+    {
+      "id": "12-098",
+      "type": "body",
+      "en": "Zei woke up. Bai was requesting to call."
+    },
+    {
+      "id": "12-099",
+      "type": "body",
+      "en": "Zei tapped the watch."
+    },
+    {
+      "id": "12-100",
+      "type": "body",
+      "en": "\"How are things going over there?\", Bai asked."
+    },
+    {
+      "id": "12-101",
+      "type": "body",
+      "en": "\"This is a bit early for a call, isn't it? It's still 19 minutes before my alarm was supposed to wake me up.\""
+    },
+    {
+      "id": "12-102",
+      "type": "body",
+      "en": "Zei paused for a moment, and decided to answer Bai's question."
+    },
+    {
+      "id": "12-103",
+      "type": "body",
+      "en": "\"Things have been well. Very fascinating exhibition at the museum three days ago, and got to see a bunch of Sadzu Du the next day. Met someone from Redshire too.\""
+    },
+    {
+      "id": "12-104",
+      "type": "body",
+      "en": "\"A contestant?\""
+    },
+    {
+      "id": "12-105",
+      "type": "body",
+      "en": "\"Yep, they've decided to internationalize it a bit this year.\""
+    },
+    {
+      "id": "12-106",
+      "type": "body",
+      "en": "\"So how's Pafogai?\""
+    },
+    {
+      "id": "12-107",
+      "type": "body",
+      "en": "\"Ask me something I can answer. I've been staring at the mountain pyramid you'll be playing in from across the river for the last longhour.\""
+    },
+    {
+      "id": "12-108",
+      "type": "body",
+      "en": "Zei sat up."
+    },
+    {
+      "id": "12-109",
+      "type": "body",
+      "en": "\"You're HERE?\""
+    },
+    {
+      "id": "12-110",
+      "type": "body",
+      "en": "\"Den's people got hold of me and told me to come and take notes on all the contestants' strategies.\""
+    },
+    {
+      "id": "12-111",
+      "type": "body",
+      "en": "\"Your first game is today, right?\""
+    },
+    {
+      "id": "12-112",
+      "type": "body",
+      "en": "\"It is indeed.\""
+    },
+    {
+      "id": "12-113",
+      "type": "body",
+      "en": "\"Want me to come over and help you out, or at least watch?\""
+    },
+    {
+      "id": "12-114",
+      "type": "body",
+      "en": "\"I... think I'm fine. And I doubt you can get a ticket to the live stadium.\""
+    },
+    {
+      "id": "12-115",
+      "type": "body",
+      "en": "\"Not if you let me in.\""
+    },
+    {
+      "id": "12-116",
+      "type": "body",
+      "en": "Zei groaned."
+    },
+    {
+      "id": "12-117",
+      "type": "body",
+      "en": "\"I'll watch from afar then. We're all rooting for you!\""
+    },
+    {
+      "id": "12-118",
+      "type": "body",
+      "en": "\"How is Fin? I haven't heard from him in days now.\""
+    },
+    {
+      "id": "12-119",
+      "type": "body",
+      "en": "\"Busy with Bansunpei stuff I guess. He hasn't said anything to me in days either.\""
+    },
+    {
+      "id": "12-120",
+      "type": "body",
+      "en": "\"Alright then. Well, I gotta start preparing. I hope you enjoy your day!\""
+    },
+    {
+      "id": "12-121",
+      "type": "body",
+      "en": "\"Best of luck to you in yours, you'll need it!\""
+    },
+    {
+      "id": "12-122",
+      "type": "body",
+      "en": "\"Oh, and, let's play a practice game tomorrow.\""
+    },
+    {
+      "id": "12-123",
+      "type": "body",
+      "en": "Zei once again ordered a fruit and vegetable juice, and put on his clothes. A few minutes later, the juice arrived, and Zei quickly drank it. He opened the door, went downstairs, and entered the car that was waiting for him."
+    },
+    {
+      "id": "12-124",
+      "type": "body",
+      "en": "Twenty minutes later, the car arrived at an entrance to the pyramid."
+    },
+    {
+      "id": "12-125",
+      "type": "body",
+      "en": "Zei stepped out, and began walking through the tunnels."
+    },
+    {
+      "id": "12-126",
+      "type": "body",
+      "en": "After a few hundred meters of walking, and a few turns, he once again arrived at the large stone brick door. He entered, and this time immediately turned right, into a hallway that he had not even noticed when he was first there three days ago. He followed the signs, and soon got to a waiting room."
+    },
+    {
+      "id": "12-127",
+      "type": "body",
+      "en": "He saw Su, and the other contestant."
+    },
+    {
+      "id": "12-128",
+      "type": "body",
+      "en": "\"Welcome Zei! Meet Bo.\""
+    },
+    {
+      "id": "12-129",
+      "type": "body",
+      "en": "\"Nice to meet you, Zei.\""
+    },
+    {
+      "id": "12-130",
+      "type": "body",
+      "en": "\"Nice to meet you too, Bo.\""
+    },
+    {
+      "id": "12-131",
+      "type": "body",
+      "en": "\"It will be a fun game today, I'm sure of it.\""
+    },
+    {
+      "id": "12-132",
+      "type": "body",
+      "en": "A robot arrived, and gave all three of them a cup of tea. They each drank their cup."
+    },
+    {
+      "id": "12-133",
+      "type": "body",
+      "en": "\"So what now? We sit here for a longhour without internet while the others play, so we don't learn the new rule ahead of time?\""
+    },
+    {
+      "id": "12-134",
+      "type": "body",
+      "en": "\"Exactly. And no hand devices or watches allowed either. The robot will be coming to pick them up in a minute. You can watch last year's matches on that screen over there.\""
+    },
+    {
+      "id": "12-135",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "12-136",
+      "type": "body",
+      "en": "A longhour later, the elevator doors opened, and Zei and Bo each stepped in to their respective elevators. Su waved them goodbye. The doors closed."
+    },
+    {
+      "id": "12-137",
+      "type": "body",
+      "en": "A quarter minute after that, Zei's elevator door opened once again, exposing a giant room much larger than the room in Pafogai Du. About five to ten thousand people seemed to be watching. A path lit up, showing the way to a giant console with a chair."
+    },
+    {
+      "id": "12-138",
+      "type": "body",
+      "en": "Zei walked forward. He could make out Bo's silhouette walking forward in the distance. He got to the chair, and sat down."
+    },
+    {
+      "id": "12-139",
+      "type": "body",
+      "en": "Drones about the size of a hand device buzzed as they flew around Zei, scanning for any kind of cheating equipment. This time, there were about three times more drones than there were in Pafogai Du, and with even more shapes and sizes. The drones buzzed around for about twenty ticks, and then retreated back to their resting positions."
+    },
+    {
+      "id": "12-140",
+      "type": "body",
+      "en": "A loud automated voice, this time sounding more female, announced: \"MU GU GEI FA\". Starting in fifty ticks."
+    },
+    {
+      "id": "12-141",
+      "type": "body",
+      "en": "Zei closed his eyes, and breathed in and out, trying his best to calm himself. This match was not decisive, he knew: if he lost, he could still make it up in the others. But in another way, that fact made him more scared: armed with the excuse that it's okay to lose, will his mind have the motivation needed to keep his full attention and mindpower on the game and win?"
+    },
+    {
+      "id": "12-142",
+      "type": "body",
+      "en": "\"LE MU GEI FA\""
+    },
+    {
+      "id": "12-143",
+      "type": "body",
+      "en": "Zei opened his eyes again."
+    },
+    {
+      "id": "12-144",
+      "type": "body",
+      "en": "\"PA GU GEI FA\""
+    },
+    {
+      "id": "12-145",
+      "type": "body",
+      "en": "Zei patiently waited."
+    },
+    {
+      "id": "12-146",
+      "type": "body",
+      "en": "\"Welcome to the fourth qualifying match of the north stadium for today. Everyone, meet our players for this round: Zei Leimin from Pafogai Du, and Bo Zume, from right here in Sadzu Du.\""
+    },
+    {
+      "id": "12-147",
+      "type": "body",
+      "en": "\"I am also pleased to announce - perhaps one time too many for the audience, but for the first time, for our contestants - today's rule change. Today, Minpentai will be played on a hex grid.\""
+    },
+    {
+      "id": "12-148",
+      "type": "body",
+      "en": "Zei opened his mouth in shock."
+    },
+    {
+      "id": "12-149",
+      "type": "body",
+      "en": "\"You will have twenty minutes to figure out your structures, any gliders, spaceships and walls, to the best of your ability. And then the serene battle over a field of snowflakes will begin.\""
+    },
+    {
+      "id": "12-150",
+      "type": "body",
+      "en": "Zei's display turned on, and he could see the hexagonal grid in front of him."
+    },
+    {
+      "id": "12-151",
+      "type": "body",
+      "en": "\"LE FI SHI GEI TAU FA\", the automated loud voice shouted. The battle begins in two thousand ticks."
+    },
+    {
+      "id": "12-152",
+      "type": "body",
+      "en": "Zei began by quickly drawing random junk in his sandbox, seeing what stayed stable and what turned into a glider. Within one minute, he identified a few gliders and a few static structures that could be used for walls. To his surprise, the gliders that moved the fastest moved ... directly east."
+    },
+    {
+      "id": "12-153",
+      "type": "body",
+      "en": "His next move was to deliberately draw different kinds of walls, fly gliders at them, and see what sticks."
+    },
+    {
+      "id": "12-154",
+      "type": "body",
+      "en": "He watched the gliders carefully, to try to quickly get an intuition for what kinds of shapes can move while preserving their shape. He did several rounds of defining both the gliders and the walls."
+    },
+    {
+      "id": "12-155",
+      "type": "body",
+      "en": "\"PA MU GU GU GEI TAU FA.\" The battle begins in fifteen hundred ticks."
+    },
+    {
+      "id": "12-156",
+      "type": "body",
+      "en": "Zei began experimenting with shapes that were similar to his  symbol, seeing if any of them could function as a glider. He needed to come up with *something* - otherwise he would be able to progress only very slowly, by repeatedly building a new symbol beside his existing symbol during each intervention turn."
+    },
+    {
+      "id": "12-157",
+      "type": "body",
+      "en": "He realized that to make actual headway, he would need to interact with the rock formations. He made a couple of guesses about what shape the rock formations in the hexgrid version of Minpentai might look like, and examined the behavior of gliders as they crashed into them."
+    },
+    {
+      "id": "12-158",
+      "type": "body",
+      "en": "\"FI SHI GEI TAU FA.\" The battle begins in a thousand ticks."
+    },
+    {
+      "id": "12-159",
+      "type": "body",
+      "en": "Zei began to sweat. So far, no luck. No combination of a glider, a plausible rock shape and an offset that he tried led to a copy of his symbol."
+    },
+    {
+      "id": "12-160",
+      "type": "body",
+      "en": "He thought more about the exact shape of his symbol."
+    },
+    {
+      "id": "12-161",
+      "type": "body",
+      "en": "After another two minutes of fruitless exploration, Zei's mind flashed back to the textbook he had been reading less than two longhours before."
+    },
+    {
+      "id": "12-162",
+      "type": "body",
+      "en": "> The core building block maps inputs to outputs one-to-one. And not only that, it can be efficiently run both forwards and backwards."
+    },
+    {
+      "id": "12-163",
+      "type": "body",
+      "en": "But unlike the hash function, here there was no truncate-and-xor wrapper at the end. And so if he knew his desired end state ... he just had to put that end state into the sandbox, and play it backwards."
+    },
+    {
+      "id": "12-164",
+      "type": "body",
+      "en": "But ... how do you play it backwards?"
+    },
+    {
+      "id": "12-165",
+      "type": "body",
+      "en": "In the internal permutation of a hash function, you walk backwards from the last layer to the first layer, and invert each step as you go."
+    },
+    {
+      "id": "12-166",
+      "type": "body",
+      "en": "Here ... what was the inverse of the hexgrid rules that Zei was interacting with for the first time in his life?"
+    },
+    {
+      "id": "12-167",
+      "type": "body",
+      "en": "Zei took the gliders he saw, and tried the most basic transformations: flipping them, rotating them 60 degrees, launching them one timestep later. None worked."
+    },
+    {
+      "id": "12-168",
+      "type": "body",
+      "en": "\"MU FI LE GEI TAU FA.\" The battle begins in five hundred ticks."
+    },
+    {
+      "id": "12-169",
+      "type": "body",
+      "en": "Zei stepped through each step more slowly. And then he saw it. During each step, the game board split up into triangles, and the hexagons rotated inside each triangle - clockwise if it had one hex filled, counterclockwise if it had two hexes filled."
+    },
+    {
+      "id": "12-170",
+      "type": "body",
+      "en": "And so in order to time reverse, he just had to ... let each time step happen twice. The opposite of a 120-degree rotation is, after all, two 120-degree rotations. But there was a problem: after each time step, the split into triangles shifted. So to play a time step backward, he had to... play one step forward, then shift time back one step so that he could play the next step forward under the same tiling, then play a second step forward to bring the total rotation under that tiling to 240 degrees within each triangle, then shift time back *two* steps so that the game would shift to the *previous* tiling. Invert each step, and play the steps in reverse order, just like inverting a permutation in a hash."
+    },
+    {
+      "id": "12-171",
+      "type": "body",
+      "en": "He confirmed: there was a button to play one step forward, and two buttons to shift time - either forward or backward. So that's what he would have to do. A, B, A, B, B. Like some kind of video game cheat code. Which, in some sense, here it literally was."
+    },
+    {
+      "id": "12-172",
+      "type": "body",
+      "en": "Fine, he thought."
+    },
+    {
+      "id": "12-173",
+      "type": "body",
+      "en": "He put a glider into the sandbox, and tried it. It was an arduous process, and his fingers quickly tired. But it worked. The glider moved backwards."
+    },
+    {
+      "id": "12-174",
+      "type": "body",
+      "en": "Basic test passed."
+    },
+    {
+      "id": "12-175",
+      "type": "body",
+      "en": "Zei tried the real test: using the same technique, starting with a symbol forming beside a rock formation and a glider flying out."
+    },
+    {
+      "id": "12-176",
+      "type": "body",
+      "en": "The first time, it failed: as time went backwards, the glider and the symbol crashed, but then the same symbol re-formed a few steps away, and the glider flew away. So in that particular history that Zei had just sampled, before the crash, the symbol had been there all along."
+    },
+    {
+      "id": "12-177",
+      "type": "body",
+      "en": "He tried again, with a different glider. This time, it succeeded. As time moved backwards, past the moment of the crash, the rock-formation-plus-symbol turned into a bare rock formation, and two gliders flew back out."
+    },
+    {
+      "id": "12-178",
+      "type": "body",
+      "en": "\"FI LE GEI TAU FA.\" The battle begins in one hundred ticks."
+    },
+    {
+      "id": "12-179",
+      "type": "body",
+      "en": "Zei quickly repeated the same experiment with other candidates for a rock formation. He paid no attention to the voice announcing the countdown, and kept trying until he found one for the two other most natural options."
+    },
+    {
+      "id": "12-180",
+      "type": "body",
+      "en": "\"MU GU GEI TAU FA.\""
+    },
+    {
+      "id": "12-181",
+      "type": "body",
+      "en": "Zei quickly put up symbols, walls, and gliders that would create symbols if they crashed into favorable rock formations."
+    },
+    {
+      "id": "12-182",
+      "type": "body",
+      "en": "He was surprised at his own speed doing this, given how much longer everything else had taken. But almost immediately he realized in the back of his mind that this made sense: figuring out what to deploy is the hard part, deployment is just copy and paste."
+    },
+    {
+      "id": "12-183",
+      "type": "body",
+      "en": "After making a basic setup on the board, he breathed out. Just as he breathed back in and started doing a final pass refining his structures, a final countdown began."
+    },
+    {
+      "id": "12-184",
+      "type": "body",
+      "en": "\"PA GU ... SO ... BI ... ZE ... HA ... MU ... FO ... SHI ... LE ... PA ...\""
+    },
+    {
+      "id": "12-185",
+      "type": "body",
+      "en": "\"TAU FA.\""
+    },
+    {
+      "id": "12-186",
+      "type": "body",
+      "en": "Gliders started flying out. At first, nothing happened."
+    },
+    {
+      "id": "12-187",
+      "type": "body",
+      "en": "Five hundred turns later, a part of the board came into view. One of his gliders had successfully created a symbol, and revealed a part of the board that showed what the rock formations look like."
+    },
+    {
+      "id": "12-188",
+      "type": "body",
+      "en": "Immediately, Zei switched to the next task: figuring out how to build glider factories."
+    },
+    {
+      "id": "12-189",
+      "type": "body",
+      "en": "When the first intervention turn hit, Zei had not yet figured this out. However, he did send out several more gliders that flew from his home base, ready to create more copies of his symbol if they collided into a rock formation in the right place. He also sent gliders from nearby his new symbol, rapidly heading east."
+    },
+    {
+      "id": "12-190",
+      "type": "body",
+      "en": "The audience watched intently. From across the river, Bai was also watching intently. And from afar, so were Fin, Mu and Den."
+    },
+    {
+      "id": "12-191",
+      "type": "body",
+      "en": "![第12章图2](assets/ch12-fig02.svg)"
+    },
+    {
+      "id": "12-192",
+      "type": "body",
+      "en": "The audience was surprised. Neither player had managed to figure out any gliders that move vertically, they realized."
+    },
+    {
+      "id": "12-193",
+      "type": "body",
+      "en": "On the second intervention turn, Zei launched gliders from the sides of the board, aiming straight toward Bo's home base."
+    },
+    {
+      "id": "12-194",
+      "type": "body",
+      "en": "And just before the third intervention turn, one of Zei's gliders hit a rock formation right beside Bo's home base, allowing Zei to see all of Bo's symbols."
+    },
+    {
+      "id": "12-195",
+      "type": "body",
+      "en": "Zei used that intervention turn to send gliders directly toward the three of Bo's symbols that he could see, and more toward some locations nearby just in case."
+    },
+    {
+      "id": "12-196",
+      "type": "body",
+      "en": "Within three hundred turns, all of Bo's symbols were destroyed, and Zei was announced the winner."
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch12-fig01.svg",
+      "labels": [
+        "tun bia zi sin de sia",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie",
+        "fai hie"
+      ]
+    },
+    {
+      "file": "assets/ch12-fig02.svg",
+      "labels": []
+    }
+  ]
+}

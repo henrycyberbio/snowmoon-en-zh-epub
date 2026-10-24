@@ -1,0 +1,106 @@
+@charset "utf-8";
+html, body { margin:0; padding:0; background:#ffffff; }
+body { color:#1b1b22; font-family:Georgia, "Times New Roman", serif; line-height:1.66; }
+.page { max-width:44em; margin:0 auto; padding:1.4em 1.15em 2.6em; }
+
+h1.ch-title { font-size:1.92em; line-height:1.24; margin:0 0 .35em; color:#1a1730; font-weight:700; }
+h1.ch-title .t-en { display:block; }
+h1.ch-title .t-zh { display:block; font-size:.78em; color:#4b4370; margin-top:.22em; letter-spacing:.14em; font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif; }
+
+.dateline { margin:.2em 0 1.7em; }
+.dateline .rule { border:0; border-top:1px solid #cfc6e6; margin:.2em 0 .55em; height:0; }
+.dateline .txt { font-size:.86em; color:#5a5480; letter-spacing:.05em; }
+.dateline .place { font-weight:600; }
+.dateline .sep { margin:0 .55em; color:#b9b1d4; }
+.dateline .date { letter-spacing:.16em; text-transform:uppercase; font-size:.8em; color:#8a83a8; }
+.dateline .zh-line { display:block; margin-top:.18em; font-size:.9em; color:#6a6390; font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif; }
+
+.pair { margin:0 0 1.12em; page-break-inside:avoid; }
+.pair p.en { margin:0 0 .16em; font-size:1em; color:#2f2f3a; }
+.pair p.zh { margin:0; font-size:1.01em; color:#14141a; line-height:1.92;
+  border-left:2px solid #e7e1f3; padding-left:.62em;
+  font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif; }
+.pair p.zh em, .pair p.en em { font-style:italic; }
+
+.scene-break { text-align:center; margin:1.9em 0; color:#9a92be; font-size:.86em; letter-spacing:.7em; }
+
+.lyric-pair { margin:1.5em 0; padding:.75em 1em; background:#f6f4fb; border-left:4px solid #6f66a8; border-radius:3px; page-break-inside:avoid; }
+.lyric { margin:0 0 .32em; font-family:"Courier New",Courier,monospace; font-size:.82em; letter-spacing:.06em; text-transform:uppercase; color:#3f3a5c; }
+.lyric:last-child { margin-bottom:0; }
+.lyric-zh { text-transform:none; letter-spacing:.02em; color:#4a4568; font-size:.95em;
+  font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif; }
+
+/* in-panel message text: one light ink for both languages */
+.msgtext { color:#d6e6ff; }
+
+/* ---------------- in-story device panels ---------------- */
+.device { background:#0a0e27; color:#b8d8ff; border-radius:12px; padding:15px 15px 11px; margin:1.6em 0;
+  font-family:"Courier New",Courier,"Noto Sans Mono CJK SC",monospace; font-size:.84em; line-height:1.55;
+  text-align:center; page-break-inside:avoid; }
+.device .en-line, .device .zh-line { display:block; }
+.device .zh-line { color:#9ec2f5; font-family:"Songti SC","Noto Serif CJK SC","SimSun",monospace; }
+.device .dv-title { background:#1a2a4a; border:1px solid #3d70c3; color:#cef; font-weight:bold; padding:9px 10px; text-align:left; }
+.device .dv-body { border:1px solid #2a4a7a; border-top:0; background:#0f1a3a; color:#b8d8ff; padding:9px 10px; text-align:left; }
+.device table.dv { width:100%; border-collapse:collapse; margin:0; table-layout:fixed; text-align:left; }
+.device th, .device td { border:1px solid #2a4a7a; padding:8px 9px; text-align:left; vertical-align:top;
+  overflow-wrap:break-word; word-break:normal; }
+.device th { background:#1a2a4a; border-color:#3d70c3; color:#cef; font-weight:bold; word-break:keep-all; }
+.device td { background:#0f1a3a; color:#b8d8ff; }
+.device tr:nth-child(even) td { background:#12204a; }
+.device td.num, .device th.num { white-space:nowrap; word-break:keep-all; }
+.device .dv-list { margin:.1em 0 0; padding-left:1.15em; color:#b8d8ff; }
+.device .dv-list li { margin:0 0 .18em; }
+.device .dv-note { color:#cef; font-weight:bold; margin:.55em 0 .2em; text-align:left; }
+.device .dv-note .zh-line { color:#a9ccff; font-weight:normal; }
+.device .dv-h3 { color:#7fbcff; border-bottom:2px solid #3d70c3; padding-bottom:6px; margin:0 0 10px; font-size:1.05em; text-align:left; }
+.device .dv-btn { display:inline-block; background:#1a3a6a; border:1px solid #3d70c3; border-radius:3px;
+  padding:6px 16px; color:#cef; font-family:inherit; font-size:1em; }
+.device .dv-actions { margin:.55em 0 0; }
+.device .dv-btn .zh-line { display:inline; margin-left:.45em; color:#a9ccff; }
+.device .dv-slider { margin:.5em 0 .2em; }
+.device .knob-wrap { text-align:center; line-height:0; }
+.device .knob { display:inline-block; width:11px; height:11px; border-radius:50%; background:#7fbcff; border:1px solid #cef; }
+.device .track { height:4px; background:#1a2a4a; border-top:1px solid #3d70c3; border-bottom:1px solid #3d70c3; }
+.device .dv-range { display:block; height:4px; margin:6px 0; background:#1a2a4a;
+  border-top:1px solid #3d70c3; border-bottom:1px solid #3d70c3; }
+.device table.scale { width:100%; border-collapse:collapse; margin:5px 0 0; }
+.device table.scale td { border:0; background:transparent; padding:0; color:#cef; font-size:.95em; }
+.device table.scale td:nth-child(2) { text-align:center; }
+.device table.scale td:nth-child(3) { text-align:right; }
+.device .dv-center { text-align:center; }
+.device .repbox { display:inline-block; border:1px solid #7fbcff; border-radius:5px; padding:2px 7px; margin-top:5px; color:#cef; }
+.device .repbox .zh-line { color:#a9ccff; }
+.device b.check, .device .repbox b { color:#8f8; font-size:1.35em; }
+.device .dv-fig { display:block; margin:6px auto; max-width:100%; height:auto; }
+.device .dv-fig-wrap { margin:0; }
+.device .dv-fig-cap { display:block; margin:.15em 0 .95em; color:#cef; letter-spacing:.05em; }
+.device .dv-fig-cap-zh { color:#a9ccff; }
+.device .dv-zh { text-align:left; color:#b8d8ff; padding:6px 2px 2px; }
+.device table.dv .dv-range { margin:4px 0; }
+.device table.dv .dv-btn { display:inline-block; }
+
+/* ---- surfaces for panels that carry the author's own light ink --------
+   Source of the colours (reused, not invented): the archive's renderer CSS
+   Snowmoon-source/render_rich.cjs sets .dz-card{background:#1b2b36;color:#e6f4ff}
+   and .device-view{background:#0a0e27;color:#e6f4ff} for exactly these blocks.
+   Scope only the 8 <center> cards and 18-089's <pre>: no body text changes. */
+.pair .dv-center-block .dz-card { background:#1b2b36; color:#e6f4ff; border-radius:8px;
+  padding:20px 24px; margin:0; }
+.pair pre[style*="color:#fff"] { background:#0a0e27; border-radius:8px;
+  padding:14px 18px; margin:6px 0; }
+
+/* ---------------- back matter ---------------- */
+.backmatter { margin-top:2.6em; border-top:1px solid #ddd6ea; padding-top:1em; font-size:.88em; color:#4a4560; }
+.backmatter .bm-title { font-size:1.05em; color:#3b3557; margin:0 0 .6em; letter-spacing:.04em; }
+.backmatter .bm-p { margin:0 0 .6em; line-height:1.8; }
+.backmatter .bm-notes { margin:.4em 0 0; padding-left:1.2em; }
+.backmatter .bm-notes li { margin-bottom:.4em; line-height:1.8; }
+.backmatter a { color:#5a4fa0; text-decoration:none; }
+
+@media (max-width: 520px) {
+  .page { padding:1em .8em 2em; }
+  h1.ch-title { font-size:1.55em; }
+  .device { padding:10px 9px 8px; font-size:.76em; border-radius:9px; }
+  .device th, .device td { padding:6px 6px; }
+  .pair p.zh { padding-left:.5em; }
+}

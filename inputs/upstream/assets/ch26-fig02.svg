@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" style="margin-left:35px" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#348"/>
+<rect x="150" y="50" width="40" height="14" fill="#89c"/>
+<polygon points="170,60 180,60 175,68" fill="#550"/>
+<circle cx="100" cy="72" r="3" fill="#cef"/>
+<circle cx="107" cy="92" r="3" fill="#cef"/>
+<circle cx="114" cy="112" r="3" fill="#cef"/>
+<line x1="100" y1="72" x2="80" y2="79" stroke="#cef" stroke-dasharray="2"/>
+<line x1="107" y1="92" x2="87" y2="99" stroke="#cef" stroke-dasharray="2"/>
+<text x="107" y="92" fill="#f04" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">x</text>
+<line x1="114" y1="112" x2="94" y2="119" stroke="#cef" stroke-dasharray="2"/>
+<circle cx="57" cy="76" r="3" fill="#cef"/>
+<circle cx="64" cy="96" r="3" fill="#cef"/>
+<circle cx="71" cy="116" r="3" fill="#cef"/>
+<circle cx="78" cy="136" r="3" fill="#cef"/>
+<line x1="57" y1="76" x2="37" y2="83" stroke="#cef" stroke-dasharray="2"/>
+<line x1="64" y1="96" x2="44" y2="103" stroke="#cef" stroke-dasharray="2"/>
+<line x1="71" y1="116" x2="51" y2="123" stroke="#cef" stroke-dasharray="2"/>
+<text x="71" y="116" fill="#f04" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">x</text>
+<line x1="78" y1="136" x2="58" y2="143" stroke="#cef" stroke-dasharray="2"/>
+<text x="78" y="136" fill="#f04" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">x</text>
+<circle cx="24" cy="110" r="3" fill="#cef"/>
+<circle cx="31" cy="130" r="3" fill="#cef"/>
+<line x1="24" y1="110" x2="4" y2="117" stroke="#cef" stroke-dasharray="2"/>
+<line x1="31" y1="130" x2="11" y2="137" stroke="#cef" stroke-dasharray="2"/>
+</svg>

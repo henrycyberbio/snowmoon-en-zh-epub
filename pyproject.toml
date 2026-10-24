@@ -1,0 +1,12 @@
+[project]
+name = "snowmoon-bilingual"
+version = "0.1.0"
+description = "Bilingual (English/Chinese) EPUB build for Snowmoon: inputs, renderer, full-book merge and review workflow"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4==4.15.0",
+    "openpyxl==3.1.5",
+]
+
+[tool.uv]
+package = false

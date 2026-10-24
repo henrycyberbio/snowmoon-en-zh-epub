@@ -1,0 +1,12 @@
+# local environment and build products
+.venv/
+__pycache__/
+*.pyc
+work/
+output/
+build/
+*.epub
+!release/*.epub
+*.xlsx
+!release/*.xlsx
+.env

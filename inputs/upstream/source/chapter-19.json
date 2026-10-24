@@ -1,0 +1,896 @@
+{
+  "chapter": 19,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-19.html",
+  "sha256": "93e9d60f95ef720f928451513f48f4ee0fd1644f7f8869043937af6fba86aacc",
+  "segments": [
+    {
+      "id": "19-001",
+      "type": "heading",
+      "en": "Chapter 19"
+    },
+    {
+      "id": "19-002",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego · 3724 Grapetime 15"
+    },
+    {
+      "id": "19-003",
+      "type": "body",
+      "en": "Gladias and Zei were sitting at a table in a cafeteria, deep inside the mountain pryamid. Attached to one of the walls, they could see two large screens, doing the best job that they could to pretend to be windows showing a view of Pafogai Du as though the cafeteria was sitting on top of the mountain, rather than thirty meters below ground."
+    },
+    {
+      "id": "19-004",
+      "type": "body",
+      "en": "\"So who is this that you wanted me to meet again?\", Gladias asked."
+    },
+    {
+      "id": "19-005",
+      "type": "body",
+      "en": "\"Den. He is a High Council member of the Kungaupei. You wanted to better understand Dzego's institutions, he helps run the one that's already been protecting us from the Arctic shadow campaign for the last decade. You want Veridia to learn from him, not from our official government.\""
+    },
+    {
+      "id": "19-006",
+      "type": "body",
+      "en": "At that point, they heard a faint buzz that began to rapidly get louder. Almost immediately, a few small drones, similar to those that would check Zei for cheating equipment in the Minpentai championships, flew into view."
+    },
+    {
+      "id": "19-007",
+      "type": "body",
+      "en": "Gladias's watch buzzed."
+    },
+    {
+      "id": "19-008",
+      "type": "body",
+      "en": "| Air |  |\n| --- | --- |\n| CO2 | 994 |\n| PM2.5 | 30.1 |\n\n| Devices |  |\n| --- | --- |\n| Attested ✓ | 21 |\n| Unknown, increased risk! | 4 |",
+      "table_colors": [
+        [
+          [
+            ""
+          ],
+          [
+            "",
+            "yellow"
+          ],
+          [
+            "",
+            "yellow"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#f23",
+            "#f23"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "19-009",
+      "type": "body",
+      "en": "\"What's going on?\", Zei asked."
+    },
+    {
+      "id": "19-010",
+      "type": "body",
+      "en": "\"Ah, I think my watch is detecting those drones as a threat. It's been doing this for many days now, I'm assuming it's just not been updated yet.\""
+    },
+    {
+      "id": "19-011",
+      "type": "body",
+      "en": "\"Ah, let me check mine\", Zei replied."
+    },
+    {
+      "id": "19-012",
+      "type": "body",
+      "en": "Zei took out his watch."
+    },
+    {
+      "id": "19-013",
+      "type": "body",
+      "en": "| ten min |  |\n| --- | --- |\n| cau tie zen ✓ | 25 |\n| sen hu ? | 0 |",
+      "table_colors": [
+        [
+          [
+            ""
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#fca",
+            "#fca"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "19-014",
+      "type": "body",
+      "en": "He clicked on the green, and scrolled through."
+    },
+    {
+      "id": "19-015",
+      "type": "body",
+      "en": "| gi dai |  |\n| --- | --- |\n| fen jan ten lai | 16 |\n| mo fan min jan | 1 |\n| mo fan lai | 4 |\n| kun gau min jan | 4 |",
+      "table_colors": [
+        [
+          [
+            "#c4f"
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "19-016",
+      "type": "body",
+      "en": "\"Err... let me try this\", Gladias said, staring intently at the watch."
+    },
+    {
+      "id": "19-017",
+      "type": "body",
+      "en": "\"'mo fan' is eating room, so something to do with the cafeteria.\""
+    },
+    {
+      "id": "19-018",
+      "type": "body",
+      "en": "\"Yep!\""
+    },
+    {
+      "id": "19-019",
+      "type": "body",
+      "en": "\"'min' is machine, 'jan' is person, so I guess the two together mean ... robot?\""
+    },
+    {
+      "id": "19-020",
+      "type": "body",
+      "en": "\"Yep!\""
+    },
+    {
+      "id": "19-021",
+      "type": "body",
+      "en": "\"'kun gau' is ... wait, is that connected to the Kungaupei? So these are Kungaupei robots?\""
+    },
+    {
+      "id": "19-022",
+      "type": "body",
+      "en": "\"Yes, but what does 'kun gau' mean?\""
+    },
+    {
+      "id": "19-023",
+      "type": "body",
+      "en": "\"I'll guess security?\""
+    },
+    {
+      "id": "19-024",
+      "type": "body",
+      "en": "\"Exactly.\""
+    },
+    {
+      "id": "19-025",
+      "type": "body",
+      "en": "\"Security robots. Phew, that wasn't hard at all!\""
+    },
+    {
+      "id": "19-026",
+      "type": "body",
+      "en": "\"Just be glad I'm not Fin, he would start taking half a longhour to go through this whole interface and explain the history of each and every word and why they decided to keep it as they were shrinking the vocabulary.\""
+    },
+    {
+      "id": "19-027",
+      "type": "body",
+      "en": "One of the robots buzzed closer to Gladias, and stopped to hover about half a meter to the right of his ear."
+    },
+    {
+      "id": "19-028",
+      "type": "body",
+      "en": "\"But anyway, why have I been detecting so many hostile devices? Is my watch just not up to date on something?\""
+    },
+    {
+      "id": "19-029",
+      "type": "body",
+      "en": "\"Ah yeah, it's just every lamp and drone and camera announcing itself; the protocols stepped up a lot these past few days. Your watch just doesn't speak the language yet. Here, let me help you with that.\""
+    },
+    {
+      "id": "19-030",
+      "type": "body",
+      "en": "Zei then spoke in a softer voice:"
+    },
+    {
+      "id": "19-031",
+      "type": "body",
+      "en": "\"jo sun fe zin ten lai de cau tie dai\""
+    },
+    {
+      "id": "19-032",
+      "type": "body",
+      "en": "About one tick later, his watch buzzed, indicating that the data was received."
+    },
+    {
+      "id": "19-033",
+      "type": "body",
+      "en": "![第19章图1](assets/ch19-fig01.svg)\n\nfe cau tie dai\n\nli shu"
+    },
+    {
+      "id": "19-034",
+      "type": "body",
+      "en": "Zei moved his watch beside Gladias's."
+    },
+    {
+      "id": "19-035",
+      "type": "body",
+      "en": "\"be\""
+    },
+    {
+      "id": "19-036",
+      "type": "body",
+      "en": "The two watches buzzed at the same time, indicating a connection, and a file transferred from one to the other. Gladias pressed a button on his watch to accept."
+    },
+    {
+      "id": "19-037",
+      "type": "body",
+      "en": "He then checked his watch again."
+    },
+    {
+      "id": "19-038",
+      "type": "body",
+      "en": "| Air |  |\n| --- | --- |\n| CO2 | 1015 |\n| PM2.5 | 31.2 |\n\n| Devices |  |\n| --- | --- |\n| Attested ✓ | 25 |",
+      "table_colors": [
+        [
+          [
+            ""
+          ],
+          [
+            "",
+            "red"
+          ],
+          [
+            "",
+            "yellow"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "#8f8",
+            "#8f8"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "19-039",
+      "type": "body",
+      "en": "\"Looks good!\""
+    },
+    {
+      "id": "19-040",
+      "type": "body",
+      "en": "\"Huh, you're measuring CO2 and PM2.5 on there as well?\""
+    },
+    {
+      "id": "19-041",
+      "type": "body",
+      "en": "\"Yep! Pretty standard in Veridia. We really care about having a clean environment. We breathe twelve kilograms of air every day, more than what we eat and drink combined. So we're really all under-rating how important the air is.\""
+    },
+    {
+      "id": "19-042",
+      "type": "body",
+      "en": "\"Why is CO2 on there? We have air sensors on our watches too, but that's more for smoke detection and poisons.\""
+    },
+    {
+      "id": "19-043",
+      "type": "body",
+      "en": "\"The average concentration of carbon dioxide in our atmosphere is 300 parts per million. Air that we breathe out is 40,000 parts per million. So if the air you're breathing has 700 parts per million, then either there's some other source bringing that extra CO2 in, or, more likely, one percent of the air you're breathing in is air that someone else breathed out. And aerosol particles carrying all kinds of things stick around in the air for a long time - especially airborne viruses.\""
+    },
+    {
+      "id": "19-044",
+      "type": "body",
+      "en": "\"Ah, I see, so it's not even about industrial pollution.\""
+    },
+    {
+      "id": "19-045",
+      "type": "body",
+      "en": "\"Actually I'm surprised you're not caught up on this, and that the CO2 numbers are so poor here. I would have thought you would care a lot from the defense side, for pandemic prevention.\""
+    },
+    {
+      "id": "19-046",
+      "type": "body",
+      "en": "\"Ah well you can ask Den when he comes!\""
+    },
+    {
+      "id": "19-047",
+      "type": "body",
+      "en": "A robot arrived, bringing a salad and tea for Gladias, and a vegetable and rice dish covered with mushrooms and a tea for Zei."
+    },
+    {
+      "id": "19-048",
+      "type": "body",
+      "en": "\"Wait, that dish you're eating. I think that's exactly what we call Number Ten in our Dzego food trucks!\", Gladias exclaimed."
+    },
+    {
+      "id": "19-049",
+      "type": "body",
+      "en": "\"Do you want to try it? I'm happy to take your salad. Tell me how it compares to the version you're used to.\""
+    },
+    {
+      "id": "19-050",
+      "type": "body",
+      "en": "\"Sure!\""
+    },
+    {
+      "id": "19-051",
+      "type": "body",
+      "en": "They switched plates, and began eating."
+    },
+    {
+      "id": "19-052",
+      "type": "body",
+      "en": "\"Okay, this is much better than what we get in Veridia\", Gladias excitedly remarked."
+    },
+    {
+      "id": "19-053",
+      "type": "body",
+      "en": "They continued eating silently for a few minutes, and after finishing their food switched to drinking tea."
+    },
+    {
+      "id": "19-054",
+      "type": "body",
+      "en": "Zei's watch buzzed again. Zei checked his watch, and his eyes opened wide."
+    },
+    {
+      "id": "19-055",
+      "type": "body",
+      "en": "\"What is it?\", Gladias asked."
+    },
+    {
+      "id": "19-056",
+      "type": "body",
+      "en": "\"A message from a courtyard where I ate in Sadzu Du once. This is really weird.\""
+    },
+    {
+      "id": "19-057",
+      "type": "body",
+      "en": "\"It seems to be addressed directly to me.\""
+    },
+    {
+      "id": "19-058",
+      "type": "body",
+      "en": "\"How does the courtyard know you ate there? Payment is done in zipcoins, that's fully anonymized.\""
+    },
+    {
+      "id": "19-059",
+      "type": "body",
+      "en": "\"Exactly. The courtyard seems to have sent it to *all* their guests from the past half year, and it has some kind of tag that my local AI accepted, almost everyone else's filtered out.\""
+    },
+    {
+      "id": "19-060",
+      "type": "body",
+      "en": "| zan |  | tie |\n| --- | --- | --- |\n| sa dzu du de len su 2415 de bun kai mo fan | → | ci sen hu jan pu zau fe 400 lin man ci cau be fe ti tie ci tan jan pu ciu cu shan jin fe pa bi ci sen hu fe bu |"
+    },
+    {
+      "id": "19-061",
+      "type": "body",
+      "en": "\"What does it say?\", Gladias asked."
+    },
+    {
+      "id": "19-062",
+      "type": "body",
+      "en": "\"It's from the Beautiful Plants food court, on 2415 Len Su street, in Sadzu Du. An anonymous person burned four hundred zipcoins to send this message. The message envelope says that the recipient 'is successful' and is 18 years old. I know nothing else.\""
+    },
+    {
+      "id": "19-063",
+      "type": "body",
+      "en": "\"That's a ... well-calibrated description.\""
+    },
+    {
+      "id": "19-064",
+      "type": "body",
+      "en": "\"Indeed. They're trying to make the set wide enough to make sure it contains me, they burned four hundred zipcoins to signal to the courtyard, and to our local AIs, and to us, that the message is worth putting an effort into understanding, but also they made the set narrow enough that they *could* make this broadcast for only four hundred zipcoins.\""
+    },
+    {
+      "id": "19-065",
+      "type": "body",
+      "en": "\"And narrow enough that not too many people find out about this message.\""
+    },
+    {
+      "id": "19-066",
+      "type": "body",
+      "en": "\"Okay, let me open it up...\""
+    },
+    {
+      "id": "19-067",
+      "type": "body",
+      "en": "Zei stared in shock again."
+    },
+    {
+      "id": "19-068",
+      "type": "body",
+      "en": "\"What is it?\""
+    },
+    {
+      "id": "19-069",
+      "type": "body",
+      "en": "\"The message is a series of links to some files, in total over sixty gigabytes. I need to download eighty percent of them apparently.\""
+    },
+    {
+      "id": "19-070",
+      "type": "body",
+      "en": "\"Will that take a while to download?\""
+    },
+    {
+      "id": "19-071",
+      "type": "body",
+      "en": "\"About a day wirelessly. But it looks like the digital archive node inside this mountain pyramid already has enough of the files.\""
+    },
+    {
+      "id": "19-072",
+      "type": "body",
+      "en": "\"Shall we just walk there?\""
+    },
+    {
+      "id": "19-073",
+      "type": "body",
+      "en": "\"Exactly what I'm thinking.\""
+    },
+    {
+      "id": "19-074",
+      "type": "body",
+      "en": "Zei put his watch against a green circle on the corner of the desk. A moment later it buzzed. He stood up, and Gladias stood up immediately after him."
+    },
+    {
+      "id": "19-075",
+      "type": "body",
+      "en": "They exited the cafeteria, and started walking through the network of tunnels."
+    },
+    {
+      "id": "19-076",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "19-077",
+      "type": "body",
+      "en": "A few minutes later, they arrived at a large ornamented door."
+    },
+    {
+      "id": "19-078",
+      "type": "body",
+      "en": "To the left of the door, there was a drawing of a river horse reading a book, with a backdrop of a marsh with green trees and a blue sky in the background. To the right of the door, there was a drawing of a hamster sitting at a computer. Both drawings were a careful balance of cartoon-like playfulness, and a serious aura of mystery."
+    },
+    {
+      "id": "19-079",
+      "type": "body",
+      "en": "At the top of the door, Zei could read a slogan:"
+    },
+    {
+      "id": "19-080",
+      "type": "body",
+      "en": "mu fu bau hai ka sha liu li dzai hen ji cin jan fe jan\n\nci mu fu bau fei ka zen die jia cu can hu fe lo kin liu",
+      "rich_html": "<center><div class=\"dz-card dz-mono\" style=\"font-family:'TeX Gyre Chorus',cursive;font-size:17px;line-height:1.55\"><div class=\"dz-line dz-blank\" style=\"height:1em\"></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:2ch\"><span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">mu fu bau hai</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ka</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">sha liu</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">li</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">dzai hen</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ji</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">cin jan</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">jan</span></span></span></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:0ch\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ci</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">mu fu bau fei</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ka</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">zen die jia</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">cu</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">can hu</span></span></span> <span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"font-family:'TeX Gyre Chorus',cursive;\">lo</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">kin liu</span></span></div>\n<div class=\"dz-line dz-blank\" style=\"height:1em\"></div></div></center>\n"
+    },
+    {
+      "id": "19-081",
+      "type": "body",
+      "en": "\"Outside of a dog, a book is man's best friend\", Zei translated for Gladias. \"Inside of a dog, it's too dark to read.\""
+    },
+    {
+      "id": "19-082",
+      "type": "body",
+      "en": "Zei and Gladias stepped through the door, and entered."
+    },
+    {
+      "id": "19-083",
+      "type": "body",
+      "en": "To their left, the entire wall was a large shelf, about five meters tall, filled with physical paper books. The upper half of the shelf was set back about a meter, allowing the roof of the lower half to serve as a walkway to look at and take books from the upper half."
+    },
+    {
+      "id": "19-084",
+      "type": "body",
+      "en": "The shelf had openings in two places on the upper floor, leading to two miniature tunnels lined with more books. The shelf also had an opening in one place on the lower floor, also lined with books. All three openings seemed to go inwards for three to six meters; after that, one of the book-lined hallways turned ninety degrees rightward, another ninety degrees leftward, and the third, the one on the lower floor, turned into a T-shaped intersection."
+    },
+    {
+      "id": "19-085",
+      "type": "body",
+      "en": "It looked like the book section was deliberately constructed to be a maze, Gladias thought."
+    },
+    {
+      "id": "19-086",
+      "type": "body",
+      "en": "To their right, there was an open space with tables, and along the wall, there were many computer terminals."
+    },
+    {
+      "id": "19-087",
+      "type": "body",
+      "en": "Near the front of the space with tables, Zei saw a woman wearing a robe. He immediately ran toward her."
+    },
+    {
+      "id": "19-088",
+      "type": "body",
+      "en": "She turned around."
+    },
+    {
+      "id": "19-089",
+      "type": "body",
+      "en": "\"Welcome to the Pafogai Du grand library. What is it that you seek?\", she asked."
+    },
+    {
+      "id": "19-090",
+      "type": "body",
+      "en": "\"There are very large files in the archive that I would like to load.\""
+    },
+    {
+      "id": "19-091",
+      "type": "body",
+      "en": "The librarian laughed."
+    },
+    {
+      "id": "19-092",
+      "type": "body",
+      "en": "\"Glad you're being honest\", she replied."
+    },
+    {
+      "id": "19-093",
+      "type": "body",
+      "en": "\"Most people tell me they're looking to learn some high-minded thing about history or culture or mathematics, and then go and download their movies as soon as I'm not looking.\""
+    },
+    {
+      "id": "19-094",
+      "type": "body",
+      "en": "\"Well I'm not downloading a movie, it's more ... a mysterious message.\""
+    },
+    {
+      "id": "19-095",
+      "type": "body",
+      "en": "\"Ah, a quest! Even if that ends up just being an excuse, even that is something new and interesting in my day. Well, just follow me.\""
+    },
+    {
+      "id": "19-096",
+      "type": "body",
+      "en": "Zei and Gladias followed."
+    },
+    {
+      "id": "19-097",
+      "type": "body",
+      "en": "\"So you got a mysterious message telling you to download some big files? Any idea what kinds?\""
+    },
+    {
+      "id": "19-098",
+      "type": "body",
+      "en": "\"Well so far I just saw some hashes...\""
+    },
+    {
+      "id": "19-099",
+      "type": "body",
+      "en": "They arrived at a computer terminal. The librarian took out a data cable, and put one end of the cable into the terminal."
+    },
+    {
+      "id": "19-100",
+      "type": "body",
+      "en": "\"Here, put the other end into your hand device.\""
+    },
+    {
+      "id": "19-101",
+      "type": "body",
+      "en": "Zei followed the librarian's instructions. The download started almost immediately."
+    },
+    {
+      "id": "19-102",
+      "type": "body",
+      "en": "![第19章图2](assets/ch19-fig02.svg)"
+    },
+    {
+      "id": "19-103",
+      "type": "body",
+      "en": "\"Wow, only eight minutes!\""
+    },
+    {
+      "id": "19-104",
+      "type": "body",
+      "en": "\"So now might you be more open-minded to the things we stodgy librarians say about how physical spaces are still relevant to the pursuit of knowledge after all?\""
+    },
+    {
+      "id": "19-105",
+      "type": "body",
+      "en": "A robot slid up to them."
+    },
+    {
+      "id": "19-106",
+      "type": "body",
+      "en": "\"jie hei ja ma?\""
+    },
+    {
+      "id": "19-107",
+      "type": "body",
+      "en": "A menu appeared onscreen; there was no food, but a selection of drinks was available."
+    },
+    {
+      "id": "19-108",
+      "type": "body",
+      "en": "Gladias immediately clicked a button asking for a tea. Following along, Zei did the same."
+    },
+    {
+      "id": "19-109",
+      "type": "body",
+      "en": "\"This space is beautiful, I am glad you have it.\""
+    },
+    {
+      "id": "19-110",
+      "type": "body",
+      "en": "Gladias stood up and walked over to the shelf with the books. He opened a few one by one. At that moment, not in the mood for straining his brain at reading and interpreting Dzegoban - especially not the earlier-version Dzegoban that the older books were in that he could understand nothing of at all - he focused his attention on the diagrams and pictures."
+    },
+    {
+      "id": "19-111",
+      "type": "body",
+      "en": "Two minutes later, the robot slid up to him, and gave him his tea. The tea was in a sealed cup, from which he could only drink through a straw. Surprised, Gladias turned to Zei, and saw that Zei, sitting at a table far away from any books, already had his tea. The cup that Zei received was open-faced, without much protection against the tea spilling."
+    },
+    {
+      "id": "19-112",
+      "type": "body",
+      "en": "Gladias found a book about Dzego architecture, titled \"zui fia pai dan\". He flipped through it. It contained pictures of many designs of basement rooms, shelters and underground rooms inside of mountain pyramids. The book showed them in roughly chronological order starting shortly after the war against the Arctic Empire a hundred years ago."
+    },
+    {
+      "id": "19-113",
+      "type": "body",
+      "en": "The earlier designs were very practical in construction, with not much thought put to comfort, or even safety against non-human threats. The designs in the middle started resembling ordinary rooms, with the main glaring exception being lack of windows. And finally, the designs near the end of the book were very well-decorated and comfortable, even more so than above-ground construction. About half had imitation windows, pretending to be outside. The other half did not have windows, and instead had plants, well-decorated walls, and other objects that seemed carefully chosen to make the inhabitant not see any space that they might think is supposed to have a window."
+    },
+    {
+      "id": "19-114",
+      "type": "body",
+      "en": "\"Gladias!\", Zei shouted. \"Come back, it's almost done!\""
+    },
+    {
+      "id": "19-115",
+      "type": "body",
+      "en": "Gladias turned around, and walked back. Just as he arrived, the last progress bar reached 100%. Another window automatically opened. A script began running. \"Reconstructing data... estimated time remaining 175\", it said onscreen - not in Dzegoban."
+    },
+    {
+      "id": "19-116",
+      "type": "body",
+      "en": "Gladias and Zei sipped their tea, and stared at the timer counting down. The librarian, curious, hovered quietly about two meters behind them."
+    },
+    {
+      "id": "19-117",
+      "type": "body",
+      "en": "Right on schedule, a little under two minutes later, the script finished, and a screen appeared."
+    },
+    {
+      "id": "19-118",
+      "type": "body",
+      "en": "What did you do on Firemoon 10th? Explain the day in detail.\n\n>"
+    },
+    {
+      "id": "19-119",
+      "type": "body",
+      "en": "Zei stared."
+    },
+    {
+      "id": "19-120",
+      "type": "body",
+      "en": "\"Let's reschedule the meeting with Den for tomorrow. I have a feeling this is not going to be a simple task.\""
+    },
+    {
+      "id": "19-121",
+      "type": "body",
+      "en": "Gladias nodded."
+    },
+    {
+      "id": "19-122",
+      "type": "body",
+      "en": "\"Are you going to answer?\""
+    },
+    {
+      "id": "19-123",
+      "type": "body",
+      "en": "Zei pressed a few buttons on his hand device. \"I put this program into a sandbox using a journaling file system, so it can't access the internet, and I can always revert it back to start. So there's no privacy leak risk, and if I'm not happy with the outcome I can just revert it back to start and try again. So why not?\""
+    },
+    {
+      "id": "19-124",
+      "type": "body",
+      "en": "\"Now ... to remember what I did on the 10th of Firemoon ... or rather I'll just ask my hand device.\""
+    },
+    {
+      "id": "19-125",
+      "type": "body",
+      "en": "A record of Zei's life events on that day popped up. That day was his last Minpentai game, the semifinal against Gun - the last day when things in his life were at least somewhat normal. Before that game, he woke up and had a meeting with Bai. After that game, he met up in the courtyard with Deluin."
+    },
+    {
+      "id": "19-126",
+      "type": "body",
+      "en": "Wait, Zei thought, the courtyard ... what was the address again? He looked it up."
+    },
+    {
+      "id": "19-127",
+      "type": "body",
+      "en": "sa dzu du de\n\nlen su 2415 de\n\nbun kai mo fan"
+    },
+    {
+      "id": "19-128",
+      "type": "body",
+      "en": "The exact same cafeteria that the original message was from."
+    },
+    {
+      "id": "19-129",
+      "type": "body",
+      "en": "This was, as his local AI liked to say, the punchline. Zei started typing, recalling that day of his life from a combination of the AI records and his own memories which were rapidly coming back."
+    },
+    {
+      "id": "19-130",
+      "type": "body",
+      "en": "Waking up."
+    },
+    {
+      "id": "19-131",
+      "type": "body",
+      "en": "The meeting with Bai."
+    },
+    {
+      "id": "19-132",
+      "type": "body",
+      "en": "Going to the game."
+    },
+    {
+      "id": "19-133",
+      "type": "body",
+      "en": "Waiting for the game."
+    },
+    {
+      "id": "19-134",
+      "type": "body",
+      "en": "The game itself."
+    },
+    {
+      "id": "19-135",
+      "type": "body",
+      "en": "Watching Deluin's game."
+    },
+    {
+      "id": "19-136",
+      "type": "body",
+      "en": "A brief conversation with Deluin after the game. What was it I had said ... \"my style was uglier than yours. Though I also won by playing defense\""
+    },
+    {
+      "id": "19-137",
+      "type": "body",
+      "en": "And then the meeting with Deluin at the courtyard itself. Zei spent as much time detailing this event as the rest of the day put together."
+    },
+    {
+      "id": "19-138",
+      "type": "body",
+      "en": "The robot. A/B testing the new proposed hieroglyphs for Dzegoban."
+    },
+    {
+      "id": "19-139",
+      "type": "body",
+      "en": "Deluin invited him to Redshire. He refused. Deluin showed pictures of Redshire."
+    },
+    {
+      "id": "19-140",
+      "type": "body",
+      "en": "Deluin talking about how the nature of a place being beautiful actually does say something about the civilization there."
+    },
+    {
+      "id": "19-141",
+      "type": "body",
+      "en": "And then Deluin's gently trolling line: \"I'll use my championship winnings to pay for you to go.\""
+    },
+    {
+      "id": "19-142",
+      "type": "body",
+      "en": "After typing everything in, Zei clicked \"send\"."
+    },
+    {
+      "id": "19-143",
+      "type": "body",
+      "en": "Thinking ... estimated remaining time 440"
+    },
+    {
+      "id": "19-144",
+      "type": "body",
+      "en": "\"Okay, so this is a language model. But how large was that file? After the data reconstruction.\""
+    },
+    {
+      "id": "19-145",
+      "type": "body",
+      "en": "\"10.7 gigabytes. The overhead was exactly a factor of six. I had a background thread check where the files were from, they were all recently uploaded. One sixth was a few recent movies - public data, though of course *the selection of which movies they chose* is a secret key of sorts. Another half was a big pile of someone's health data. The last third was also video, though it seemed to be AI-generated. It was all Arctic sermons talking about how fundamentally flawed the Veridian and Dzego civilizations are.\""
+    },
+    {
+      "id": "19-146",
+      "type": "body",
+      "en": "\"The recombination algorithm was a five-of-six erasure code of five pieces of 10.7 gigabytes each. Each of those pieces, in turn, was a steganographic encoding: they used language models to find bits to flip so that the data still looked plausible, while encoding the actual underlying message, at a very ambitious rate of one bit of plaintext per four bits of ciphertext. And then the movies were a sort of cryptographic pad: if you don't know the exact set of movies that were used, even if you could fully uncover the plaintext, it would just look like random data.\""
+    },
+    {
+      "id": "19-147",
+      "type": "body",
+      "en": "\"Wait, if they wanted a pad, couldn't they just pseudorandomly generate one by repeatedly hashing some data?\""
+    },
+    {
+      "id": "19-148",
+      "type": "body",
+      "en": "\"Ah actually you're right. Maybe I was overthinking it, maybe they just did it this way to throw people off.\""
+    },
+    {
+      "id": "19-149",
+      "type": "body",
+      "en": "\"Okay, so 10.7 gigabytes, what is it?\""
+    },
+    {
+      "id": "19-150",
+      "type": "body",
+      "en": "\"It's not a plaintext language model. It's an obfuscated language model. Level two obfuscation, much weaker parameters than the full cryptographic-grade parameters that are used in the cryptographic networks for voting in DU or Bansunpei or for that matter the Order of Steering, but it's still the same algorithm.\""
+    },
+    {
+      "id": "19-151",
+      "type": "body",
+      "en": "\"Level two obfuscation is actually the right tradeoff for language models, because language models themselves are big and compute-intensive, so they can't handle the high overhead of going level four, and on the other hand, language models are at least partially obfuscated and resistant to bit flips all on their own. If you uncover the value of a few weights, or get the ability to reliably flip a few values in a few tensors, it's not like you can get anything useful out of that.\""
+    },
+    {
+      "id": "19-152",
+      "type": "body",
+      "en": "\"Overhead factor of level two obfuscation is in the tens to low hundreds on size, and high hundreds to low thousands on compute. So this model is pretty tiny; I suspect whoever sent this fine-tuned it to only do this one task. I also think this language model's wrapper program, the full package that's being obfuscated, is doing the thinking all at once, to verify whether or not my answer is satisfactory. If it is, it will just give us its message at the end.\""
+    },
+    {
+      "id": "19-153",
+      "type": "body",
+      "en": "As though on cue, Zei's hand device buzzed. The program finished executing. A new message appeared onscreen:"
+    },
+    {
+      "id": "19-154",
+      "type": "body",
+      "en": "Hello Zei.\n\nYou may be wondering why I have not communicated any further with you within the past month. I greatly apologize for this, and my goal in sending you this letter is that you are the only friend I have who is outside of Arctic control, and you deserve my explanation about what has been happening.\n\nThe Arctics did a full sweep of Redshire almost a month ago, to confiscate all electronic devices, and give us back only devices that were backdoored and surveilled by them. This is why I lost contact with you. I had no way to reach you, and so I had to encrypt my message to you by wrapping it in this obfuscated language model that asked you to describe our shared experience to verify your identity. I have only been able to construct and send this message through a series of rounds of stealing devices from others, including two watches containing two Arctics' health data, doing the needed work inside of a non-transmitting room, copying the outputs to an inert storage medium, and then chemically destroying the circuits and storage on those devices.\n\nPhysical surveillance of Redshire is, fortunately, much less total than the Arctic itself, though the window on that is closing fast. But there was also another window that was closing fast for me.\n\nYou see, my parents were always on the side of being more sympathetic to the Arctics. And so after the annexation happened, they decided to cooperate with them. They told me that this was the best way to get any chance of autonomy for themselves and for Redshire in the future: to win trust by becoming a helpful part of the Arctic Empire. And so by the time you read this, most likely we will already be on an aeroplane going into the Arctic Empire core territory.\n\nI do not share their sympathies. But I have decided that the way that I can maximize my chance of being useful, is to play along, and win their trust too. The Arctic Empire respects strength, I have proven my strength by winning the Minpentai semifinals in Dzego, and my parents may be proof enough of my alignment. Hopefully, there will come a moment where I will be able to do something helpful to you. But I do not know.\n\nAnd so for this reason, this may well be the last message that you hear from me. I hope that this will not be true, but I cannot guarantee anything. I am sorry for everything.\n\ndze go ba fau gie\n\nYour dear friend Deluin."
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch19-fig01.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch19-fig02.svg",
+      "labels": [
+        "0x1b568a45...",
+        "1.35%",
+        "0x9f3c21d7...",
+        "2.07%",
+        "0x4a8e0b62...",
+        "1.62%",
+        "0xd714fc98...",
+        "2.88%",
+        "0x62bb39a0...",
+        "1.19%",
+        "0x8e05d1c4...",
+        "2.44%",
+        "0x37ad6f51...",
+        "1.73%",
+        "0xc9428e1b...",
+        "2.91%",
+        "sho hei dai - 827 gei zen"
+      ]
+    }
+  ]
+}

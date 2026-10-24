@@ -1,0 +1,746 @@
+{
+  "chapter": 7,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-7.html",
+  "sha256": "299a435d533c71e147cde6f3e2bbbf3b473d678133724a869169fc246cacf252",
+  "segments": [
+    {
+      "id": "07-001",
+      "type": "heading",
+      "en": "Chapter 7"
+    },
+    {
+      "id": "07-002",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego · 3724 Rainmoon 23"
+    },
+    {
+      "id": "07-003",
+      "type": "body",
+      "en": "Zei was sitting alone at a table in a courtyard, drinking a tea and eating a rice and vegetable dish. In his left hand, he held his hand device, reviewing Minpentai strategies."
+    },
+    {
+      "id": "07-004",
+      "type": "body",
+      "en": "A robot slid up to him."
+    },
+    {
+      "id": "07-005",
+      "type": "body",
+      "en": "\"mo da cu ja li hen ma?\", it asked. \"Is the food and drink good?\""
+    },
+    {
+      "id": "07-006",
+      "type": "body",
+      "en": "The screen on the robot turned into a voting view."
+    },
+    {
+      "id": "07-007",
+      "type": "body",
+      "en": "| mo da cu ja li hen ma? |\n| --- |\n| 🙁2 🙁 😐 😊 😊2 |\n| Select |"
+    },
+    {
+      "id": "07-008",
+      "type": "body",
+      "en": "Zei thought for a few moments, and moved the bar about three quarters of the way to the right."
+    },
+    {
+      "id": "07-009",
+      "type": "body",
+      "en": "The robot beeped, and slowly slid away."
+    },
+    {
+      "id": "07-010",
+      "type": "body",
+      "en": "When Zei looked up again, he could see Fin running up to him. Fin arrived, and sat down."
+    },
+    {
+      "id": "07-011",
+      "type": "body",
+      "en": "\"Where have you been?\", Zei asked."
+    },
+    {
+      "id": "07-012",
+      "type": "body",
+      "en": "\"More linguistics training\", Fin replied. \"Looks like the Bansunpei think I'm actually a good fit for them.\""
+    },
+    {
+      "id": "07-013",
+      "type": "body",
+      "en": "\"How is training for the big game?\""
+    },
+    {
+      "id": "07-014",
+      "type": "body",
+      "en": "\"Did about five games against the bots in the past longhour\", Zei replied. \"I feel like this is already hitting diminishing returns. It's all going to hinge on what the rule change this time is.\""
+    },
+    {
+      "id": "07-015",
+      "type": "body",
+      "en": "\"So in my last two games I asked the bots to come up with random rule changes, and played against them. Problem is, I won easily both times: the bots play better than me on stock Minpentai, but they are much worse at adapting to any new situation they don't have training data for.\""
+    },
+    {
+      "id": "07-016",
+      "type": "body",
+      "en": "\"Can't you make a pipeline where once they come up with the new rule, they self-play finetune to get good at it, and then you play against that?\""
+    },
+    {
+      "id": "07-017",
+      "type": "body",
+      "en": "\"Well if you can go help spin that up for me in the next two longhours, I'd much appreciate it. Game is tomorrow, remember!\""
+    },
+    {
+      "id": "07-018",
+      "type": "body",
+      "en": "Fin thought briefly. \"If I do that I'll have to tell the Bansunpei I am skipping tonight then.\""
+    },
+    {
+      "id": "07-019",
+      "type": "body",
+      "en": "\"'Po so dze go ban' can wait, the game against Bai is tomorrow.\""
+    },
+    {
+      "id": "07-020",
+      "type": "body",
+      "en": "\"Please?\""
+    },
+    {
+      "id": "07-021",
+      "type": "body",
+      "en": "Fin thought for a few ticks more. \"Okay fine, I'll tell them I'm skipping. But I'll have to make it up with them next month.\""
+    },
+    {
+      "id": "07-022",
+      "type": "dateline",
+      "en": "3724 Rainmoon 24"
+    },
+    {
+      "id": "07-023",
+      "type": "body",
+      "en": "Fin and Zei walked up the slope toward the mountain pyramid. Zei went through Minpentai strategies in his mind, as the tiring climb helped him concentrate, suppressing his mind's desire to wander toward anything else."
+    },
+    {
+      "id": "07-024",
+      "type": "body",
+      "en": "Suddenly he felt a tap on his shoulder."
+    },
+    {
+      "id": "07-025",
+      "type": "body",
+      "en": "Zei turned around. It was Bai."
+    },
+    {
+      "id": "07-026",
+      "type": "body",
+      "en": "\"So, excited about today's game?\", she asked. \"I think it'll be a good finish for you, I don't think your mom quite realizes how impressive it is that you are going to come in second across the whole city.\""
+    },
+    {
+      "id": "07-027",
+      "type": "body",
+      "en": "Zei's mind raced for a retort."
+    },
+    {
+      "id": "07-028",
+      "type": "body",
+      "en": "\"You know if you were nicer to Zei\", Fin snapped back, \"he might pay for *your* next trip to Redshire or Freetown from the prize money when he wins the nationals.\""
+    },
+    {
+      "id": "07-029",
+      "type": "body",
+      "en": "\"Maybe bring along your mom too.\""
+    },
+    {
+      "id": "07-030",
+      "type": "body",
+      "en": "Bai's grin faltered for a moment, then returned."
+    },
+    {
+      "id": "07-031",
+      "type": "body",
+      "en": "\"Thank you, Fin.\""
+    },
+    {
+      "id": "07-032",
+      "type": "body",
+      "en": "\"But seriously, let's just concentrate on giving everyone a good game.\""
+    },
+    {
+      "id": "07-033",
+      "type": "body",
+      "en": "Suddenly, the ground shook slightly. A few moments later, from their high vantage point already a third of the way up the mountain, they could see a cloud of smoke emerging in the distance, somewhere in the outskirts of the city."
+    },
+    {
+      "id": "07-034",
+      "type": "body",
+      "en": "\"Whoa, what is that?\", Fin asked."
+    },
+    {
+      "id": "07-035",
+      "type": "body",
+      "en": "Zei took out his hand device, and pointed it at the cloud of smoke."
+    },
+    {
+      "id": "07-036",
+      "type": "body",
+      "en": "\"Let's check.\""
+    },
+    {
+      "id": "07-037",
+      "type": "body",
+      "en": "Zei held his hand device pointed at the cloud of smoke and the area below for a moment, and then put it down. \"Geolocated it. It's the largest computer chip manufacturing facility in the city. Remember, the Arctics have been trying hard to stop us from progressing any more in our technology.\""
+    },
+    {
+      "id": "07-038",
+      "type": "body",
+      "en": "\"Looks like this facility was government-run. I imagine they'll just say it was an accident or something.\""
+    },
+    {
+      "id": "07-039",
+      "type": "body",
+      "en": "\"Heh\", Fin smirked."
+    },
+    {
+      "id": "07-040",
+      "type": "body",
+      "en": "\"What part of the 'bin hu' in 'gie fe kiu kai ci bin hu' do these people not get? No head. You're not supposed to centralize stuff this much.\""
+    },
+    {
+      "id": "07-041",
+      "type": "body",
+      "en": "\"Again, this is government. Half of them don't understand what they're doing, and many of the rest are probably on the payroll of the Arctics themselves in some form. All of the actually smart and effective stuff in Dzego has been outside of government *or* the big corporations for decades.\""
+    },
+    {
+      "id": "07-042",
+      "type": "body",
+      "en": "\"But anyway, we have lots of smaller, distributed underground fabs these days. We'll be fine.\""
+    },
+    {
+      "id": "07-043",
+      "type": "body",
+      "en": "\"Okay, guys\", Bai interjected. \"We have to actually get to the game.\""
+    },
+    {
+      "id": "07-044",
+      "type": "body",
+      "en": "The three of them resumed climbing. After a few more minutes, they arrived at the main door, and entered the tunnels. On the third turn, Fin turned left to go to the audience section, and Bai and Zei turned right. They walked through the door, and saw Mu waiting for them."
+    },
+    {
+      "id": "07-045",
+      "type": "body",
+      "en": "\"Welcome back to you both\", Mu said. \"Excited to see how you both perform.\""
+    },
+    {
+      "id": "07-046",
+      "type": "body",
+      "en": "\"I hope the rule change this time is going to be good.\""
+    },
+    {
+      "id": "07-047",
+      "type": "body",
+      "en": "\"Oh, it will be. You'll see.\""
+    },
+    {
+      "id": "07-048",
+      "type": "body",
+      "en": "A robot slid toward them, and gave them three glasses of water. Zei, Bai and Mu each took a glass."
+    },
+    {
+      "id": "07-049",
+      "type": "body",
+      "en": "Mu raised the glass. \"To our future,\" she said. \"Dze go ba fau gie.\""
+    },
+    {
+      "id": "07-050",
+      "type": "body",
+      "en": "Zei felt slightly confused - \"Dzego will rise again\" was a beautiful thing to say, but it seemed more appropriate for either an actual battle or some kind of industrial or educational activity than for a Minpentai championship game. But he nevertheless instinctively replied back, at the same time as Bai."
+    },
+    {
+      "id": "07-051",
+      "type": "body",
+      "en": "\"Dze go ba fau gie.\""
+    },
+    {
+      "id": "07-052",
+      "type": "body",
+      "en": "The three of them drank their water."
+    },
+    {
+      "id": "07-053",
+      "type": "body",
+      "en": "They sat down and rested for a few minutes. Then, two elevator doors opened."
+    },
+    {
+      "id": "07-054",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "07-055",
+      "type": "body",
+      "en": "\"MU GU GEI FA\", the loud automated voice announced. Starting in fifty ticks."
+    },
+    {
+      "id": "07-056",
+      "type": "body",
+      "en": "Zei breathed in and out, and recited his strategies in his head for the last time."
+    },
+    {
+      "id": "07-057",
+      "type": "body",
+      "en": "\"LE MU GEI FA\"."
+    },
+    {
+      "id": "07-058",
+      "type": "body",
+      "en": "Zei scanned the audience with his eyes. He could barely see most of them, but in the aggregate he could make out more excitement than he saw in both of his previous two games."
+    },
+    {
+      "id": "07-059",
+      "type": "body",
+      "en": "\"PA GU GEI FA\"."
+    },
+    {
+      "id": "07-060",
+      "type": "body",
+      "en": "Zei breathed in again, and held his breath for the last remaining ten ticks until the announcement."
+    },
+    {
+      "id": "07-061",
+      "type": "body",
+      "en": "\"Welcome to the final round of the eighteenth year of the Minpentai tournaments in Pafogai Du. Tonight, we will witness the most decisive game in our entire city, between contestants whose playing skills have both been rated by AI as better than the national champions of only five years before.\""
+    },
+    {
+      "id": "07-062",
+      "type": "body",
+      "en": "\"Today, we have our two finalists, two brilliant minds whom we saw fight side by side as teammates a month earlier: Zei Leimin and Bai Jahen.\""
+    },
+    {
+      "id": "07-063",
+      "type": "body",
+      "en": "\"And today, I am also pleased to announce the new rule for this round. Both players will have access to a powerful personal AI, which will be able to assist them in their gameplay.\""
+    },
+    {
+      "id": "07-064",
+      "type": "body",
+      "en": "A new tab suddenly opened up on Zei's display."
+    },
+    {
+      "id": "07-065",
+      "type": "body",
+      "en": "\"However, the players and their AIs will have full read access to the thought transcripts of each other's AI.\""
+    },
+    {
+      "id": "07-066",
+      "type": "body",
+      "en": "Zei took in the information, and quickly began to formulate his thoughts about how he would use the AI. He asked it to set up standard glider and wall formations, in his own style. To his surprise, the AI knew what his style was."
+    },
+    {
+      "id": "07-067",
+      "type": "body",
+      "en": "He saw Bai's AI transcript in a separate tab to the side; Bai was doing the same, and Bai's AI also knew her style."
+    },
+    {
+      "id": "07-068",
+      "type": "body",
+      "en": "\"MU GU GEI TAU FA\", the loud automated voice blared. The battle begins in fifty ticks."
+    },
+    {
+      "id": "07-069",
+      "type": "body",
+      "en": "The AIs kept optimizing their glider and wall formations. At this point, both AIs started designing countermeasures to the strategies in the other's transcripts."
+    },
+    {
+      "id": "07-070",
+      "type": "body",
+      "en": "Zei started planting a few structures by hand, speeding up his work by copying and pasting pieces of what the AI had already made, looking attentively at Bai's transcript to see what strategies Bai's AI had not yet built countermeasures to."
+    },
+    {
+      "id": "07-071",
+      "type": "body",
+      "en": "\"LE MU GEI TAU FA\""
+    },
+    {
+      "id": "07-072",
+      "type": "body",
+      "en": "Zei started planting one last major structure by hand: a symbol-carrying spaceship. There were already four created by his AI, but he figured that he would make one all on his own, so that Bai would not see it, and with a different style of moving wall in front of it. He aimed the symbol-carrying spaceship so that it would reflect off a wall that his AI had already constructed, and then move upwards along the middle of the game field."
+    },
+    {
+      "id": "07-073",
+      "type": "body",
+      "en": "\"PA GU...\""
+    },
+    {
+      "id": "07-074",
+      "type": "body",
+      "en": "Come on, Zei thought, finish the symbol-carrying spaceship."
+    },
+    {
+      "id": "07-075",
+      "type": "body",
+      "en": "\"SO ... BI ... ZE ... HA ...\""
+    },
+    {
+      "id": "07-076",
+      "type": "body",
+      "en": "Zei put down a few last squares."
+    },
+    {
+      "id": "07-077",
+      "type": "body",
+      "en": "\"MU ... FO ...\""
+    },
+    {
+      "id": "07-078",
+      "type": "body",
+      "en": "And... done."
+    },
+    {
+      "id": "07-079",
+      "type": "body",
+      "en": "Zei let out a long breath."
+    },
+    {
+      "id": "07-080",
+      "type": "body",
+      "en": "\"SHI ... LE ... PA ... TAU FA\""
+    },
+    {
+      "id": "07-081",
+      "type": "body",
+      "en": "Gliders started flying. Zei's symbol-carrying spaceship started moving west from the southeast corner. The portion of the game field that Zei could see increased."
+    },
+    {
+      "id": "07-082",
+      "type": "body",
+      "en": "Both AI transcripts were focused intensely on exploiting their territories, building more gliders, spaceships and walls, and expanding."
+    },
+    {
+      "id": "07-083",
+      "type": "body",
+      "en": "After a few hundred turns, Zei and Bai's gliders began to crash into each other, and then into each other's spaceships and walls."
+    },
+    {
+      "id": "07-084",
+      "type": "body",
+      "en": "And a few hundred turns after that, their symbol-carrying spaceships got within sight of each other."
+    },
+    {
+      "id": "07-085",
+      "type": "body",
+      "en": "Shortly after that, Zei's symbol-carrying spaceship reflected off the wall in the south, and began moving north."
+    },
+    {
+      "id": "07-086",
+      "type": "body",
+      "en": "On the big screen, the audience watched."
+    },
+    {
+      "id": "07-087",
+      "type": "body",
+      "en": "![第7章图1](assets/ch07-fig01.svg)"
+    },
+    {
+      "id": "07-088",
+      "type": "body",
+      "en": "The first intervention turn came. Zei let his AI do the work adjusting structures near the frontline, as the consequences would be immediately visible to Bai anyway."
+    },
+    {
+      "id": "07-089",
+      "type": "body",
+      "en": "He scanned Bai's AI's transcript for weak points. He found one: it was not thinking at all about glider attacks coming down the diagonals. He toned down the amount of resources allocated to the AI, and used those resources to manually send a large number of gliders down both diagonals, targeted so that one would pass right after the other, to strike both of Bai's home bases. He also sent a symbol-carrying spaceship, targeted to pass the center hundreds of turns after both sets of gliders."
+    },
+    {
+      "id": "07-090",
+      "type": "body",
+      "en": "The game continued."
+    },
+    {
+      "id": "07-091",
+      "type": "body",
+      "en": "The battle along the front lines in the middle was surprisingly even-handed. Both AIs were playing near-optimally, and there was little opportunity for trickery because both sides could see each other's moves and thoughts. However, Bai did put more resources toward the frontline especially on the west side, and as the hundreds of turns went on, it began to show on the board. Soon, one of Zei's symbol-carrying spaceships on the west was breached, and it exploded into a storm of gliders flying in all directions."
+    },
+    {
+      "id": "07-092",
+      "type": "body",
+      "en": "Zei kept playing, optimizing the minutiae of the game board. He knew that he would not get to see the results of his attack for a long time."
+    },
+    {
+      "id": "07-093",
+      "type": "body",
+      "en": "The second intervention turn came."
+    },
+    {
+      "id": "07-094",
+      "type": "body",
+      "en": "The best that Zei could come up with was constructing more factories beside his symbol-carrying spaceship that was slowly flying north along the middle of the field. Aside from the attack down the diagonal, this was the one structure that Bai had no way of knowing about - unless his AI decided to ignore Zei's instruction to focus exclusively on the domain it was assigned to, and blurted out the spaceship's position mid-transcript. Zei decided to ignore that possibility; not much he could do about it anyway. He put up more walls along the west side."
+    },
+    {
+      "id": "07-095",
+      "type": "body",
+      "en": "More turns passed. On the west side, Bai continued to advance. Some of Bai's gliders got into Zei's base in the southwest, and destroyed two of his symbols. Zei watched as his symbol-carrying spaceship made its way toward the northwest."
+    },
+    {
+      "id": "07-096",
+      "type": "body",
+      "en": "Then, suddenly, gliders flew at the spaceship from the west, north and east side. It quickly crumbled, and exploded into rubble and a dozen gliders. At that point, Zei realized what had happened. Bai's AI's lack of thought about the diagonals had not been a mistake at all. Rather, Bai had deliberately directed the AI to focus on the other directions, and she had put up a strong multilayered defense along the diagonals herself. It had been a trap, and Zei had fallen squarely into it."
+    },
+    {
+      "id": "07-097",
+      "type": "body",
+      "en": "![第7章图2](assets/ch07-fig02.svg)"
+    },
+    {
+      "id": "07-098",
+      "type": "body",
+      "en": "Mu felt a pang of disappointment in Zei. Seventeen symbols to twenty-two, she thought. How could he have fallen into that trap, and not come up with anything interesting himself? He had one spaceship going north in the middle, but so what? Bai's bases were well protected against attacks along the diagonals, and Zei's spaceship did not have excellent chances of reaching the north side. Unless Zei came up with something totally unexpected, she figured, this would turn into a game of attrition, which would only shift further in Bai's favor."
+    },
+    {
+      "id": "07-099",
+      "type": "body",
+      "en": "An unexpected set of gliders knocked out another two of Zei's symbols, one slightly southwest of the center of the field, and another slightly west of the center near the south end. Another set of gliders unexpectedly hit Zei's southeast base, but bounced off harmlessly against now well-prepared walls."
+    },
+    {
+      "id": "07-100",
+      "type": "body",
+      "en": "Sitting on the other side of the room, in less comfortable public seating, Fin gazed with fear at the gameboard as well."
+    },
+    {
+      "id": "07-101",
+      "type": "body",
+      "en": "Finally, something inside of Zei's mind clicked."
+    },
+    {
+      "id": "07-102",
+      "type": "body",
+      "en": "\"Take my fourth westernmost symbol\", he told the AI. \"Take the best sixteen strategies that you can come up with. Construct near that symbol a factory capable of executing each of those strategies. It should be activated by a glider coming in from the southwest, and the exact strategy chosen should depend on the type of glider and the time it hits. Then, near my second westernmost symbol, make that glider. Allocate eighty percent of resources this intervention turn to this.\""
+    },
+    {
+      "id": "07-103",
+      "type": "body",
+      "en": "The AI started thinking in detail, implementing the factory, and the glider."
+    },
+    {
+      "id": "07-104",
+      "type": "body",
+      "en": "Bai's AI started thinking about countermeasures to all sixteen strategies, but soon hit a limit: it could not optimize defenses against all of them at the same time."
+    },
+    {
+      "id": "07-105",
+      "type": "body",
+      "en": "Bai's AI also focused on increasing defenses across her own western flank. Zei's *first* gamble paid off, he realized: Bai herself did not realize just how much damage she had done on the west side, and just how little Zei had done to compensate. And so neither she nor her AI realized that by this point, Zei's fourth westernmost symbol could be in the middle of the field."
+    },
+    {
+      "id": "07-106",
+      "type": "body",
+      "en": "Then, Zei went to work on his *second* gamble. He used the resources he had not allocated to the AI to add a brick south of his factory to block the glider that the AI was sending, and add two of his own gliders coming in from the south."
+    },
+    {
+      "id": "07-107",
+      "type": "body",
+      "en": "The intervention turn ended. Part of the factory had been built during the intervention turn, the rest continued to be constructed in real time out of nearby rock formations by gliders."
+    },
+    {
+      "id": "07-108",
+      "type": "body",
+      "en": "A few hundred turns later, the glider sent by Zei's AI from the west was blocked by the brick that Zei had put in place. A few hundred turns after *that*, the gliders that Zei sent manually crashed into the factory, and activated it."
+    },
+    {
+      "id": "07-109",
+      "type": "body",
+      "en": "The factory picked a strategy that was none of the four that Bai's AI had focused on planning for. And it was coming from a place that Bai had not expected: the halfway point between the center of the board and the northern edge. The factory quickly started generating symbol-carrying spaceships that began to move toward the east, and a storm of gliders that moved north, and then bounced off of rock formations and Bai's own walls to move toward the west. Bai, and her AI, were caught completely by surprise."
+    },
+    {
+      "id": "07-110",
+      "type": "body",
+      "en": "By the time the next intervention turn came, Zei's spaceships had gotten well behind Bai's lines on the east. Zei's AI took the opportunity to design a storm of gliders to attack Bai's flanks from behind, and Zei added a few of his own gliders to attack Bai's northeastern base - building them himself so that they would not appear in the transcript."
+    },
+    {
+      "id": "07-111",
+      "type": "body",
+      "en": "Five hundred turns after that, the game board looked very different."
+    },
+    {
+      "id": "07-112",
+      "type": "body",
+      "en": "![第7章图3](assets/ch07-fig03.svg)"
+    },
+    {
+      "id": "07-113",
+      "type": "body",
+      "en": "By this point, Mu's solemn head shaking and Fin's expression of fear had both turned into excited smiles."
+    },
+    {
+      "id": "07-114",
+      "type": "body",
+      "en": "Fourteen to eleven. Zei was winning again. And he had a better position."
+    },
+    {
+      "id": "07-115",
+      "type": "body",
+      "en": "Soon, the next intervention turn came. At this point, Zei figured, he would just repeat the same strategy, though a more near-term version of it: immediately create many glider factories in the northeast, and have their exact style and direction be set off by a trigger that would only appear in ten turns. Bai could not see the exact internal logic of the trigger, and Zei designed that piece himself, so that it would not appear in the transcript."
+    },
+    {
+      "id": "07-116",
+      "type": "body",
+      "en": "Bai attempted to copy Zei's strategy. Zei spent half his resources generically shoring up his defenses, without attempting to be particularly clever in outsmarting Bai. He was reasonably safe, he knew: Bai simply did not have any positions behind his lines the way he had behind Bai's."
+    },
+    {
+      "id": "07-117",
+      "type": "body",
+      "en": "Five hundred turns later, both attacks came to fruition. Zei's succeeded, Bai's failed. Bai's only significant accomplishment was destroying the remaining symbols in Zei's southwestern base."
+    },
+    {
+      "id": "07-118",
+      "type": "body",
+      "en": "![第7章图4](assets/ch07-fig04.svg)"
+    },
+    {
+      "id": "07-119",
+      "type": "body",
+      "en": "Twelve to six."
+    },
+    {
+      "id": "07-120",
+      "type": "body",
+      "en": "Bai resigned."
+    },
+    {
+      "id": "07-121",
+      "type": "body",
+      "en": "The audience cheered."
+    },
+    {
+      "id": "07-122",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "07-123",
+      "type": "body",
+      "en": "\"Congratulations, you two-\", Mu began to speak, standing in the waiting room along with Zei and Bai."
+    },
+    {
+      "id": "07-124",
+      "type": "body",
+      "en": "\"Congratulations, Zei. You only had to wait until our last season to beat me.\""
+    },
+    {
+      "id": "07-125",
+      "type": "body",
+      "en": "\"You played the best game of your life today, Bai.\""
+    },
+    {
+      "id": "07-126",
+      "type": "body",
+      "en": "Mu paused for a few moments."
+    },
+    {
+      "id": "07-127",
+      "type": "body",
+      "en": "\"The priests did not even know what you two would come up with. They told me that they wanted to make the game a little more ... *realistic* - but they were as curious as anyone else to find out what that means.\""
+    },
+    {
+      "id": "07-128",
+      "type": "body",
+      "en": "\"Realistic?\", Bai exclaimed incredulously. \"How is it at all realistic that AIs can read each other's minds?\""
+    },
+    {
+      "id": "07-129",
+      "type": "body",
+      "en": "\"It sounded crazy to me too. But the more I think about it, the more I've come to see their point.\""
+    },
+    {
+      "id": "07-130",
+      "type": "body",
+      "en": "\"Look at the Veridian Steering system, for example. It's one of the most opaque parts of the government - even the Keepers don't know who each other are - and yet one of the most trustworthy and incorruptible parts precisely for that reason. Similar for the Courts - anonymous, randomly selected committees out of a large pool.\""
+    },
+    {
+      "id": "07-131",
+      "type": "body",
+      "en": "\"But the Parliament is transparent, and so when it comes to the Parliament's direct decisions - large-scale infrastructure, foreign policy, healthcare, all the things that it's funding - everyone keeps exploiting and outsmarting it. Same with the quadratic funding - actually, it's even worse. Keepers, Sentinels and Court judges are not fully insulated - it is still Parliament committees that are approving them - but at least there's a layer of indirection there, and those positions are also gated by prediction scores.\""
+    },
+    {
+      "id": "07-132",
+      "type": "body",
+      "en": "\"That's the lesson. In the real world, it's not just thinking well that matters, it's also hiding your thoughts - sometimes, even hiding your thoughts from your allies or the people you're meant to serve.\""
+    },
+    {
+      "id": "07-133",
+      "type": "body",
+      "en": "Zei and Bai both stared at Mu."
+    },
+    {
+      "id": "07-134",
+      "type": "body",
+      "en": "\"Anyway, you've both performed extremely well today.\""
+    },
+    {
+      "id": "07-135",
+      "type": "body",
+      "en": "A robot slid in carrying two bags, one with the number 1 on the side and the other with the number 2."
+    },
+    {
+      "id": "07-136",
+      "type": "body",
+      "en": "Mu handed the first bag to Zei and the second bag to Bai."
+    },
+    {
+      "id": "07-137",
+      "type": "body",
+      "en": "Zei and Bai both sat down and started looking at the contents inside their bags. A plaque, a scratch-off one-time-scannable code containing some cryptographic tokens and credentials, and smaller gifts: a cup, a handwriting instrument, and an ozone-based electric water disinfection pen."
+    },
+    {
+      "id": "07-138",
+      "type": "body",
+      "en": "Bai began studying all of the gift items in detail. Zei immediately started to scratch off the cover from the scannable code, and took out his hand device to prepare to scan it. He had been hoping to be able to buy his mom a new compute box for many months now, and he still could not believe that now he could finally actually get it."
+    },
+    {
+      "id": "07-139",
+      "type": "body",
+      "en": "Mu stood up."
+    },
+    {
+      "id": "07-140",
+      "type": "body",
+      "en": "\"I hope you both have a good rest\", she said, as she turned and began to leave the room."
+    },
+    {
+      "id": "07-141",
+      "type": "body",
+      "en": "As soon as Mu was gone, Zei noticed that he got one gift that Bai did not: a dark purple letter, with an inscription on the front."
+    },
+    {
+      "id": "07-142",
+      "type": "body",
+      "en": "dun fe tin di zei de kin kie",
+      "rich_html": "<center><div class=\"dz-card dz-mono\" style=\"font-family:'TeX Gyre Chorus',cursive;font-size:17px;line-height:1.55\"><div class=\"dz-line\" style=\"margin:3px 0;padding-left:2ch\"><span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">dun</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">tin di zei</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">de</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">kin kie</span></span></span></div></div></center>\n"
+    },
+    {
+      "id": "07-143",
+      "type": "body",
+      "en": "\"For Zei's eyes only\""
+    },
+    {
+      "id": "07-144",
+      "type": "body",
+      "en": "Zei stopped scratching the cover on the scannable code, and instead put the letter into his pocket."
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch07-fig01.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch07-fig02.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch07-fig03.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch07-fig04.svg",
+      "labels": []
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "chapter": 4,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-4.html",
+  "sha256": "023936b42b0176a38f92ed832cc6c6f2d8d7d2476bb9a3c2d5401b5f6d4c1c6e",
+  "segments": [
+    {
+      "id": "04-001",
+      "type": "heading",
+      "en": "Chapter 4"
+    },
+    {
+      "id": "04-002",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego · 3724 Snowmoon 24"
+    },
+    {
+      "id": "04-003",
+      "type": "body",
+      "en": "Fin and Zei were sitting at a table in an outdoor courtyard. Some of the nearby tables were empty, and at other tables they could see a few groups of teenagers and a few older couples sitting and eating."
+    },
+    {
+      "id": "04-004",
+      "type": "body",
+      "en": "Through the opening at the entrance, Fin could see across the street a teenager climbing up a wooden ladder that had been put up hastily against a public lamp post. Very soon, he was already at the top, and he immediately got to work unscrewing a security camera. Once he finished, he put the camera into a black pouch, and then climbed back down."
+    },
+    {
+      "id": "04-005",
+      "type": "body",
+      "en": "Zei tapped his hand on the table. Fin's eyes snapped back, and he once again started looking intently at an animation on Zei's hand device."
+    },
+    {
+      "id": "04-006",
+      "type": "body",
+      "en": "![第4章图1](assets/ch04-fig01.svg)"
+    },
+    {
+      "id": "04-007",
+      "type": "body",
+      "en": "\"Okay, so what am I seeing here?\", Fin asked."
+    },
+    {
+      "id": "04-008",
+      "type": "body",
+      "en": "\"This was from my last Minpentai game. We were playing with the 'rotate one eighty if three' rule. Someone discovered this new way to breach the usual wall construction, and flooded their opponent's territory with garbage. I'm trying to figure out some countermeasures.\""
+    },
+    {
+      "id": "04-009",
+      "type": "body",
+      "en": "\"What's the endgame? Are you trying to get to a perfect wall, or is it rock paper scissors all the way down?\""
+    },
+    {
+      "id": "04-010",
+      "type": "body",
+      "en": "\"Well, remember, the rules are time-reversible. So any wall that can be created in some way can be destroyed in some way.\""
+    },
+    {
+      "id": "04-011",
+      "type": "body",
+      "en": "\"Huh?\""
+    },
+    {
+      "id": "04-012",
+      "type": "body",
+      "en": "\"Remember when we were still in middle school, and we thought that in those movies the good guys or the bad guys or whoever were stupid for putting the shield generator outside of the shield so the other side could find it and destroy it?\""
+    },
+    {
+      "id": "04-013",
+      "type": "body",
+      "en": "\"Yeah.\""
+    },
+    {
+      "id": "04-014",
+      "type": "body",
+      "en": "\"Turns out they weren't dumb, we are. Because the laws of physics are time-reversible, nothing can be invincible. Anything that can be created can be destroyed. You just have to take the path that creates it and do the same thing in reverse. So a shield that can't be destroyed is not something that can be created. There has to be a weakness somewhere - it's just a matter of how well you hide it.\""
+    },
+    {
+      "id": "04-015",
+      "type": "body",
+      "en": "\"Are you trying to get into defense or something?\""
+    },
+    {
+      "id": "04-016",
+      "type": "body",
+      "en": "\"Hey, I'm just trying to win the championship. This year is the last year I can participate, and if I win, go to the nationals.\""
+    },
+    {
+      "id": "04-017",
+      "type": "body",
+      "en": "\"You mean this year is your last chance to impress Bai?\""
+    },
+    {
+      "id": "04-018",
+      "type": "body",
+      "en": "\"Hey-\""
+    },
+    {
+      "id": "04-019",
+      "type": "body",
+      "en": "A robot slid up to them."
+    },
+    {
+      "id": "04-020",
+      "type": "body",
+      "en": "\"jie mo kai tu jie hei ja ma?\", it asked in the classic deliberately cute Dzegoban typical of restaurant robots. \"Do you want to eat or drink?\""
+    },
+    {
+      "id": "04-021",
+      "type": "body",
+      "en": "Fin looked at the screen on the robot."
+    },
+    {
+      "id": "04-022",
+      "type": "body",
+      "en": "![第4章图2](assets/ch04-fig02.svg)"
+    },
+    {
+      "id": "04-023",
+      "type": "body",
+      "en": "He clicked on \"kai\", and then on a picture of a salad."
+    },
+    {
+      "id": "04-024",
+      "type": "body",
+      "en": "![第4章图3](assets/ch04-fig03.svg)"
+    },
+    {
+      "id": "04-025",
+      "type": "body",
+      "en": "Fin clicked again, and then clicked a few more buttons to order tea. The robot beeped in acknowledgement, and then slid over to get closer to Zei."
+    },
+    {
+      "id": "04-026",
+      "type": "body",
+      "en": "\"Wow, everything is getting so picture-based now!\""
+    },
+    {
+      "id": "04-027",
+      "type": "body",
+      "en": "\"Well my last DU class was in linguistics so finally I get to be the genius here.\""
+    },
+    {
+      "id": "04-028",
+      "type": "body",
+      "en": "Fin took a small paper booklet out of his backpack. On the front cover, there was the Bansunpei logo: two horizontal arms, one from the left and one from the right, meeting in the middle to hold their hands. Above the logo was the title: \"po so dze go ban de sia\" - \"the conception of Dzegoban version nine\"."
+    },
+    {
+      "id": "04-029",
+      "type": "body",
+      "en": "\"Tell me more?\""
+    },
+    {
+      "id": "04-030",
+      "type": "body",
+      "en": "\"You know how after we got the number of roots down to 256, the word was that we're going to keep going, and soon enough express everything through the four cardinal elements - earth, air, fire and water?\""
+    },
+    {
+      "id": "04-031",
+      "type": "body",
+      "en": "\"Yeah?\""
+    },
+    {
+      "id": "04-032",
+      "type": "body",
+      "en": "\"Turns out the Bansunpei wants to give up on that now. Stick to 256, and push the next version of Dzegoban in a different direction.\""
+    },
+    {
+      "id": "04-033",
+      "type": "body",
+      "en": "\"And what's that?\""
+    },
+    {
+      "id": "04-034",
+      "type": "body",
+      "en": "\"Go visual. So first of all, they're actually seriously thinking of bringing back hieroglyphics.\""
+    },
+    {
+      "id": "04-035",
+      "type": "body",
+      "en": "\"WHAT?\""
+    },
+    {
+      "id": "04-036",
+      "type": "body",
+      "en": "\"Switching to the Veridian alphabet made sense back then because all the old symbols were hard to draw. But now we have computers. The problem isn't output, it's input. And the trick is, they're figuring out new symbols where some parts of the symbol encode the whole pronunciation, so you can look at the symbol and know exactly how it's pronounced if you forgot. And the rest of the symbol still tries to cover the meaning.\""
+    },
+    {
+      "id": "04-037",
+      "type": "body",
+      "en": "\"Okay...?\""
+    },
+    {
+      "id": "04-038",
+      "type": "body",
+      "en": "\"There's a bigger change in how they are thinking. Language so far has been very one-dimensional, because speech is one-dimensional, you're saying one word after the other, and you write what you speak. But if you think about parts of 'language' that are not tied to speech, say, you like math - so think of the quadratic formula.\""
+    },
+    {
+      "id": "04-039",
+      "type": "body",
+      "en": "\"Minus b plus minus square root of b squared minus four a c all over two a?\""
+    },
+    {
+      "id": "04-040",
+      "type": "body",
+      "en": "\"Think how ugly that looks if you had to write it down and show it to someone on a screen. Like, imagine someone reading those words on a screen right now and how that must make them feel. Now think of the equation, the way we normally write it down. I still don't remember the whole thing, but I remember it looks nice! It's a pretty picture. The fraction line splits things into top and bottom, there's a root, and it's easy to see what's inside the root and what's outside.\""
+    },
+    {
+      "id": "04-041",
+      "type": "body",
+      "en": "\"So they want to make all of written Dzegoban like that?\""
+    },
+    {
+      "id": "04-042",
+      "type": "body",
+      "en": "\"Yep.\""
+    },
+    {
+      "id": "04-043",
+      "type": "body",
+      "en": "\"You know, there's an old result: if you take the same text, and translate it into every language, the lengths of the translations are different. But if you take the translations, and compress them - literally, any off-the-shelf compression used in any of your compute devices - the lengths end up almost the same. So it's all the same amount of information. The question is always: how do you organize it so that it's the most accessible and useful?\""
+    },
+    {
+      "id": "04-044",
+      "type": "body",
+      "en": "Zei pondered for a moment, thinking back to the thermodynamics lecture from a month ago. Information is information, the only question is how to arrange it. Zei nodded."
+    },
+    {
+      "id": "04-045",
+      "type": "body",
+      "en": "\"So that's what the Bansunpei is A/B testing right now all across Dzego. Altogether, the priests came up with six different styles of visualization, and they're giving out reputation points if you adjust any of your writing or signs to their new ideas or report on your experiences reading things put up by others.\""
+    },
+    {
+      "id": "04-046",
+      "type": "body",
+      "en": "\"Wait ... they're doing *that* level of nationwide organizing, all just to optimize our language yet again?\""
+    },
+    {
+      "id": "04-047",
+      "type": "body",
+      "en": "\"I guess so...\""
+    },
+    {
+      "id": "04-048",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "04-049",
+      "type": "body",
+      "en": "Zei walked toward the half-kilometer-tall pyramid - the most visible landmark at the southern edge of Pafogai Du. From the outside, it looked like a smooth clad stone pyramid with a square base, like something that had been built by a great civilization a thousand years ago. Interrupting the stone were two rows of trees along a path, starting from the position where Zei was standing ane leading to a point halfway to the top, and another row of trees going horizontally around the pyramid at exactly the halfway height."
+    },
+    {
+      "id": "04-050",
+      "type": "body",
+      "en": "But the looks were deceptive. Building a pyramid that tall would be far too expensive, even for Veridia, or even the Arctics. This was a pre-existing mountain with pre-existing caves, which was refurbished to look like a pyramid, with the caves converted into living and working spaces. A portion of the Dzego government was located there, along with many major businesses - though space was expensive."
+    },
+    {
+      "id": "04-051",
+      "type": "body",
+      "en": "Zei stopped at a streetlight, and crossed Dzai Gun street: the last street before Pafogai Du officially ended, and the point at which a straight well-maintained path leading directly to the entrance of the mountain pyramid began."
+    },
+    {
+      "id": "04-052",
+      "type": "body",
+      "en": "Zei opened and closed each finger on his injured arm, then repeatedly spread out his fingers and put them back together. He simulated some button pressing motions. His arm *felt* fully healed, though Zei knew that his reaction time would still be a little bit slower."
+    },
+    {
+      "id": "04-053",
+      "type": "body",
+      "en": "The street curved up with about a ten percent slope, roughly doubling Zei's calorie consumption as he walked along it. And Zei could feel it. His mind subconsciously stopped running through strategies for the upcoming match, and switched to simply marveling at the beauty of the pyramid."
+    },
+    {
+      "id": "04-054",
+      "type": "body",
+      "en": "When Zei was somewhat further up, he briefly looked back, and marveled at the view of Pafogai Du: a sprawling series of low-rise buildings interspersed with trees, the flickering lights of various small shops and factories producing and selling all kinds of goods, all inside a perfectly regular grid of streets - seventeen streets two hundred meters apart from north to south, and thirty three streets one hundred meters apart from east to west. Some of the roads snaked between being fully above ground when they could afford to, and the portion for cars going below ground when the sidewalks needed the whole space to accommodate pedestrians."
+    },
+    {
+      "id": "04-055",
+      "type": "body",
+      "en": "Zei turned forward again, and kept climbing. About five minutes later, he arrived at the main door."
+    },
+    {
+      "id": "04-056",
+      "type": "body",
+      "en": "Zei's watch buzzed."
+    },
+    {
+      "id": "04-057",
+      "type": "body",
+      "en": "| zan |  | tie | tei |\n| --- | --- | --- | --- |\n| Fin | → | jie fe hen dzi | 74160 |"
+    },
+    {
+      "id": "04-058",
+      "type": "body",
+      "en": "\"Wish you luck\", Fin had messaged him."
+    },
+    {
+      "id": "04-059",
+      "type": "body",
+      "en": "As instructed by some signs on the side of the main door, Zei turned left, walked about thirty meters along the horizontal path covered with trees, and entered the mountain pyramid through a smaller side entrance."
+    },
+    {
+      "id": "04-060",
+      "type": "body",
+      "en": "On the inside, the tunnels looked like the corridors that one might see inside a modern building. Each corridor was about two meters wide, and three meters tall; the lower two meters were a rectangle, and the upper meter a semicircle. The stone was polished clean, and looked like the interior of any other well-maintained building, though without the windows. Occasionally, Zei would pass by rooms with open doors. He could not tell which tunnels, and which rooms, were refurbished caves and which were dug out from scratch."
+    },
+    {
+      "id": "04-061",
+      "type": "body",
+      "en": "He followed the signs, turning right and down, then left, then straight and down for about a hundred meters. Finally, another right turn."
+    },
+    {
+      "id": "04-062",
+      "type": "body",
+      "en": "After about ten meters, he saw the door. On the sides, a series of stone bricks, curving near the top into an arch. At the center of the top, there was a symbol: two horizontal arms, meeting in the middle with clashing fists."
+    },
+    {
+      "id": "04-063",
+      "type": "body",
+      "en": "He walked in. An older woman noticed him and turned to him."
+    },
+    {
+      "id": "04-064",
+      "type": "body",
+      "en": "\"Oh hi, Zei!\""
+    },
+    {
+      "id": "04-065",
+      "type": "body",
+      "en": "\"Ah, Mu, good to see you again!\""
+    },
+    {
+      "id": "04-066",
+      "type": "body",
+      "en": "\"Excited for the quarter finals?\""
+    },
+    {
+      "id": "04-067",
+      "type": "body",
+      "en": "\"Yep!\""
+    },
+    {
+      "id": "04-068",
+      "type": "body",
+      "en": "\"Well be careful. Remember, you're going to be part of a team now. You're a math guy, not a diplomat. You didn't even remember my birthday!\""
+    },
+    {
+      "id": "04-069",
+      "type": "body",
+      "en": "\"Hey, the teams are randomly assigned! No relationships to manage, it's more like math than diplomacy.\""
+    },
+    {
+      "id": "04-070",
+      "type": "body",
+      "en": "\"You'd be surprised. I think it makes the real-time diplomacy all the more important.\""
+    },
+    {
+      "id": "04-071",
+      "type": "body",
+      "en": "Another woman walked in, about the same age as Zei."
+    },
+    {
+      "id": "04-072",
+      "type": "body",
+      "en": "\"Ah, Zei, we meet again.\""
+    },
+    {
+      "id": "04-073",
+      "type": "body",
+      "en": "Zei's facial expression immediately turned into a frown. Bai had beaten him three out of three times over the past years, and was hardly magnanimous in victory. He turned away."
+    },
+    {
+      "id": "04-074",
+      "type": "body",
+      "en": "Bai walked up closer, and put her hand on Zei's shoulder. \"So, you afraid of me, Zei? You know I enjoy making you feel afraid. Taking your excitement about getting some prize money to buy a compute box for your mom, and snatching it all away, getting myself a vacation in the beautiful south islands of Redshire. I should send you pictures.\""
+    },
+    {
+      "id": "04-075",
+      "type": "body",
+      "en": "Zei clenched his fists."
+    },
+    {
+      "id": "04-076",
+      "type": "body",
+      "en": "\"See you in battle! Or maybe you'll lose to someone else this round before you even get to a game against me.\" She laughed, and slowly walked away."
+    },
+    {
+      "id": "04-077",
+      "type": "body",
+      "en": "A bell buzzed. A robotic voice, more stern than the coffee shop robots, instructed all players to get to their stations."
+    },
+    {
+      "id": "04-078",
+      "type": "body",
+      "en": "Zei walked into one of the elevator pods on the wall. The door closed, and he could feel the elevator start to descend. A tray opened up, and a robotic voice, this time cute like the robots bringing food and drinks, asked Zei for all electronic devices. Zei took out his hand device, took off his watch, and put both on the tray. The tray retreated back into the side of the elevator."
+    },
+    {
+      "id": "04-079",
+      "type": "body",
+      "en": "A quarter minute later, the elevator door opened, exposing a giant room with over a thousand people watching. A path lit up, showing the way to a giant game console with a chair."
+    },
+    {
+      "id": "04-080",
+      "type": "body",
+      "en": "Zei gazed in awe at the room. This was Zei's first time there - the games before the quarter-finals had been played in much humbler circumstances. He stared, amazed that a high-school programming game was able to secure this kind of space. Then his mind snapped back - he would ask Mu about it later, he thought. Right now, he wasn't there to enjoy, he was there to compete and win."
+    },
+    {
+      "id": "04-081",
+      "type": "body",
+      "en": "Zei walked forward. He could make out the silhouettes of three other players walking forward in the distance, but it was too dark to see who they were. He got to the chair, and sat down."
+    },
+    {
+      "id": "04-082",
+      "type": "body",
+      "en": "Drones about the size of a hand device buzzed as they flew around Zei, scanning for any kind of equipment that could be used for cheating. If Zei's hand device or watch had been with him, they would have automatically done the same in reverse - demand and verify an attestation from the manufacturer and two inspectors that the drone's firmware was running an anti-cheat scan and was not there to kill him. But here, Zei was without his electronic support, and so he had to rely on trust."
+    },
+    {
+      "id": "04-083",
+      "type": "body",
+      "en": "Half a minute later, the drones were satisfied, and flew away. A tray slid out from under the game console, offering glasses attached to a long cable. Zei picked up the glasses. He slid them under and behind his arm, so that the cable would rest behind him, and then put the glasses on."
+    },
+    {
+      "id": "04-084",
+      "type": "body",
+      "en": "A loud automated voice, once again stern, announced: \"MU GU GEI FA\". Starting in fifty ticks."
+    },
+    {
+      "id": "04-085",
+      "type": "body",
+      "en": "Zei calmed down and tried to put his stress behind him, and rehearsed once again in his head the tactics. Walls, gliders, rocks, techniques for extracting usable negentropy from rocks, sideways attacks. Though every game there's always some kind of new rule, and the most important tactic of all was knowing how to adapt."
+    },
+    {
+      "id": "04-086",
+      "type": "body",
+      "en": "\"LE MU GEI FA\". Starting in twenty-five ticks."
+    },
+    {
+      "id": "04-087",
+      "type": "body",
+      "en": "Zei closed his eyes briefly, and breathed."
+    },
+    {
+      "id": "04-088",
+      "type": "body",
+      "en": "\"PA GU GEI FA\""
+    },
+    {
+      "id": "04-089",
+      "type": "body",
+      "en": "\"Welcome to the first quarter-final round of the eighteenth year of the Minpentai tournaments. Tonight, four games will be taking place, one after the other. By midnight, we will know who is advancing to the semi-finals, and who will have to find another career. Or try harder for next year!\""
+    },
+    {
+      "id": "04-090",
+      "type": "body",
+      "en": "\"Today, fated by chance to be on team Ja, we have Pan Munbau and Dza Dzingo.\""
+    },
+    {
+      "id": "04-091",
+      "type": "body",
+      "en": "\"And on team Zau, we have ... Zei Leimin and Bai Jahen.\""
+    },
+    {
+      "id": "04-092",
+      "type": "body",
+      "en": "Zei froze."
+    },
+    {
+      "id": "04-093",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "04-094",
+      "type": "body",
+      "en": "Zei could see the game field, which at the beginning appeared completely black. He saw in the corner of his display his *symbol*: a pattern of dots that, were a copy of it anywhere on the board, would allow him to see everything within thirty squares."
+    },
+    {
+      "id": "04-095",
+      "type": "body",
+      "en": "He drew a few copies of his symbol in the bottom right corner of the board, where he was allowed to put down squares during the initiation phase. As soon as he did, nearby parts of the game field became visible. Almost simultaneously, he also became able to see a few parts of the field at the bottom left. Bai had put down her symbols too."
+    },
+    {
+      "id": "04-096",
+      "type": "body",
+      "en": "Zei saw Bai setting up walls and glider factories - gliders that would fly right to a nearby rock formation, and then reflect one glider back into Bai's territory where a mirror wall would send the glider right back, but also shoot another glider upward."
+    },
+    {
+      "id": "04-097",
+      "type": "body",
+      "en": "He began to do the same. He experimented with a few glider and wall formations in his sandbox, and after confirming that they work, deployed them to the field."
+    },
+    {
+      "id": "04-098",
+      "type": "body",
+      "en": "\"MU GU GEI TAU FA\""
+    },
+    {
+      "id": "04-099",
+      "type": "body",
+      "en": "The battle begins in fifty ticks."
+    },
+    {
+      "id": "04-100",
+      "type": "body",
+      "en": "Normally, at this stage, the players would be speaking intensely by voice chat, coordinating their strategies. Between Zei and Bai, neither spoke a word. The closest there was to communication was Zei intentionally not targeting gliders toward a few rock formations, Bai taking the hint and taking those rock formations herself, and similarly leaving some rock formations to Zei."
+    },
+    {
+      "id": "04-101",
+      "type": "body",
+      "en": "\"LE MU GEI TAU FA\""
+    },
+    {
+      "id": "04-102",
+      "type": "body",
+      "en": "Twenty-five ticks."
+    },
+    {
+      "id": "04-103",
+      "type": "body",
+      "en": "Zei suddenly realized: there had not yet been a new rule announced. The rules were the same that he had played many times before. Would the rule be announced at the start? Or was something else going on?"
+    },
+    {
+      "id": "04-104",
+      "type": "body",
+      "en": "No time for speculating, Zei thought. Have to focus on the game."
+    },
+    {
+      "id": "04-105",
+      "type": "body",
+      "en": "\"PA GU ... SO ... BI ... ZE ... HA ... MU ... FO ... SHI ... LE ... PA ...\""
+    },
+    {
+      "id": "04-106",
+      "type": "body",
+      "en": "\"TAU FA\""
+    },
+    {
+      "id": "04-107",
+      "type": "body",
+      "en": "Gliders started flying."
+    },
+    {
+      "id": "04-108",
+      "type": "body",
+      "en": "Larger spaceships flew out from Zei and Bai's bases."
+    },
+    {
+      "id": "04-109",
+      "type": "body",
+      "en": "For the first few hundred turns, there was no combat - it was simply a matter of expanding into the field and gathering resources. Gliders flew out, interacted with rock formations, and created more gliders. Spaceships flew out, acting as large slow-moving gliders that eventually crashed into a rock formation in a controlled way, leaving behind copies of each player's symbols. The portion of the game field that Zei could see increased."
+    },
+    {
+      "id": "04-110",
+      "type": "body",
+      "en": "Zei and Bai's territories reached each other. A few stray gliders from Bai accidentally flew into Zei's territory, and wrecked one of his factories. Zei cursed silently, and spent his next intervention turn putting up more walls facing Bai. When putting up one of his walls, his finger slipped, and he accidentally created a glider that began to fly back toward his own base. Zei cursed silently, but then felt a sigh of relief when the glider harmlessly crashed into a rock formation."
+    },
+    {
+      "id": "04-111",
+      "type": "body",
+      "en": "A thousand turns later, the two sides' gliders and ships met. At the same time, the first intervention turn came. Here, all players were able to put down more squares near any copy of their symbols. Zei frantically adjusted his forces to more effectively attack Dza."
+    },
+    {
+      "id": "04-112",
+      "type": "body",
+      "en": "At the front, Zei put down a \"moving wall\" design that he had perfected - a sort of large glider that flew half as fast, but was optimized for reflecting more basic types of gliders right back at the sender. Right behind his three moving walls, all aimed at Dza's corner of the game board, he put his symbol-carrying spaceships."
+    },
+    {
+      "id": "04-113",
+      "type": "body",
+      "en": "On Bai's side, her gliders and Pan's flew into each other's territories with roughly equal frequency. Bai had some success in sending gliders deep inside Pan's territory, turning some rock formations into a chaotic mess that blasted gliders everywhere, and destroyed some of Pan's symbols. Pan, meanwhile, was more effective at pushing into the center, and then rotating back, attacking some of Bai's formations from behind."
+    },
+    {
+      "id": "04-114",
+      "type": "body",
+      "en": "Zei then rolled out his next move: sending three unusual-looking gliders deep into Dza's territory along the edge. The gliders hit the wall that Dza had set up around his home base in the northeast corner, and came together into Zei's symbol for exactly one turn - Zei's next intervention turn. Zei quickly removed junk and put up walls around the symbol, and three gliders aimed in strategic directions. He now had a base right at the core of Dza's territory."
+    },
+    {
+      "id": "04-115",
+      "type": "body",
+      "en": "The audience was able to see a large detailed map of everything that was happening onscreen. Fin, checking from far away on his hand device, saw the summary view which showed the locations of each player's symbols:"
+    },
+    {
+      "id": "04-116",
+      "type": "body",
+      "en": "![第4章图4](assets/ch04-fig04.svg)"
+    },
+    {
+      "id": "04-117",
+      "type": "body",
+      "en": "Zei continued attacking Dza. Remove one of the two players completely, he thought, and that takes out half the activity in the intervention turns - always the biggest source of surprise."
+    },
+    {
+      "id": "04-118",
+      "type": "body",
+      "en": "Meanwhile, more of Bai's symbols disappeared, as Pan launched an attack going into the middle of the bottom of the field, seeking to cut Zei off from Bai."
+    },
+    {
+      "id": "04-119",
+      "type": "body",
+      "en": "Watching from the sidelines, Mu sighed. She knew Zei and Bai did not get along, and their side was suffering from it. This was the \"price of anarchy\", she thought - the amount that a group lost from its members independently pursuing their own separate goals without coordinating. She watched intently. The next minute, she knew, would determine if they could figure it out."
+    },
+    {
+      "id": "04-120",
+      "type": "body",
+      "en": "Watching from his hand device kilometers away, Fin felt his own frustration. Zei wanted to win, Fin knew, but almost as much, Zei wanted to hear Bai beg."
+    },
+    {
+      "id": "04-121",
+      "type": "body",
+      "en": "Zei stared at the board, concentrating his mind and trying to figure out his next move. After what seemed like an eternity, he decided to change his tactics."
+    },
+    {
+      "id": "04-122",
+      "type": "body",
+      "en": "Zei continued the attack on Dza, but intentionally did not target any of his symbols. Instead, he attacked a northern part of the eastern edge of Pan's territory, and spent a whole intervention turn to put up walls and build glider factories there. He put up *more* walls, just to let the gliders build up and bounce back and forth."
+    },
+    {
+      "id": "04-123",
+      "type": "body",
+      "en": "Pan and Dza did not see any of this. Instead, they saw Zei having greatly wounded Dza, but still struggling to finish him off, while Pan cornered Bai more and more toward the southeast. Emboldened, Pan launched an attack toward the east, seeking to sow chaos in the weakly defended territory in between Zei's home base and the front in the northeast against Dza."
+    },
+    {
+      "id": "04-124",
+      "type": "body",
+      "en": "Zei saw that Bai was struggling. But the communication line between the two remained silent. She was still too proud to beg."
+    },
+    {
+      "id": "04-125",
+      "type": "body",
+      "en": "Then, Zei saw that Pan was sending against Zei the same type of moving wall that Zei had used himself. He realized that he could not beat Pan alone. And so, he used his intervention turn to try a new strategy."
+    },
+    {
+      "id": "04-126",
+      "type": "body",
+      "en": "First, Zei sent some gliders to destroy Pan's symbols in the center of the field. Then came the real attack. Zei, Bai and the audience saw a spaceship flying diagonally northwest, from Zei's homebase, straight toward Pan's. With all of Pan's symbols cleared from the path, Pan and Dza were oblivious to this. What Pan saw was that his attack had successfully split Bai and Zei, and pushed Bai back all the way to her home base, surrounded on all sides. Dza still had five symbols, miraculously holding on against the force of Zei's primary attack."
+    },
+    {
+      "id": "04-127",
+      "type": "body",
+      "en": "Zei checked the clock. Sixty turns until the next intervention turn. His spaceship was almost at Pan's base."
+    },
+    {
+      "id": "04-128",
+      "type": "body",
+      "en": "Forty turns."
+    },
+    {
+      "id": "04-129",
+      "type": "body",
+      "en": "Finally, Zei said the first words that went across his team's audio channel in this entire game."
+    },
+    {
+      "id": "04-130",
+      "type": "body",
+      "en": "\"Bai, next intervention turn is your chance to shine.\""
+    },
+    {
+      "id": "04-131",
+      "type": "body",
+      "en": "Twenty turns."
+    },
+    {
+      "id": "04-132",
+      "type": "body",
+      "en": "Zei's spaceship crashed against the remaining intact southern wall of Pan's home base. It briefly fluttered into chaotic shapes."
+    },
+    {
+      "id": "04-133",
+      "type": "body",
+      "en": "Then, seemingly miraculously, for one single turn, the chaos came together into a symbol."
+    },
+    {
+      "id": "04-134",
+      "type": "body",
+      "en": "Bai's symbol."
+    },
+    {
+      "id": "04-135",
+      "type": "body",
+      "en": "Zei could hear a gasp - the second message that went across his team's audio channel in this game."
+    },
+    {
+      "id": "04-136",
+      "type": "body",
+      "en": "Zei used his intervention turn to remove his own wall. Dozens of gliders flew in all directions, simultaneously targeting all of Dza's remaining symbols from multiple angles. Bai struggled in her sandbox view, made a few attempts at copying Zei's trick from over a thousand turns earlier. On her third try, she succeeded, and she repeated her moves live. The symbol was walled off, and gliders were flying in all directions."
+    },
+    {
+      "id": "04-137",
+      "type": "body",
+      "en": "Two hundred turns later, all of Dza's remaining symbols had been eliminated."
+    },
+    {
+      "id": "04-138",
+      "type": "body",
+      "en": "![第4章图5](assets/ch04-fig05.svg)"
+    },
+    {
+      "id": "04-139",
+      "type": "body",
+      "en": "By total symbol count, it was fifteen to fifteen - exactly even. But now, Dza was out, and Zei and Bai could do twice as much together in their intervention turns as Pan could do alone in his."
+    },
+    {
+      "id": "04-140",
+      "type": "body",
+      "en": "Pan made a last-ditch effort to send new kinds of gliders to destroy everything he could in Zei's home base. He copied Zei's signature tactic, sending a spaceship to try to set up a symbol there. The plan partially succeeded. But the keystone, setting up the symbol, did not. Zei had already put up the countermeasures, and blocked the spaceship in its tracks."
+    },
+    {
+      "id": "04-141",
+      "type": "body",
+      "en": "Meanwhile, Bai and Zei continued to wreak havoc on Pan's territory, Bai attacking the west and Zei attacking the north and east. A thousand turns later, most of the game field had become a high-entropy wasteland. The main untarnished territories were Bai's home base, a fraction of Zei's home base, and Zei's side of what had been the battle front against Dza. Total symbol count: Zei five, Bai five, and Pan four."
+    },
+    {
+      "id": "04-142",
+      "type": "body",
+      "en": "At that moment, Pan resigned."
+    },
+    {
+      "id": "04-143",
+      "type": "body",
+      "en": "The audience cheered."
+    },
+    {
+      "id": "04-144",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "04-145",
+      "type": "body",
+      "en": "Two elevators opened up in the waiting room, and Zei and Bai simultaneously stepped out. Mu was waiting for them."
+    },
+    {
+      "id": "04-146",
+      "type": "body",
+      "en": "\"Congratulations, you two. Next stop is the semi-finals in fifteen days.\""
+    },
+    {
+      "id": "04-147",
+      "type": "body",
+      "en": "\"I'm confused. Everything in this game was the same as before. What was the new rule?\""
+    },
+    {
+      "id": "04-148",
+      "type": "body",
+      "en": "\"Ah. I thought you would ask that.\""
+    },
+    {
+      "id": "04-149",
+      "type": "body",
+      "en": "\"A few days ago, right before the priests went into the dungeon to decide on the rule sets, I suggested to one of them that they should make things interesting, and be more creative. The doors stayed sealed for five days - twice as long as usual. And now we know why. The rule change was: the team selection was not done through cryptographic randomness.\""
+    },
+    {
+      "id": "04-150",
+      "type": "body",
+      "en": "Zei's eyes opened wide."
+    },
+    {
+      "id": "04-151",
+      "type": "body",
+      "en": "\"This time, the game was a psychological trial. Despite having the teammate you wanted to cooperate with the least, despite making a new all-time record for the fewest messages exchanged in the audio channel during an entire game, when the moment came, almost without talking at all, you cooperated. And so you passed.\""
+    },
+    {
+      "id": "04-152",
+      "type": "body",
+      "en": "Mu paused."
+    },
+    {
+      "id": "04-153",
+      "type": "body",
+      "en": "\"The priests will be pleased.\""
+    },
+    {
+      "id": "04-154",
+      "type": "body",
+      "en": "For a moment, Mu and Zei silently stared at each other."
+    },
+    {
+      "id": "04-155",
+      "type": "body",
+      "en": "Breaking the silence, Bai walked up."
+    },
+    {
+      "id": "04-156",
+      "type": "body",
+      "en": "\"I'm sorry.\""
+    },
+    {
+      "id": "04-157",
+      "type": "body",
+      "en": "\"Come on, you gotta give me something more substantive than that. Say, next time you take a vacation to Redshire, bring me along.\""
+    },
+    {
+      "id": "04-158",
+      "type": "body",
+      "en": "Then, realizing that the suggestion he just made might give Bai an unintended impression, he quickly added:"
+    },
+    {
+      "id": "04-159",
+      "type": "body",
+      "en": "\"And my mom.\""
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch04-fig01.svg",
+      "labels": []
+    },
+    {
+      "file": "assets/ch04-fig02.svg",
+      "labels": [
+        "ja",
+        "kai",
+        "bau",
+        "lui"
+      ]
+    },
+    {
+      "file": "assets/ch04-fig03.svg",
+      "labels": [
+        "dze",
+        "liu",
+        "lei kai fun",
+        "gai",
+        "lie",
+        "jau",
+        "jin",
+        "lie",
+        "kai can",
+        "jia",
+        "dzu",
+        "lie"
+      ]
+    },
+    {
+      "file": "assets/ch04-fig04.svg",
+      "labels": [
+        "+",
+        "+",
+        "+",
+        "+",
+        "+",
+        "+",
+        "+",
+        "+"
+      ]
+    },
+    {
+      "file": "assets/ch04-fig05.svg",
+      "labels": []
+    }
+  ]
+}

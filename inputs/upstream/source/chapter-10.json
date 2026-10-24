@@ -1,0 +1,1063 @@
+{
+  "chapter": 10,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-10.html",
+  "sha256": "c0f93bbd9e94a20265fd7c1b559c5a5eec6a81d9cbd69d92652ca1a9a6c23dc4",
+  "segments": [
+    {
+      "id": "10-001",
+      "type": "heading",
+      "en": "Chapter 10"
+    },
+    {
+      "id": "10-002",
+      "type": "dateline",
+      "en": "Freetown, United Cities · 3724 Windmoon 24"
+    },
+    {
+      "id": "10-003",
+      "type": "body",
+      "en": "Jahn's taxi pulled up at the Freetown Economics Institute, where he worked as a researcher, and he got out of the car. He entered the building, and tapped his hand device to pay to get through the turnstile."
+    },
+    {
+      "id": "10-004",
+      "type": "body",
+      "en": "Out of the corner of his eye, he noticed that the entrance price was ten percent higher than before."
+    },
+    {
+      "id": "10-005",
+      "type": "body",
+      "en": "He walked to the restaurant section, and saw most tables full. Only one table had empty space, and there was already a woman sitting there."
+    },
+    {
+      "id": "10-006",
+      "type": "body",
+      "en": "\"Can I sit down here?\", Jahn asked."
+    },
+    {
+      "id": "10-007",
+      "type": "body",
+      "en": "\"Of course.\""
+    },
+    {
+      "id": "10-008",
+      "type": "body",
+      "en": "Jahn sat down."
+    },
+    {
+      "id": "10-009",
+      "type": "body",
+      "en": "\"I'm Jahn\", he offered."
+    },
+    {
+      "id": "10-010",
+      "type": "body",
+      "en": "\"I'm Utaku. I'm from Belpaki, I'm doing my doctorate program here at the Institute.\""
+    },
+    {
+      "id": "10-011",
+      "type": "body",
+      "en": "A robot slid up to Jahn, offering a menu."
+    },
+    {
+      "id": "10-012",
+      "type": "body",
+      "en": "Jahn quickly scanned through, and ordered a dish with vegetables and fish, and a glass of water."
+    },
+    {
+      "id": "10-013",
+      "type": "body",
+      "en": "He noticed that there too, the prices were higher than before."
+    },
+    {
+      "id": "10-014",
+      "type": "body",
+      "en": "\"Wow, the prices are all up now.\""
+    },
+    {
+      "id": "10-015",
+      "type": "body",
+      "en": "\"Haven't you been following the news?\""
+    },
+    {
+      "id": "10-016",
+      "type": "body",
+      "en": "\"Not since I got back from a meeting in Hapton.\""
+    },
+    {
+      "id": "10-017",
+      "type": "body",
+      "en": "\"Huh, well it should be news in Hapton too. Everyone's been talking about raising their defense budgets.\""
+    },
+    {
+      "id": "10-018",
+      "type": "body",
+      "en": "\"Arctic scare?\""
+    },
+    {
+      "id": "10-019",
+      "type": "body",
+      "en": "\"Yeah, their drone activity has been going up. Though there's surprisingly many politicians who seem totally nonchalant about it. Only Redshire and its neighbors seem to be really taking it seriously.\""
+    },
+    {
+      "id": "10-020",
+      "type": "body",
+      "en": "\"Well, somehow, also Freetown.\""
+    },
+    {
+      "id": "10-021",
+      "type": "body",
+      "en": "\"Why us? I'm glad we are, but like half the United Cities are closer to Redshire than we are, they should be worrying more!\""
+    },
+    {
+      "id": "10-022",
+      "type": "body",
+      "en": "\"Well, Devanvil is taking it seriously - after all, Redshire chooses twelve percent of the seats in Devanvil's parliament. But yeah, Deplexi, Ondak, Imber, not at all.\""
+    },
+    {
+      "id": "10-023",
+      "type": "body",
+      "en": "\"It is weird. Remember, the government here is constitutionally banned from collecting more than the basic land tax and some rent from its natural resource holdings. So it's not even the government that's taking the problem seriously, it's the megacorps.\""
+    },
+    {
+      "id": "10-024",
+      "type": "body",
+      "en": "The robot came back, carrying Jahn's food and water. Jahn picked up the plate of food and put it onto the table. He then picked up the glass of water, and immediately took a sip."
+    },
+    {
+      "id": "10-025",
+      "type": "body",
+      "en": "\"They're now donating three percent of their revenues to defense, and even colluding to punish companies that don't. Mogna was unwilling to contribute to defense - they said something about corruption, though everyone thought they were just being cheap - and then the charging station makers came together and threatened to lock out Mogna's cars from their grid, ninety percent of charging stations across Freetown, unless they joined in. Yesterday Mogna folded.\""
+    },
+    {
+      "id": "10-026",
+      "type": "body",
+      "en": "\"That's ... harsh. If any industry tried that in normal times, they'd get half of Freetown counter-colluding, maybe funding five new competitors against them.\""
+    },
+    {
+      "id": "10-027",
+      "type": "body",
+      "en": "\"Normally yes. But hey, times are different now.\""
+    },
+    {
+      "id": "10-028",
+      "type": "dateline",
+      "en": "Meldan, Veridia"
+    },
+    {
+      "id": "10-029",
+      "type": "body",
+      "en": "\"You off to your first Keeper meeting?\", Seila asked Gladias."
+    },
+    {
+      "id": "10-030",
+      "type": "body",
+      "en": "\"My first two Keeper meetings, back to back. First one is on cultural values in public events and performances - actually the exact one that I judged Dreadknot on way back then.\""
+    },
+    {
+      "id": "10-031",
+      "type": "body",
+      "en": "\"Oh, what's the topic for cultural values in events going to be?\""
+    },
+    {
+      "id": "10-032",
+      "type": "body",
+      "en": "\"In the chat I mentioned how I thought the rubric was encouraging people to be too bland to not offend anyone. Surprisingly, a couple others agreed. I think I'll try to make a big push to fix that.\""
+    },
+    {
+      "id": "10-033",
+      "type": "body",
+      "en": "\"Veridia ba 'fun' gie!\", Seila joked."
+    },
+    {
+      "id": "10-034",
+      "type": "body",
+      "en": "\"Isn't it the 'gie' that you're supposed to replace? 'fau' just means 'again'.\""
+    },
+    {
+      "id": "10-035",
+      "type": "body",
+      "en": "\"Aaah right.\""
+    },
+    {
+      "id": "10-036",
+      "type": "body",
+      "en": "\"But yes. Veridia will be fun again.\""
+    },
+    {
+      "id": "10-037",
+      "type": "body",
+      "en": "\"What about the second one?\""
+    },
+    {
+      "id": "10-038",
+      "type": "body",
+      "en": "\"The hardware openness rubric. The topic is whether or not to modify it to exempt military and surveillance products.\""
+    },
+    {
+      "id": "10-039",
+      "type": "body",
+      "en": "\"Huh, what are the tradeoffs of that?\""
+    },
+    {
+      "id": "10-040",
+      "type": "body",
+      "en": "Gladias thought carefully about how to phrase this. He thought for a moment about whether or not he should mention Delwart, but then decided against it."
+    },
+    {
+      "id": "10-041",
+      "type": "body",
+      "en": "\"Well\", he began, \"some of the Keepers think we should be staying out of funding war - it's a negative-sum game, if both sides have better bombs and battle drones, the result is the same, just more things get blown up and more people get hurt.\""
+    },
+    {
+      "id": "10-042",
+      "type": "body",
+      "en": "He was pleased with himself. He had a feeling that Seila might be sensitive about anything that could hurt Dzego, and would plead for him to take whatever position benefited Dzego the most. He braced himself, preparing for Seila's next question."
+    },
+    {
+      "id": "10-043",
+      "type": "body",
+      "en": "\"But, funding ... isn't that more of an issue on the Graph Funding side?\""
+    },
+    {
+      "id": "10-044",
+      "type": "body",
+      "en": "Gladias internally sighed with relief."
+    },
+    {
+      "id": "10-045",
+      "type": "body",
+      "en": "\"Well remember, we make some weapons too. Also surveillance products. And the rubrics influence how much of the secret sauce we keep to ourselves.\""
+    },
+    {
+      "id": "10-046",
+      "type": "body",
+      "en": "\"I see...\""
+    },
+    {
+      "id": "10-047",
+      "type": "body",
+      "en": "\"Well, tell me how the meetings go!\""
+    },
+    {
+      "id": "10-048",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "10-049",
+      "type": "body",
+      "en": "Gladias walked down a hallway, and entered a courtyard. He found a series of booths with thick sliding doors. He went to the rightmost one, as he had been instructed."
+    },
+    {
+      "id": "10-050",
+      "type": "body",
+      "en": "He slid the barrier open. It took a significant effort for him to do so. He could tell immediately that this was a much more proper booth than the cloth-covered booths from the Greater Plum Harbor. As the barrier was opening, he could see its internal structure: a layer of anti-transmission foil on the inside, followed by layers of soundproofing, and other layers he could not recognize."
+    },
+    {
+      "id": "10-051",
+      "type": "body",
+      "en": "At that moment, he also noticed a constant humming sound that was being emitted from the outside of the booth on all sides. White noise to further mask anything that makes it through the soundproof walls, he realized. If the noise is at forty decibels and the walls are good enough to attenuate sound by fifty, then it can mask up to ninety decibels coming from the inside - perhaps seventy if you want a safety margin. That's enough to completely mask any conversation."
+    },
+    {
+      "id": "10-052",
+      "type": "body",
+      "en": "After fully opening the barrier, Gladias looked inside the booth. There was a table stretching from near the entrance to the opposite wall, and a long bench on each side."
+    },
+    {
+      "id": "10-053",
+      "type": "body",
+      "en": "There were five others already sitting down, all wearing privacy robes."
+    },
+    {
+      "id": "10-054",
+      "type": "body",
+      "en": "\"Welcome! You must be number Four\", one of them exclaimed."
+    },
+    {
+      "id": "10-055",
+      "type": "body",
+      "en": "\"Indeed I am.\""
+    },
+    {
+      "id": "10-056",
+      "type": "body",
+      "en": "\"I'm number Twenty in this circle, a third-year. We have two second-years - though Eleven has not arrived yet - two third-years, two other first-years, and now also you.\""
+    },
+    {
+      "id": "10-057",
+      "type": "body",
+      "en": "\"Glad to meet you all.\""
+    },
+    {
+      "id": "10-058",
+      "type": "body",
+      "en": "Gladias sat down on the bench beside Twenty. Twenty had his hand device open, and Gladias could see him scrolling through recent audits measuring various businesses' statuses on the cultural values rubric, and the resulting decisions."
+    },
+    {
+      "id": "10-059",
+      "type": "body",
+      "en": "A few moments later, another Keeper walked in. He slid the barrier shut behind him, and sat down."
+    },
+    {
+      "id": "10-060",
+      "type": "body",
+      "en": "\"So, cultural values rubric\", the other third-year began."
+    },
+    {
+      "id": "10-061",
+      "type": "body",
+      "en": "\"Cultural values *in events and performances* rubric\", the first-year, One, corrected. \"We're not doing social media or other online things, that's a different rubric. And we're not doing architecture and public billboards, that goes into the aesthetics taxes.\""
+    },
+    {
+      "id": "10-062",
+      "type": "body",
+      "en": "\"We all know that, you don't have to show off here\", the third-year replied, with a joking tone calibrated to try to make the point without offending One."
+    },
+    {
+      "id": "10-063",
+      "type": "body",
+      "en": "\"How do we want to do this? Maybe we should first come to a common understanding of what the problems we're trying to solve are?\""
+    },
+    {
+      "id": "10-064",
+      "type": "body",
+      "en": "\"Let's go through some examples\", a second year who had not yet spoken up replied."
+    },
+    {
+      "id": "10-065",
+      "type": "body",
+      "en": "Gladias saw his chance to intervene."
+    },
+    {
+      "id": "10-066",
+      "type": "body",
+      "en": "\"How do you guys feel about Dreadknot?\""
+    },
+    {
+      "id": "10-067",
+      "type": "body",
+      "en": "\"What do you mean?\""
+    },
+    {
+      "id": "10-068",
+      "type": "body",
+      "en": "\"Their taxes got bumped up to tier 4 in the last audit.\""
+    },
+    {
+      "id": "10-069",
+      "type": "body",
+      "en": "Gladias began to read from the rubric."
+    },
+    {
+      "id": "10-070",
+      "type": "body",
+      "en": "\"Content weakly promotes one or more of the following: violence, lawless behavior, use of anti-recommended substances, gambling or risky investment, excessive display of wealth, poor conflict resolution practices, religious or ethnic hatred.\""
+    },
+    {
+      "id": "10-071",
+      "type": "body",
+      "en": "\"Do we think Dreadknot is guilty of promoting violence, lawless behavior or hatred?\""
+    },
+    {
+      "id": "10-072",
+      "type": "body",
+      "en": "\"Their last song was about destroying cities and flaying people's flesh. Why not?\""
+    },
+    {
+      "id": "10-073",
+      "type": "body",
+      "en": "\"Do we really think that those words are going to make anyone want to flay anyone's flesh in real life? It's a song. I remember we went through this with games a few years ago, and the science ended up saying that they can slightly increase a few aggressive behaviors but there's no evidence that they actually lead to violence.\""
+    },
+    {
+      "id": "10-074",
+      "type": "body",
+      "en": "\"I remember that too. And my read was that the conclusion of the evidence was harsher than that.\""
+    },
+    {
+      "id": "10-075",
+      "type": "body",
+      "en": "\"Do we want to dig up and go through those studies together?\""
+    },
+    {
+      "id": "10-076",
+      "type": "body",
+      "en": "A few other Keepers nodded. They started whispering instructions at their hand devices."
+    },
+    {
+      "id": "10-077",
+      "type": "body",
+      "en": "Gladias took the opportunity to continue."
+    },
+    {
+      "id": "10-078",
+      "type": "body",
+      "en": "\"But even aside from all that, do we really want Veridia to be a society where the artists have to constantly worry about this and all the songs, and the games, and the movies, become boring and pale?\""
+    },
+    {
+      "id": "10-079",
+      "type": "body",
+      "en": "\"They don't have to constantly worry. That's the whole point of Veridia's system of regulation. We're not banning them. We're just setting their taxes slightly higher instead of slightly lower. So along with the ten things that they have to worry about a medium amount already, like what their fans will like, what might or might not offend their corporate sponsors, and so on - things that won't break them, but still make a difference - we ask them to think about one extra concern: the public interest.\""
+    },
+    {
+      "id": "10-080",
+      "type": "body",
+      "en": "Gladias decided to pursue another line of argument."
+    },
+    {
+      "id": "10-081",
+      "type": "body",
+      "en": "\"I actually like this rubric in general. I think it's great that the Northglade Science Center is getting rewarded for being such a wonderful place for kids to learn about chemistry and biology and rockets.\""
+    },
+    {
+      "id": "10-082",
+      "type": "body",
+      "en": "\"But violence is part of life. The human race started out as monkeys fighting over bananas. When we were still living in forests and caves, a quarter of our men died because someone else killed them. The epic poems they make us study and memorize in schools have violence. Every hero of every Great Book did something violent. I don't think we should be discouraging Veridians completely from engaging with such a central part of our human nature. If we steer the public media away from violence everywhere and always, people will get *all* their ideas about violence from the dark corners of the internet, where nobody gets taxed, and that will be even worse.\""
+    },
+    {
+      "id": "10-083",
+      "type": "body",
+      "en": "\"Are there any studies that try to measure this?\", Twenty interjected."
+    },
+    {
+      "id": "10-084",
+      "type": "body",
+      "en": "\"I don't know if you *can* measure this with studies\", Gladias replied."
+    },
+    {
+      "id": "10-085",
+      "type": "body",
+      "en": "The other third-year again began to speak."
+    },
+    {
+      "id": "10-086",
+      "type": "body",
+      "en": "\"This is good, I feel like we've already surfaced some important questions about not just the science, but also our underlying goals and values.\""
+    },
+    {
+      "id": "10-087",
+      "type": "body",
+      "en": "\"I think we should re-read the studies from back then about games. But also, we should see what the Veridian people think about this. Can we get Emerald to do a broad listen report on what people have been saying about Dreadknot on Bluewhale or Silverchat in the past year?\""
+    },
+    {
+      "id": "10-088",
+      "type": "body",
+      "en": "\"I don't think what people say on social media is necessarily a good guide to what's good for people\", Eleven interjected."
+    },
+    {
+      "id": "10-089",
+      "type": "body",
+      "en": "\"Okay, but let's take some time right now to read.\""
+    },
+    {
+      "id": "10-090",
+      "type": "body",
+      "en": "Gladias nodded. A few other Keepers nodded after him."
+    },
+    {
+      "id": "10-091",
+      "type": "body",
+      "en": "\"Just give me a minute. Bluewhale always resists letting you read messages on their platform in any way other than their interface, I have a few hacks to get around that.\""
+    },
+    {
+      "id": "10-092",
+      "type": "body",
+      "en": "Almost exactly a minute later, a new window appeared on each Keeper's hand device, showing Emerald think in real time as it fetched and took notes on what people were saying about violence and Dreadknot on Bluewhale and Silverchat."
+    },
+    {
+      "id": "10-093",
+      "type": "body",
+      "en": "The Keepers all began staring intently at their hand devices - some reading the video game studies, others watching Emerald think."
+    },
+    {
+      "id": "10-094",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "10-095",
+      "type": "body",
+      "en": "Gladias was standing outside, and sipping a cup of warm water. His first Keeper meeting, seventy-five minutes long, had finished, and he was taking the twenty-five minute break."
+    },
+    {
+      "id": "10-096",
+      "type": "body",
+      "en": "His watch buzzed."
+    },
+    {
+      "id": "10-097",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Personal reminders | → | Next Keeper meeting starts in five minutes. | 39500 |"
+    },
+    {
+      "id": "10-098",
+      "type": "body",
+      "en": "It was time to go."
+    },
+    {
+      "id": "10-099",
+      "type": "body",
+      "en": "Gladias turned the corner and walked the last few steps toward the booth."
+    },
+    {
+      "id": "10-100",
+      "type": "body",
+      "en": "He soon arrived, and slid the barrier open."
+    },
+    {
+      "id": "10-101",
+      "type": "body",
+      "en": "There were two other Keepers already sitting inside, one on each side. Both were wearing privacy robes, with their hoods and face coverings still on."
+    },
+    {
+      "id": "10-102",
+      "type": "body",
+      "en": "\"Hello to you both!\""
+    },
+    {
+      "id": "10-103",
+      "type": "body",
+      "en": "\"Hello! I'm Eighteen. Which number are you?\""
+    },
+    {
+      "id": "10-104",
+      "type": "body",
+      "en": "\"I'm Six.\""
+    },
+    {
+      "id": "10-105",
+      "type": "body",
+      "en": "\"And I'm Nine.\""
+    },
+    {
+      "id": "10-106",
+      "type": "body",
+      "en": "Eighteen thought for a few moments, and then stood up."
+    },
+    {
+      "id": "10-107",
+      "type": "body",
+      "en": "\"Wait, before anyone else comes here, would you all mind standing up again?\""
+    },
+    {
+      "id": "10-108",
+      "type": "body",
+      "en": "Gladias and Nine both stood up, and briefly exited the booth and looked in from the outside, with the door open."
+    },
+    {
+      "id": "10-109",
+      "type": "body",
+      "en": "\"Alright, let's take a look.\""
+    },
+    {
+      "id": "10-110",
+      "type": "body",
+      "en": "Eighteen switched his hand device to a different mode, and began waving it around the room. He also took out a drone, and pressed a few buttons on his hand device. The drone began flying around the room near the edges, both above and below the table."
+    },
+    {
+      "id": "10-111",
+      "type": "body",
+      "en": "Eighteen and Nine watched silently as Eighteen did his scan, and two more Keepers arrived and quietly joined them."
+    },
+    {
+      "id": "10-112",
+      "type": "body",
+      "en": "\"Hmm, nothing transmitting, not picking up any powered electronics with thermal either.\""
+    },
+    {
+      "id": "10-113",
+      "type": "body",
+      "en": "A minute later, the drone beeped unexpectedly just above the middle of the table at the far end."
+    },
+    {
+      "id": "10-114",
+      "type": "body",
+      "en": "Eighteen jumped to that position with his hand device, and started looking and poking at the table intensely. A few moments later, he stood up triumphantly holding up in his hand a needle-like device, with a bulb a few millimeters wide at its tip."
+    },
+    {
+      "id": "10-115",
+      "type": "body",
+      "en": "\"What is that?\", Gladias asked."
+    },
+    {
+      "id": "10-116",
+      "type": "body",
+      "en": "\"Spying device. There was a small bump on the table, and this was under it. Definitely takes some skill to insert one of these and then fix up the table this well afterward.\", Eighteen replied."
+    },
+    {
+      "id": "10-117",
+      "type": "body",
+      "en": "\"Wow.\""
+    },
+    {
+      "id": "10-118",
+      "type": "body",
+      "en": "Nine stepped forward and looked at the device briefly."
+    },
+    {
+      "id": "10-119",
+      "type": "body",
+      "en": "\"I doubt it was meant against us\", he said. \"Normally, the goal of people who do this is to get information about upcoming business decisions, and trade based on that in the financial markets. Usually, smaller businesses who are less careful. The Order is quite safe against this. Our Keeper group is only one of three discussion groups, so even if you do overhear us all you're only getting one third of the perspective. And we're all speaking through our neck bands so the sound is going between us digitally.\""
+    },
+    {
+      "id": "10-120",
+      "type": "body",
+      "en": "\"Actually this one had a camera. It can read your lips and your neck, so there might still be enough information to pick up some words, especially if you're a beginner.\""
+    },
+    {
+      "id": "10-121",
+      "type": "body",
+      "en": "\"How do you know?\""
+    },
+    {
+      "id": "10-122",
+      "type": "body",
+      "en": "\"That's how the drone detected it, infrared light reflected off the camera lens. My hand device caught it too with the nonlinear junction detector, but I may well have missed it if the drone did not tell me where to look.\""
+    },
+    {
+      "id": "10-123",
+      "type": "body",
+      "en": "The last two Keepers arrived."
+    },
+    {
+      "id": "10-124",
+      "type": "body",
+      "en": "Eighteen stepped out, explained the situation, and the group looked at the listening device together. A few Keepers scanned it with their hand devices. When they were done, Eighteen snapped the listening device in half."
+    },
+    {
+      "id": "10-125",
+      "type": "body",
+      "en": "Eighteen led the group to another open booth a few meters away, and slid the booth door open."
+    },
+    {
+      "id": "10-126",
+      "type": "body",
+      "en": "He spent two minutes checking the new booth for bugs, again using both his own hand device and his drone. Once he was done, he motioned with his hand, and all seven Keepers entered and sat down on the benches."
+    },
+    {
+      "id": "10-127",
+      "type": "body",
+      "en": "One of the newly-arrived Keepers cleared his throat, as though preparing to speak."
+    },
+    {
+      "id": "10-128",
+      "type": "body",
+      "en": "\"Maybe let's get to business?\", the Keeper asked."
+    },
+    {
+      "id": "10-129",
+      "type": "body",
+      "en": "\"Sure!\", Gladias replied."
+    },
+    {
+      "id": "10-130",
+      "type": "body",
+      "en": "\"So we're supposed to be talking about the openness rubric, and how to adjust it for military hardware.\""
+    },
+    {
+      "id": "10-131",
+      "type": "body",
+      "en": "\"Yep, I read the docs.\""
+    },
+    {
+      "id": "10-132",
+      "type": "body",
+      "en": "\"And I've had some conversations with Zero over there. His argument is that we should just exempt military hardware completely. I'll let him explain why.\""
+    },
+    {
+      "id": "10-133",
+      "type": "body",
+      "en": "Zero heard his number, and quickly raised his head."
+    },
+    {
+      "id": "10-134",
+      "type": "body",
+      "en": "\"So normally, open hardware is good, because other people can build on it, and everyone benefits, right?\""
+    },
+    {
+      "id": "10-135",
+      "type": "body",
+      "en": "\"Right.\""
+    },
+    {
+      "id": "10-136",
+      "type": "body",
+      "en": "\"But think about what happens with anything military. There isn't actually a net benefit to the world from everyone having better weapons. If everyone has twice as good swords and twice as good shields, the two cancel out.\""
+    },
+    {
+      "id": "10-137",
+      "type": "body",
+      "en": "\"If everyone has twice as good swords but shields stay the same, then the benefits to the two sides in any war still cancel out, but more people get hurt.\""
+    },
+    {
+      "id": "10-138",
+      "type": "body",
+      "en": "\"But if everyone has twice as good shields but swords stay the same, isn't that good?\""
+    },
+    {
+      "id": "10-139",
+      "type": "body",
+      "en": "\"Well, maybe\", Nine interjected. \"But actually it's even more complicated than that. What if it's a war of attrition, so if everyone has more defense, the same number of people get hurt, it just takes longer? Or what if increasing defense reduces deterrence, so more wars happen?\""
+    },
+    {
+      "id": "10-140",
+      "type": "body",
+      "en": "Gladias was surprised: the argument was eerily similar to an argument that Delwart had expressed to him recently."
+    },
+    {
+      "id": "10-141",
+      "type": "body",
+      "en": "\"Basically, the game tree is just so chaotic that we can't reliably be sure of anything at all. So I think we should just stay out. And instead just increase Steering taxes on all military hardware, open or not, push people to make more useful and pro-human and fun things instead.\""
+    },
+    {
+      "id": "10-142",
+      "type": "body",
+      "en": "A third-year interjected:"
+    },
+    {
+      "id": "10-143",
+      "type": "body",
+      "en": "\"I don't think it's true that we can't be sure of anything. Look at the United Cities. I think it's pretty clear that a big reason they all managed to stay independent from each other for centuries, and figured out things like co-governance to nudge each other to cooperate better without just turning into one big blob, is that they have so many mountains and peninsulas on their continent. So if everyone has more defense, more people can keep their freedom and sovereignty. I think we can be quite confident of that.\""
+    },
+    {
+      "id": "10-144",
+      "type": "body",
+      "en": "Eighteen raised his hand again. The others turned to him, and he began to speak."
+    },
+    {
+      "id": "10-145",
+      "type": "body",
+      "en": "\"I don't think we can look at the situation like it's a black box like that. Let's look at where we are now. The Arctic Empire's technology is the most advanced. Ours is second. On military tech, Dzego and the United Cities are furthest behind.\""
+    },
+    {
+      "id": "10-146",
+      "type": "body",
+      "en": "\"And so when we release open-source military-relevant anything, it doesn't benefit the Arctics at all, and it's marginally good for us because it makes it easier for us to make more.\""
+    },
+    {
+      "id": "10-147",
+      "type": "body",
+      "en": "\"But for Dzego, it's a lifeline. They're not set up to invent their own proprietary stuff at the top end, but they're really good at building and adapting from open-source plans. Twenty years ago, when we got our programming languages and formal verification to the point where our devices basically stopped having critical errors in their code that could let someone take it over from the outside, the fact that it was open allowed the Dzegojan to adopt those techniques, and protect themselves much better from Arctic sabotage.\""
+    },
+    {
+      "id": "10-148",
+      "type": "body",
+      "en": "\"But do we really want to play this game\", Zero continued, \"being so confident in our view of who's good and who's bad? Computer security was defensive, fine. But the next technology we invent might be offensive. Won't we just accelerate the arms race even more for everyone?\""
+    },
+    {
+      "id": "10-149",
+      "type": "body",
+      "en": "\"I'm not even that convinced the Arctics are that big a threat. Sure, they're waving more drones around the northern United Cities now, but I don't think the intention is to attack, I think they're just trying to impress us with their power so we become attracted to their ideology.\""
+    },
+    {
+      "id": "10-150",
+      "type": "body",
+      "en": "\"Do *you* think we should be more receptive to their ideology?\""
+    },
+    {
+      "id": "10-151",
+      "type": "body",
+      "en": "\"I think we should keep an open mind. Just remember, the Dzegojan are definitely trying to manipulate us too.\""
+    },
+    {
+      "id": "10-152",
+      "type": "body",
+      "en": "For a few moments, the discussion went quiet. Gladias let it rest. He was still trying to understand how everyone else was thinking before forming his own views."
+    },
+    {
+      "id": "10-153",
+      "type": "body",
+      "en": "\"Let's all think about this more on our own. We'll keep talking about this, we still have a few more discussions, the last one is in four months. And then the actual vote is only in six months.\""
+    },
+    {
+      "id": "10-154",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego"
+    },
+    {
+      "id": "10-155",
+      "type": "body",
+      "en": "Bai and Zei sat together at a courtyard table, both staring at their hand devices."
+    },
+    {
+      "id": "10-156",
+      "type": "body",
+      "en": "\"Fin not joining us this time?\", Bai asked."
+    },
+    {
+      "id": "10-157",
+      "type": "body",
+      "en": "\"No\", Zei replied with a strong hint of disappointment. \"He's busy with the Bansunpei.\""
+    },
+    {
+      "id": "10-158",
+      "type": "body",
+      "en": "The hand devices buzzed. It was their intervention turn. Zei arranged a few gliders and symbol-carrying spaceships. A few hundred turns passed."
+    },
+    {
+      "id": "10-159",
+      "type": "body",
+      "en": "Suddenly, as the spaceship hit a rock formation and was in the process of reflecting, gliders from Bai hit it. The spaceship exploded into a storm of gliders."
+    },
+    {
+      "id": "10-160",
+      "type": "body",
+      "en": "\"What?\", Zei shouted."
+    },
+    {
+      "id": "10-161",
+      "type": "body",
+      "en": "\"Caught you, I had a symbol along the path, right in the position where you could not see it. So I could see the edge of your spaceship coming.\""
+    },
+    {
+      "id": "10-162",
+      "type": "body",
+      "en": "Zei groaned. That had been his last-ditch attempt to rescue the game. More gliders from Bai came in, and shredded through both of his remaining symbols in the southwest corner."
+    },
+    {
+      "id": "10-163",
+      "type": "body",
+      "en": "Zei clicked a button to resign."
+    },
+    {
+      "id": "10-164",
+      "type": "body",
+      "en": "\"Good game\", Zei said, not yet with total sincerity, but with more sincerity than he had in any game where he had lost to Bai before."
+    },
+    {
+      "id": "10-165",
+      "type": "body",
+      "en": "\"You know, I am going to need your help in the nationals.\""
+    },
+    {
+      "id": "10-166",
+      "type": "body",
+      "en": "\"Happy to. As long as...\""
+    },
+    {
+      "id": "10-167",
+      "type": "body",
+      "en": "\"Yes, I know, you want to visit Veridia now.\""
+    },
+    {
+      "id": "10-168",
+      "type": "body",
+      "en": "\"Anyway, thanks for explaining your thought process in that championship game. Really made me think.\""
+    },
+    {
+      "id": "10-169",
+      "type": "body",
+      "en": "\"Of course.\""
+    },
+    {
+      "id": "10-170",
+      "type": "body",
+      "en": "\"Of course you enjoy reliving the moment you defeated me, just like I enjoyed beating you right now.\""
+    },
+    {
+      "id": "10-171",
+      "type": "body",
+      "en": "Zei sighed."
+    },
+    {
+      "id": "10-172",
+      "type": "body",
+      "en": "\"Anyway, I have to go. The Kungaupei councilor, Den, is asking to see me again.\""
+    },
+    {
+      "id": "10-173",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "10-174",
+      "type": "body",
+      "en": "Zei entered the long room, and immediately saw Den and Mu sitting on the other side."
+    },
+    {
+      "id": "10-175",
+      "type": "body",
+      "en": "\"Thank you for coming.\""
+    },
+    {
+      "id": "10-176",
+      "type": "body",
+      "en": "\"Of course. I went through the hash-based signatures you recommended. It's a really fun set of constructions, especially the stateless tree-of-tree-based ones.\""
+    },
+    {
+      "id": "10-177",
+      "type": "body",
+      "en": "\"Do you see why, when I looked at your style of Minpentai, I knew that you would do well in this?\""
+    },
+    {
+      "id": "10-178",
+      "type": "body",
+      "en": "\"I think so!\""
+    },
+    {
+      "id": "10-179",
+      "type": "body",
+      "en": "\"You are truly amazing. You've rushed through a third of the cryptography lectures in less than a month, and got a perfect score on both of the first two tests. I can't think of anyone who did better.\""
+    },
+    {
+      "id": "10-180",
+      "type": "body",
+      "en": "Zei's eyes gleamed with satisfaction at receiving the compliment."
+    },
+    {
+      "id": "10-181",
+      "type": "body",
+      "en": "\"Zei, do you know why I called you in?\""
+    },
+    {
+      "id": "10-182",
+      "type": "body",
+      "en": "At this point, Zei realized one possible implication of Den's words, and his cheerful facial expression suddenly dropped into a fearful one."
+    },
+    {
+      "id": "10-183",
+      "type": "body",
+      "en": "\"Are you going to convince me to go into this full-time? Like, abandon the Minpentai nationals?\""
+    },
+    {
+      "id": "10-184",
+      "type": "body",
+      "en": "Mu laughed. \"So I guess my hunch was wrong - this part, you still don't get.\""
+    },
+    {
+      "id": "10-185",
+      "type": "body",
+      "en": "\"Huh?\""
+    },
+    {
+      "id": "10-186",
+      "type": "body",
+      "en": "\"Have you ever thought about why the Minpentai game is so serious, so much ceremony, the priests going into the dungeon for days, and so well-funded?\""
+    },
+    {
+      "id": "10-187",
+      "type": "body",
+      "en": "\"It's a sport. Sports are taken seriously and well-funded in many countries.\""
+    },
+    {
+      "id": "10-188",
+      "type": "body",
+      "en": "\"Not sports of the mind. Their audience isn't large enough to fund it just based on advertising and national prestige and all those other reasons.\""
+    },
+    {
+      "id": "10-189",
+      "type": "body",
+      "en": "\"So why then?\""
+    },
+    {
+      "id": "10-190",
+      "type": "body",
+      "en": "Mu leaned forward."
+    },
+    {
+      "id": "10-191",
+      "type": "body",
+      "en": "\"It's because Minpentai isn't just a sport.\""
+    },
+    {
+      "id": "10-192",
+      "type": "body",
+      "en": "Zei stared."
+    },
+    {
+      "id": "10-193",
+      "type": "body",
+      "en": "\"It's military training.\""
+    },
+    {
+      "id": "10-194",
+      "type": "body",
+      "en": "\"The whole point of the sport, and why we support it so much, is to raise the next generation of defenders.\""
+    },
+    {
+      "id": "10-195",
+      "type": "body",
+      "en": "\"We need people who can think quickly, and think strategically under pressure.\""
+    },
+    {
+      "id": "10-196",
+      "type": "body",
+      "en": "\"People who can compete with their foes, but also cooperate with their allies, even allies that they do not personally get along with.\""
+    },
+    {
+      "id": "10-197",
+      "type": "body",
+      "en": "\"People who can understand a battlefield, including the battle itself, all the way up to grand strategy and resources and logistics, and all the way down to the level of surveillance and secrecy and trickery, and ultimately entropy itself.\""
+    },
+    {
+      "id": "10-198",
+      "type": "body",
+      "en": "\"People who can deal with suddenly changing rules.\""
+    },
+    {
+      "id": "10-199",
+      "type": "body",
+      "en": "\"People who are able to micromanage, but are also able to set a plan in motion and watch it unfold.\""
+    },
+    {
+      "id": "10-200",
+      "type": "body",
+      "en": "\"And people who can work with the latest technology - including AI - but also understand and work around its limits.\""
+    },
+    {
+      "id": "10-201",
+      "type": "body",
+      "en": "The realizations hit Zei all at once. At first, he had wanted to ask a basic question: why pretend it's a game, why not just have a regular military with regular recruitment? But as soon as he put together the question, he already knew the answer: the Arctics would put all their energy into targeting anything like that. Minpentai was only safe because it pretended to be just a game. But even then, Zei knew, the ruse could not be safe forever."
+    },
+    {
+      "id": "10-202",
+      "type": "body",
+      "en": "\"Why are you telling me this now?\""
+    },
+    {
+      "id": "10-203",
+      "type": "body",
+      "en": "\"Because we have to give you *some* reason why we're now telling you to work hard on cryptography *and* continue to the nationals. If we didn't tell you, you might get suspicious, eventually figure it out for yourself, and then do something stupid, like excitedly blurting out your discovery to a dozen other people.\""
+    },
+    {
+      "id": "10-204",
+      "type": "body",
+      "en": "Zei nodded."
+    },
+    {
+      "id": "10-205",
+      "type": "body",
+      "en": "\"I won't tell anyone. Not even Fin.\""
+    },
+    {
+      "id": "10-206",
+      "type": "body",
+      "en": "Den and Mu nodded."
+    },
+    {
+      "id": "10-207",
+      "type": "body",
+      "en": "\"And when the nationals come, you'll want a sparring partner who knows your style.\""
+    },
+    {
+      "id": "10-208",
+      "type": "body",
+      "en": "No one said a name. No one had to."
+    },
+    {
+      "id": "10-209",
+      "type": "body",
+      "en": "\"We appreciate your support\", Den replied."
+    },
+    {
+      "id": "10-210",
+      "type": "body",
+      "en": "\"Dze go ba fau gie\", Mu added."
+    },
+    {
+      "id": "10-211",
+      "type": "body",
+      "en": "\"Dze go ba fau gie.\""
+    }
+  ],
+  "figures": []
+}

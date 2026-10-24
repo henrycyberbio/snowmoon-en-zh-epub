@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" style="margin-left:35px" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#348"/>
+<rect x="80" y="100" width="80" height="80" rx="8" fill="#67e"/>
+<rect x="120" y="40" width="20" height="70" rx="8" fill="#67e"/>
+<rect x="130" y="40" width="70" height="20" fill="#67e"/>
+<circle cx="92" cy="150" r="5" fill="#cef"/>
+<text x="84" y="169" fill="#cef" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12">格拉迪亚斯</text>
+<circle cx="130" cy="110" r="5" fill="#cef"/>
+<text x="140" y="130" fill="#cef" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">莫夫</text>
+<line x1="130" y1="105" x2="130" y2="88" stroke="#cef" stroke-width="1"/>
+<polygon points="130,85 126,92 134,92" fill="#cef"/>
+</svg>

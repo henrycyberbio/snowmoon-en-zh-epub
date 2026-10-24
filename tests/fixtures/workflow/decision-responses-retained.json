@@ -1,0 +1,25 @@
+{
+  "schema": "snowmoon-retained-decision-responses/1",
+  "provenance": "Real retained response bodies from the project's own paid decision step (per-attempt .records.jsonl evidence); only the three gen-dec trace ids were replaced with offline placeholder ids (offline-placeholder-0001..0003) so no live run identifier is published. Model ids, provider pins, probabilities, token counts and costs are the retained values, unchanged. Not synthesized; no credentials, no account data, no request text.",
+  "note": "Returned model ids are date-stamped instances; they are NOT the requested aliases and must be matched against the live alias list, never by prefix.",
+  "responses": [
+    {
+      "requested_model": "typesafe/jev-1.14",
+      "provider_pin": "TypeSafe",
+      "target_id": "01-001",
+      "raw_response": "{\"model\":\"typesafe/jev-1.14-20261014\",\"answers\":{\"substantive_error\":{\"type\":\"noul\",\"noul\":0.02}},\"usage\":{\"input_tokens\":975,\"output_tokens\":23,\"cost\":0.00004095},\"id\":\"offline-placeholder-0001\",\"provider\":\"TypeSafe\"}"
+    },
+    {
+      "requested_model": "openai/gpt-6-luna-decisions",
+      "provider_pin": "OpenAI",
+      "target_id": "01-001",
+      "raw_response": "{\"model\":\"openai/gpt-6-luna-decisions-20261006\",\"answers\":{\"substantive_error\":{\"type\":\"noul\",\"noul\":0}},\"usage\":{\"input_tokens\":702,\"output_tokens\":0,\"cost\":0.0000702},\"id\":\"offline-placeholder-0002\",\"provider\":\"OpenAI\"}"
+    },
+    {
+      "requested_model": "perplexity/pplx-decider-flash-v1.2",
+      "provider_pin": "Perplexity",
+      "target_id": "01-001",
+      "raw_response": "{\"model\":\"perplexity/pplx-decider-flash-v1.2-20261016\",\"answers\":{\"substantive_error\":{\"type\":\"noul\",\"noul\":0.07373661098837372}},\"usage\":{\"input_tokens\":646,\"output_tokens\":1,\"cost\":0.00000646},\"id\":\"offline-placeholder-0003\",\"provider\":\"Perplexity\"}"
+    }
+  ]
+}

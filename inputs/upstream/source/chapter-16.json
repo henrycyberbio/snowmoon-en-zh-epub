@@ -1,0 +1,661 @@
+{
+  "chapter": 16,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-16.html",
+  "sha256": "f8a9d74d4b9d4a8ce6fe56a4999e8ec031e965f296773879e1877cac59005d1b",
+  "segments": [
+    {
+      "id": "16-001",
+      "type": "heading",
+      "en": "Chapter 16"
+    },
+    {
+      "id": "16-002",
+      "type": "dateline",
+      "en": "Meldan, Veridia · 3724 Firemoon 25"
+    },
+    {
+      "id": "16-003",
+      "type": "body",
+      "en": "Gladias pulled open the barrier on the booth, walked in, and slid the barrier shut behind him. He sat down angrily on the bench across from Delwart."
+    },
+    {
+      "id": "16-004",
+      "type": "body",
+      "en": "\"You have a lot of explaining to do.\""
+    },
+    {
+      "id": "16-005",
+      "type": "body",
+      "en": "Delwart looked downwards toward the table, with a sorry expression on his face."
+    },
+    {
+      "id": "16-006",
+      "type": "body",
+      "en": "\"Look, Gladias, you were right, I was wrong. I let my hate for all this interventionism in Veridia's government and culture blind me to the fact that there are things government has always been for, and defense is one of them.\""
+    },
+    {
+      "id": "16-007",
+      "type": "body",
+      "en": "\"That's not why I'm angry.\""
+    },
+    {
+      "id": "16-008",
+      "type": "body",
+      "en": "Delwart looked up, startled."
+    },
+    {
+      "id": "16-009",
+      "type": "body",
+      "en": "\"I mean, it's one of the reasons, but far from the primary.\""
+    },
+    {
+      "id": "16-010",
+      "type": "body",
+      "en": "\"What is the primary then?\""
+    },
+    {
+      "id": "16-011",
+      "type": "body",
+      "en": "\"What the hell is going on? Who are you? Who are you working with?\""
+    },
+    {
+      "id": "16-012",
+      "type": "body",
+      "en": "Delwart sighed. For a few moments he was silent. Then he leaned forward."
+    },
+    {
+      "id": "16-013",
+      "type": "body",
+      "en": "\"Fine, I will explain.\""
+    },
+    {
+      "id": "16-014",
+      "type": "body",
+      "en": "\"I'm not just one ideologue who is doing this alone. I, and a group of others - I don't know them - are working for Silverchat.\""
+    },
+    {
+      "id": "16-015",
+      "type": "body",
+      "en": "\"We were frustrated by these rubrics that were increasing our taxes just because a bunch of people were putting crude jokes on our platform. We wanted Silverchat to be a refuge from the blandness that's taking over so much of the rest of Veridia. We wanted to be a place where Hydrafill and even Dreadknot could be welcome.\""
+    },
+    {
+      "id": "16-016",
+      "type": "body",
+      "en": "\"And so we decided to take matters into our own hands. Make an organized effort to try to pull the politics in a better direction. Appeal to the Keepers directly.\""
+    },
+    {
+      "id": "16-017",
+      "type": "body",
+      "en": "\"And now I realize just how naive this all was. If we manage to ward off blandness, but at the price of the Arctic Empire being able to take over and inflict things far worse - first on Redshire and later on the whole world - then this whole thing was not just not worth it - it was ruinous.\""
+    },
+    {
+      "id": "16-018",
+      "type": "body",
+      "en": "Gladias sighed. He was still extremely angry at Delwart, but the anger was now mixed with a dose of sympathy."
+    },
+    {
+      "id": "16-019",
+      "type": "body",
+      "en": "A robot slid up to them, carrying a salad, a rectangular nutrition bar and water for the two of them to eat and drink."
+    },
+    {
+      "id": "16-020",
+      "type": "body",
+      "en": "Gladias and Delwart both first picked up their plates of food, and put them down on the table. Gladias then picked up his cup and drank about half the water in one gulp. Delwart did the same."
+    },
+    {
+      "id": "16-021",
+      "type": "body",
+      "en": "They began eating, silently. After a few minutes, the conversation resumed."
+    },
+    {
+      "id": "16-022",
+      "type": "body",
+      "en": "\"What do you want me to do now?\", Gladias asked."
+    },
+    {
+      "id": "16-023",
+      "type": "body",
+      "en": "\"Obviously don't make the rubric exclude military now. You could even increase the tax brackets, though you doing that would only help a tiny bit - the most important levers there are on the Graph Funding side.\""
+    },
+    {
+      "id": "16-024",
+      "type": "body",
+      "en": "\"But I also have another idea for what you could do.\""
+    },
+    {
+      "id": "16-025",
+      "type": "body",
+      "en": "\"What is it?\""
+    },
+    {
+      "id": "16-026",
+      "type": "body",
+      "en": "\"I think you should go to Dzego.\""
+    },
+    {
+      "id": "16-027",
+      "type": "body",
+      "en": "\"Me? Dzego? Why?\""
+    },
+    {
+      "id": "16-028",
+      "type": "body",
+      "en": "\"They clearly have this whole Arctic question figured out much better than we do in Veridia. Study them. Learn from them. See what you can bring back to Veridia.\""
+    },
+    {
+      "id": "16-029",
+      "type": "body",
+      "en": "\"And why should I listen to you when you've been so untrustworthy?\""
+    },
+    {
+      "id": "16-030",
+      "type": "body",
+      "en": "\"Well definitely don't just listen to me. Ask your closest friends and advisors. See what they think.\""
+    },
+    {
+      "id": "16-031",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "16-032",
+      "type": "body",
+      "en": "Gladias walked along the same path through Kalimar that he would usually pass through. As usual, it was covered with trees and surrounded by stone houses on both sides. But on that day, it was unusually hot, and Gladias sweated slightly as some of the sunlight managed to shine through the tree cover and warm up his entire body inside of his privacy robe."
+    },
+    {
+      "id": "16-033",
+      "type": "body",
+      "en": "He passed by one of the houses that he remembered for selling traditional Veridian food products. This time, an additional note was hastily taped on to the poster, advertising packages that offered tasty, nutritionally complete and long-lasting preserved food that was sufficient for thirty days of survival."
+    },
+    {
+      "id": "16-034",
+      "type": "body",
+      "en": "He tapped his watch, and called Mov."
+    },
+    {
+      "id": "16-035",
+      "type": "body",
+      "en": "\"So I had my chat with Delwart.\""
+    },
+    {
+      "id": "16-036",
+      "type": "body",
+      "en": "\"How did it go?\""
+    },
+    {
+      "id": "16-037",
+      "type": "body",
+      "en": "\"You're right. There was an organized effort. Turns out - at least he now says - he's been working for Silverchat this whole time.\""
+    },
+    {
+      "id": "16-038",
+      "type": "body",
+      "en": "\"Silverchat? And here I was expecting some more evil company, like Bluewhale.\""
+    },
+    {
+      "id": "16-039",
+      "type": "body",
+      "en": "\"I guess it makes sense, probably that conversation I overheard a month and a half ago was with a Silverchat guy.\""
+    },
+    {
+      "id": "16-040",
+      "type": "body",
+      "en": "\"So he wants me to go to Dzego now.\""
+    },
+    {
+      "id": "16-041",
+      "type": "body",
+      "en": "\"Dzego? What for?\""
+    },
+    {
+      "id": "16-042",
+      "type": "body",
+      "en": "\"He says we in Veridia have a lot to learn from them. Do you think that's true?\""
+    },
+    {
+      "id": "16-043",
+      "type": "body",
+      "en": "\"You know, one of my friends mentioned something like that to me the day Redshire got taken over. He thought *I* should go, and see how their secret societies work or something.\""
+    },
+    {
+      "id": "16-044",
+      "type": "body",
+      "en": "\"Well you know, Seila has a friend from there now, and the last thing she told me was that he's been climbing up the Minpentai ranks really well, gotten into the nationals. So if I go, maybe I will actually be able to learn a few things.\""
+    },
+    {
+      "id": "16-045",
+      "type": "body",
+      "en": "\"Yeah I can certainly see the appeal. Veridians really need to know the outside world better. Especially the people in the institutions - the Order, the Courts, the parliament, all of them.\""
+    },
+    {
+      "id": "16-046",
+      "type": "body",
+      "en": "\"Give me a few days to think through this.\""
+    },
+    {
+      "id": "16-047",
+      "type": "body",
+      "en": "\"Well, the votes on the rubrics are in eight, twelve and sixteen days, so you have that time to think through it no matter what happens.\""
+    },
+    {
+      "id": "16-048",
+      "type": "body",
+      "en": "Gladias paused for a moment."
+    },
+    {
+      "id": "16-049",
+      "type": "body",
+      "en": "At that moment, he was walking past the restaurant near his home where he would often stop for food and drinks. Through the window, he could see Febric eating."
+    },
+    {
+      "id": "16-050",
+      "type": "body",
+      "en": "\"I'll think about it too\", he finally said, and ended the call."
+    },
+    {
+      "id": "16-051",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "16-052",
+      "type": "body",
+      "en": "Gladias entered the restaurant, and almost immediately took off the face cover from his privacy robe, and partially unzipped the front. He could not be that private while eating anyway, and he had been sweating in the hot sun. He sat down beside Febric."
+    },
+    {
+      "id": "16-053",
+      "type": "body",
+      "en": "\"Oh uncle Glad, happy to see you here again!\""
+    },
+    {
+      "id": "16-054",
+      "type": "body",
+      "en": "\"And I'm happy to see you!\""
+    },
+    {
+      "id": "16-055",
+      "type": "body",
+      "en": "Gladias noticed that Febric had been watching the screen. A game of Helisport was actively broadcasting."
+    },
+    {
+      "id": "16-056",
+      "type": "body",
+      "en": "Gladias let himself watch the action for a minute. The screen was following the lead player wearing a yellow shirt chasing a redball."
+    },
+    {
+      "id": "16-057",
+      "type": "body",
+      "en": "Suddenly, out of nowhere, a player from the other team, wearing a purple shirt, whacked him off to the side. The player in the yellow shirt tumbled, and then automatically regained his bearings about five meters further down."
+    },
+    {
+      "id": "16-058",
+      "type": "body",
+      "en": "The screen shifted view to the player wearing the purple shirt. He caught a blueball in midair. Two other players wearing yellow shirts started flying towards him. Before they could get to him, he threw the blueball toward a teammate. That teammate successfully caught it, and began flying forward."
+    },
+    {
+      "id": "16-059",
+      "type": "body",
+      "en": "The screen shifted view toward ten yellow standing pins arranged in a triangle on a circular board mounted on a pole high above the ground. The player wearing the purple shirt holding the blueball came into view. A player wearing a yellow shirt zoomed into position between him and the pins."
+    },
+    {
+      "id": "16-060",
+      "type": "body",
+      "en": "The player wearing the purple shirt suddenly threw the blueball up high into the air, just as a different player wearing a yellow shirt crashed into him."
+    },
+    {
+      "id": "16-061",
+      "type": "body",
+      "en": "The blueball passed about five meters over the player wearing the yellow shirt protecting the pins, and then landed on the board. It knocked three of the pins down."
+    },
+    {
+      "id": "16-062",
+      "type": "body",
+      "en": "A scoreboard onscreen adjusted."
+    },
+    {
+      "id": "16-063",
+      "type": "body",
+      "en": "|  | Yellow | Purple |\n| --- | --- | --- |\n| Redball captures | 6 | 11 |\n| Greenball player hits | 9 | 7 |\n| Blueball pin knockdowns | 31 | 23 |\n| Combined score | 1674 | 1771 |",
+      "table_colors": [
+        [
+          [
+            "",
+            "yellow",
+            "#808"
+          ],
+          [
+            "red",
+            "red",
+            "red"
+          ],
+          [
+            "#8f8",
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#88f",
+            "#88f",
+            "#88f"
+          ],
+          [
+            "#fff",
+            "#fff",
+            "#fff"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "16-064",
+      "type": "body",
+      "en": "Purple's blueball score had just increased from 20 to 23, and their combined score from 1540 to 1771 - enough to push them ahead of their opponents."
+    },
+    {
+      "id": "16-065",
+      "type": "body",
+      "en": "Suddenly, while the player who had just taken down those pins was celebrating, a greenball hit him in the back and splatted its paint over him."
+    },
+    {
+      "id": "16-066",
+      "type": "body",
+      "en": "The score adjusted again."
+    },
+    {
+      "id": "16-067",
+      "type": "body",
+      "en": "|  | Yellow | Purple |\n| --- | --- | --- |\n| Redball captures | 6 | 11 |\n| Greenball player hits | 10 | 7 |\n| Blueball pin knockdowns | 31 | 23 |\n| Combined score | 1860 | 1771 |",
+      "table_colors": [
+        [
+          [
+            "",
+            "yellow",
+            "#808"
+          ],
+          [
+            "red",
+            "red",
+            "red"
+          ],
+          [
+            "#8f8",
+            "#8f8",
+            "#8f8"
+          ],
+          [
+            "#88f",
+            "#88f",
+            "#88f"
+          ],
+          [
+            "#fff",
+            "#fff",
+            "#fff"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "16-068",
+      "type": "body",
+      "en": "\"You have to admit, the scoring system is really good now\", Febric exclaimed."
+    },
+    {
+      "id": "16-069",
+      "type": "body",
+      "en": "\"I remember when I was much younger, they kept adjusting the ratios between what a redball gives you, versus a pin knockdown or a player hit. And they just couldn't get out of having a situation where the rational thing is to just focus all your attention on one.\""
+    },
+    {
+      "id": "16-070",
+      "type": "body",
+      "en": "\"Even when they got it right, within a year the strategies adjusted, and it became lopsided again.\""
+    },
+    {
+      "id": "16-071",
+      "type": "body",
+      "en": "\"I think making the score multiplicative was the only way out. That way you pretty much have to care about all three of the point types.\""
+    },
+    {
+      "id": "16-072",
+      "type": "body",
+      "en": "\"Or try really hard to make sure your opponent can't get any of one type\", Gladias interjected."
+    },
+    {
+      "id": "16-073",
+      "type": "body",
+      "en": "\"Ah yeah that was the first thing a few people tried\", Febric replied. \"Holding onto redballs for more than thirty ticks had already been banned for ages, that had been a good cheat for whichever side was worse at redballs even back when the scores were additive. But what one team did try, is knock down a bunch of pins very early in the game, and then use most of their players to protect their pins for the rest of the game.\""
+    },
+    {
+      "id": "16-074",
+      "type": "body",
+      "en": "\"Turns out it doesn't actually work. People on copters can only pack together so tightly, no matter what you do, the other team always manages to sneak a few blueballs through. And then if you do pack tightly in one place around the pins, you're a sitting duck for the greenballs.\""
+    },
+    {
+      "id": "16-075",
+      "type": "body",
+      "en": "\"Are you thinking of playing?\", Gladias asked."
+    },
+    {
+      "id": "16-076",
+      "type": "body",
+      "en": "\"No, but I just had a bunch of conversations with Zven about this. The math is almost as fun as the actual game!\""
+    },
+    {
+      "id": "16-077",
+      "type": "body",
+      "en": "Gladias and Febric both turned their attention to the food."
+    },
+    {
+      "id": "16-078",
+      "type": "body",
+      "en": "\"How's Lily doing by the way?\", Gladias asked."
+    },
+    {
+      "id": "16-079",
+      "type": "body",
+      "en": "\"She actually started getting a little better over the last couple of months. She mentioned to me a few days ago that she got seventy on her latest civics test. She seems happier. And she's even more engaged playing that game on her hand device.\""
+    },
+    {
+      "id": "16-080",
+      "type": "body",
+      "en": "\"Do you know what game?\", Gladias asked."
+    },
+    {
+      "id": "16-081",
+      "type": "body",
+      "en": "\"She doesn't show me either.\""
+    },
+    {
+      "id": "16-082",
+      "type": "body",
+      "en": "Gladias and Febric both returned to eating. A few minutes later, they were both finished."
+    },
+    {
+      "id": "16-083",
+      "type": "body",
+      "en": "\"Did you remember to take out your zipcoins this time?\", Febric asked playfully."
+    },
+    {
+      "id": "16-084",
+      "type": "body",
+      "en": "\"Hey, I may make lots of mistakes, but I don't make the same mistake twice\", Gladias snapped back."
+    },
+    {
+      "id": "16-085",
+      "type": "body",
+      "en": "\"By the way, Febric, thanks for reminding me - I need to test my recovery procedure for my coins\", he whispered through his neck band."
+    },
+    {
+      "id": "16-086",
+      "type": "body",
+      "en": "\"Want me to help you sign a test operation?\""
+    },
+    {
+      "id": "16-087",
+      "type": "body",
+      "en": "\"Sure! What do you want the test to be?\""
+    },
+    {
+      "id": "16-088",
+      "type": "body",
+      "en": "\"I dunno, buy a Hydrafill bottle?\""
+    },
+    {
+      "id": "16-089",
+      "type": "body",
+      "en": "\"Buy a Hydrafill bottle? Straight out of a life savings wallet?\", Gladias asked incredulously. \"Those ads really have been getting to you too, haven't they?\""
+    },
+    {
+      "id": "16-090",
+      "type": "body",
+      "en": "\"Hey, you're the one who asked me!\""
+    },
+    {
+      "id": "16-091",
+      "type": "body",
+      "en": "\"Okay fine ... let me start the operation.\""
+    },
+    {
+      "id": "16-092",
+      "type": "body",
+      "en": "Gladias began whispering into his neck band. Out of the corner of his eye, he saw Febric run off somewhere, though he was too busy to wonder where."
+    },
+    {
+      "id": "16-093",
+      "type": "body",
+      "en": "A few ticks later, Febric's watch buzzed."
+    },
+    {
+      "id": "16-094",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Gladias | → | [Wallet 0x8f62... social recovery mode transaction request] | 65129 |"
+    },
+    {
+      "id": "16-095",
+      "type": "body",
+      "en": "Febric opened up his hand device, and a more detailed view of the transaction appeared. He asked Emerald to search for the receiving address online. A few ticks later, Emerald replied with a confirmation that it was, in fact, the Hydrafill purchase address. He then checked the amount - 5.5 zipcoins. It seemed reasonable for a water bottle plus shipping, though the bulk of the cost was definitely the shipping. He checked the transaction data field. Yep, looked like an encoding of Gladias's home address, in the correct format according to the standard online shopping protocol."
+    },
+    {
+      "id": "16-096",
+      "type": "body",
+      "en": "In the cryptographic network that processed these transactions, all of this data was, of course, encrypted."
+    },
+    {
+      "id": "16-097",
+      "type": "body",
+      "en": "Febric clicked \"Confirm\"."
+    },
+    {
+      "id": "16-098",
+      "type": "body",
+      "en": "Gladias's watch immediately buzzed."
+    },
+    {
+      "id": "16-099",
+      "type": "body",
+      "en": "Less than a minute later, Gladias's watch buzzed again."
+    },
+    {
+      "id": "16-100",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Seila | → | Security question: what was the most unusual thing I did on the evening the kids came back from Vil and Daia's? | 73105 |"
+    },
+    {
+      "id": "16-101",
+      "type": "body",
+      "en": "Gladias immediately whispered into his neck band a reply."
+    },
+    {
+      "id": "16-102",
+      "type": "body",
+      "en": "| Message |  | To |\n| --- | --- | --- |\n| You unplugged the screen in the restaurant when it was showing Lord Ephelion's speech. | → | Seila |\n\nSend"
+    },
+    {
+      "id": "16-103",
+      "type": "body",
+      "en": "A few moments later, Gladias's watch buzzed again. Three signatures done, including his own. One to go. Either Mov or Pelow - or, of course, if he really had to, himself running to the vault and picking up his second key."
+    },
+    {
+      "id": "16-104",
+      "type": "body",
+      "en": "\"I'm obviously not gonna ask who that was, or who else you need to confirm it\", Febric added. \"But good luck!\""
+    },
+    {
+      "id": "16-105",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "16-106",
+      "type": "body",
+      "en": "\"Seila, I'm home!\""
+    },
+    {
+      "id": "16-107",
+      "type": "body",
+      "en": "\"Glad!\""
+    },
+    {
+      "id": "16-108",
+      "type": "body",
+      "en": "\"So I have interesting news.\""
+    },
+    {
+      "id": "16-109",
+      "type": "body",
+      "en": "\"What is it?\""
+    },
+    {
+      "id": "16-110",
+      "type": "body",
+      "en": "\"There's some chance I'll be going to Dzego soon.\""
+    },
+    {
+      "id": "16-111",
+      "type": "body",
+      "en": "Seila stared."
+    },
+    {
+      "id": "16-112",
+      "type": "body",
+      "en": "\"Why?\""
+    },
+    {
+      "id": "16-113",
+      "type": "body",
+      "en": "\"I talked to Mov about this. He thinks that Veridians, especially Keepers, the Order, the institutions generally, have a lot to learn from what's going on over there.\""
+    },
+    {
+      "id": "16-114",
+      "type": "body",
+      "en": "\"I'm not sure about this ... it's a difficult time. You're not really the best person to make good use of a Dzego trip. And the Keepers would benefit from having a strong hand guide them these next few months.\""
+    },
+    {
+      "id": "16-115",
+      "type": "body",
+      "en": "\"Arctic stuff is really much more of a military and parliament responsibility, maybe Graph Funding too. And ... maybe I can make good use of a trip if you introduce me to Zei?\""
+    },
+    {
+      "id": "16-116",
+      "type": "body",
+      "en": "Seila retreated into her thoughts for a few moments."
+    },
+    {
+      "id": "16-117",
+      "type": "body",
+      "en": "\"If Mov thinks it's a good idea, then fine. But please do your homework first. Find someone, anyone, in Graph Funding or in parliament to talk to, so you get some idea of whether this trip will be useful, and if you do go, how to make it as useful as possible.\""
+    },
+    {
+      "id": "16-118",
+      "type": "body",
+      "en": "\"But really, think hard about this.\""
+    },
+    {
+      "id": "16-119",
+      "type": "body",
+      "en": "\"If you go, then yes, of course I'll introduce you to Zei. And Bai too.\""
+    }
+  ],
+  "figures": []
+}

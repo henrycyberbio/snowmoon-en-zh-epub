@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" style="margin-left:35px" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#348"/>
+<rect x="150" y="50" width="40" height="14" fill="#89c"/>
+<circle cx="120" cy="67" r="3" fill="#cef"/>
+<circle cx="130" cy="72" r="3" fill="#cef"/>
+<circle cx="140" cy="80" r="3" fill="#cef"/>
+<line x1="120" y1="67" x2="110" y2="77" stroke="#cef" stroke-dasharray="2"/>
+<line x1="130" y1="72" x2="120" y2="82" stroke="#cef" stroke-dasharray="2"/>
+<line x1="140" y1="80" x2="133" y2="92" stroke="#cef" stroke-dasharray="2"/>
+<text x="140" y="52" fill="#cf0" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">✓</text>
+<text x="147" y="56" fill="#cf0" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">✓</text>
+<circle cx="79" cy="75" r="3" fill="#cef"/>
+<text x="79" y="75" fill="#f04" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="12" text-anchor="middle">x</text>
+</svg>

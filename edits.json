@@ -1,0 +1,243 @@
+{
+  "changes": [
+    {
+      "chapter": "01",
+      "id": "01-083",
+      "scope": "body",
+      "before": "那人一头雾水，顺着他的目光看去。就在这时，格拉迪亚斯从对方手中抢过掌上终端，猛地转身。",
+      "after": "那人一头雾水，顺着他的目光看去。就在这时，格拉迪亚斯从对方手臂上抢过掌上终端，猛地转身。",
+      "evidence_en": "The man, confused, looked to where Gladias was looking. At that moment, Gladias snatched the man's hand device from his arm, and suddenly turned around.",
+      "reason": "英文为 snatched the man's hand device from his arm，说明掌上终端佩在对方手臂上；同章 01-087、01-112 也写这台掌上终端可佩戴。只改「从对方手中」为「从对方手臂上」，句子其余文字、标点与说话人标记不动。"
+    },
+    {
+      "chapter": "02",
+      "id": "02-057",
+      "scope": "body",
+      "before": "“想象我们有两罐气体，每罐有一百万个分子。不过，左边罐子里的分子运动得快得多。假设左边这些分子的速度可以用六位数表示，从零到999,999。右边罐子里的分子运动得慢，所以速度可以用六位数表示，从零到99。”",
+      "after": "“想象我们有两罐气体，每罐有一百万个分子。不过，左边罐子里的分子运动得快得多。假设左边这些分子的速度可以用六位数表示，从零到999,999。右边罐子里的分子运动得慢，所以速度可以用两位数表示，从零到99。”",
+      "evidence_en": "And in the jar on the right, the molecules are moving slowly, so you can represent the velocities with two-digit numbers, from zero to 99.",
+      "reason": "当前英文为 two-digit numbers, from zero to 99；原译「六位数」对应存档旧底稿的旧版英文，旧版六位数与 0—99 的范围自相矛盾。只改右罐分句的「六位数」为「两位数」，同段左罐「六位数表示，从零到999,999」保持不变。"
+    },
+    {
+      "chapter": "02",
+      "id": "02-057",
+      "scope": "note",
+      "before": "此处原文写右罐分子速度用‘六位数’表示，但给定范围为0—99，下文也按两位数计算，疑为笔误；译文保留原文说法。",
+      "after": "此处原文（当前官网版本）写右罐分子速度用‘两位数’表示，范围为0—99；旧版官网此句曾作‘六位数’，与0—99的范围自相矛盾，作者后来已改为‘两位数’，译文随之对齐。",
+      "evidence_en": "And in the jar on the right, the molecules are moving slowly, so you can represent the velocities with two-digit numbers, from zero to 99.",
+      "reason": "旧注按旧版英文把该处记作笔误并声明「译文保留原文说法」；正文改为跟随当前官网的「两位数」后，旧注与正文冲突，故随正文同步改写为版本差异说明。"
+    },
+    {
+      "chapter": "04",
+      "id": "04-054",
+      "scope": "body",
+      "before": "又往上走了一段，他稍稍回头，不禁赞叹帕福盖都的景色：大片低矮建筑夹杂着树木，各种生产和售卖商品的小店、工厂灯光闪烁，一切都落在完全规整的街道网格中——从北往南，十七条街道相隔两百米；从东往西，三十三条街道相隔一百米。有些道路起伏蜿蜒，空间容许时整条路都在地面上，当人行道需要占满全部宽度以容纳行人时，车道部分便钻入地下。",
+      "after": "又往上走了一段，他稍稍回头，不禁赞叹帕福盖都的景色：大片低矮建筑夹杂着树木，各种生产和售卖商品的小店、工厂灯光闪烁，一切都落在完全规整的街道网格中——从北往南，十六条街道相隔两百米；从东往西，三十一条街道相隔一百米。有些道路起伏蜿蜒，空间容许时整条路都在地面上，当人行道需要占满全部宽度以容纳行人时，车道部分便钻入地下。",
+      "evidence_en": "all inside a perfectly regular grid of streets - sixteen streets two hundred meters apart from north to south, and thirty one streets one hundred meters apart from east to west.",
+      "reason": "当前权威英文为 sixteen streets … thirty one streets … one hundred meters；原译「十七／三十三」对应存档旧英文。按既定决定只改两个数字（十七→十六、三十三→三十一），街距 200／100 米与全段其余文字不动。属对齐当前官方源文。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-118",
+      "scope": "note",
+      "before": "图1文字：How much confidence do you have in the Veridian military?=你对维里迪亚军队有多大信心？None at all=毫无信心；A little=略有信心；Some=有些信心；A lot=很有信心；Total confidence=完全信任。对应比例39%、25%、15%、12%、9%。",
+      "after": "图1文字：How much confidence do you have in the Veridian military?=你对维里迪亚军队有多大信心？None at all=毫无信心；A little=一点信心；Some=有些信心；A lot=很有信心；Total confidence=完全信任。对应比例39%、25%、15%、12%、9%。",
+      "evidence_en": "How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+      "reason": "原注把 A little 记为「略有信心」，但该资产可见 <text> 实际写作「一点信心」；同步注文，使注与图面及新的无障碍 desc 三处一致。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-118",
+      "scope": "svg_metadata",
+      "asset": "assets/ch27-fig01-zh.svg",
+      "element": "title",
+      "before": "How much confidence do you have in the Veridian military?",
+      "after": "你对维里迪亚军队有多大信心？",
+      "evidence_en": "How much confidence do you have in the Veridian military?",
+      "reason": "可见标签「你对维里迪亚军队／有多大信心？」已译，隐藏根 <title> 仍为英文，读屏只读到英文标题。译文由该图自身可见中文拼成，未新增词。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-118",
+      "scope": "svg_metadata",
+      "asset": "assets/ch27-fig01-zh.svg",
+      "element": "desc",
+      "before": "How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+      "after": "你对维里迪亚军队有多大信心？：毫无信心 39%，一点信心 25%，有些信心 15%，很有信心 12%，完全信任 9%。",
+      "evidence_en": "How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+      "reason": "五个选项与比例逐项取该图可见中文（毫无信心／一点信心／有些信心／很有信心／完全信任）与可见百分比 39/25/15/12/9，合计 100；未沿用注里旧的「略有信心」，以免与图面不一致。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-120",
+      "scope": "svg_metadata",
+      "asset": "assets/ch27-fig02-zh.svg",
+      "element": "desc",
+      "before": "Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.",
+      "after": "你更希望由谁领导维里迪亚军队？：现任领导层 13%，议会选出的新领导层 21%，银语 10%，北极人 16%，昆高会 38%，阿图里亚军事顾问 2%。",
+      "evidence_en": "Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.",
+      "reason": "该图 title 早已是中文，故不动；desc 的六个选项与比例取该图可见中文（现任领导层／议会选出的新领导层／银语／北极人／昆高会／阿图里亚军事顾问）与 13/21/10/16/38/2，合计 100，选项顺序未变。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-125",
+      "scope": "svg_metadata",
+      "asset": "assets/ch27-fig03-zh.svg",
+      "element": "title",
+      "before": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties",
+      "after": "你更希望由谁领导维里迪亚军队？——仅限与北岸有关联的受访者",
+      "evidence_en": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties",
+      "reason": "英文为 Restricted to people with Northshore ties，同图可见中文副标题为「仅限与北岸有关联的受访者」。只替换隐藏 <title> 文字，保留节点 id、属性与几何。"
+    },
+    {
+      "chapter": "27",
+      "id": "27-125",
+      "scope": "svg_metadata",
+      "asset": "assets/ch27-fig03-zh.svg",
+      "element": "desc",
+      "before": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties: Its current leadership 6%, A new leadership chosen by parliament 8%, Silverchat 16%, The Arctics 13%, Kungaupei 52%, Arturian military advisors 5%.",
+      "after": "你更希望由谁领导维里迪亚军队？——仅限与北岸有关联的受访者：现任领导层 6%，议会选出的新领导层 8%，银语 16%，北极人 13%，昆高会 52%，阿图里亚军事顾问 5%。",
+      "evidence_en": "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties: Its current leadership 6%, A new leadership chosen by parliament 8%, Silverchat 16%, The Arctics 13%, Kungaupei 52%, Arturian military advisors 5%.",
+      "reason": "同 title：六个选项与比例 6/8/16/13/52/5（合计 100）逐项取该图可见中文，只替换隐藏 <desc> 文字，保留节点 id、属性与几何。"
+    },
+    {
+      "chapter": "29",
+      "id": "29-104",
+      "scope": "body",
+      "before": "海上无人艇似乎取得了成功，至少在突击的初期是这样。它们既在北林以东，也在更东面数百公里外、位于特尔滕的北极帝国核心领土上，投送了地面载具。海上无人艇已经开始返回基地，接载第二批载荷。",
+      "after": "海上无人艇似乎取得了成功，至少在突击的初期是这样。它们既在北林以东，也在更东面数百公里外、位于萨尔杜尔的北极帝国核心领土上，投送了地面载具。海上无人艇已经开始返回基地，接载第二批载荷。",
+      "evidence_en": "They had landed ground craft, both east of Northglade and in Arctic core territory in Thaldur hundreds of kilometers further east.",
+      "reason": "当前官网英文作 Thaldur；同章 29-030 的同一作战目标已译「萨尔杜尔岛」，STYLE 词表亦为 Thaldur=萨尔杜尔。原译「特尔滕」对应存档旧英文 Telten。按既定决定只改该专名一处。属对齐当前官方源文。"
+    }
+  ],
+  "chapter_state": {
+    "01": {
+      "reviewed": true,
+      "reviewed_targets": 46
+    },
+    "02": {
+      "reviewed": true,
+      "reviewed_targets": 37
+    },
+    "03": {
+      "reviewed": true,
+      "reviewed_targets": 45
+    },
+    "04": {
+      "reviewed": true,
+      "reviewed_targets": 48
+    },
+    "05": {
+      "reviewed": true,
+      "reviewed_targets": 33
+    },
+    "06": {
+      "reviewed": true,
+      "reviewed_targets": 56
+    },
+    "07": {
+      "reviewed": true,
+      "reviewed_targets": 41
+    },
+    "08": {
+      "reviewed": true,
+      "reviewed_targets": 41
+    },
+    "09": {
+      "reviewed": true,
+      "reviewed_targets": 33
+    },
+    "10": {
+      "reviewed": true,
+      "reviewed_targets": 57
+    },
+    "11": {
+      "reviewed": true,
+      "reviewed_targets": 54
+    },
+    "12": {
+      "reviewed": true,
+      "reviewed_targets": 62
+    },
+    "13": {
+      "reviewed": true,
+      "reviewed_targets": 33
+    },
+    "14": {
+      "reviewed": true,
+      "reviewed_targets": 40
+    },
+    "15": {
+      "reviewed": true,
+      "reviewed_targets": 37
+    },
+    "16": {
+      "reviewed": true,
+      "reviewed_targets": 42
+    },
+    "17": {
+      "reviewed": true,
+      "reviewed_targets": 37
+    },
+    "18": {
+      "reviewed": true,
+      "reviewed_targets": 48
+    },
+    "19": {
+      "reviewed": true,
+      "reviewed_targets": 40
+    },
+    "20": {
+      "reviewed": true,
+      "reviewed_targets": 65
+    },
+    "21": {
+      "reviewed": true,
+      "reviewed_targets": 33
+    },
+    "22": {
+      "reviewed": true,
+      "reviewed_targets": 40
+    },
+    "23": {
+      "reviewed": true,
+      "reviewed_targets": 32
+    },
+    "24": {
+      "reviewed": true,
+      "reviewed_targets": 26
+    },
+    "25": {
+      "reviewed": true,
+      "reviewed_targets": 28
+    },
+    "26": {
+      "reviewed": true,
+      "reviewed_targets": 72
+    },
+    "27": {
+      "reviewed": true,
+      "reviewed_targets": 51
+    },
+    "28": {
+      "reviewed": true,
+      "reviewed_targets": 27
+    },
+    "29": {
+      "reviewed": true,
+      "reviewed_targets": 43
+    },
+    "30": {
+      "reviewed": true,
+      "reviewed_targets": 23
+    },
+    "31": {
+      "reviewed": true,
+      "reviewed_targets": 32
+    },
+    "32": {
+      "reviewed": true,
+      "reviewed_targets": 31
+    }
+  }
+}

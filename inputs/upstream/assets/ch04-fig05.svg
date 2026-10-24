@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" style="margin-left:35px" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#348"/>
+<circle cx="175" cy="190" r="3" fill="#cef"/>
+<circle cx="190" cy="175" r="3" fill="#cef"/>
+<circle cx="170" cy="170" r="3" fill="#cef"/>
+<circle cx="180" cy="75" r="3" fill="#cef"/>
+<circle cx="155" cy="60" r="3" fill="#cef"/>
+<circle cx="175" cy="55" r="3" fill="#cef"/>
+<circle cx="195" cy="25" r="3" fill="#cef"/>
+<circle cx="130" cy="170" r="3" fill="#cef"/>
+<circle cx="130" cy="190" r="3" fill="#cef"/>
+<circle cx="110" cy="70" r="3" fill="#cef"/>
+<rect x="25" y="190" width="5" height="5" fill="#c9f"/>
+<rect x="10" y="170" width="5" height="5" fill="#c9f"/>
+<rect x="30" y="170" width="5" height="5" fill="#c9f"/>
+<rect x="50" y="185" width="5" height="5" fill="#c9f"/>
+<rect x="20" y="25" width="5" height="5" fill="#c9f"/>
+<polygon points="140,110 146,110 143,115" fill="#3ef"/>
+<polygon points="155,135 161,135 158,140" fill="#3ef"/>
+<polygon points="20,85 26,85 23,90" fill="#3ef"/>
+<polygon points="95,135 101,135 98,140" fill="#3ef"/>
+<polygon points="70,120 76,120 73,125" fill="#3ef"/>
+<polygon points="50,100 56,100 53,105" fill="#3ef"/>
+<polygon points="90,20 96,20 93,25" fill="#3ef"/>
+<polygon points="65,5 71,5 68,10" fill="#3ef"/>
+<polygon points="60,35 66,35 63,40" fill="#3ef"/>
+<polygon points="80,60 86,60 83,65" fill="#3ef"/>
+<polygon points="60,35 66,35 63,40" fill="#3ef"/>
+<polygon points="80,165 86,165 83,170" fill="#3ef"/>
+<polygon points="90,190 96,190 93,195" fill="#3ef"/>
+<polygon points="55,155 61,155 58,160" fill="#3ef"/>
+<polygon points="10,135 16,135 13,140" fill="#3ef"/>
+<polygon points="55,155 61,155 58,160" fill="#3ef"/>
+<polygon points="30,135 36,135 33,140" fill="#3ef"/>
+</svg>

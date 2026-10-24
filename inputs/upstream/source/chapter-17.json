@@ -1,0 +1,701 @@
+{
+  "chapter": 17,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-17.html",
+  "sha256": "2af0254952016da6f8370845fa19adb9825479e8a6586c7bbc04c0f640bc3640",
+  "segments": [
+    {
+      "id": "17-001",
+      "type": "heading",
+      "en": "Chapter 17"
+    },
+    {
+      "id": "17-002",
+      "type": "dateline",
+      "en": "Meldan, Veridia · 3724 Fruitmoon 11"
+    },
+    {
+      "id": "17-003",
+      "type": "body",
+      "en": "Gladias walked forward along a path covered with trees on both sides, toward the large circular parliament building in front."
+    },
+    {
+      "id": "17-004",
+      "type": "body",
+      "en": "When he arrived at a side door of the building, he tapped his watch on the green circle."
+    },
+    {
+      "id": "17-005",
+      "type": "body",
+      "en": "The circle buzzed."
+    },
+    {
+      "id": "17-006",
+      "type": "body",
+      "en": "| Veridian Parliament |\n| --- |\n| Proof of invitation verified. |"
+    },
+    {
+      "id": "17-007",
+      "type": "body",
+      "en": "The door opened. Gladias walked in, and followed the instructions that were being relayed by his watch. Forward, then right turn, then forward, then third door on the left."
+    },
+    {
+      "id": "17-008",
+      "type": "body",
+      "en": "Gladias got to the door, and tapped his watch again."
+    },
+    {
+      "id": "17-009",
+      "type": "body",
+      "en": "The door opened."
+    },
+    {
+      "id": "17-010",
+      "type": "body",
+      "en": "Inside, he saw a man wearing a Veridian parliament robe."
+    },
+    {
+      "id": "17-011",
+      "type": "body",
+      "en": "\"Gladias, thank you for coming!\", the senator exclaimed."
+    },
+    {
+      "id": "17-012",
+      "type": "body",
+      "en": "\"And thank you for seeing me, Senator Verdow!\""
+    },
+    {
+      "id": "17-013",
+      "type": "body",
+      "en": "\"Please sit down.\""
+    },
+    {
+      "id": "17-014",
+      "type": "body",
+      "en": "A robot slid into the room."
+    },
+    {
+      "id": "17-015",
+      "type": "body",
+      "en": "\"jie mo kai tu jie hei ja ma?\", the robot asked."
+    },
+    {
+      "id": "17-016",
+      "type": "body",
+      "en": "Gladias briefly stared in surprise."
+    },
+    {
+      "id": "17-017",
+      "type": "body",
+      "en": "Verdow laughed."
+    },
+    {
+      "id": "17-018",
+      "type": "body",
+      "en": "\"I adjusted the settings to make it do that a few months ago. Just a little something as a reminder that other countries exist and that they matter.\""
+    },
+    {
+      "id": "17-019",
+      "type": "body",
+      "en": "Verdow tapped a few buttons on the robot's screen, and turned the screen toward Gladias."
+    },
+    {
+      "id": "17-020",
+      "type": "body",
+      "en": "The screen was in Dzegoban. Gladias's eyes wandered around with confusion."
+    },
+    {
+      "id": "17-021",
+      "type": "body",
+      "en": "\"Oh, if you want water, that's 'ja'. And if you want tea, that's 'kai ja'. Literally 'plant water'.\""
+    },
+    {
+      "id": "17-022",
+      "type": "body",
+      "en": "Gladias clicked on 'kai ja'. If he's going to be in Dzego for a few months, might as well get acclimated and start drinking some tea - and knowing the local word for it. The robot beeped, signaling acceptance of the order, and began to quietly glide away from them. The room door briefly opened, and the robot exited the room."
+    },
+    {
+      "id": "17-023",
+      "type": "body",
+      "en": "\"So you think I should go to Dzego?\""
+    },
+    {
+      "id": "17-024",
+      "type": "body",
+      "en": "\"You're obviously smart. Of course I have no idea what you say in your secret meetings, but judging from everything you said in the hearing, and from your original application to the Order years ago, I think you're a good and smart person. We need people like you to be more active in serving our country. Being a Keeper is nice, but come on, you're only one of over a thousand. I think getting and bringing back some first-hand experience from Dzego could be even more meaningful.\""
+    },
+    {
+      "id": "17-025",
+      "type": "body",
+      "en": "\"If you think it's a good idea, I'm happy to. But who should I talk to there? That's what I wanted to get your input on.\""
+    },
+    {
+      "id": "17-026",
+      "type": "body",
+      "en": "Gladias intentionally omitted any mention of Zei - not out of any desire to hide that indirect connection, but because he wanted to get a fully independent answer from Verdow first."
+    },
+    {
+      "id": "17-027",
+      "type": "body",
+      "en": "\"Well my strongest connections are with some of their authors and musicians\", he said, gently laughing. \"Though I also know a few people in the government there, especially the security and health ministry. I'll send you their contacts, and give them a heads up. I wouldn't stop with them, but I think they can help get you started.\""
+    },
+    {
+      "id": "17-028",
+      "type": "body",
+      "en": "\"Thanks, that would help a lot!\""
+    },
+    {
+      "id": "17-029",
+      "type": "body",
+      "en": "\"I only know two people from there, indirectly; my wife met them at a chance meeting in the Economics Institute in Freetown. Zei and Bai, they were in Minpentai.\""
+    },
+    {
+      "id": "17-030",
+      "type": "body",
+      "en": "Verdow's eyes opened. \"Honestly, you might have a better lead than I do. When you see the Minpentai games in Dzego, the players and the people who train them are clearly top-notch. If I had to find someone to defend me against the Arctics, I'd almost trust them over the actual Dzego army.\""
+    },
+    {
+      "id": "17-031",
+      "type": "body",
+      "en": "\"How advanced are Zei and Bai? Did they get into any of the championships?\""
+    },
+    {
+      "id": "17-032",
+      "type": "body",
+      "en": "\"Last thing Seila told me, Zei won the semi-finals, and then they cancelled the finals when Redshire was invaded.\""
+    },
+    {
+      "id": "17-033",
+      "type": "body",
+      "en": "\"The semi-finals, like municipal level?\""
+    },
+    {
+      "id": "17-034",
+      "type": "body",
+      "en": "\"National.\""
+    },
+    {
+      "id": "17-035",
+      "type": "body",
+      "en": "Verdow stared with a mix of surprise and joy."
+    },
+    {
+      "id": "17-036",
+      "type": "body",
+      "en": "\"Your connections are definitely better than mine then. When you come back, you'll have to tell me more about Dzego!\""
+    },
+    {
+      "id": "17-037",
+      "type": "body",
+      "en": "\"Anyway, I'll introduce you to the other folks I mentioned so you can see them when you come. It's always good to get more than one perspective.\""
+    },
+    {
+      "id": "17-038",
+      "type": "body",
+      "en": "Gladias nodded appreciatively."
+    },
+    {
+      "id": "17-039",
+      "type": "body",
+      "en": "\"Oh, by the way, speaking of getting more perspectives, one of the Graph Funding stewards is here about to visit me. You want to talk to him too?\""
+    },
+    {
+      "id": "17-040",
+      "type": "body",
+      "en": "\"About what?\""
+    },
+    {
+      "id": "17-041",
+      "type": "body",
+      "en": "\"Oh, his work, how he's feeling about Graph Funding, and of course Dzego.\""
+    },
+    {
+      "id": "17-042",
+      "type": "body",
+      "en": "\"Sure, why not?\""
+    },
+    {
+      "id": "17-043",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "17-044",
+      "type": "body",
+      "en": "A few minutes later, the door opened, and another man, wearing a Veridian privacy robe but without the face cover and hood, walked in."
+    },
+    {
+      "id": "17-045",
+      "type": "body",
+      "en": "\"Belgor, good to see you again!\""
+    },
+    {
+      "id": "17-046",
+      "type": "body",
+      "en": "\"Good to see you too, Verdow!\""
+    },
+    {
+      "id": "17-047",
+      "type": "body",
+      "en": "\"And meet Gladias, he's a Keeper.\""
+    },
+    {
+      "id": "17-048",
+      "type": "body",
+      "en": "\"Nice to meet you, Belgor.\""
+    },
+    {
+      "id": "17-049",
+      "type": "body",
+      "en": "\"And nice to meet you, Gladias!\""
+    },
+    {
+      "id": "17-050",
+      "type": "body",
+      "en": "\"So Gladias is thinking of going to Dzego soon. We thought that maybe you should tell him more about Graph Funding, and any advice on what he should do or learn in Dzego.\""
+    },
+    {
+      "id": "17-051",
+      "type": "body",
+      "en": "\"Sure, happy to. How familiar are you with how Graph Funding works?\""
+    },
+    {
+      "id": "17-052",
+      "type": "body",
+      "en": "\"Honestly, not very.\""
+    },
+    {
+      "id": "17-053",
+      "type": "body",
+      "en": "\"Great.\""
+    },
+    {
+      "id": "17-054",
+      "type": "body",
+      "en": "He took out his hand device, and pressed some buttons. A diagram opened up on the screen, and he showed it to Gladias."
+    },
+    {
+      "id": "17-055",
+      "type": "body",
+      "en": "![第17章图1](assets/ch17-fig01.svg)"
+    },
+    {
+      "id": "17-056",
+      "type": "body",
+      "en": "\"This is the subgraph for airborne disease resistance. For each node on the graph, the cryptographic network randomly selects a committee, that makes the decision of what weights the edges right below that node get.\""
+    },
+    {
+      "id": "17-057",
+      "type": "body",
+      "en": "\"So it's secure in the same way the Courts and the Order of Steering are. Having something like that for funding is especially important now, given that the Arctics just did the same attack on Quadratic Funding that Bluewhale did but at ten times the scale - and of course any more traditional style of allocation, they would try to interfere with as well.\""
+    },
+    {
+      "id": "17-058",
+      "type": "body",
+      "en": "\"Oh you're definitely right. Even the Keepers are getting attacked lately, though with all the secrecy and internal communication barriers, at least for now the system is holding.\""
+    },
+    {
+      "id": "17-059",
+      "type": "body",
+      "en": "\"Oh is that so? Good to hear. Though I am sad that we don't have a good way to make both of these things more democratic. Listening to citizens' assemblies is good and Heralds are good, but they're not a substitute for actual public accountability.\""
+    },
+    {
+      "id": "17-060",
+      "type": "body",
+      "en": "\"Anyway, one difference between the Graph Funding design and how the Courts and the Order work is that Graph Funding allows even more specialization. After all, funding allocation is a pretty technical task.\""
+    },
+    {
+      "id": "17-061",
+      "type": "body",
+      "en": "\"The goal is to try to split up each decision of funding allocation into more manageable pieces. Don't ask 'what percent of all Veridian public funding should go to this study on UVC lamps'. Ask, what percent should go to health, then within health, what percent should go to airborne diseases, and so on.\""
+    },
+    {
+      "id": "17-062",
+      "type": "body",
+      "en": "\"And if one project benefits two areas: say, some lamp that's somehow useful both for UVC lamps and for defense, then the graph stops being a tree, it becomes a proper directed acyclic graph. One node can have multiple parents, and the funding you get along all paths adds up.\""
+    },
+    {
+      "id": "17-063",
+      "type": "body",
+      "en": "\"So a committee is responsible for allocating the funding going to each node among its direct children?\""
+    },
+    {
+      "id": "17-064",
+      "type": "body",
+      "en": "\"Yes.\""
+    },
+    {
+      "id": "17-065",
+      "type": "body",
+      "en": "\"Can they remove children or make new ones?\""
+    },
+    {
+      "id": "17-066",
+      "type": "body",
+      "en": "\"Yes, of course. That's how the graph gets made in the first place.\""
+    },
+    {
+      "id": "17-067",
+      "type": "body",
+      "en": "\"This is fascinating.\""
+    },
+    {
+      "id": "17-068",
+      "type": "body",
+      "en": "\"I mean, this all hinges completely on how effective these committees are, right? The more you can specialize, the more it might get captured by special interests, and the more you randomize, the more you get decisions made by people who know nothing about what they're deciding?\""
+    },
+    {
+      "id": "17-069",
+      "type": "body",
+      "en": "\"Of course, that's always the tradeoff.\""
+    },
+    {
+      "id": "17-070",
+      "type": "body",
+      "en": "\"There's also another tradeoff. It turns out that it's fairly easy to get committees up to the point where they can tell bad projects from good ones, but very hard for them to tell good projects from great ones. So for the lower levels of the graph, there's been a movement lately to just randomize at the top end. If the committee says you're in the top ten percent, you have the same chance of getting in, no matter if you're at ninety one or ninety nine.\""
+    },
+    {
+      "id": "17-071",
+      "type": "body",
+      "en": "\"So the further someone is above ninety, the more they basically don't have to worry about optimizing for the committee at all, they can just do what feels right.\""
+    },
+    {
+      "id": "17-072",
+      "type": "body",
+      "en": "\"Exactly. Sometimes you don't actually want accountability, you want to give space for people's intrinsic motivation. The people at the very top may even be smarter than the committee. That's what randomize-above-cutoff does: accountability for those who won't succeed without it, and freedom from incentives for the best - they can convince the committee that their work is good enough with barely any effort at all.\""
+    },
+    {
+      "id": "17-073",
+      "type": "body",
+      "en": "\"Anyway, here's what it looks like zoomed in at the level of individual projects.\""
+    },
+    {
+      "id": "17-074",
+      "type": "body",
+      "en": "![第17章图2](assets/ch17-fig02.svg)"
+    },
+    {
+      "id": "17-075",
+      "type": "body",
+      "en": "\"Is it wise to have these randomly-selected Graph Funding committees making decisions at that level of granularity?\""
+    },
+    {
+      "id": "17-076",
+      "type": "body",
+      "en": "\"I'm not sure myself. The nice thing about this design is that it can always evolve without changing the structure. Committees could just decide to give the VNU Materials Science Lab 'ownership' of an entire category, and let them allocate internally. Actually, for the open source social media analysis, we basically did just that, eighty percent is just going to Silverchat.\""
+    },
+    {
+      "id": "17-077",
+      "type": "body",
+      "en": "\"Bluewhale is unhappy, but, hey, their choice to be so closed and proprietary with everything.\""
+    },
+    {
+      "id": "17-078",
+      "type": "body",
+      "en": "\"So how does this all connect to Dzego?\""
+    },
+    {
+      "id": "17-079",
+      "type": "body",
+      "en": "\"Ah, well a lot of this tech does actually make its way over to Dzego, they're starting to take the air filters and ultraviolet lights more seriously - a few of them are getting paranoid that the Arctics might hit them with a deliberately-released pandemic at some point.\""
+    },
+    {
+      "id": "17-080",
+      "type": "body",
+      "en": "\"Is there any chance that the Arctics could hit them with a pandemic that won't eventually bounce right back to them?\""
+    },
+    {
+      "id": "17-081",
+      "type": "body",
+      "en": "\"Well, if Arctic anti-pandemic technology shoots far enough ahead of the rest of the world, then yeah, they could release a pandemic that only they can effectively protect only their own people from. That's a big part of why it's so valuable to open-source all this stuff - at least the defensive things. Put the whole world on a more level playing field, so no one is in a position to light a fire and be the only ones with fireproof suits.\""
+    },
+    {
+      "id": "17-082",
+      "type": "body",
+      "en": "\"Anyway, if you end up going to Dzego, do tell me what you learn about their public health when you get back - I am curious!\""
+    },
+    {
+      "id": "17-083",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "17-084",
+      "type": "body",
+      "en": "Gladias opened the door to his house, and entered."
+    },
+    {
+      "id": "17-085",
+      "type": "body",
+      "en": "Seila and the kids were already eating dinner."
+    },
+    {
+      "id": "17-086",
+      "type": "body",
+      "en": "\"Today is your first vote, isn't it?\", Seila asked."
+    },
+    {
+      "id": "17-087",
+      "type": "body",
+      "en": "\"It is, glad you remembered!\""
+    },
+    {
+      "id": "17-088",
+      "type": "body",
+      "en": "\"So are you leaving again this evening?\", Zven asked."
+    },
+    {
+      "id": "17-089",
+      "type": "body",
+      "en": "\"Oh no, the in-person part was the discussions months ago, and the key registration, I did that right after my meetings at the Parliament.\""
+    },
+    {
+      "id": "17-090",
+      "type": "body",
+      "en": "\"There were also some discussions happening more recently in our Keeper discussion group online, though that chat automatically cut off seven days before the vote - have a quiet period to make more space for independent thought, the argument goes.\""
+    },
+    {
+      "id": "17-091",
+      "type": "body",
+      "en": "\"Oof, so the cutoff was after Redshire got annexed. What was that like?\""
+    },
+    {
+      "id": "17-092",
+      "type": "body",
+      "en": "\"I think everyone who said we should cut military hardware out of the best tiers in the rubric went quiet. Eighteen then proposed a new amendment that increases the tax brackets, pushing up the incentives to open things up even more. I'll probably vote for that.\""
+    },
+    {
+      "id": "17-093",
+      "type": "body",
+      "en": "\"Glad to hear.\""
+    },
+    {
+      "id": "17-094",
+      "type": "body",
+      "en": "\"How did your Parliament meetings go?\""
+    },
+    {
+      "id": "17-095",
+      "type": "body",
+      "en": "\"Very well. The Senator and the Graph Funding person both seemed quite supportive of me going. Though they said that Zei might be an even better contact to help me with my visit than anyone they knew!\""
+    },
+    {
+      "id": "17-096",
+      "type": "body",
+      "en": "\"That actually makes sense, everyone knows the official Dzego government is not where any of the interesting action is happening.\""
+    },
+    {
+      "id": "17-097",
+      "type": "body",
+      "en": "\"I guess I'll talk to Zei and put you two in touch then!\""
+    },
+    {
+      "id": "17-098",
+      "type": "body",
+      "en": "Gladias, Seila and the kids took a few bites of their food. Soon, the dinner conversation resumed."
+    },
+    {
+      "id": "17-099",
+      "type": "body",
+      "en": "\"Febric, Hreda, want to share your news?\""
+    },
+    {
+      "id": "17-100",
+      "type": "body",
+      "en": "\"We're going on an exchange trip to Northglade for the winter term!\", Hreda exclaimed proudly."
+    },
+    {
+      "id": "17-101",
+      "type": "body",
+      "en": "\"Ooh, that's pretty far northeast, almost at the Arctic border\", Gladias replied."
+    },
+    {
+      "id": "17-102",
+      "type": "body",
+      "en": "\"It's fun, we'll get to ski off mountains wearing a copter and then glide back down!\", Hreda exclaimed. \"And it's not like it's right at the border, Northglade is over two hundred kilometers inland. It will be my first time there!\""
+    },
+    {
+      "id": "17-103",
+      "type": "body",
+      "en": "\"So what are you guys doing there?\", Gladias asked."
+    },
+    {
+      "id": "17-104",
+      "type": "body",
+      "en": "\"Veridia's best math university is there,\" Hreda replied. \"I'm in the top five percent in math in my class, so I got accepted to attend some special education there.\""
+    },
+    {
+      "id": "17-105",
+      "type": "body",
+      "en": "\"Same for me,\" Febric added. \"Though I'm in computer science.\""
+    },
+    {
+      "id": "17-106",
+      "type": "body",
+      "en": "\"Didn't Lily also want to go to Northglade?\""
+    },
+    {
+      "id": "17-107",
+      "type": "body",
+      "en": "Lily was in the washroom, so she could not answer."
+    },
+    {
+      "id": "17-108",
+      "type": "body",
+      "en": "\"Vil said that he will take her in the summer if she gets to seventy-five percent in her exams.\""
+    },
+    {
+      "id": "17-109",
+      "type": "body",
+      "en": "\"She prefers summer, she doesn't like the cold as much.\""
+    },
+    {
+      "id": "17-110",
+      "type": "body",
+      "en": "Gladias's hand device buzzed."
+    },
+    {
+      "id": "17-111",
+      "type": "body",
+      "en": "\"Well, voting on the hardware openness rubric started.\""
+    },
+    {
+      "id": "17-112",
+      "type": "body",
+      "en": "Rubric: openness in hardware\n\n***\n\n| Motion | Vote |\n| --- | --- |\n| Add after line 3 in Tier 1 and line 3 in Tier 2: \"Products in military, surveillance and counter-surveillance applications are not eligible for this tier.\" | Yes No |\n| Increase tax brackets from 0 / 6 / 12 / 18 / 24 to 0 / 10 / 20 / 26 / 32 | Yes No |\n| Change line 4 in Tier 4 and line 4 in Tier 5, from: \"Use of hardware means to prevent third-party repair.\" To: \"Use of hardware or software means to prevent third-party repair.\" | Yes No |"
+    },
+    {
+      "id": "17-113",
+      "type": "body",
+      "en": "This felt anti-climactic, Gladias thought. So much ceremony, in-person meetings, debate and work in the months leading up to the vote. And then the vote itself was just ... tapping buttons on a screen."
+    },
+    {
+      "id": "17-114",
+      "type": "body",
+      "en": "It was reasonable, Gladias supposed. The way that the cryptography worked, as long as key registration was secure, this part could just be done on his own hardware at home. And even if Delwart did come knocking and demand to stare at him from behind his shoulder for the entire fifteen-longhour voting window, he had no way to prove to him that the key on his device even was the one registered - as opposed to being a distraction while the real voting was done by Mov, Seila or even Zven."
+    },
+    {
+      "id": "17-115",
+      "type": "body",
+      "en": "Gladias took one last look at the screen, and nonchalantly pressed: No, Yes, Yes."
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch17-fig01.svg",
+      "labels": [
+        "24%",
+        "22%",
+        "21%",
+        "8%",
+        "20%",
+        "15%",
+        "38%",
+        "33%",
+        "14%",
+        "32%",
+        "12%",
+        "18%",
+        "23%",
+        "15%",
+        "45%",
+        "25%",
+        "15%",
+        "15%",
+        "45%",
+        "18%",
+        "12%",
+        "25%",
+        "55%",
+        "15%",
+        "12%",
+        "18%",
+        "Airborne disease",
+        "resistance",
+        "Air quality",
+        "Early detection",
+        "Treatment",
+        "Individual",
+        "non-pharmaceutical",
+        "prevention",
+        "Prophylactics",
+        "...",
+        "Ventilation",
+        "Filtration",
+        "Ultraviolet",
+        "light",
+        "Wastewater",
+        "scanning",
+        "Social media",
+        "open-source",
+        "analysis",
+        "Individual testing",
+        "Airborne",
+        "environment",
+        "scanning",
+        "...",
+        "Antivirals",
+        "Supportive",
+        "care",
+        "Immuno-",
+        "modulators",
+        "...",
+        "Masks",
+        "Nose sprays",
+        "Saline nasal",
+        "rinsing",
+        "...",
+        "Vaccines",
+        "Passive",
+        "immunization",
+        "Chemo-",
+        "prophylaxis",
+        "...",
+        "rest of portfolio"
+      ]
+    },
+    {
+      "file": "assets/ch17-fig02.svg",
+      "labels": [
+        "45%",
+        "30%",
+        "15%",
+        "60%",
+        "30%",
+        "30%",
+        "25%",
+        "20%",
+        "50%",
+        "25%",
+        "45%",
+        "35%",
+        "40%",
+        "45%",
+        "Ultraviolet light",
+        "222nm lamp efficiency",
+        "improvements",
+        "222nm safety",
+        "testing",
+        "222nm upper-room",
+        "deployment",
+        "Krypton",
+        "chloride lamps",
+        "Research into",
+        "alternative lamp",
+        "designs",
+        "Dalias et al",
+        "Poppe and",
+        "Mawart",
+        "Vidrik",
+        "Bonne",
+        "VNU Materials",
+        "Science Lab",
+        "Kudlin and Melana:",
+        "effects on household chemicals",
+        "Pov and Imerry",
+        "VNU Aeronautics Lab",
+        "Air quality portfolio",
+        "14%"
+      ]
+    }
+  ]
+}

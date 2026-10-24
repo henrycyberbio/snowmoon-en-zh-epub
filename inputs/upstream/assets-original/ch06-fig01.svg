@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 800 400">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><defs>
+<marker id="arrowhead" orient="auto" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#cef"/>
+</marker>
+<pattern id="gridPattern" width="8" height="8" patternUnits="userSpaceOnUse">
+<circle cx="4.0" cy="4.0" r="2" fill="#cef"/>
+</pattern>
+</defs>
+<rect width="800" height="400" fill="#245"/>
+<!-- Left: all keepers grid (25 x 40 at 8px spacing = 200 x 320), label on top -->
+<text x="130.0" y="26" font-family="sans-serif" font-size="18" fill="lightblue" text-anchor="middle">All Keepers</text>
+<rect x="30" y="40" width="200" height="320" fill="url(#gridPattern)"/>
+<!-- Center: arrow spanning the gap (raised to align with circle center) -->
+<line x1="243" y1="170" x2="430" y2="170" stroke="#cef" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+<text x="332" y="191" font-family="sans-serif" font-size="18" fill="lightblue" text-anchor="middle">Random selection</text>
+<!-- Right: assembly -->
+<circle cx="545" cy="170" r="100" fill="rgba(204, 238, 255, 0.04)" stroke="#9ab" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="545" y="26" font-family="sans-serif" font-size="18" fill="lightblue" text-anchor="middle">Current Keepers for this rubric</text>
+<circle cx="545.0" cy="88.0" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="569.2" cy="91.6" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="591.2" cy="102.2" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="609.1" cy="118.9" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="621.3" cy="140.0" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="626.8" cy="163.9" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="624.9" cy="188.2" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="616.0" cy="211.0" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="600.8" cy="230.1" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="580.6" cy="243.9" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="557.2" cy="251.1" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="532.8" cy="251.1" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="509.4" cy="243.9" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="489.2" cy="230.1" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="474.0" cy="211.0" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="465.1" cy="188.2" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="463.2" cy="163.9" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="468.7" cy="140.0" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="480.9" cy="118.9" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="498.8" cy="102.2" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="520.8" cy="91.6" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<line x1="615" y1="114" x2="662" y2="100" stroke="#9ab" stroke-width="1"/>
+<circle cx="669" cy="96" r="4.5" fill="#6af"/>
+<text x="677" y="89" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="start"><tspan x="677" dy="0">added second-</tspan><tspan x="677" dy="17">last year</tspan></text>
+<line x1="606" y1="236" x2="662" y2="222" stroke="#9ab" stroke-width="1"/>
+<circle cx="669" cy="218" r="4.5" fill="#4cb"/>
+<text x="677" y="211" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="start"><tspan x="677" dy="0">added last</tspan><tspan x="677" dy="17">year</tspan></text>
+<line x1="461" y1="137" x2="395" y2="115" stroke="#9ab" stroke-width="1"/>
+<circle cx="387" cy="111" r="4.5" fill="#fa5"/>
+<text x="379" y="104" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="end"><tspan x="379" dy="0">added this</tspan><tspan x="379" dy="17">year</tspan></text>
+<line x1="487.6" y1="251.9" x2="385" y2="330" stroke="#cef" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+<text x="414" y="284" font-family="sans-serif" font-size="12" fill="lightblue" text-anchor="end"><tspan x="414" dy="0">Random</tspan><tspan x="414" dy="14">selection</tspan></text>
+<line x1="545.0" y1="270.0" x2="545" y2="330" stroke="#cef" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+<text x="553" y="288" font-family="sans-serif" font-size="12" fill="lightblue" text-anchor="start"><tspan x="553" dy="0">Random</tspan><tspan x="553" dy="14">selection</tspan></text>
+<line x1="602.4" y1="251.9" x2="705" y2="330" stroke="#cef" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+<text x="672" y="284" font-family="sans-serif" font-size="12" fill="lightblue" text-anchor="start"><tspan x="672" dy="0">Random</tspan><tspan x="672" dy="14">selection</tspan></text>
+<rect x="311" y="332" width="148" height="60" rx="8" fill="rgba(204, 238, 255, 0.04)" stroke="#9ab" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="385" y="350" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="middle">Discussion Group 1</text>
+<circle cx="340.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="355.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="370.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="385.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="400.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="415.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="430.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<rect x="471" y="332" width="148" height="60" rx="8" fill="rgba(204, 238, 255, 0.04)" stroke="#9ab" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="545" y="350" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="middle">Discussion Group 2</text>
+<circle cx="500.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="515.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="530.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="545.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="560.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="575.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="590.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<rect x="631" y="332" width="148" height="60" rx="8" fill="rgba(204, 238, 255, 0.04)" stroke="#9ab" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="705" y="350" font-family="sans-serif" font-size="15" fill="lightblue" text-anchor="middle">Discussion Group 3</text>
+<circle cx="660.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="675.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="690.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="705.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+<circle cx="720.0" cy="372" r="5" fill="#6af" stroke="#245" stroke-width="1"/>
+<circle cx="735.0" cy="372" r="5" fill="#4cb" stroke="#245" stroke-width="1"/>
+<circle cx="750.0" cy="372" r="5" fill="#fa5" stroke="#245" stroke-width="1"/>
+</svg>

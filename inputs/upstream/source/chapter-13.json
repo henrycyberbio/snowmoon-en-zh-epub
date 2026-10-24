@@ -1,0 +1,518 @@
+{
+  "chapter": 13,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-13.html",
+  "sha256": "2b0aa4e71cff0b06a46706ca4088ab221979699d235a88db1be980e931b4fc3e",
+  "segments": [
+    {
+      "id": "13-001",
+      "type": "heading",
+      "en": "Chapter 13"
+    },
+    {
+      "id": "13-002",
+      "type": "dateline",
+      "en": "Meldan, Veridia · 3724 Harvestmoon 8"
+    },
+    {
+      "id": "13-003",
+      "type": "body",
+      "en": "Gladias pulled up the cloth curtain, and entered the booth. By now, he was very familiar with the style: a table, a decorated lamp and two flowers at the end, and an air filter pressed against a corner on the floor."
+    },
+    {
+      "id": "13-004",
+      "type": "body",
+      "en": "Delwart was already sitting inside."
+    },
+    {
+      "id": "13-005",
+      "type": "body",
+      "en": "\"So how are the Keeper meetings going?\", Delwart asked."
+    },
+    {
+      "id": "13-006",
+      "type": "body",
+      "en": "\"They're interesting\", Gladias replied."
+    },
+    {
+      "id": "13-007",
+      "type": "body",
+      "en": "\"I'm actually surprised. This idea that we should not be intervening so much in everything, we should have fewer rubrics, I'm far from the only one bringing it up. It feels like almost half the first-years have the same idea in mind, and are bringing it up just as proactively as you wanted me to.\""
+    },
+    {
+      "id": "13-008",
+      "type": "body",
+      "en": "\"So at least some of them don't want you to get taxed for every bad word in your song and micromanaged on like five different kinds of accessibility for every house or apartment that you build?\""
+    },
+    {
+      "id": "13-009",
+      "type": "body",
+      "en": "\"I mean, I don't think it's that bad now. We're not making people fill forms for everything like they do in Inglewore. The taxes are just another variable for people to watch, along with electricity costs. But even then, I think the Keepers are understanding that we have to be reasonable and not too prescriptive.\""
+    },
+    {
+      "id": "13-010",
+      "type": "body",
+      "en": "\"Are they making their case well?\""
+    },
+    {
+      "id": "13-011",
+      "type": "body",
+      "en": "\"Often better than I could. The second and third years tend to be more skeptical, they have a more traditional mindset. That comes through especially on anything related to Dzego or the Arctic threat.\""
+    },
+    {
+      "id": "13-012",
+      "type": "body",
+      "en": "Delwart sighed. \"There's been decades of propaganda on all this stuff. Honestly, the Arctics are not making a great case for themselves; everything they do, their drone patrols near Redshire, even Ephelion's speeches, it just always aggravates people so much.\""
+    },
+    {
+      "id": "13-013",
+      "type": "body",
+      "en": "\"Yeah, a bunch of people think they're going to make some kind of more serious sabotage campaign against Redshire.\""
+    },
+    {
+      "id": "13-014",
+      "type": "body",
+      "en": "\"Do you think they'll make a more serious sabotage campaign?\""
+    },
+    {
+      "id": "13-015",
+      "type": "body",
+      "en": "Gladias thought for a moment. In his heart, he did not know, and while he expected that nothing would happen anytime soon, he feared that the answer might be yes. But he also knew that if he admitted it to Delwart, he would get a long lecture trying to impress on him how biased his sources of evidence were - and that was all *without* him having told Delwart about the time Seila met Zei and Bai in Freetown."
+    },
+    {
+      "id": "13-016",
+      "type": "body",
+      "en": "\"Probably not.\""
+    },
+    {
+      "id": "13-017",
+      "type": "body",
+      "en": "\"So do the best job you can to try to convince them not to worry.\""
+    },
+    {
+      "id": "13-018",
+      "type": "body",
+      "en": "A robot came in, and brought Gladias a water and a salad, and Delwart a tea along with a rectangular nutrition bar."
+    },
+    {
+      "id": "13-019",
+      "type": "body",
+      "en": "They both quietly drank, and then ate."
+    },
+    {
+      "id": "13-020",
+      "type": "body",
+      "en": "They talked for a little bit more, and then after about twenty minutes, Gladias stood up."
+    },
+    {
+      "id": "13-021",
+      "type": "body",
+      "en": "\"I'm sorry, I have to leave for a dinner with my family.\""
+    },
+    {
+      "id": "13-022",
+      "type": "body",
+      "en": "\"Of course you should, family is the most important thing!\""
+    },
+    {
+      "id": "13-023",
+      "type": "body",
+      "en": "Gladias stepped out, and began to walk through Greater Plum Harbor's tunnels toward the exit."
+    },
+    {
+      "id": "13-024",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "13-025",
+      "type": "body",
+      "en": "After about ten minutes of walking through tunnels, Gladias emerged into a pathway above ground level. The Greater Plum Harbor's tall entrance doors were directly in front. Gladias passed through the turnstile, and exited back out into the mixture of greenery and glass and steel that defined Meldan's commercial district."
+    },
+    {
+      "id": "13-026",
+      "type": "body",
+      "en": "Gladias turned right, and began walking back toward his home."
+    },
+    {
+      "id": "13-027",
+      "type": "body",
+      "en": "His watch buzzed."
+    },
+    {
+      "id": "13-028",
+      "type": "body",
+      "en": "| From |  | Message | Time |\n| --- | --- | --- | --- |\n| Mov | → | I've been following Delwart more, we should talk. | 71256 |"
+    },
+    {
+      "id": "13-029",
+      "type": "body",
+      "en": "Gladias whispered into his neck band, and opened a call with Mov."
+    },
+    {
+      "id": "13-030",
+      "type": "body",
+      "en": "\"What's going on?\""
+    },
+    {
+      "id": "13-031",
+      "type": "body",
+      "en": "\"He was a little more careless than usual this time\", Mov said. \"I followed him to his next meeting. It was with another Keeper. I got the adjacent booth, and I could listen through the vibrations on the wall.\""
+    },
+    {
+      "id": "13-032",
+      "type": "body",
+      "en": "\"Wow. The GPH booths are that much worse than the ones the Keepers use?\""
+    },
+    {
+      "id": "13-033",
+      "type": "body",
+      "en": "\"Yep. I don't think enough people know the difference yet.\""
+    },
+    {
+      "id": "13-034",
+      "type": "body",
+      "en": "\"And we were using those booths for our conversations for months...\""
+    },
+    {
+      "id": "13-035",
+      "type": "body",
+      "en": "\"Indeed... well, now we know.\""
+    },
+    {
+      "id": "13-036",
+      "type": "body",
+      "en": "\"Anyway, the other Keeper was in the hardware openness rubric, in a different discussion group from you. He was fully on board with Delwart's program.\""
+    },
+    {
+      "id": "13-037",
+      "type": "body",
+      "en": "\"And?\""
+    },
+    {
+      "id": "13-038",
+      "type": "body",
+      "en": "\"The whole conversation was strategizing about how to persuade the other Keepers in that group to go along with his position.\""
+    },
+    {
+      "id": "13-039",
+      "type": "body",
+      "en": "\"Delwart was really forceful. He seems to really care about this. And, between you and this other Keeper, he has managed to get contacts in two discussion groups for the same rubric. The whole point of splitting the discussion groups is to force people to think independently, to have them all taking cues from the same person!\""
+    },
+    {
+      "id": "13-040",
+      "type": "body",
+      "en": "\"Anyway, I'm convinced that this whole thing is more organized, and deeper, than we all realize.\""
+    },
+    {
+      "id": "13-041",
+      "type": "body",
+      "en": "\"Next time you talk to Delwart, I think you should demand some answers.\""
+    },
+    {
+      "id": "13-042",
+      "type": "body",
+      "en": "\"What do you think it could be? Some kind of organized political effort to make Veridia more like Freetown, but without the part where they care about opposing the Arctics? So it's not just one person who believes in the cause, there might be some kind of whole network behind him?\""
+    },
+    {
+      "id": "13-043",
+      "type": "body",
+      "en": "\"I'm curious too.\""
+    },
+    {
+      "id": "13-044",
+      "type": "body",
+      "en": "Gladias stepped onto the autobus."
+    },
+    {
+      "id": "13-045",
+      "type": "body",
+      "en": "He sighed."
+    },
+    {
+      "id": "13-046",
+      "type": "body",
+      "en": "\"I'll think about it more. I'm heading home now, having dinner with my family. The kids are back home today.\""
+    },
+    {
+      "id": "13-047",
+      "type": "body",
+      "en": "\"Yeah, please do. And - take care.\""
+    },
+    {
+      "id": "13-048",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "13-049",
+      "type": "body",
+      "en": "Gladias got off the autobus, and began to walk toward the restaurant. Wearing the privacy robe and walking quickly, he sweated in the hot sun."
+    },
+    {
+      "id": "13-050",
+      "type": "body",
+      "en": "After a few minutes, he arrived. Seila and all four children were already sitting at the table."
+    },
+    {
+      "id": "13-051",
+      "type": "body",
+      "en": "\"Surprise!\", Seila exclaimed. \"We got here before you this time.\""
+    },
+    {
+      "id": "13-052",
+      "type": "body",
+      "en": "Gladias's face turned into a smile. He was happy to see the kids again. It had been two months since his visit to their house for that one evening, and they had been away from his and Seila's home for half a year."
+    },
+    {
+      "id": "13-053",
+      "type": "body",
+      "en": "Gladias put away his thoughts about Delwart and Mov, and made a deliberate effort to focus his attention on his family."
+    },
+    {
+      "id": "13-054",
+      "type": "body",
+      "en": "A few minutes later, a robot slid up to them, bringing meals for Febric and Hreda."
+    },
+    {
+      "id": "13-055",
+      "type": "body",
+      "en": "\"How did your math exam go?\", Seila asked Hreda."
+    },
+    {
+      "id": "13-056",
+      "type": "body",
+      "en": "\"Ninety-six percent\", Hreda replied."
+    },
+    {
+      "id": "13-057",
+      "type": "body",
+      "en": "The look on Seila's face immediately changed to worry. Now it was going to be even more awkward to ask Lily, she knew. She had planned to ask her right after, but now simply congratulated Hreda instead."
+    },
+    {
+      "id": "13-058",
+      "type": "body",
+      "en": "Lily's eyes sank down to look at the table right in front of her."
+    },
+    {
+      "id": "13-059",
+      "type": "body",
+      "en": "The robot slid up to them once again, and brought the meals for Zven and Lily. Zven eagerly took his. Lily did not move."
+    },
+    {
+      "id": "13-060",
+      "type": "body",
+      "en": "Gladias took Lily's meal, and put it down on the table in front of her."
+    },
+    {
+      "id": "13-061",
+      "type": "body",
+      "en": "Lily slowly began to eat, and said nothing."
+    },
+    {
+      "id": "13-062",
+      "type": "body",
+      "en": "The table went silent. They ate slowly, while watching the professional Helisport game that was playing on a nearby screen."
+    },
+    {
+      "id": "13-063",
+      "type": "body",
+      "en": "Suddenly, the Helisport game cut out, and was replaced by a completely different broadcast."
+    },
+    {
+      "id": "13-064",
+      "type": "body",
+      "en": "An image of Lord Ephelion appeared on the left side of the screen, and a multi-paragraph message on the right side."
+    },
+    {
+      "id": "13-065",
+      "type": "body",
+      "en": "The Dead Hand of Egalitarianism, and the Path of Strength\n\n***\n\nAll humans are equal, the schools, the posters, the songs, and everything else in Veridia is telling you.\n\nMaybe not Dreadknot - but that's exactly why Dreadknot's taxes were bumped up to tier 4 in the audit last year.\n\nNobody is better than anyone else, and if you even dare claim that one human being is better than another, then you are immediately cast out as evil in Veridia.\n\nBut there is a fundamental flaw in this kind of thinking. If one human being cannot be better than another human being, then that also implies that a human being cannot be better than their former self. Denying the possibility of hierarchy, of vertical difference between people, the fact that there are traits that everyone agrees are good, but that only some actually manage to achieve, is thus also denying the possibility of self-improvement.\n\nDo not think that the idea that there are multiple dimensions to goodness and to success saves you from this. Even if there are, some people perform better, and others perform worse, across *all* the dimensions that matter.\n\nStop looking to society for answers, to Veridia's institutions to make life fair. Life is not fair - and should not be fair. Embrace the competition. Today, you may be weak. But you have it in you to be strong. Do not believe the lie that you are adequate just the way you are. But do believe a truth - the truth that you have it in you to become strong. Take that opportunity. Grow stronger. Grow so strong, that you later look upon your former self with shame.\n\nAnd find the other strong people, the people who will help you on your journey of striving for greatness. Not those who will love you unconditionally - that is slow-burning poison, like sweet candy. But those who will give you love when you win, and a cold shoulder when you lose. Those that give you both the incentive, and the disincentive. You are not good because you are human, you are good because you can win. Only thus, can you train your mind to love winning, and achieve your true potential.\n\nWith regards,\n\nLord Ephelion\n\nArctic Empire consul to Veridia."
+    },
+    {
+      "id": "13-066",
+      "type": "body",
+      "en": "Gladias quickly scanned the message, and looked around. Seila had already gotten up from the table, and was trying to figure out how to unplug the screen, even before the restaurant staff could get there themselves."
+    },
+    {
+      "id": "13-067",
+      "type": "body",
+      "en": "Febric and Hreda continued eating. Zven was looking at the onscreen message with curiosity, his mind jumping between the paragraphs, and occasionally moving his attention to watching Seila try to turn the screen off. And Lily was simply staring at the message."
+    },
+    {
+      "id": "13-068",
+      "type": "body",
+      "en": "Finally, the screen turned off."
+    },
+    {
+      "id": "13-069",
+      "type": "body",
+      "en": "The family went silent. Febric took out his hand device, and began to study for school. Lily took out her hand device, and began to intensely tap on it. Gladias could not see what she was doing, though she seemed to be playing some kind of game."
+    },
+    {
+      "id": "13-070",
+      "type": "body",
+      "en": "The family quietly ate. Five minutes later, Lily's face suddenly lit up, and she quietly cheered. She put down her hand device, and joined the family eating. Despite starting to eat later than they did, she finished the food before everyone else."
+    },
+    {
+      "id": "13-071",
+      "type": "dateline",
+      "en": "3724 Harvestmoon 9"
+    },
+    {
+      "id": "13-072",
+      "type": "body",
+      "en": "Gladias slid the barrier open, and walked into the booth. The other Keepers were all already there."
+    },
+    {
+      "id": "13-073",
+      "type": "body",
+      "en": "\"Good to see you again, Six!\", Thirteen exclaimed."
+    },
+    {
+      "id": "13-074",
+      "type": "body",
+      "en": "\"Wait, how did you know I'm Six?\""
+    },
+    {
+      "id": "13-075",
+      "type": "body",
+      "en": "\"By instinct. Probably some subtle detail of your body language - as they say, ninety percent of our communication is subconscious.\""
+    },
+    {
+      "id": "13-076",
+      "type": "body",
+      "en": "\"Huh, I guess even after hiding our faces, even after speaking through neck bands and sending out our speech with a re-randomized AI-generated voice, though I still can't tell who of you is male and who is female, these physical privacy tools still have their limits. Well good to see you too, Eighteen.\""
+    },
+    {
+      "id": "13-077",
+      "type": "body",
+      "en": "\"I'm Thirteen!\", Thirteen replied. \"I guess for you communication might be only thirty percent subconscious.\""
+    },
+    {
+      "id": "13-078",
+      "type": "body",
+      "en": "\"I'm female, by the way. I guess that's okay to say, it only cuts down my anonymity set by a factor of two.\""
+    },
+    {
+      "id": "13-079",
+      "type": "body",
+      "en": "\"Anyway, this is the last time we meet before we have to vote on this rubric in about two months.\""
+    },
+    {
+      "id": "13-080",
+      "type": "body",
+      "en": "\"Do we have a proposal?\""
+    },
+    {
+      "id": "13-081",
+      "type": "body",
+      "en": "Zero raised his head."
+    },
+    {
+      "id": "13-082",
+      "type": "body",
+      "en": "\"I drafted the change in language\", he interjected. \"To exempt all military, surveillance and counter-surveillance products from the more favorable tiers on the openness tax rubric. All that stuff becomes minimum tier 3, unconditionally.\""
+    },
+    {
+      "id": "13-083",
+      "type": "body",
+      "en": "\"Counter-surveillance too?\""
+    },
+    {
+      "id": "13-084",
+      "type": "body",
+      "en": "\"Of course. It's all part of the same zero-sum game.\""
+    },
+    {
+      "id": "13-085",
+      "type": "body",
+      "en": "Eighteen began to speak."
+    },
+    {
+      "id": "13-086",
+      "type": "body",
+      "en": "\"I still think you guys are not understanding the Arctic threat at all. They have the technological advantage. This isn't a symmetric game. If everyone has to make their own tech in those areas, the Arctics win.\""
+    },
+    {
+      "id": "13-087",
+      "type": "body",
+      "en": "\"Come on! They're not going to attack. They've had drones buzzing around different places for years now, ever since drones were invented. They're not going to start doing anything crazy in Redshire, okay?\""
+    },
+    {
+      "id": "13-088",
+      "type": "body",
+      "en": "\"You really think so?\""
+    },
+    {
+      "id": "13-089",
+      "type": "body",
+      "en": "Gladias looked around the room. His ability to read body language was indeed not great. But from what he could tell, three of the others were leaning in favor of cutting military, surveillance and counter-surveillance out of the hardware openness rubric, Thirteen was in the middle, and only Eighteen and One were against."
+    },
+    {
+      "id": "13-090",
+      "type": "body",
+      "en": "His conversation with Mov the day before put him into a suspicious mood. Before, he had been more open-minded. Now, he started to think, doing nothing at all to the rubric this year might be best. His mind bounced around, trying to think of ways to nudge the situation in a more favorable direction. After about half a minute of thinking, he had his plan."
+    },
+    {
+      "id": "13-091",
+      "type": "body",
+      "en": "\"I just had an idea.\""
+    },
+    {
+      "id": "13-092",
+      "type": "body",
+      "en": "The others turned toward Gladias."
+    },
+    {
+      "id": "13-093",
+      "type": "body",
+      "en": "\"We don't have to decide this now. We still have two months before we have to vote, don't we?\""
+    },
+    {
+      "id": "13-094",
+      "type": "body",
+      "en": "\"Correct.\""
+    },
+    {
+      "id": "13-095",
+      "type": "body",
+      "en": "\"Eighteen, in what timeframe do you think the Arctic Empire is going to make some kind of move, do some more serious sabotage against Redshire?\""
+    },
+    {
+      "id": "13-096",
+      "type": "body",
+      "en": "\"Less than two months, definitely.\""
+    },
+    {
+      "id": "13-097",
+      "type": "body",
+      "en": "\"One, I remember you were also of the mindset that we should take the Arctics seriously as a threat. What's your timeline?\""
+    },
+    {
+      "id": "13-098",
+      "type": "body",
+      "en": "\"Ten or twenty days, maybe a month. Won't be anything too drastic, but we'll see sabotage of some kind. It might get reported as a big accident, that's how it always happens.\""
+    },
+    {
+      "id": "13-099",
+      "type": "body",
+      "en": "\"So how about this? Of course, this is not binding, it's just a preliminary thought. But, how about we all wait for two months and see what happens. If there's no attack, then we'll all be more inclined to accept Zero's amendment. But if there is, then we'll keep the rubric as is, or even increase the distance between the tax brackets.\""
+    },
+    {
+      "id": "13-100",
+      "type": "body",
+      "en": "Zero softly muttered some disapproval under his breath but did not say anything. He clearly did not like to be pinned down like this. But he could not come up with any argument to rebut Gladias's proposal."
+    },
+    {
+      "id": "13-101",
+      "type": "body",
+      "en": "Eighteen seemed to have a similar reaction. Like Zero, he did not like being pinned down, but he could not avoid admitting that he could not come up with any better way to break the impasse."
+    },
+    {
+      "id": "13-102",
+      "type": "body",
+      "en": "\"So let's leave it at that.\""
+    }
+  ],
+  "figures": []
+}

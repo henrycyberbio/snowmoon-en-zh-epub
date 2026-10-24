@@ -1,0 +1,54 @@
+{
+ "chapter": 2,
+ "segments": [
+  {
+   "id": "02-001",
+   "type": "p",
+   "device": "text",
+   "en": "The survey asked one question.",
+   "zh": null
+  },
+  {
+   "id": "02-002",
+   "type": "p",
+   "device": "text",
+   "en": "Confidence in the military fell to 39%.",
+   "zh": null
+  },
+  {
+   "id": "02-003",
+   "type": "figure",
+   "device": "figure",
+   "en": "![chart](assets/fig1-en.svg)",
+   "zh": null
+  },
+  {
+   "id": "02-004",
+   "type": "table",
+   "device": "table",
+   "en": "<table><tr><td>39%</td></tr></table>",
+   "zh": null
+  },
+  {
+   "id": "02-057",
+   "type": "p",
+   "device": "text",
+   "en": "In 2024 the toll was 17/33 of the old levy.",
+   "zh": null
+  },
+  {
+   "id": "02-058",
+   "type": "p",
+   "device": "text",
+   "en": "Afterwards the council said nothing.",
+   "zh": null
+  }
+ ],
+ "figures": [
+  {
+   "segment_id": "02-003",
+   "en": "assets/fig1-en.svg",
+   "zh": "assets/fig1-zh.svg"
+  }
+ ]
+}

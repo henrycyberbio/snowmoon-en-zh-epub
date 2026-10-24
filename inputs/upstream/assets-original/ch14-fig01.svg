@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" style="margin-left:35px" viewBox="0 0 200 200">
+<rect x="0" y="0" width="100%" height="100%" fill="#0a0e27"/><rect width="200" height="200" fill="#348"/>
+<circle cx="10" cy="30" r="3" fill="#cef"/>
+<circle cx="35" cy="10" r="3" fill="#cef"/>
+<circle cx="45" cy="65" r="3" fill="#cef"/>
+<circle cx="65" cy="45" r="3" fill="#cef"/>
+<circle cx="90" cy="115" r="3" fill="#cef"/>
+<circle cx="105" cy="110" r="3" fill="#cef"/>
+<circle cx="115" cy="15" r="3" fill="#cef"/>
+<circle cx="165" cy="10" r="3" fill="#cef"/>
+<circle cx="190" cy="25" r="3" fill="#cef"/>
+<rect x="85" y="95" width="5" height="5" fill="#c9f"/>
+<rect x="85" y="160" width="5" height="5" fill="#c9f"/>
+<rect x="180" y="85" width="5" height="5" fill="#c9f"/>
+<rect x="185" y="165" width="5" height="5" fill="#c9f"/>
+<rect x="160" y="185" width="5" height="5" fill="#c9f"/>
+<rect x="150" y="170" width="5" height="5" fill="#c9f"/>
+<rect x="175" y="140" width="5" height="5" fill="#c9f"/>
+<rect x="15" y="170" width="5" height="5" fill="#c9f"/>
+<rect x="35" y="185" width="5" height="5" fill="#c9f"/>
+<polygon points="18,94 32,94 25,106" fill="#3ef"/>
+<polygon points="93,94 107,94 100,106" fill="#3ef"/>
+<polygon points="168,94 182,94 175,106" fill="#3ef"/>
+<polygon points="93,19 107,19 100,31" fill="#3ef"/>
+<polygon points="93,169 107,169 100,181" fill="#3ef"/>
+</svg>

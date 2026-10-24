@@ -1,0 +1,718 @@
+{
+  "chapter": 9,
+  "url": "https://vitalik.eth.limo/snowmoon/html/chapter-9.html",
+  "sha256": "62095a51e65952fc6071ee4a2814d3dd7832e1f691cb760ef519c69ee425dc64",
+  "segments": [
+    {
+      "id": "09-001",
+      "type": "heading",
+      "en": "Chapter 9"
+    },
+    {
+      "id": "09-002",
+      "type": "dateline",
+      "en": "Pafogai Du, Dzego · 3724 Rainmoon 28"
+    },
+    {
+      "id": "09-003",
+      "type": "body",
+      "en": "Bai and Fin were sitting together in a courtyard, eating and drinking. Tears ran down Bai's face."
+    },
+    {
+      "id": "09-004",
+      "type": "body",
+      "en": "\"You know, Zei is really quite a nice kid\", Fin stated softly. \"If you could just be nicer to him, he could help you so much.\""
+    },
+    {
+      "id": "09-005",
+      "type": "body",
+      "en": "\"Nicer, like you?\", Bai replied, distressed."
+    },
+    {
+      "id": "09-006",
+      "type": "body",
+      "en": "Fin hesitated. He did not know how to respond."
+    },
+    {
+      "id": "09-007",
+      "type": "body",
+      "en": "\"You know how I felt when Zei brought his mom along on the trip to Freetown with me?\", she asked."
+    },
+    {
+      "id": "09-008",
+      "type": "body",
+      "en": "\"Sad because you wanted to have the trip alone with him, and you could tell that's not what he wanted?\", Fin asked."
+    },
+    {
+      "id": "09-009",
+      "type": "body",
+      "en": "\"NO!\", Bai shouted."
+    },
+    {
+      "id": "09-010",
+      "type": "body",
+      "en": "\"I'll give you a hint. I felt the same after the game a few days ago when you suggested I bring my mom along for the next trip.\""
+    },
+    {
+      "id": "09-011",
+      "type": "body",
+      "en": "\"You don't like your mom?\""
+    },
+    {
+      "id": "09-012",
+      "type": "body",
+      "en": "\"You never asked me where or who my mom even is! Not once, in the more than ten times we've met.\""
+    },
+    {
+      "id": "09-013",
+      "type": "body",
+      "en": "\"Well, sorry. Who is your mom?\""
+    },
+    {
+      "id": "09-014",
+      "type": "body",
+      "en": "\"My mom is DEAD! My dad too.\""
+    },
+    {
+      "id": "09-015",
+      "type": "body",
+      "en": "\"Killed in an explosion in a lab when I was still a small kid. You know who did it.\""
+    },
+    {
+      "id": "09-016",
+      "type": "body",
+      "en": "Fin's face dropped."
+    },
+    {
+      "id": "09-017",
+      "type": "body",
+      "en": "\"I stayed in my aunt's place. But she basically ignored me, just gave me a room, and two meals a day, and that's basically it.\""
+    },
+    {
+      "id": "09-018",
+      "type": "body",
+      "en": "\"So I had to survive with my own bare hands. Learn how to make my own money. Do side jobs even while I was in high school.\""
+    },
+    {
+      "id": "09-019",
+      "type": "body",
+      "en": "\"So I hope Zei forgives me for those times when I didn't let him get his prize money to give his mom a compute box.\""
+    },
+    {
+      "id": "09-020",
+      "type": "body",
+      "en": "\"I don't even have a mom! All I have is my achievements and my success. And now Zei has taken that away from me too.\""
+    },
+    {
+      "id": "09-021",
+      "type": "body",
+      "en": "She went quiet, and sat back in her chair. She had not planned to say any of that. After a brief pause, she spoke again."
+    },
+    {
+      "id": "09-022",
+      "type": "body",
+      "en": "\"But those tactics of Zei's, they were beautiful. I was so proud when I put up such perfect defenses along my diagonals and tricked Zei into attacking there. I felt like that was the smartest thing I had done in my whole life. And then he came out and did something even smarter.\""
+    },
+    {
+      "id": "09-023",
+      "type": "body",
+      "en": "\"I do want to understand you guys better. What drives you, how you think.\""
+    },
+    {
+      "id": "09-024",
+      "type": "body",
+      "en": "Bai and Fin both took a brief break to drink some of their respective teas."
+    },
+    {
+      "id": "09-025",
+      "type": "body",
+      "en": "\"Let's talk about something else. Here, do you want to see what they have in mind for the next version of Dzegoban?\""
+    },
+    {
+      "id": "09-026",
+      "type": "body",
+      "en": "Bai's eyes perked up."
+    },
+    {
+      "id": "09-027",
+      "type": "body",
+      "en": "\"Sure, why not\", she replied."
+    },
+    {
+      "id": "09-028",
+      "type": "body",
+      "en": "Fin took out his booklet, with \"po so dze go ban de sia\" - the conception of Dzegoban version nine - on the cover."
+    },
+    {
+      "id": "09-029",
+      "type": "body",
+      "en": "\"Dzegoban is a masterpiece\", Fin explained. \"Always navigating the tough balance between being easy to learn, logical in syntax, but also nice to speak and read, and useful for talking about the things that people care about in the real world.\""
+    },
+    {
+      "id": "09-030",
+      "type": "body",
+      "en": "\"The first versions, started only a decade after we lost the war against the Arctics last century, were simple and uncontroversial. Move from the pictorial script to an alphabet, get rid of the complicated declensions and conjugations and irregular verbs.\""
+    },
+    {
+      "id": "09-031",
+      "type": "body",
+      "en": "By this point, Bai was listening intently, her eyes full of curiosity."
+    },
+    {
+      "id": "09-032",
+      "type": "body",
+      "en": "\"Then came the harder tradeoffs, on the grammar. Dzegoban grammar is very logical, if you want it to be. Take a simple sentence, like in elementary school: 'giu jan li mo fe jia dzu lie'. The man eats the avocado. 'li' is the separator between subject and verb, 'fe' is the separator between verb and object. A computer program can parse that, very unambiguous.\""
+    },
+    {
+      "id": "09-033",
+      "type": "body",
+      "en": "\"You can get more complex. 'lo mo fe jia dzu lie zo hen jun'. It's healthy to eat an avocado. 'lo' and 'zo' are the opening and closing brackets. And colloquially, you can leave out the 'lo'.\""
+    },
+    {
+      "id": "09-034",
+      "type": "body",
+      "en": "\"But then you get ambiguity. Let's unpack 'jia dzu lie' - black center fruit. Is it a fruit with a black center, or is it a fruit that is both black and 'central' in some sense? Theoretically, we have the separator for that: 'ji'. We could say 'jia dzu ji lie', and it would be less ambiguous. But you can never remove the ambiguity completely. Papaya seeds have a black center too.\""
+    },
+    {
+      "id": "09-035",
+      "type": "body",
+      "en": "\"So you have to balance regularity with practicality. Being easy and pleasant to speak when you talk about things that are common in people's lives. So the Bansunpei priests tried to optimize the regularity of the meaning space, even while knowing they would never - could never - fully succeed.\""
+    },
+    {
+      "id": "09-036",
+      "type": "body",
+      "en": "\"If all you know are the 256 roots, you can understand more than half of what people are saying. Not all, but much better than the olden days, when you could not tell what some complicated word means at all unless you had seen that exact word before.\""
+    },
+    {
+      "id": "09-037",
+      "type": "body",
+      "en": "\"Why are they putting so much work into this? Why not focus more on improving the economy, or technology, or the military or something?\""
+    },
+    {
+      "id": "09-038",
+      "type": "body",
+      "en": "\"Well, if we work on those things, the Arctics bomb us. Language is harmless. I think even the Arctics find Dzegoban impressive. Also a couple of times the Bansunpei took time to reform the timing system - that's how we got a hundred ticks a minute, a hundred minutes a longhour and ten longhours a day - and we got that to stick across the whole world. That, even the Arctics adopted.\""
+    },
+    {
+      "id": "09-039",
+      "type": "body",
+      "en": "\"Do you guys have a secret textbook with a planned version nine of *that*?\""
+    },
+    {
+      "id": "09-040",
+      "type": "body",
+      "en": "\"Yeah, at some point we want to replace the meter with the lightfoot. Light travels at one billion lightfeet per tick. One lightfoot is two hundred fifty-nine point oh two oh six eight three seven one two millimeters.\""
+    },
+    {
+      "id": "09-041",
+      "type": "body",
+      "en": "\"Apparently, people in Inglewore like it because for so long people made fun of their older measurement units for being complicated and illogical, and now we're coming out with a unit that's very close to their older distance unit in length, that's directly based on the very base physical constants of the universe. So in some sense, we're saying that they were right all along.\""
+    },
+    {
+      "id": "09-042",
+      "type": "body",
+      "en": "Bai grinned."
+    },
+    {
+      "id": "09-043",
+      "type": "body",
+      "en": "\"So anyway, the next version of Dzegoban-\""
+    },
+    {
+      "id": "09-044",
+      "type": "body",
+      "en": "Bai cut him off."
+    },
+    {
+      "id": "09-045",
+      "type": "body",
+      "en": "\"Maybe next time. This is all making me curious, I feel like I should go study the history of Dzegoban on my own at some point.\""
+    },
+    {
+      "id": "09-046",
+      "type": "body",
+      "en": "\"Good instinct! I promise, it gets even more fun once we get into version nine. Zei doesn't see the value of all this himself, he's so focused lately on his games.\""
+    },
+    {
+      "id": "09-047",
+      "type": "body",
+      "en": "\"I'm sure he is. And I don't think it will stop, it's clearly paid off very well for him.\""
+    },
+    {
+      "id": "09-048",
+      "type": "body",
+      "en": "\"Maybe I should play some games with him for fun - or I guess for him, for practice - at some point.\""
+    },
+    {
+      "id": "09-049",
+      "type": "body",
+      "en": "\"Oh, and thank you for distracting me and cheering me up!\""
+    },
+    {
+      "id": "09-050",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "09-051",
+      "type": "body",
+      "en": "Zei walked through the tunnel, and down the stairs, following the directions that his watch gave him. Every time he got to a fork, he made sure to look in all directions, taking in his surroundings. He had never been this deep into the depths of the mountain pyramid before."
+    },
+    {
+      "id": "09-052",
+      "type": "body",
+      "en": "Eventually, he got to a sealed door with a green circle beside it. He tapped his watch against the circle. The door slowly opened."
+    },
+    {
+      "id": "09-053",
+      "type": "body",
+      "en": "Behind the door, there was a narrow and long room, and at the end of the room there was a large table. At the table, a man was sitting wearing a shadowy cloak - not a Veridian privacy robe, but the dress of the Minpentai priests."
+    },
+    {
+      "id": "09-054",
+      "type": "body",
+      "en": "Zei walked across the room slowly, and sat down across from the priest."
+    },
+    {
+      "id": "09-055",
+      "type": "body",
+      "en": "\"Welcome\", the priest said softly."
+    },
+    {
+      "id": "09-056",
+      "type": "body",
+      "en": "\"I am honored to be here\", Zei replied. \"But ... who are you?\""
+    },
+    {
+      "id": "09-057",
+      "type": "body",
+      "en": "\"I'm Den. High Council member of the Kungaupei. Thank you for coming.\""
+    },
+    {
+      "id": "09-058",
+      "type": "body",
+      "en": "\"Kungaupei? We have a secret society for defense too? Growing Dzego a whole secondary shadow army?\""
+    },
+    {
+      "id": "09-059",
+      "type": "body",
+      "en": "\"Of course, are you surprised?\""
+    },
+    {
+      "id": "09-060",
+      "type": "body",
+      "en": "Zei hesitated."
+    },
+    {
+      "id": "09-061",
+      "type": "body",
+      "en": "\"I was impressed by your performance in the Minpentai game a few days ago.\""
+    },
+    {
+      "id": "09-062",
+      "type": "body",
+      "en": "\"But I wasn't just impressed because you won. I studied the transcripts from the game. I was impressed because of the kind of strategy that you played.\""
+    },
+    {
+      "id": "09-063",
+      "type": "body",
+      "en": "\"Tell me, have you studied any cryptography?\""
+    },
+    {
+      "id": "09-064",
+      "type": "body",
+      "en": "\"I... know the basics? Factoring is hard, you cube modulo n to encrypt, and only someone who knows the p times q that make up n can invert the cubing to decrypt.\""
+    },
+    {
+      "id": "09-065",
+      "type": "body",
+      "en": "\"No no, that's popular science cryptography. Nobody has been using the factoring-based stuff for decades now, even elliptic curves are falling out of fashion because everyone's worried that the Arctics are going to come out with a quantum computer any year now.\""
+    },
+    {
+      "id": "09-066",
+      "type": "body",
+      "en": "Zei did not respond. He stared back, in a mix of appreciation for the update to his knowledge, and curiosity about where this whole conversation was going to lead."
+    },
+    {
+      "id": "09-067",
+      "type": "body",
+      "en": "\"Okay, well I think in your last game you've come really close to inventing big parts of cryptography from scratch.\""
+    },
+    {
+      "id": "09-068",
+      "type": "body",
+      "en": "\"Think about obfuscation protocols. You want to give someone a program, that they can execute, without being able to see the internal details of the program. It's what our modern cryptographic networks - like the ones that handle payments and reputation and manage governance for Dzego's secret societies - all rely on.\""
+    },
+    {
+      "id": "09-069",
+      "type": "body",
+      "en": "\"But how do you make a single protocol that can do that? Hide the program? It's easy to see how to hide the data, and then do addition and multiplication on hidden data, especially when it's all done by hiding it in big vectors under linear transformations and adding errors on top. But how do you hide a program? What kind of a space of possible programs do you even hide a program in?\""
+    },
+    {
+      "id": "09-070",
+      "type": "body",
+      "en": "\"The solution - well, okay, a small part of one type of solution - is that you create a meta-program. A program that, depending on its input, can run any possible program. And then you've reduced the program to just being a set of numbers that you're doing addition and multiplication to.\""
+    },
+    {
+      "id": "09-071",
+      "type": "body",
+      "en": "\"It's one of the most basic tricks in computer science. Our computers, the physical hardware, are meta-programs themselves. But you figured out a really basic version of that - just sixteen possible algorithms, melded into one factory - and used that, plus a hidden glider to provide the input, to hide your intentions.\""
+    },
+    {
+      "id": "09-072",
+      "type": "body",
+      "en": "Zei nodded."
+    },
+    {
+      "id": "09-073",
+      "type": "body",
+      "en": "\"Well thank you for the compliment. But ... I'm curious now, where are you going with this?\""
+    },
+    {
+      "id": "09-074",
+      "type": "body",
+      "en": "\"Well, Zei, I want to recruit you into defense.\""
+    },
+    {
+      "id": "09-075",
+      "type": "body",
+      "en": "Zei's eyes and mouth opened."
+    },
+    {
+      "id": "09-076",
+      "type": "body",
+      "en": "Defense. Without thinking, Zei opened and closed each finger of his left arm. That arm had been broken and taken a month to heal, all because of a thermodynamics lecture. What Den was suggesting was not a lecture."
+    },
+    {
+      "id": "09-077",
+      "type": "body",
+      "en": "But his life had been saved by exactly that kind of work - a secretive, well-coordinated room change at the last minute. Maybe this was his chance to do the same for someone else."
+    },
+    {
+      "id": "09-078",
+      "type": "body",
+      "en": "\"I do want you to continue Minpentai into the nationals. I think it will be good for you. But for your education, do cryptography. I think it will also help you in your games.\""
+    },
+    {
+      "id": "09-079",
+      "type": "body",
+      "en": "\"And of course I'll stay in touch the whole way, and when you're ready, I will start suggesting some tasks for you.\""
+    },
+    {
+      "id": "09-080",
+      "type": "body",
+      "en": "Zei responded with silence once again."
+    },
+    {
+      "id": "09-081",
+      "type": "body",
+      "en": "Tasks. He noticed how quickly Den had shifted into the register of assuming that Zei would go along with his plans. Part of him was already coming up with reasons to say yes. Another part was watching his enthusiasm slowly build up, and did not entirely trust it."
+    },
+    {
+      "id": "09-082",
+      "type": "body",
+      "en": "\"I have an idea\", Den began. \"Do you know how chip verification works? Like, how I'm automatically verifying that all your electronic devices are friendly right now?\""
+    },
+    {
+      "id": "09-083",
+      "type": "body",
+      "en": "Zei began to reply as soon as Den finished. By sheer luck, Den had decided to grill him on one of the areas of applied cryptography that he *had* already researched."
+    },
+    {
+      "id": "09-084",
+      "type": "body",
+      "en": "\"When a device is manufactured, a physical unclonable function is produced as part of the process - a secret key that gets generated though chemicals settling down as the chip cools down after it's produced. Not even the manufacturer knows what it is. The manufacturer prods the device to get its public key - the p times q, or I guess now I know it's not a p times q at all, it's something totally different. It then signs that key with its key, and publishes that to the cryptographic network.\""
+    },
+    {
+      "id": "09-085",
+      "type": "body",
+      "en": "\"Okay I guess you can call a function a key, close enough. Go on.\""
+    },
+    {
+      "id": "09-086",
+      "type": "body",
+      "en": "\"As a user, you can ask the device to sign a value. The device will do that. You can then verify its signature against the public key that you download from the cryptographic network, to check that it actually came from that manufacturer.\""
+    },
+    {
+      "id": "09-087",
+      "type": "body",
+      "en": "\"And then you have public inspectors. They buy devices randomly from the manufacturer, and use some kind of scanning to destructively inspect them. Verify that the chips actually have the logic that they are supposed to have.\""
+    },
+    {
+      "id": "09-088",
+      "type": "body",
+      "en": "\"Why the cryptographic network? Why not just sign it?\""
+    },
+    {
+      "id": "09-089",
+      "type": "body",
+      "en": "\"So that you know how many there are, avoiding attacks where either the manufacturer is cheating or someone hacks their key, and they start signing over even more public keys than they should. Also it means you know when the signature was made, so you know it was made when the device was manufactured. And if the manufacturer's key somehow gets stolen, you can tell if the signature was made before or after that happened.\""
+    },
+    {
+      "id": "09-090",
+      "type": "body",
+      "en": "\"And how do I verify your device?\""
+    },
+    {
+      "id": "09-091",
+      "type": "body",
+      "en": "\"You ask it for a signature wirelessly, same way I verify it.\""
+    },
+    {
+      "id": "09-092",
+      "type": "body",
+      "en": "\"How do I know it's not just forwarding responses from a different device somewhere else?\""
+    },
+    {
+      "id": "09-093",
+      "type": "body",
+      "en": "\"Here, because we're deep inside a mountain. Generally, I don't know.\""
+    },
+    {
+      "id": "09-094",
+      "type": "body",
+      "en": "\"How does the chip inspection process work?\""
+    },
+    {
+      "id": "09-095",
+      "type": "body",
+      "en": "\"That I don't know.\""
+    },
+    {
+      "id": "09-096",
+      "type": "body",
+      "en": "\"How do the inspectors know that they're getting devices from the same pool the public is getting, and not devices specifically chosen by the manufacturer to fool them?\""
+    },
+    {
+      "id": "09-097",
+      "type": "body",
+      "en": "\"I don't know.\""
+    },
+    {
+      "id": "09-098",
+      "type": "body",
+      "en": "\"Let's think about a different case first. Take the public security cameras, the ones on the lamp posts or the outsides of the buildings or the autobuses. Every Dzegojan has a right to occasionally randomly pick one, unscrew it and analyze it themselves. That's how we know that they're only recording and transmitting when they're supposed to, and no one in the supply chain from the people manufacturing them right up to the people installing them can bug them and leak any data to a stalker or an insider trader or an Arctic.\""
+    },
+    {
+      "id": "09-099",
+      "type": "body",
+      "en": "\"That's the random inspection process - assuming at least some of the people who make inspecting cameras their hobby actually choose randomly. So that's for security cameras, that are already in public so anyone can just choose a random one of them to go and unscrew. Now, what do we do here? How do we do random inspection for computer chips that you buy from a manufacturer?\""
+    },
+    {
+      "id": "09-100",
+      "type": "body",
+      "en": "\"Okay, you tell me.\""
+    },
+    {
+      "id": "09-101",
+      "type": "body",
+      "en": "\"Well, I'm glad there's still a lot that I can teach you. How about we go and visit one of these factories right now?\""
+    },
+    {
+      "id": "09-102",
+      "type": "body",
+      "en": "Zei thought for a moment. It was not yet a commitment, he reasoned, and it would be something he had never seen before."
+    },
+    {
+      "id": "09-103",
+      "type": "body",
+      "en": "\"Sure, would be happy to!\""
+    },
+    {
+      "id": "09-104",
+      "type": "body",
+      "en": "Zei and Den walked out of the room, through the tunnels, and to a smaller exit from the pyramid. The exit led directly into the interior of a large rectangular-shaped black car. The pyramid door and the car door were exactly the same shape, and were pressed tightly against each other."
+    },
+    {
+      "id": "09-105",
+      "type": "body",
+      "en": "Zei and Den got in."
+    },
+    {
+      "id": "09-106",
+      "type": "body",
+      "en": "As the door sealed shut, Zei noticed anti-transmission foil lining the sides of the car. The car had windows, but they seemed to show a dimmed version of the world outside; from the outside, he knew, they would show almost nothing at all."
+    },
+    {
+      "id": "09-107",
+      "type": "body",
+      "en": "The car started moving, and a minute later it entered a tunnel."
+    },
+    {
+      "id": "09-108",
+      "type": "body",
+      "en": "At that point Zei realized that no one in the world now knew where he was."
+    },
+    {
+      "id": "09-109",
+      "type": "break",
+      "en": "***"
+    },
+    {
+      "id": "09-110",
+      "type": "body",
+      "en": "Zei and Den got out of the black car. The car's door now opened directly into the open door of a staircase leading down to a basement, shielding them from even a tick of being visible to the outside. The two walked down the stairs, and eventually entered a large room."
+    },
+    {
+      "id": "09-111",
+      "type": "body",
+      "en": "They saw thousands of empty white boxes, with labels on the side containing a two-dimensional barcode, and a machine automatically putting chips into boxes as they came out of a conveyor belt from another room."
+    },
+    {
+      "id": "09-112",
+      "type": "body",
+      "en": "Den opened up his hand device, and showed a diagram to Zei."
+    },
+    {
+      "id": "09-113",
+      "type": "body",
+      "en": "![第9章图1](assets/ch09-fig01.svg)"
+    },
+    {
+      "id": "09-114",
+      "type": "body",
+      "en": "\"You ever seen this before?\", Den asked."
+    },
+    {
+      "id": "09-115",
+      "type": "body",
+      "en": "\"Some kind of diagram of the internet?\""
+    },
+    {
+      "id": "09-116",
+      "type": "body",
+      "en": "\"It's a mixnet. It's how transactions get onto the cryptographic network without people being able to see who sent them.\""
+    },
+    {
+      "id": "09-117",
+      "type": "body",
+      "en": "\"Each message from each sender gets wrapped with three layers of encryption. That top-level message gets sent to a node on the first layer.\""
+    },
+    {
+      "id": "09-118",
+      "type": "body",
+      "en": "\"The node on the first layer unwraps the top layer of encryption, and sees another encrypted message, along with the address of which node in the second layer they are supposed to send it to.\""
+    },
+    {
+      "id": "09-119",
+      "type": "body",
+      "en": "\"The node on the second layer unwraps the next layer of encryption, and sees another encrypted message, along with the address of which node in the third layer they are supposed to send it to.\""
+    },
+    {
+      "id": "09-120",
+      "type": "body",
+      "en": "\"Finally each node on the third layer unwraps that layer of encryption, and gets the address of the destination, plus the actual payload. And of course, usually, the payload itself is encrypted.\""
+    },
+    {
+      "id": "09-121",
+      "type": "body",
+      "en": "\"Wow, I didn't realize that's how it works. So you need three nodes to collude to unmask the sender of a message.\""
+    },
+    {
+      "id": "09-122",
+      "type": "body",
+      "en": "\"Not just three nodes - three *randomly selected* nodes. And if you're paranoid, you can make the inner payload be yet another envelope, requesting to send the message right back through the system in the next round.\""
+    },
+    {
+      "id": "09-123",
+      "type": "body",
+      "en": "\"So this is what the packaging step is doing. Those boxes are highly opaque and tamper-proof sealed, and the two-dimensional barcode is the encrypted payload. It's a mixnet, but for delivery of physical goods.\""
+    },
+    {
+      "id": "09-124",
+      "type": "body",
+      "en": "\"If you buy a product through this system, only the last of the three nodes knows your address, and they don't know who the sender was or what they're delivering. And if you're *double paranoid*, you can set your address to a public drop-off point and pick it up yourself.\""
+    },
+    {
+      "id": "09-125",
+      "type": "body",
+      "en": "\"Inspectors buy through the mixnet. And so as a consumer, if you buy through the mixnet yourself, you're getting your chip from the same pool that the inspectors are buying from - the manufacturer has no way to give an honest chip that passes inspection to the inspectors, without almost certainly giving one to you too. They can't tell which chips - or whatever other physical goods are passing through this thing - are going to whom.\""
+    },
+    {
+      "id": "09-126",
+      "type": "body",
+      "en": "Den then walked forward toward a door. Zei followed him."
+    },
+    {
+      "id": "09-127",
+      "type": "body",
+      "en": "Den put his watch against a circle with a glowing green outline. The door opened."
+    },
+    {
+      "id": "09-128",
+      "type": "body",
+      "en": "They walked through a hallway, took a few turns, and then went through another door. They entered a room with a large microscope."
+    },
+    {
+      "id": "09-129",
+      "type": "body",
+      "en": "\"This is the inspection facility of this fab. They inspect both their own chips, and those produced by others.\""
+    },
+    {
+      "id": "09-130",
+      "type": "body",
+      "en": "\"They do multiple types of three-dimensional scanning, at different wavelengths, to make sure that the physical chip exactly matches the specification.\""
+    },
+    {
+      "id": "09-131",
+      "type": "body",
+      "en": "\"I'm impressed. Say thank you to whoever gave you permission to give us a tour.\""
+    },
+    {
+      "id": "09-132",
+      "type": "body",
+      "en": "\"I will. So Zei, I remember you had another question.\""
+    },
+    {
+      "id": "09-133",
+      "type": "body",
+      "en": "\"Yeah I remember. Though it wasn't about manufacturing.\""
+    },
+    {
+      "id": "09-134",
+      "type": "body",
+      "en": "\"Indeed - it was about how someone verifying could know that responses are not being forwarded from a different device. I can tell you the answer for that too. My hand device has a protocol by which it repeatedly contacts each device a million times, and expects the whole protocol to finish within a tenth of a tick. And so wherever the signature comes from, it has to be within fifty lightfeet away - almost thirteen meters - actually, even closer, because of the latency of the chips themselves.\""
+    },
+    {
+      "id": "09-135",
+      "type": "body",
+      "en": "\"So Zei, what do you think?\""
+    },
+    {
+      "id": "09-136",
+      "type": "body",
+      "en": "\"You said I can still do the nationals, right?\""
+    },
+    {
+      "id": "09-137",
+      "type": "body",
+      "en": "\"I *want* you to do the nationals.\""
+    },
+    {
+      "id": "09-138",
+      "type": "body",
+      "en": "\"Okay yes, I'll join - or at least, I'll commit as far as switching my studies to cryptography and see how that goes.\""
+    },
+    {
+      "id": "09-139",
+      "type": "body",
+      "en": "Den nodded."
+    },
+    {
+      "id": "09-140",
+      "type": "body",
+      "en": "When Den kept walking forward, Zei's mind wandered - first, to the large microscope that was directly in front of him, and then to other matters."
+    },
+    {
+      "id": "09-141",
+      "type": "body",
+      "en": "He started thinking about what he would tell his mom that afternoon. He could talk about Fin being busy, about himself going for a walk. But he could not tell the full truth. The Kungaupei forbade it - and his mom had already watched him heal from one bomb."
+    }
+  ],
+  "figures": [
+    {
+      "file": "assets/ch09-fig01.svg",
+      "labels": []
+    }
+  ]
+}

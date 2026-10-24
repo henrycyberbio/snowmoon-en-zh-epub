@@ -1,0 +1,2039 @@
+{
+ "chapter": 19,
+ "snapshot": "original/snapshots/20261023T101827Z/html/chapter-19.html",
+ "snapshot_sha256": "b967925d940fd9bc7527f649a4eb533efaff17b68c315e3c6dae7c1211419dec",
+ "url": "https://vitalik.eth.limo/snowmoon/html/chapter-19.html",
+ "sha256": "93e9d60f95ef720f928451513f48f4ee0fd1644f7f8869043937af6fba86aacc",
+ "source_url": "https://vitalik.eth.limo/snowmoon/html/chapter-19.html",
+ "source_archive_sha256": "93e9d60f95ef720f928451513f48f4ee0fd1644f7f8869043937af6fba86aacc",
+ "segments": [
+  {
+   "id": "19-001",
+   "type": "heading",
+   "dom_kind": "h1",
+   "rich_html": "<h1>Chapter 19</h1>",
+   "en": "Chapter 19",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-002",
+   "type": "dateline",
+   "dom_kind": "div.dateline",
+   "rich_html": "<div class=\"dateline chapter-open\"><hr class=\"rule\"/><span class=\"txt\"><span class=\"place\">Pafogai Du, Dzego</span><span class=\"sep\">·</span><span class=\"date\">3724 Grapetime 15</span></span></div>",
+   "en": "Pafogai Du, Dzego · 3724 Grapetime 15",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-003",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias and Zei were sitting at a table in a cafeteria, deep inside the mountain pryamid. Attached to one of the walls, they could see two large screens, doing the best job that they could to pretend to be windows showing a view of Pafogai Du as though the cafeteria was sitting on top of the mountain, rather than thirty meters below ground.</p>",
+   "en": "Gladias and Zei were sitting at a table in a cafeteria, deep inside the mountain pryamid. Attached to one of the walls, they could see two large screens, doing the best job that they could to pretend to be windows showing a view of Pafogai Du as though the cafeteria was sitting on top of the mountain, rather than thirty meters below ground.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-004",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"So who is this that you wanted me to meet again?\"</span>, Gladias asked.</p>",
+   "en": "\"So who is this that you wanted me to meet again?\" , Gladias asked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-005",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Den. He is a High Council member of the Kungaupei. You wanted to better understand Dzego's institutions, he helps run the one that's already been protecting us from the Arctic shadow campaign for the last decade. You want Veridia to learn from him, not from our official government.\"</span></p>",
+   "en": "\"Den. He is a High Council member of the Kungaupei. You wanted to better understand Dzego's institutions, he helps run the one that's already been protecting us from the Arctic shadow campaign for the last decade. You want Veridia to learn from him, not from our official government.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-006",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>At that point, they heard a faint buzz that began to rapidly get louder. Almost immediately, a few small drones, similar to those that would check Zei for cheating equipment in the Minpentai championships, flew into view.</p>",
+   "en": "At that point, they heard a faint buzz that began to rapidly get louder. Almost immediately, a few small drones, similar to those that would check Zei for cheating equipment in the Minpentai championships, flew into view.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-007",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias's watch buzzed.</p>",
+   "en": "Gladias's watch buzzed.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-008",
+   "type": "body",
+   "dom_kind": "div.device-view.table",
+   "rich_html": "<div class=\"device-view narrow-device-view\"><div style=\"font-size:150%\"></div>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%\">Air</td>\n</tr>\n<tr>\n<td style=\"font-size:150%\">CO<sub>2</sub></td>\n<td style=\"font-size:150%; color: yellow\">994</td>\n</tr>\n<tr>\n<td style=\"font-size:150%\">PM2.5</td>\n<td style=\"font-size:150%; color: yellow\">30.1</td>\n</tr>\n</table>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%\">Devices</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">Attested ✓</td>\n<td style=\"font-size:150%; color: #8f8\">21</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #f23\">Unknown, increased risk!</td>\n<td style=\"font-size:150%; color: #f23\">4</td>\n</tr>\n</table></div>",
+   "en": "| Air |  |\n| --- | --- |\n| CO2 | 994 |\n| PM2.5 | 30.1 |\n\n| Devices |  |\n| --- | --- |\n| Attested ✓ | 21 |\n| Unknown, increased risk! | 4 |",
+   "device": "table",
+   "table": {
+    "header_rows": 0,
+    "body_rows": 6,
+    "cols": 2,
+    "tables": [
+     {
+      "header_rows": 0,
+      "body_rows": 3,
+      "cols": 2
+     },
+     {
+      "header_rows": 0,
+      "body_rows": 3,
+      "cols": 2
+     }
+    ],
+    "count": 2
+   },
+   "device_verified": true,
+   "table_colors": [
+    "#8f8",
+    "#f23"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-009",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"What's going on?\"</span>, Zei asked.</p>",
+   "en": "\"What's going on?\" , Zei asked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-010",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Ah, I think my watch is detecting those drones as a threat. It's been doing this for many days now, I'm assuming it's just not been updated yet.\"</span></p>",
+   "en": "\"Ah, I think my watch is detecting those drones as a threat. It's been doing this for many days now, I'm assuming it's just not been updated yet.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-011",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Ah, let me check mine\"</span>, Zei replied.</p>",
+   "en": "\"Ah, let me check mine\" , Zei replied.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-012",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei took out his watch.</p>",
+   "en": "Zei took out his watch.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-013",
+   "type": "body",
+   "dom_kind": "div.device-view.table",
+   "rich_html": "<div class=\"device-view narrow-device-view\"><div style=\"font-size:150%\"></div>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%\">ten min</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">cau tie zen ✓</td>\n<td style=\"font-size:150%; color: #8f8\">25</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #fca\">sen hu ?</td>\n<td style=\"font-size:150%; color: #fca\">0</td>\n</tr>\n</table></div>",
+   "en": "| ten min |  |\n| --- | --- |\n| cau tie zen ✓ | 25 |\n| sen hu ? | 0 |",
+   "device": "table",
+   "table": {
+    "header_rows": 0,
+    "body_rows": 3,
+    "cols": 2,
+    "tables": [
+     {
+      "header_rows": 0,
+      "body_rows": 3,
+      "cols": 2
+     }
+    ],
+    "count": 1
+   },
+   "device_verified": true,
+   "table_colors": [
+    "#8f8",
+    "#fca"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-014",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>He clicked on the green, and scrolled through.</p>",
+   "en": "He clicked on the green, and scrolled through.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-015",
+   "type": "body",
+   "dom_kind": "div.device-view.table",
+   "rich_html": "<div class=\"device-view narrow-device-view\"><div style=\"font-size:150%\"></div>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%; color: #c4f\">gi dai</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">fen jan ten lai</td>\n<td style=\"font-size:150%; color: #8f8\">16</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">mo fan min jan</td>\n<td style=\"font-size:150%; color: #8f8\">1</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">mo fan lai</td>\n<td style=\"font-size:150%; color: #8f8\">4</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">kun gau min jan</td>\n<td style=\"font-size:150%; color: #8f8\">4</td>\n</tr>\n</table></div>",
+   "en": "| gi dai |  |\n| --- | --- |\n| fen jan ten lai | 16 |\n| mo fan min jan | 1 |\n| mo fan lai | 4 |\n| kun gau min jan | 4 |",
+   "device": "table",
+   "table": {
+    "header_rows": 0,
+    "body_rows": 5,
+    "cols": 2,
+    "tables": [
+     {
+      "header_rows": 0,
+      "body_rows": 5,
+      "cols": 2
+     }
+    ],
+    "count": 1
+   },
+   "device_verified": true,
+   "table_colors": [
+    "#8f8",
+    "#c4f"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-016",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Err... let me try this\"</span>, Gladias said, staring intently at the watch.</p>",
+   "en": "\"Err... let me try this\" , Gladias said, staring intently at the watch.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-017",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"'mo fan' is eating room, so something to do with the cafeteria.\"</span></p>",
+   "en": "\"'mo fan' is eating room, so something to do with the cafeteria.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-018",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Yep!\"</span></p>",
+   "en": "\"Yep!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-019",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"'min' is machine, 'jan' is person, so I guess the two together mean ... robot?\"</span></p>",
+   "en": "\"'min' is machine, 'jan' is person, so I guess the two together mean ... robot?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-020",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Yep!\"</span></p>",
+   "en": "\"Yep!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-021",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"'kun gau' is ... wait, is that connected to the Kungaupei? So these are Kungaupei robots?\"</span></p>",
+   "en": "\"'kun gau' is ... wait, is that connected to the Kungaupei? So these are Kungaupei robots?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-022",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Yes, but what does 'kun gau' mean?\"</span></p>",
+   "en": "\"Yes, but what does 'kun gau' mean?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-023",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"I'll guess security?\"</span></p>",
+   "en": "\"I'll guess security?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-024",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Exactly.\"</span></p>",
+   "en": "\"Exactly.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-025",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Security robots. Phew, that wasn't hard at all!\"</span></p>",
+   "en": "\"Security robots. Phew, that wasn't hard at all!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-026",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Just be glad I'm not Fin, he would start taking half a longhour to go through this whole interface and explain the history of each and every word and why they decided to keep it as they were shrinking the vocabulary.\"</span></p>",
+   "en": "\"Just be glad I'm not Fin, he would start taking half a longhour to go through this whole interface and explain the history of each and every word and why they decided to keep it as they were shrinking the vocabulary.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-027",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>One of the robots buzzed closer to Gladias, and stopped to hover about half a meter to the right of his ear.</p>",
+   "en": "One of the robots buzzed closer to Gladias, and stopped to hover about half a meter to the right of his ear.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-028",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"But anyway, why have I been detecting so many hostile devices? Is my watch just not up to date on something?\"</span></p>",
+   "en": "\"But anyway, why have I been detecting so many hostile devices? Is my watch just not up to date on something?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-029",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Ah yeah, it's just every lamp and drone and camera announcing itself; the protocols stepped up a lot these past few days. Your watch just doesn't speak the language yet. Here, let me help you with that.\"</span></p>",
+   "en": "\"Ah yeah, it's just every lamp and drone and camera announcing itself; the protocols stepped up a lot these past few days. Your watch just doesn't speak the language yet. Here, let me help you with that.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-030",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei then spoke in a softer voice:</p>",
+   "en": "Zei then spoke in a softer voice:",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-031",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"jo sun fe zin ten lai de cau tie dai\"</span></p>",
+   "en": "\"jo sun fe zin ten lai de cau tie dai\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-032",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>About one tick later, his watch buzzed, indicating that the data was received.</p>",
+   "en": "About one tick later, his watch buzzed, indicating that the data was received.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-033",
+   "type": "body",
+   "dom_kind": "div.device-view.svg",
+   "rich_html": "<div class=\"device-view narrow-device-view\"><svg height=\"80\" viewbox=\"0 0 100 80\" width=\"100\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"none\" height=\"70\" rx=\"8\" stroke=\"#cef\" stroke-width=\"4\" width=\"90\" x=\"5\" y=\"5\"></rect>\n<path d=\"M7 12 L50 46 L93 12\" fill=\"none\" stroke=\"#cef\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path>\n</svg>\n<b>fe cau tie dai <br/> li shu</b></div>",
+   "en": "![第19章图1](assets/ch19-fig01.svg)\n\nfe cau tie dai\n\nli shu",
+   "device": "figure",
+   "figure": {
+    "en": "assets/ch19-fig01-en.svg",
+    "zh": "assets/ch19-fig01-zh.svg",
+    "file": "ch19-fig01.svg"
+   },
+   "figure_labels": [],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 1
+   }
+  },
+  {
+   "id": "19-034",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei moved his watch beside Gladias's.</p>",
+   "en": "Zei moved his watch beside Gladias's.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-035",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"be\"</span></p>",
+   "en": "\"be\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-036",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The two watches buzzed at the same time, indicating a connection, and a file transferred from one to the other. Gladias pressed a button on his watch to accept.</p>",
+   "en": "The two watches buzzed at the same time, indicating a connection, and a file transferred from one to the other. Gladias pressed a button on his watch to accept.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-037",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>He then checked his watch again.</p>",
+   "en": "He then checked his watch again.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-038",
+   "type": "body",
+   "dom_kind": "div.device-view.table",
+   "rich_html": "<div class=\"device-view narrow-device-view\"><div style=\"font-size:150%\"></div>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%\">Air</td>\n</tr>\n<tr>\n<td style=\"font-size:150%\">CO<sub>2</sub></td>\n<td style=\"font-size:150%; color: red\">1015</td>\n</tr>\n<tr>\n<td style=\"font-size:150%\">PM2.5</td>\n<td style=\"font-size:150%; color: yellow\">31.2</td>\n</tr>\n</table>\n<table>\n<tr>\n<td colspan=\"2\" style=\"font-size:150%\">Devices</td>\n</tr>\n<tr>\n<td style=\"font-size:150%; color: #8f8\">Attested ✓</td>\n<td style=\"font-size:150%; color: #8f8\">25</td>\n</tr>\n</table></div>",
+   "en": "| Air |  |\n| --- | --- |\n| CO2 | 1015 |\n| PM2.5 | 31.2 |\n\n| Devices |  |\n| --- | --- |\n| Attested ✓ | 25 |",
+   "device": "table",
+   "table": {
+    "header_rows": 0,
+    "body_rows": 5,
+    "cols": 2,
+    "tables": [
+     {
+      "header_rows": 0,
+      "body_rows": 3,
+      "cols": 2
+     },
+     {
+      "header_rows": 0,
+      "body_rows": 2,
+      "cols": 2
+     }
+    ],
+    "count": 2
+   },
+   "device_verified": true,
+   "table_colors": [
+    "#8f8"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-039",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Looks good!\"</span></p>",
+   "en": "\"Looks good!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-040",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Huh, you're measuring CO2 and PM2.5 on there as well?\"</span></p>",
+   "en": "\"Huh, you're measuring CO2 and PM2.5 on there as well?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-041",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Yep! Pretty standard in Veridia. We really care about having a clean environment. We breathe twelve kilograms of air every day, more than what we eat and drink combined. So we're really all under-rating how important the air is.\"</span></p>",
+   "en": "\"Yep! Pretty standard in Veridia. We really care about having a clean environment. We breathe twelve kilograms of air every day, more than what we eat and drink combined. So we're really all under-rating how important the air is.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-042",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Why is CO2 on there? We have air sensors on our watches too, but that's more for smoke detection and poisons.\"</span></p>",
+   "en": "\"Why is CO2 on there? We have air sensors on our watches too, but that's more for smoke detection and poisons.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-043",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"The average concentration of carbon dioxide in our atmosphere is 300 parts per million. Air that we breathe out is 40,000 parts per million. So if the air you're breathing has 700 parts per million, then either there's some other source bringing that extra CO2 in, or, more likely, one percent of the air you're breathing in is air that someone else breathed out. And aerosol particles carrying all kinds of things stick around in the air for a long time - especially airborne viruses.\"</span></p>",
+   "en": "\"The average concentration of carbon dioxide in our atmosphere is 300 parts per million. Air that we breathe out is 40,000 parts per million. So if the air you're breathing has 700 parts per million, then either there's some other source bringing that extra CO2 in, or, more likely, one percent of the air you're breathing in is air that someone else breathed out. And aerosol particles carrying all kinds of things stick around in the air for a long time - especially airborne viruses.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-044",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Ah, I see, so it's not even about industrial pollution.\"</span></p>",
+   "en": "\"Ah, I see, so it's not even about industrial pollution.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-045",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Actually I'm surprised you're not caught up on this, and that the CO2 numbers are so poor here. I would have thought you would care a lot from the defense side, for pandemic prevention.\"</span></p>",
+   "en": "\"Actually I'm surprised you're not caught up on this, and that the CO2 numbers are so poor here. I would have thought you would care a lot from the defense side, for pandemic prevention.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-046",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Ah well you can ask Den when he comes!\"</span></p>",
+   "en": "\"Ah well you can ask Den when he comes!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-047",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A robot arrived, bringing a salad and tea for Gladias, and a vegetable and rice dish covered with mushrooms and a tea for Zei.</p>",
+   "en": "A robot arrived, bringing a salad and tea for Gladias, and a vegetable and rice dish covered with mushrooms and a tea for Zei.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-048",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Wait, that dish you're eating. I think that's exactly what we call Number Ten in our Dzego food trucks!\"</span>, Gladias exclaimed.</p>",
+   "en": "\"Wait, that dish you're eating. I think that's exactly what we call Number Ten in our Dzego food trucks!\" , Gladias exclaimed.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-049",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Do you want to try it? I'm happy to take your salad. Tell me how it compares to the version you're used to.\"</span></p>",
+   "en": "\"Do you want to try it? I'm happy to take your salad. Tell me how it compares to the version you're used to.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-050",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Sure!\"</span></p>",
+   "en": "\"Sure!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-051",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>They switched plates, and began eating.</p>",
+   "en": "They switched plates, and began eating.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-052",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Okay, this is much better than what we get in Veridia\"</span>, Gladias excitedly remarked.</p>",
+   "en": "\"Okay, this is much better than what we get in Veridia\" , Gladias excitedly remarked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-053",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>They continued eating silently for a few minutes, and after finishing their food switched to drinking tea.</p>",
+   "en": "They continued eating silently for a few minutes, and after finishing their food switched to drinking tea.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-054",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei's watch buzzed again. Zei checked his watch, and his eyes opened wide.</p>",
+   "en": "Zei's watch buzzed again. Zei checked his watch, and his eyes opened wide.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-055",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"What is it?\"</span>, Gladias asked.</p>",
+   "en": "\"What is it?\" , Gladias asked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-056",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"A message from a courtyard where I ate in Sadzu Du once. This is really weird.\"</span></p>",
+   "en": "\"A message from a courtyard where I ate in Sadzu Du once. This is really weird.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-057",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"It seems to be addressed directly to me.\"</span></p>",
+   "en": "\"It seems to be addressed directly to me.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-058",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"How does the courtyard know you ate there? Payment is done in zipcoins, that's fully anonymized.\"</span></p>",
+   "en": "\"How does the courtyard know you ate there? Payment is done in zipcoins, that's fully anonymized.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-059",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Exactly. The courtyard seems to have sent it to <em>all</em> their guests from the past half year, and it has some kind of tag that my local AI accepted, almost everyone else's filtered out.\"</span></p>",
+   "en": "\"Exactly. The courtyard seems to have sent it to all their guests from the past half year, and it has some kind of tag that my local AI accepted, almost everyone else's filtered out.\"",
+   "inline": {
+    "spk": 1,
+    "em": 1,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-060",
+   "type": "body",
+   "dom_kind": "div.device-view.table",
+   "rich_html": "<div class=\"device-view wide-device-view\"><table>\n<thead>\n<tr>\n<th>zan</th>\n<th></th>\n<th>tie</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 25%\"><center>sa dzu du de <br/>len su 2415 de <br/>bun kai mo fan</center></td>\n<td style=\"width: 6%; text-align:center\">→</td>\n<td>ci sen hu jan pu zau fe 400 lin man <br/> ci cau be fe ti tie <br/> ci tan jan pu ciu cu shan jin fe pa bi <br/> ci sen hu fe bu</td>\n</tr>\n</tbody>\n</table></div>",
+   "en": "| zan |  | tie |\n| --- | --- | --- |\n| sa dzu du de len su 2415 de bun kai mo fan | → | ci sen hu jan pu zau fe 400 lin man ci cau be fe ti tie ci tan jan pu ciu cu shan jin fe pa bi ci sen hu fe bu |",
+   "device": "table",
+   "table": {
+    "header_rows": 1,
+    "body_rows": 1,
+    "cols": 3,
+    "tables": [
+     {
+      "header_rows": 1,
+      "body_rows": 1,
+      "cols": 3
+     }
+    ],
+    "count": 1
+   },
+   "device_verified": true,
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-061",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"What does it say?\"</span>, Gladias asked.</p>",
+   "en": "\"What does it say?\" , Gladias asked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-062",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"It's from the Beautiful Plants food court, on 2415 Len Su street, in Sadzu Du. An anonymous person burned four hundred zipcoins to send this message. The message envelope says that the recipient 'is successful' and is 18 years old. I know nothing else.\"</span></p>",
+   "en": "\"It's from the Beautiful Plants food court, on 2415 Len Su street, in Sadzu Du. An anonymous person burned four hundred zipcoins to send this message. The message envelope says that the recipient 'is successful' and is 18 years old. I know nothing else.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-063",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"That's a ... well-calibrated description.\"</span></p>",
+   "en": "\"That's a ... well-calibrated description.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-064",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Indeed. They're trying to make the set wide enough to make sure it contains me, they burned four hundred zipcoins to signal to the courtyard, and to our local AIs, and to us, that the message is worth putting an effort into understanding, but also they made the set narrow enough that they <em>could</em> make this broadcast for only four hundred zipcoins.\"</span></p>",
+   "en": "\"Indeed. They're trying to make the set wide enough to make sure it contains me, they burned four hundred zipcoins to signal to the courtyard, and to our local AIs, and to us, that the message is worth putting an effort into understanding, but also they made the set narrow enough that they could make this broadcast for only four hundred zipcoins.\"",
+   "inline": {
+    "spk": 1,
+    "em": 1,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-065",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"And narrow enough that not too many people find out about this message.\"</span></p>",
+   "en": "\"And narrow enough that not too many people find out about this message.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-066",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Okay, let me open it up...\"</span></p>",
+   "en": "\"Okay, let me open it up...\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-067",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei stared in shock again.</p>",
+   "en": "Zei stared in shock again.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-068",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"What is it?\"</span></p>",
+   "en": "\"What is it?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-069",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"The message is a series of links to some files, in total over sixty gigabytes. I need to download eighty percent of them apparently.\"</span></p>",
+   "en": "\"The message is a series of links to some files, in total over sixty gigabytes. I need to download eighty percent of them apparently.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-070",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Will that take a while to download?\"</span></p>",
+   "en": "\"Will that take a while to download?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-071",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"About a day wirelessly. But it looks like the digital archive node inside this mountain pyramid already has enough of the files.\"</span></p>",
+   "en": "\"About a day wirelessly. But it looks like the digital archive node inside this mountain pyramid already has enough of the files.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-072",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Shall we just walk there?\"</span></p>",
+   "en": "\"Shall we just walk there?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-073",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Exactly what I'm thinking.\"</span></p>",
+   "en": "\"Exactly what I'm thinking.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-074",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei put his watch against a green circle on the corner of the desk. A moment later it buzzed. He stood up, and Gladias stood up immediately after him.</p>",
+   "en": "Zei put his watch against a green circle on the corner of the desk. A moment later it buzzed. He stood up, and Gladias stood up immediately after him.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-075",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>They exited the cafeteria, and started walking through the network of tunnels.</p>",
+   "en": "They exited the cafeteria, and started walking through the network of tunnels.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-076",
+   "type": "break",
+   "dom_kind": "hr",
+   "rich_html": "<hr/>",
+   "en": "***",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-077",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A few minutes later, they arrived at a large ornamented door.</p>",
+   "en": "A few minutes later, they arrived at a large ornamented door.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-078",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>To the left of the door, there was a drawing of a river horse reading a book, with a backdrop of a marsh with green trees and a blue sky in the background. To the right of the door, there was a drawing of a hamster sitting at a computer. Both drawings were a careful balance of cartoon-like playfulness, and a serious aura of mystery.</p>",
+   "en": "To the left of the door, there was a drawing of a river horse reading a book, with a backdrop of a marsh with green trees and a blue sky in the background. To the right of the door, there was a drawing of a hamster sitting at a computer. Both drawings were a careful balance of cartoon-like playfulness, and a serious aura of mystery.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-079",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>At the top of the door, Zei could read a slogan:</p>",
+   "en": "At the top of the door, Zei could read a slogan:",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-080",
+   "type": "body",
+   "dom_kind": "center",
+   "rich_html": "<center><div class=\"dz-card dz-mono\" style=\"font-family:'TeX Gyre Chorus',cursive;font-size:17px;line-height:1.55\"><div class=\"dz-line dz-blank\" style=\"height:1em\"></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:2ch\"><span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">mu fu bau hai</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ka</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">sha liu</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">li</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">dzai hen</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ji</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">cin jan</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">jan</span></span></span></div>\n<div class=\"dz-line\" style=\"margin:3px 0;padding-left:0ch\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ci</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">mu fu bau fei</span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">ka</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">zen die jia</span></span></span> <span style=\"white-space:nowrap\"><span style=\"font-family:'TeX Gyre Chorus',cursive;\">cu</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">can hu</span></span></span> <span style=\"font-family:'TeX Gyre Chorus',cursive;\">fe</span> <span style=\"font-family:'TeX Gyre Chorus',cursive;\">lo</span> <span style=\"white-space:nowrap\"><span style=\"color:#e6f4ff;font-family:'TeX Gyre Chorus',cursive\">kin liu</span></span></div>\n<div class=\"dz-line dz-blank\" style=\"height:1em\"></div></div></center>",
+   "en": "mu fu bau hai ka sha liu li dzai hen ji cin jan fe jan ci mu fu bau fei ka zen die jia cu can hu fe lo kin liu",
+   "device": "panel",
+   "device_verified": true,
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-081",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Outside of a dog, a book is man's best friend\"</span>, Zei translated for Gladias. <span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Inside of a dog, it's too dark to read.\"</span></p>",
+   "en": "\"Outside of a dog, a book is man's best friend\" , Zei translated for Gladias. \"Inside of a dog, it's too dark to read.\"",
+   "inline": {
+    "spk": 2,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-082",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei and Gladias stepped through the door, and entered.</p>",
+   "en": "Zei and Gladias stepped through the door, and entered.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-083",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>To their left, the entire wall was a large shelf, about five meters tall, filled with physical paper books. The upper half of the shelf was set back about a meter, allowing the roof of the lower half to serve as a walkway to look at and take books from the upper half.</p>",
+   "en": "To their left, the entire wall was a large shelf, about five meters tall, filled with physical paper books. The upper half of the shelf was set back about a meter, allowing the roof of the lower half to serve as a walkway to look at and take books from the upper half.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-084",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The shelf had openings in two places on the upper floor, leading to two miniature tunnels lined with more books. The shelf also had an opening in one place on the lower floor, also lined with books. All three openings seemed to go inwards for three to six meters; after that, one of the book-lined hallways turned ninety degrees rightward, another ninety degrees leftward, and the third, the one on the lower floor, turned into a T-shaped intersection.</p>",
+   "en": "The shelf had openings in two places on the upper floor, leading to two miniature tunnels lined with more books. The shelf also had an opening in one place on the lower floor, also lined with books. All three openings seemed to go inwards for three to six meters; after that, one of the book-lined hallways turned ninety degrees rightward, another ninety degrees leftward, and the third, the one on the lower floor, turned into a T-shaped intersection.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-085",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>It looked like the book section was deliberately constructed to be a maze, Gladias thought.</p>",
+   "en": "It looked like the book section was deliberately constructed to be a maze, Gladias thought.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-086",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>To their right, there was an open space with tables, and along the wall, there were many computer terminals.</p>",
+   "en": "To their right, there was an open space with tables, and along the wall, there were many computer terminals.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-087",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Near the front of the space with tables, Zei saw a woman wearing a robe. He immediately ran toward her.</p>",
+   "en": "Near the front of the space with tables, Zei saw a woman wearing a robe. He immediately ran toward her.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-088",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>She turned around.</p>",
+   "en": "She turned around.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-089",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"Welcome to the Pafogai Du grand library. What is it that you seek?\"</span>, she asked.</p>",
+   "en": "\"Welcome to the Pafogai Du grand library. What is it that you seek?\" , she asked.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-090",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"There are very large files in the archive that I would like to load.\"</span></p>",
+   "en": "\"There are very large files in the archive that I would like to load.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-091",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The librarian laughed.</p>",
+   "en": "The librarian laughed.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-092",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"Glad you're being honest\"</span>, she replied.</p>",
+   "en": "\"Glad you're being honest\" , she replied.",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-093",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"Most people tell me they're looking to learn some high-minded thing about history or culture or mathematics, and then go and download their movies as soon as I'm not looking.\"</span></p>",
+   "en": "\"Most people tell me they're looking to learn some high-minded thing about history or culture or mathematics, and then go and download their movies as soon as I'm not looking.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-094",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Well I'm not downloading a movie, it's more ... a mysterious message.\"</span></p>",
+   "en": "\"Well I'm not downloading a movie, it's more ... a mysterious message.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-095",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"Ah, a quest! Even if that ends up just being an excuse, even that is something new and interesting in my day. Well, just follow me.\"</span></p>",
+   "en": "\"Ah, a quest! Even if that ends up just being an excuse, even that is something new and interesting in my day. Well, just follow me.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-096",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei and Gladias followed.</p>",
+   "en": "Zei and Gladias followed.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-097",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"So you got a mysterious message telling you to download some big files? Any idea what kinds?\"</span></p>",
+   "en": "\"So you got a mysterious message telling you to download some big files? Any idea what kinds?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-098",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Well so far I just saw some hashes...\"</span></p>",
+   "en": "\"Well so far I just saw some hashes...\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-099",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>They arrived at a computer terminal. The librarian took out a data cable, and put one end of the cable into the terminal.</p>",
+   "en": "They arrived at a computer terminal. The librarian took out a data cable, and put one end of the cable into the terminal.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-100",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"Here, put the other end into your hand device.\"</span></p>",
+   "en": "\"Here, put the other end into your hand device.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-101",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei followed the librarian's instructions. The download started almost immediately.</p>",
+   "en": "Zei followed the librarian's instructions. The download started almost immediately.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-102",
+   "type": "body",
+   "dom_kind": "div.device-view.svg",
+   "rich_html": "<div class=\"device-view wide-device-view\"><svg height=\"250\" viewbox=\"0 0 500 250\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\">\n<g fill=\"#cef\" font-family=\"monospace\" stroke=\"#cef\">\n<!-- bar 1 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"25\">0x1b568a45...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"16\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"4.46\" x=\"110\" y=\"16\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"25\">1.35%</text>\n<!-- bar 2 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"52\">0x9f3c21d7...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"43\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"6.83\" x=\"110\" y=\"43\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"52\">2.07%</text>\n<!-- bar 3 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"79\">0x4a8e0b62...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"70\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"5.35\" x=\"110\" y=\"70\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"79\">1.62%</text>\n<!-- bar 4 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"106\">0xd714fc98...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"97\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"9.50\" x=\"110\" y=\"97\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"106\">2.88%</text>\n<!-- bar 5 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"133\">0x62bb39a0...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"124\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"3.93\" x=\"110\" y=\"124\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"133\">1.19%</text>\n<!-- bar 6 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"160\">0x8e05d1c4...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"151\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"8.05\" x=\"110\" y=\"151\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"160\">2.44%</text>\n<!-- bar 7 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"187\">0x37ad6f51...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"178\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"5.71\" x=\"110\" y=\"178\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"187\">1.73%</text>\n<!-- bar 8 -->\n<text font-size=\"11\" stroke=\"none\" x=\"15\" y=\"214\">0xc9428e1b...</text>\n<rect fill=\"none\" height=\"10\" stroke-width=\"1\" width=\"330\" x=\"110\" y=\"205\"></rect>\n<rect height=\"10\" stroke=\"none\" width=\"9.60\" x=\"110\" y=\"205\"></rect>\n<text font-size=\"11\" stroke=\"none\" x=\"450\" y=\"214\">2.91%</text>\n<!-- bottom text -->\n<text font-size=\"12\" letter-spacing=\"2\" stroke=\"none\" text-anchor=\"middle\" x=\"250\" y=\"242\">sho hei dai - 827 gei zen</text>\n</g>\n</svg></div>",
+   "en": "![第19章图2](assets/ch19-fig02.svg)",
+   "device": "figure",
+   "figure": {
+    "en": "assets/ch19-fig02-en.svg",
+    "zh": "assets/ch19-fig02-zh.svg",
+    "file": "ch19-fig02.svg"
+   },
+   "figure_labels": [
+    "0x1b568a45...",
+    "1.35%",
+    "0x9f3c21d7...",
+    "2.07%",
+    "0x4a8e0b62...",
+    "1.62%",
+    "0xd714fc98...",
+    "2.88%",
+    "0x62bb39a0...",
+    "1.19%",
+    "0x8e05d1c4...",
+    "2.44%",
+    "0x37ad6f51...",
+    "1.73%",
+    "0xc9428e1b...",
+    "2.91%",
+    "sho hei dai - 827 gei zen"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-103",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Wow, only eight minutes!\"</span></p>",
+   "en": "\"Wow, only eight minutes!\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-104",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.725 0.138 160.0);--spk-dk:oklch(0.896 0.138 160.0)\">\"So now might you be more open-minded to the things we stodgy librarians say about how physical spaces are still relevant to the pursuit of knowledge after all?\"</span></p>",
+   "en": "\"So now might you be more open-minded to the things we stodgy librarians say about how physical spaces are still relevant to the pursuit of knowledge after all?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-105",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A robot slid up to them.</p>",
+   "en": "A robot slid up to them.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-106",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.625 0.150 240.0);--spk-dk:oklch(0.761 0.150 240.0)\">\"jie hei ja ma?\"</span></p>",
+   "en": "\"jie hei ja ma?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-107",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A menu appeared onscreen; there was no food, but a selection of drinks was available.</p>",
+   "en": "A menu appeared onscreen; there was no food, but a selection of drinks was available.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-108",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias immediately clicked a button asking for a tea. Following along, Zei did the same.</p>",
+   "en": "Gladias immediately clicked a button asking for a tea. Following along, Zei did the same.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-109",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"This space is beautiful, I am glad you have it.\"</span></p>",
+   "en": "\"This space is beautiful, I am glad you have it.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-110",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias stood up and walked over to the shelf with the books. He opened a few one by one. At that moment, not in the mood for straining his brain at reading and interpreting Dzegoban - especially not the earlier-version Dzegoban that the older books were in that he could understand nothing of at all - he focused his attention on the diagrams and pictures.</p>",
+   "en": "Gladias stood up and walked over to the shelf with the books. He opened a few one by one. At that moment, not in the mood for straining his brain at reading and interpreting Dzegoban - especially not the earlier-version Dzegoban that the older books were in that he could understand nothing of at all - he focused his attention on the diagrams and pictures.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-111",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Two minutes later, the robot slid up to him, and gave him his tea. The tea was in a sealed cup, from which he could only drink through a straw. Surprised, Gladias turned to Zei, and saw that Zei, sitting at a table far away from any books, already had his tea. The cup that Zei received was open-faced, without much protection against the tea spilling.</p>",
+   "en": "Two minutes later, the robot slid up to him, and gave him his tea. The tea was in a sealed cup, from which he could only drink through a straw. Surprised, Gladias turned to Zei, and saw that Zei, sitting at a table far away from any books, already had his tea. The cup that Zei received was open-faced, without much protection against the tea spilling.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-112",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias found a book about Dzego architecture, titled \"zui fia pai dan\". He flipped through it. It contained pictures of many designs of basement rooms, shelters and underground rooms inside of mountain pyramids. The book showed them in roughly chronological order starting shortly after the war against the Arctic Empire a hundred years ago.</p>",
+   "en": "Gladias found a book about Dzego architecture, titled \"zui fia pai dan\". He flipped through it. It contained pictures of many designs of basement rooms, shelters and underground rooms inside of mountain pyramids. The book showed them in roughly chronological order starting shortly after the war against the Arctic Empire a hundred years ago.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-113",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The earlier designs were very practical in construction, with not much thought put to comfort, or even safety against non-human threats. The designs in the middle started resembling ordinary rooms, with the main glaring exception being lack of windows. And finally, the designs near the end of the book were very well-decorated and comfortable, even more so than above-ground construction. About half had imitation windows, pretending to be outside. The other half did not have windows, and instead had plants, well-decorated walls, and other objects that seemed carefully chosen to make the inhabitant not see any space that they might think is supposed to have a window.</p>",
+   "en": "The earlier designs were very practical in construction, with not much thought put to comfort, or even safety against non-human threats. The designs in the middle started resembling ordinary rooms, with the main glaring exception being lack of windows. And finally, the designs near the end of the book were very well-decorated and comfortable, even more so than above-ground construction. About half had imitation windows, pretending to be outside. The other half did not have windows, and instead had plants, well-decorated walls, and other objects that seemed carefully chosen to make the inhabitant not see any space that they might think is supposed to have a window.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-114",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Gladias!\"</span>, Zei shouted. <span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Come back, it's almost done!\"</span></p>",
+   "en": "\"Gladias!\" , Zei shouted. \"Come back, it's almost done!\"",
+   "inline": {
+    "spk": 2,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-115",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias turned around, and walked back. Just as he arrived, the last progress bar reached 100%. Another window automatically opened. A script began running. \"Reconstructing data... estimated time remaining 175\", it said onscreen - not in Dzegoban.</p>",
+   "en": "Gladias turned around, and walked back. Just as he arrived, the last progress bar reached 100%. Another window automatically opened. A script began running. \"Reconstructing data... estimated time remaining 175\", it said onscreen - not in Dzegoban.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-116",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias and Zei sipped their tea, and stared at the timer counting down. The librarian, curious, hovered quietly about two meters behind them.</p>",
+   "en": "Gladias and Zei sipped their tea, and stared at the timer counting down. The librarian, curious, hovered quietly about two meters behind them.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-117",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Right on schedule, a little under two minutes later, the script finished, and a screen appeared.</p>",
+   "en": "Right on schedule, a little under two minutes later, the script finished, and a screen appeared.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-118",
+   "type": "body",
+   "dom_kind": "div.device-view.panel",
+   "rich_html": "<div class=\"device-view wide-device-view device-view-left\"><b>What did you do on Firemoon 10th? Explain the day in detail.</b>\n<br/><br/>\n<div style=\"background-color: #cef; border-radius: 9px; padding: 10px; height: 50px\">\n<b style=\"color: #22b; animation: blinker 1s linear infinite\"> &gt; </b>\n</div></div>",
+   "en": "What did you do on Firemoon 10th? Explain the day in detail.\n\n>",
+   "device": "panel",
+   "device_verified": true,
+   "table_colors": [
+    "#22b",
+    "#cef"
+   ],
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 2
+   }
+  },
+  {
+   "id": "19-119",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei stared.</p>",
+   "en": "Zei stared.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-120",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Let's reschedule the meeting with Den for tomorrow. I have a feeling this is not going to be a simple task.\"</span></p>",
+   "en": "\"Let's reschedule the meeting with Den for tomorrow. I have a feeling this is not going to be a simple task.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-121",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Gladias nodded.</p>",
+   "en": "Gladias nodded.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-122",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Are you going to answer?\"</span></p>",
+   "en": "\"Are you going to answer?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-123",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Zei pressed a few buttons on his hand device. <span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"I put this program into a sandbox using a journaling file system, so it can't access the internet, and I can always revert it back to start. So there's no privacy leak risk, and if I'm not happy with the outcome I can just revert it back to start and try again. So why not?\"</span></p>",
+   "en": "Zei pressed a few buttons on his hand device. \"I put this program into a sandbox using a journaling file system, so it can't access the internet, and I can always revert it back to start. So there's no privacy leak risk, and if I'm not happy with the outcome I can just revert it back to start and try again. So why not?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-124",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Now ... to remember what I did on the 10th of Firemoon ... or rather I'll just ask my hand device.\"</span></p>",
+   "en": "\"Now ... to remember what I did on the 10th of Firemoon ... or rather I'll just ask my hand device.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-125",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A record of Zei's life events on that day popped up. That day was his last Minpentai game, the semifinal against Gun - the last day when things in his life were at least somewhat normal. Before that game, he woke up and had a meeting with Bai. After that game, he met up in the courtyard with Deluin.</p>",
+   "en": "A record of Zei's life events on that day popped up. That day was his last Minpentai game, the semifinal against Gun - the last day when things in his life were at least somewhat normal. Before that game, he woke up and had a meeting with Bai. After that game, he met up in the courtyard with Deluin.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-126",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Wait, Zei thought, the courtyard ... what was the address again? He looked it up.</p>",
+   "en": "Wait, Zei thought, the courtyard ... what was the address again? He looked it up.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-127",
+   "type": "body",
+   "dom_kind": "div.device-view.panel",
+   "rich_html": "<div class=\"device-view wide-device-view\"><b>sa dzu du de <br/> len su 2415 de <br/> bun kai mo fan\n</b></div>",
+   "en": "sa dzu du de\n\nlen su 2415 de\n\nbun kai mo fan",
+   "device": "panel",
+   "device_verified": true,
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 1
+   }
+  },
+  {
+   "id": "19-128",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The exact same cafeteria that the original message was from.</p>",
+   "en": "The exact same cafeteria that the original message was from.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-129",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>This was, as his local AI liked to say, the punchline. Zei started typing, recalling that day of his life from a combination of the AI records and his own memories which were rapidly coming back.</p>",
+   "en": "This was, as his local AI liked to say, the punchline. Zei started typing, recalling that day of his life from a combination of the AI records and his own memories which were rapidly coming back.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-130",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Waking up.</p>",
+   "en": "Waking up.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-131",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The meeting with Bai.</p>",
+   "en": "The meeting with Bai.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-132",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Going to the game.</p>",
+   "en": "Going to the game.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-133",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Waiting for the game.</p>",
+   "en": "Waiting for the game.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-134",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The game itself.</p>",
+   "en": "The game itself.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-135",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Watching Deluin's game.</p>",
+   "en": "Watching Deluin's game.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-136",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>A brief conversation with Deluin after the game. What was it I had said ... \"my style was uglier than yours. Though I also won by playing defense\"</p>",
+   "en": "A brief conversation with Deluin after the game. What was it I had said ... \"my style was uglier than yours. Though I also won by playing defense\"",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-137",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>And then the meeting with Deluin at the courtyard itself. Zei spent as much time detailing this event as the rest of the day put together.</p>",
+   "en": "And then the meeting with Deluin at the courtyard itself. Zei spent as much time detailing this event as the rest of the day put together.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-138",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>The robot. A/B testing the new proposed hieroglyphs for Dzegoban.</p>",
+   "en": "The robot. A/B testing the new proposed hieroglyphs for Dzegoban.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-139",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Deluin invited him to Redshire. He refused. Deluin showed pictures of Redshire.</p>",
+   "en": "Deluin invited him to Redshire. He refused. Deluin showed pictures of Redshire.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-140",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>Deluin talking about how the nature of a place being beautiful actually does say something about the civilization there.</p>",
+   "en": "Deluin talking about how the nature of a place being beautiful actually does say something about the civilization there.",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-141",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>And then Deluin's gently trolling line: \"I'll use my championship winnings to pay for you to go.\"</p>",
+   "en": "And then Deluin's gently trolling line: \"I'll use my championship winnings to pay for you to go.\"",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-142",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>After typing everything in, Zei clicked \"send\".</p>",
+   "en": "After typing everything in, Zei clicked \"send\".",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-143",
+   "type": "body",
+   "dom_kind": "div.device-view.panel",
+   "rich_html": "<div class=\"device-view wide-device-view device-view-left\"><b> Thinking ... estimated remaining time 440 </b></div>",
+   "en": "Thinking ... estimated remaining time 440",
+   "device": "panel",
+   "device_verified": true,
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 1
+   }
+  },
+  {
+   "id": "19-144",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Okay, so this is a language model. But how large was that file? After the data reconstruction.\"</span></p>",
+   "en": "\"Okay, so this is a language model. But how large was that file? After the data reconstruction.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-145",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"10.7 gigabytes. The overhead was exactly a factor of six. I had a background thread check where the files were from, they were all recently uploaded. One sixth was a few recent movies - public data, though of course <em>the selection of which movies they chose</em> is a secret key of sorts. Another half was a big pile of someone's health data. The last third was also video, though it seemed to be AI-generated. It was all Arctic sermons talking about how fundamentally flawed the Veridian and Dzego civilizations are.\"</span></p>",
+   "en": "\"10.7 gigabytes. The overhead was exactly a factor of six. I had a background thread check where the files were from, they were all recently uploaded. One sixth was a few recent movies - public data, though of course the selection of which movies they chose is a secret key of sorts. Another half was a big pile of someone's health data. The last third was also video, though it seemed to be AI-generated. It was all Arctic sermons talking about how fundamentally flawed the Veridian and Dzego civilizations are.\"",
+   "inline": {
+    "spk": 1,
+    "em": 1,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-146",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"The recombination algorithm was a five-of-six erasure code of five pieces of 10.7 gigabytes each. Each of those pieces, in turn, was a steganographic encoding: they used language models to find bits to flip so that the data still looked plausible, while encoding the actual underlying message, at a very ambitious rate of one bit of plaintext per four bits of ciphertext. And then the movies were a sort of cryptographic pad: if you don't know the exact set of movies that were used, even if you could fully uncover the plaintext, it would just look like random data.\"</span></p>",
+   "en": "\"The recombination algorithm was a five-of-six erasure code of five pieces of 10.7 gigabytes each. Each of those pieces, in turn, was a steganographic encoding: they used language models to find bits to flip so that the data still looked plausible, while encoding the actual underlying message, at a very ambitious rate of one bit of plaintext per four bits of ciphertext. And then the movies were a sort of cryptographic pad: if you don't know the exact set of movies that were used, even if you could fully uncover the plaintext, it would just look like random data.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-147",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Wait, if they wanted a pad, couldn't they just pseudorandomly generate one by repeatedly hashing some data?\"</span></p>",
+   "en": "\"Wait, if they wanted a pad, couldn't they just pseudorandomly generate one by repeatedly hashing some data?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-148",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Ah actually you're right. Maybe I was overthinking it, maybe they just did it this way to throw people off.\"</span></p>",
+   "en": "\"Ah actually you're right. Maybe I was overthinking it, maybe they just did it this way to throw people off.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-149",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.746 0.150 93.3);--spk-dk:oklch(0.924 0.150 93.3)\">\"Okay, so 10.7 gigabytes, what is it?\"</span></p>",
+   "en": "\"Okay, so 10.7 gigabytes, what is it?\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-150",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"It's not a plaintext language model. It's an obfuscated language model. Level two obfuscation, much weaker parameters than the full cryptographic-grade parameters that are used in the cryptographic networks for voting in DU or Bansunpei or for that matter the Order of Steering, but it's still the same algorithm.\"</span></p>",
+   "en": "\"It's not a plaintext language model. It's an obfuscated language model. Level two obfuscation, much weaker parameters than the full cryptographic-grade parameters that are used in the cryptographic networks for voting in DU or Bansunpei or for that matter the Order of Steering, but it's still the same algorithm.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-151",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Level two obfuscation is actually the right tradeoff for language models, because language models themselves are big and compute-intensive, so they can't handle the high overhead of going level four, and on the other hand, language models are at least partially obfuscated and resistant to bit flips all on their own. If you uncover the value of a few weights, or get the ability to reliably flip a few values in a few tensors, it's not like you can get anything useful out of that.\"</span></p>",
+   "en": "\"Level two obfuscation is actually the right tradeoff for language models, because language models themselves are big and compute-intensive, so they can't handle the high overhead of going level four, and on the other hand, language models are at least partially obfuscated and resistant to bit flips all on their own. If you uncover the value of a few weights, or get the ability to reliably flip a few values in a few tensors, it's not like you can get anything useful out of that.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-152",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p><span class=\"spk\" style=\"--spk-lt:oklch(0.591 0.150 346.7);--spk-dk:oklch(0.716 0.150 346.7)\">\"Overhead factor of level two obfuscation is in the tens to low hundreds on size, and high hundreds to low thousands on compute. So this model is pretty tiny; I suspect whoever sent this fine-tuned it to only do this one task. I also think this language model's wrapper program, the full package that's being obfuscated, is doing the thinking all at once, to verify whether or not my answer is satisfactory. If it is, it will just give us its message at the end.\"</span></p>",
+   "en": "\"Overhead factor of level two obfuscation is in the tens to low hundreds on size, and high hundreds to low thousands on compute. So this model is pretty tiny; I suspect whoever sent this fine-tuned it to only do this one task. I also think this language model's wrapper program, the full package that's being obfuscated, is doing the thinking all at once, to verify whether or not my answer is satisfactory. If it is, it will just give us its message at the end.\"",
+   "inline": {
+    "spk": 1,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-153",
+   "type": "body",
+   "dom_kind": "p",
+   "rich_html": "<p>As though on cue, Zei's hand device buzzed. The program finished executing. A new message appeared onscreen:</p>",
+   "en": "As though on cue, Zei's hand device buzzed. The program finished executing. A new message appeared onscreen:",
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  },
+  {
+   "id": "19-154",
+   "type": "body",
+   "dom_kind": "div.device-view.panel",
+   "rich_html": "<div class=\"device-view wide-device-view device-view-left\"><p>Hello Zei.</p>\n<p>You may be wondering why I have not communicated any further with you within the past month. I greatly apologize for this, and my goal in sending you this letter is that you are the only friend I have who is outside of Arctic control, and you deserve my explanation about what has been happening.</p>\n<p>The Arctics did a full sweep of Redshire almost a month ago, to confiscate all electronic devices, and give us back only devices that were backdoored and surveilled by them. This is why I lost contact with you. I had no way to reach you, and so I had to encrypt my message to you by wrapping it in this obfuscated language model that asked you to describe our shared experience to verify your identity. I have only been able to construct and send this message through a series of rounds of stealing devices from others, including two watches containing two Arctics' health data, doing the needed work inside of a non-transmitting room, copying the outputs to an inert storage medium, and then chemically destroying the circuits and storage on those devices.</p>\n<p>Physical surveillance of Redshire is, fortunately, much less total than the Arctic itself, though the window on that is closing fast. But there was also another window that was closing fast for me.</p>\n<p>You see, my parents were always on the side of being more sympathetic to the Arctics. And so after the annexation happened, they decided to cooperate with them. They told me that this was the best way to get any chance of autonomy for themselves and for Redshire in the future: to win trust by becoming a helpful part of the Arctic Empire. And so by the time you read this, most likely we will already be on an aeroplane going into the Arctic Empire core territory.</p>\n<p>I do not share their sympathies. But I have decided that the way that I can maximize my chance of being useful, is to play along, and win their trust too. The Arctic Empire respects strength, I have proven my strength by winning the Minpentai semifinals in Dzego, and my parents may be proof enough of my alignment. Hopefully, there will come a moment where I will be able to do something helpful to you. But I do not know.</p>\n<p>And so for this reason, this may well be the last message that you hear from me. I hope that this will not be true, but I cannot guarantee anything. I am sorry for everything.</p>\n<p>dze go ba fau gie</p>\n<p>Your dear friend Deluin.</p></div>",
+   "en": "Hello Zei.\n\nYou may be wondering why I have not communicated any further with you within the past month. I greatly apologize for this, and my goal in sending you this letter is that you are the only friend I have who is outside of Arctic control, and you deserve my explanation about what has been happening.\n\nThe Arctics did a full sweep of Redshire almost a month ago, to confiscate all electronic devices, and give us back only devices that were backdoored and surveilled by them. This is why I lost contact with you. I had no way to reach you, and so I had to encrypt my message to you by wrapping it in this obfuscated language model that asked you to describe our shared experience to verify your identity. I have only been able to construct and send this message through a series of rounds of stealing devices from others, including two watches containing two Arctics' health data, doing the needed work inside of a non-transmitting room, copying the outputs to an inert storage medium, and then chemically destroying the circuits and storage on those devices.\n\nPhysical surveillance of Redshire is, fortunately, much less total than the Arctic itself, though the window on that is closing fast. But there was also another window that was closing fast for me.\n\nYou see, my parents were always on the side of being more sympathetic to the Arctics. And so after the annexation happened, they decided to cooperate with them. They told me that this was the best way to get any chance of autonomy for themselves and for Redshire in the future: to win trust by becoming a helpful part of the Arctic Empire. And so by the time you read this, most likely we will already be on an aeroplane going into the Arctic Empire core territory.\n\nI do not share their sympathies. But I have decided that the way that I can maximize my chance of being useful, is to play along, and win their trust too. The Arctic Empire respects strength, I have proven my strength by winning the Minpentai semifinals in Dzego, and my parents may be proof enough of my alignment. Hopefully, there will come a moment where I will be able to do something helpful to you. But I do not know.\n\nAnd so for this reason, this may well be the last message that you hear from me. I hope that this will not be true, but I cannot guarantee anything. I am sorry for everything.\n\ndze go ba fau gie\n\nYour dear friend Deluin.",
+   "device": "panel",
+   "device_verified": true,
+   "inline": {
+    "spk": 0,
+    "em": 0,
+    "strong": 0
+   }
+  }
+ ],
+ "figures": [
+  {
+   "segment_id": "19-033",
+   "file": "ch19-fig01.svg",
+   "en": "assets/ch19-fig01-en.svg",
+   "zh": "assets/ch19-fig01-zh.svg",
+   "labels": []
+  },
+  {
+   "segment_id": "19-102",
+   "file": "ch19-fig02.svg",
+   "en": "assets/ch19-fig02-en.svg",
+   "zh": "assets/ch19-fig02-zh.svg",
+   "labels": [
+    "0x1b568a45...",
+    "1.35%",
+    "0x9f3c21d7...",
+    "2.07%",
+    "0x4a8e0b62...",
+    "1.62%",
+    "0xd714fc98...",
+    "2.88%",
+    "0x62bb39a0...",
+    "1.19%",
+    "0x8e05d1c4...",
+    "2.44%",
+    "0x37ad6f51...",
+    "1.73%",
+    "0xc9428e1b...",
+    "2.91%",
+    "sho hei dai - 827 gei zen"
+   ]
+  }
+ ]
+}
