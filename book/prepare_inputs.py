@@ -29,8 +29,16 @@ the alignment logic:
    wrong-before target fails the run with a nonzero exit. Hidden-SVG edits splice
    only the element text, so ids, attributes and every other byte survive.
 
-Asset SVGs are copied as raw bytes (shutil.copyfile) and the hidden-metadata edit
-is a byte splice, so case-sensitive SVG attributes survive untouched.
+Figure assets: the English art and the supplied Chinese copy are both copied as
+raw bytes, with no font work at that point.  Only after every adopted edit has
+landed -- the hidden-metadata splices included -- `prepare_figure()` reads the
+pair once and returns the bytes to ship together with `has_translation`, so one
+derivation feeds both consumers.  Nothing translated: the Chinese copy is the
+original bytes verbatim and render.py emits a single image from the flag.  A
+translation: the font of every untranslated text element goes back to the
+original (shared `<g>` fonts first) and only genuinely translated `<text>` keeps
+the Chinese stack.  A font-only difference is not a translation.  The metadata
+edit itself is a byte splice, so case-sensitive SVG attributes survive untouched.
 
 Reads (read-only):
   inputs/snapshot-<id>/html/chapter-N.html
@@ -53,6 +61,7 @@ Exit code 0 only when every requested chapter was written, every edit applied,
 and nothing is blocked.
 """
 import argparse, json, os, re, shutil, hashlib, sys, datetime, difflib
+import xml.etree.ElementTree as ET
 from collections import Counter
 
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -71,6 +80,112 @@ EDIT_SCOPES = ("body", "note", "svg_metadata")
 SVG_ELEMENTS = ("title", "desc")
 
 SVG_TAGS = ("rect", "circle", "line", "polygon", "path", "text", "tspan", "image", "ellipse", "polyline")
+
+# The font stack the supplied translated figures use for Chinese text.  It is
+# kept exactly as shipped: the flag below only decides which text keeps it.
+ZH_SVG_FONT = "Songti SC, Noto Serif CJK SC, serif"
+FIG_FONT_TAGS = ("text", "g")
+FIG_TEXT_TAGS = ("text", "tspan", "title", "desc")
+_COMMENT_RE = re.compile(rb"<!--.*?-->", re.S)
+_FONT_TAG_RE = re.compile(rb"<(text|g)(?=[\s/>])[^>]*>")
+_ATTR_FONT_RE = re.compile(rb"(\s+font-family\s*=\s*)([\"'])(.*?)\2", re.S)
+
+
+def _svg_local(tag):
+    return tag.rsplit("}", 1)[-1] if isinstance(tag, str) else ""
+
+
+def _xml_attr(value, quote):
+    """Escape a font-family value for the quote character its attribute uses."""
+    out = value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return out.replace('"', "&quot;") if quote == '"' else out.replace("'", "&apos;")
+
+
+def _svg_meta_texts(root):
+    """The hidden metadata texts, in document order."""
+    return ["".join(el.itertext()) for el in root.iter() if _svg_local(el.tag) in SVG_ELEMENTS]
+
+
+def _svg_drawing(root):
+    """Element walk without the hidden metadata: the drawing itself."""
+    return [el for el in root.iter() if _svg_local(el.tag) not in SVG_ELEMENTS]
+
+
+def _svg_translation_plan(orig_bytes, zh_bytes):
+    """Pair the two figures element by element and say what the Chinese copy owes.
+
+    Returns ``(plan, translated)``: ``plan[i]`` is ``(tag, text_changed,
+    original_font)`` for the i-th ``<text>``/``<g>`` in document order, and
+    ``translated`` is true when any text-bearing element (visible ``<text>``/
+    ``<tspan>`` or hidden ``<title>``/``<desc>``) carries different text.  Font
+    swaps alone are not a translation.
+
+    Hidden ``<title>``/``<desc>`` carry no geometry, so they are compared as
+    text lists rather than paired with drawing elements: the drawing walk itself
+    must still match one-to-one, and a pair that does not is not the pair it
+    claims to be, which raises instead of guessing.
+    """
+    o_root, z_root = ET.fromstring(orig_bytes), ET.fromstring(zh_bytes)
+    plan = []
+    translated = _svg_meta_texts(o_root) != _svg_meta_texts(z_root)
+    for o, z in zip(_svg_drawing(o_root), _svg_drawing(z_root), strict=True):
+        ot, zt = _svg_local(o.tag), _svg_local(z.tag)
+        if ot != zt:
+            raise ValueError("figure pair diverges at <%s> vs <%s>: not the same drawing" % (ot, zt))
+        changed = "".join(o.itertext()) != "".join(z.itertext())
+        if changed and ot in FIG_TEXT_TAGS:
+            translated = True
+        if zt in FIG_FONT_TAGS:
+            plan.append((zt, changed, o.get("font-family")))
+    return plan, translated
+
+
+def _svg_rewrite_fonts(zh_bytes, plan):
+    """Set each ``<text>``/``<g>`` opening tag to the font the plan asks for.
+
+    Only the ``font-family`` attribute is touched; attribute order, case,
+    geometry, animation and every other byte stay as they are.
+    """
+    masked = _COMMENT_RE.sub(lambda m: b" " * (m.end() - m.start()), zh_bytes)
+    hits = list(_FONT_TAG_RE.finditer(masked))
+    if len(hits) != len(plan):
+        raise ValueError("%d font-bearing tag(s) on disk vs %d in the plan" % (len(hits), len(plan)))
+    out, pos = [], 0
+    for m, (tag, changed, orig_font) in zip(hits, plan, strict=True):
+        raw = zh_bytes[m.start():m.end()]
+        want = ZH_SVG_FONT if (tag == "text" and changed) else orig_font
+        have = _ATTR_FONT_RE.search(raw)
+        if want is None:
+            new = raw if not have else raw[:have.start()] + raw[have.end():]
+        elif have:
+            # rewrite the value where it already sits: no attribute is reordered
+            value = _xml_attr(want, have.group(2).decode("ascii")).encode("utf-8")
+            new = raw[:have.start(3)] + value + raw[have.end(3):]
+        else:
+            attr = (' font-family="%s"' % _xml_attr(want, '"')).encode("utf-8")
+            cut = len(raw) - (2 if raw.endswith(b"/>") else 1)
+            new = raw[:cut] + attr + raw[cut:]
+        out.append(zh_bytes[pos:m.start()])
+        out.append(new)
+        pos = m.end()
+    out.append(zh_bytes[pos:])
+    return b"".join(out)
+
+
+def prepare_figure(orig_bytes, zh_bytes):
+    """The Chinese figure copy to ship and whether it is a translation at all.
+
+    One call yields both consumers from one plan.  ``False`` is the original
+    bytes verbatim, so render.py emits a single image; ``True`` is the supplied
+    copy with every untranslated element back on its original font (shared
+    ``<g>`` fonts first, so the Chinese stack cannot spread by inheritance) and
+    only a ``<text>`` whose own text changed keeping it.  A font-only,
+    serialisation-only or number/conlang difference is not a translation.
+    """
+    plan, translated = _svg_translation_plan(orig_bytes, zh_bytes)
+    if not translated:
+        return orig_bytes, False
+    return _svg_rewrite_fonts(zh_bytes, plan), True
 
 
 # ---------------------------------------------------------------- helpers
@@ -512,7 +627,8 @@ def main(argv=None):
     run = {"generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
            "snapshot": "inputs/snapshot-" + SNAPSHOT_ID + "/html",
            "archive": "inputs/upstream",
-           "chapters": [], "blocked": [], "edits_applied": 0, "edits_failed": []}
+           "chapters": [], "blocked": [], "edits_applied": 0, "edits_failed": [],
+           "figures_translated": 0, "figures_untranslated": 0}
 
     for n in chapters:
         nn = "%02d" % n
@@ -573,6 +689,7 @@ def main(argv=None):
             unresolved.append({"id": "*", "reason": "%d svg blocks vs %d figure metadata entries" % (len(declared), len(figs))})
 
         fig_out = []
+        fig_pairs = []
         for idx, sid, fname in declared:
             en_src = os.path.join(arch, "assets-original", fname)
             zh_src = os.path.join(arch, "assets", fname)
@@ -599,9 +716,21 @@ def main(argv=None):
                 unresolved.append({"id": sid, "reason": "figure %s scores %d but another asset scores %d"
                                    % (fname, mine[0], best)})
                 continue
-            # copy bytes verbatim: no XML re-serialisation, attribute case preserved
-            shutil.copyfile(en_src, os.path.join(outdir, "assets", fname.replace(".svg", "-en.svg")))
-            shutil.copyfile(zh_src, os.path.join(outdir, "assets", fname.replace(".svg", "-zh.svg")))
+            # Both assets are copied verbatim, with no font work yet.  The font
+            # pass belongs after the adopted edits: prepare_figure() below reads
+            # the finished pair once and returns both the bytes and the flag.
+            en_dst = os.path.join(outdir, "assets", fname.replace(".svg", "-en.svg"))
+            zh_dst = os.path.join(outdir, "assets", fname.replace(".svg", "-zh.svg"))
+            with open(en_src, "rb") as fh:
+                en_bytes = fh.read()
+            with open(zh_src, "rb") as fh:
+                zh_bytes = fh.read()
+            with open(en_dst, "wb") as fh:
+                fh.write(en_bytes)
+            with open(zh_dst, "wb") as fh:
+                fh.write(zh_bytes)
+            fig_pairs.append({"segment_id": sid, "en_dst": en_dst, "zh_dst": zh_dst,
+                              "en_bytes": en_bytes})
             fig_out.append({"segment_id": sid, "file": fname,
                             "en": "assets/" + fname.replace(".svg", "-en.svg"),
                             "zh": "assets/" + fname.replace(".svg", "-zh.svg"),
@@ -769,8 +898,6 @@ def main(argv=None):
             "segments": out_segs,
             "figures": fig_out,
         }
-        with open(os.path.join(outdir, "source.json"), "w", encoding="utf-8") as f:
-            json.dump(source, f, ensure_ascii=False, indent=1)
 
         zh_obj = {"chapter": n, "segments": [{"id": s["id"], "zh": s["zh"]} for s in zsegs],
                   "notes": zhr.get("notes") or [], "terms": zhr.get("terms") or {}}
@@ -804,6 +931,28 @@ def main(argv=None):
         with open(os.path.join(outdir, "revision.json"), "w", encoding="utf-8") as f:
             json.dump(revision_record(n, chapter_changes, rev_state), f,
                       ensure_ascii=False, indent=1)
+
+        # ---- figures: one derivation, both consumers ------------------------
+        # Done here, after the adopted hidden-metadata edits have landed, because
+        # the final text of the Chinese copy is what decides the flag.  The flag
+        # and the font pass come out of the same plan: False ships the original
+        # bytes verbatim, True ships the copy with untranslated nodes back on
+        # their original font.  Both the figures[] entry and
+        # segments[].figure carry that one value, and render.py emits one or two
+        # images from it instead of comparing bytes or re-deriving anything.
+        seg_index = {s["id"]: s for s in out_segs}
+        fig_by_seg = {f["segment_id"]: f for f in fig_out}
+        for pair in fig_pairs:
+            with open(pair["zh_dst"], "rb") as fh:
+                figure_bytes, flag = prepare_figure(pair["en_bytes"], fh.read())
+            with open(pair["zh_dst"], "wb") as fh:
+                fh.write(figure_bytes)
+            entry = fig_by_seg[pair["segment_id"]]
+            entry["has_translation"] = flag
+            seg_index[pair["segment_id"]]["figure"]["has_translation"] = flag
+            run["figures_translated" if flag else "figures_untranslated"] += 1
+        with open(os.path.join(outdir, "source.json"), "w", encoding="utf-8") as f:
+            json.dump(source, f, ensure_ascii=False, indent=1)
 
         # ---- glossary ----
         en_text = {s["id"]: s["en"] for s in out_segs}
@@ -882,7 +1031,12 @@ def main(argv=None):
                                "body_text_differences rather than being aligned by guesswork.",
                 "protected_markup": "English rendering uses rich_html taken from the current snapshot DOM, so "
                                     "speaker spans, em/strong, tables, colspan and SVG are not reconstructed "
-                                    "from plain text; figure assets are copied as raw bytes.",
+                                    "from plain text; figure assets are raw SVG. The English copy is "
+                                    "byte-identical to the original. The supplied Chinese figure and the "
+                                    "adopted metadata edits on it are kept as they are; the only extra change "
+                                    "is the font-family of text, so translated <text> keeps the Chinese "
+                                    "stack while untranslated text and shared <g> fonts stay on the "
+                                    "original, and a figure with no translation reuses the original bytes.",
             },
             "unresolved": unresolved,
         }

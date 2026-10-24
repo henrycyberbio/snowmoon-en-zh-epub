@@ -943,9 +943,8 @@ def readback(epub, chapters, docs, images, R, css_text=""):
                 res["failures"].append("stylesheet relies on oklch/var()")
         res["image_members"] = [n for n in names if n.lower().endswith(".svg")]
         res["image_count"] = len(res["image_members"])
-        if len(res["image_members"]) < len(images):
-            res["failures"].append("only %d of %d SVG assets inside epub"
-                                   % (len(res["image_members"]), len(images)))
+        # no count gate: the converter may prune a copy no page references; a figure
+        # that is still referenced but absent already fails the per-chapter check above.
         nav = [n for n in names if n.endswith(("nav.xhtml", "toc.xhtml", ".ncx"))]
         res["nav_members"] = nav
         if not nav:

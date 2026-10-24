@@ -10,6 +10,26 @@ Decisions API 请求通过 `questions` 中的 `instructions`、`criteria` 和 `s
 | `svg-metadata-task.md` | 第 27 章隐藏 `<title>`/`<desc>` 的额外指令（据实际任务整理，路径归一化，lane 名为占位符） | 改稿子代理 |
 | `svg-metadata-targets.json` | 该次元数据复评实际提交的 3 个 target / 5 段字串 | `workflow/recheck_svg_meta.py --targets` |
 
+## 译图状态（准备阶段判一次，字体与出图共用同一结果）
+
+顺序是固定的，不要提前：`prepare_inputs.py` 先把原图与译图**两资产原样字节复制**（此步不碰任何字体），
+再让该章已采纳修订（含隐藏 `<title>`/`<desc>` 元数据）全部落地，然后**只判一次**：按图位的最终实际文字
+得出 `has_translation`——可见 `<text>`/`<tspan>` 与隐藏 `<title>`/`<desc>` 有文字变化即为 `True`；
+只差 `font-family`、序列化或数字/杰戈语原样保留都不算译文。同一次结果派两处消费：
+
+1. **字体**：`True` 时按同一份节点级计划把未翻译 `<text>` 与共享 `<g>` 恢复原字体，只有真正翻译过的
+   `<text>` 保留既有中文字体栈；几何、字号、颜色、动画、defs、id 都不动。`False` 时不处理字体，直接写回
+   原图原始字节。
+2. **出图**：同一个布尔写进 `source.json` 的两处——`figures[]` 条目与 `segments[].figure`——值恒等；
+   `render.py` 的 `render_figure` 只读它，不读文件、不比较字节、不重复判定，因此不会出现重复图。
+
+- `False`：`render_figure` 只输出英文原图一张 `<img>`。
+- `True`：保留既有译文与已采纳元数据（额外改动仅字体），原、译各一张。
+- 本轮之前准备的输入没有该字段，沿用既有两图行为；准备器对每个图位必写布尔。
+
+图外题字 `cap_en`/`cap_zh` 两份独立。没有模型字段，`edits.json` 仍只有 `changes` 与
+`chapter_state`，翻译流程不变。
+
 ## 线缆提示词（在代码里，不在这里复制）
 
 `request` 字段就是实际发送的 HTTP body，因此提示词文本作为常量存在于构造它的模块中，避免

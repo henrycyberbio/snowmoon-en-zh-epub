@@ -371,6 +371,9 @@ def zh_figure_inscription(zht):
 def render_figure(seg, zht, pal):
     fig = seg.get("figure") or {}
     en_src, zh_src = fig.get("en", ""), fig.get("zh", "")
+    # prepare_inputs decides this once from the figure's final text and writes
+    # it beside the assets; nothing is compared or re-derived here.
+    keep_zh = fig.get("has_translation", True)
     labels = " / ".join(seg.get("figure_labels") or [])
     alt = esc(labels) if labels else "figure"
     b = BeautifulSoup(seg["rich_html"], "html.parser").find()
@@ -380,7 +383,8 @@ def render_figure(seg, zht, pal):
            '<img class="dv-fig" src="%s" alt="%s (English)"/>' % (en_src, alt)]
     if cap_en:
         out.append('<div class="dv-fig-cap dv-fig-cap-en" lang="en">%s</div>' % cap_en)
-    out.append('<img class="dv-fig" src="%s" alt="%s (Chinese)"/>' % (zh_src, alt))
+    if keep_zh:
+        out.append('<img class="dv-fig" src="%s" alt="%s (Chinese)"/>' % (zh_src, alt))
     if cap_zh:
         out.append('<div class="dv-fig-cap dv-fig-cap-zh" lang="zh-Hans">%s</div>' % cap_zh)
     out.append("</figure></div>")
