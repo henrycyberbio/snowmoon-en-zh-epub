@@ -8,6 +8,8 @@ The edition covers all 32 chapters, with English passages followed by their Chin
 
 ![Snipaste](Snipaste.png)
 
+For version numbering and release rules, see the [versioning policy](VERSIONING.md) (Chinese).
+
 ## Project structure
 
 ```text

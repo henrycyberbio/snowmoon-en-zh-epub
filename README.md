@@ -8,6 +8,8 @@
 
 ![Snipaste](Snipaste.png)
 
+版本编号与发布规则见 [版本约定](VERSIONING.md)。
+
 ## 项目结构
 
 ```text
