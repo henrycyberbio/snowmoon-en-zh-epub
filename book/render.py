@@ -59,7 +59,29 @@ class Palette:
         return self.colors.index(pair) + 1
 
     def css(self):
+        """Light-theme rules: the default interface, one class per colour pair."""
         return "\n".join(".s%d { color:%s; }" % (i + 1, c[0]) for i, c in enumerate(self.colors))
+
+    def pairs(self):
+        """(light, dark) per class in class order: the author's saved tuples.
+
+        The packaging step needs both halves in one list because the class
+        names it meets after conversion are not the ones used here.
+        """
+        return list(self.colors)
+
+    def dark_css(self):
+        """The author's own dark value for each of those same classes.
+
+        `idx()` stored the pair, so nothing is derived or re-tinted here: the
+        second colour of the saved tuple is published as-is inside the dark
+        scheme query.  Kept separate from `css()` so every existing caller of
+        the light interface (and the audit) keeps seeing one colour per class.
+        """
+        if not self.colors:
+            return ""
+        rules = "\n".join(".s%d { color:%s; }" % (i + 1, c[1]) for i, c in enumerate(self.colors))
+        return "@media (prefers-color-scheme: dark) {\n%s\n}" % rules
 
 
 QUOTE = re.compile(r"\u201c([^\u201d]*)\u201d")
@@ -464,11 +486,23 @@ def _num_class(txt):
     return ' class="num"' if re.fullmatch(r"[\d.,%+\-\u2013\u2014\s]+", txt or "") else ""
 
 
+# the only declarations a source cell may carry into the output: a status mark
+# is written 300% and yellow, which is data, not decoration
+CELL_STYLE_PROPS = ("color", "font-size")
+
+
 def _cell_style(cell):
-    """Keep the source cell colour: these tables carry data in colour (air
-    thresholds, verified marks).  Layout-only declarations stay in the CSS."""
-    m = re.search(r"color\s*:\s*([^;\"']+)", cell.get("style") or "")
-    return ' style="color:%s"' % esc(m.group(1).strip()) if m else ""
+    """Keep the source cell colour and size: these tables carry data in colour
+    (air thresholds, verified marks).  Layout-only declarations stay in the CSS,
+    and no arbitrary style attribute is ever copied through."""
+    style = cell.get("style") or ""
+    decls = []
+    for prop in CELL_STYLE_PROPS:
+        m = (re.search(r"color\s*:\s*([^;\"']+)", style) if prop == "color"
+             else re.search(r"(?:\A|;)\s*%s\s*:\s*([^;\"']+)" % re.escape(prop), style))
+        if m:
+            decls.append("%s:%s" % (prop, m.group(1).strip()))
+    return ' style="%s"' % esc(";".join(decls)) if decls else ""
 
 
 def table_html(table, rows, pal, extra=""):
@@ -748,7 +782,51 @@ def render_table(seg, zht, pal, report):
     return "".join(out), notes
 
 
+# Apple Books' dark theme repaints text white; the only documented opt-out is
+# this class on the region that must keep its own colours (Asset Guide,
+# "Custom Text Colors with Dark Themes").  The panels below each declare a
+# surface+ink pair of their own, so the reader must not recolour them.
+THEME_CONTRACT = "ibooks-dark-theme-use-custom-text-color"
+PAIRED_SURFACES = ("device", "dz-card", "lyric-pair")
+# a speaker span is the smallest region that owns an author colour; Calibre may
+# fold `.s1` into `.s` during conversion, so both spellings have to be read
+SPEAKER_CLASS = re.compile(r"s\d*")
+_CLASSED_TAG = re.compile(r'<(\w+)([^>]*?)class="([^"]+)"')
+
+
+def theme_contract(html, speaker_classes=None):
+    """Opt the regions that carry their own colours out of the reader's theme.
+
+    Only the region itself is marked: a panel that declares a surface+ink pair,
+    or the speaker span that carries one of the author's dialogue colours.  The
+    paragraph, the body and the page stay untouched, so ordinary prose is still
+    laid out by the reader.
+
+    `speaker_classes` are the class names that carry a dialogue colour in the
+    document being rewritten.  Before conversion that is the source spelling
+    (`.s1`), after it the converter's own (`s`, `s1`, ...); the caller resolves
+    them from the stylesheet's colours, so this never has to guess a name.
+    """
+    names_ok = {c for c in (speaker_classes or ()) if c}
+
+    def mark(m):
+        tag, before, cls = m.groups()
+        names = cls.split()
+        if THEME_CONTRACT in names:
+            return m.group(0)
+        speaker = tag == "span" and (any(n in names_ok for n in names) if names_ok
+                                     else any(SPEAKER_CLASS.fullmatch(n) for n in names))
+        if not speaker and not set(names) & set(PAIRED_SURFACES):
+            return m.group(0)
+        return '<%s%sclass="%s %s"' % (tag, before, cls, THEME_CONTRACT)
+    return _CLASSED_TAG.sub(mark, html)
+
+
 def render_segment(seg, zht, pal, report):
+    return theme_contract(_render_segment(seg, zht, pal, report))
+
+
+def _render_segment(seg, zht, pal, report):
     typ = seg["type"]
     b = BeautifulSoup(seg["rich_html"], "html.parser").find()
     if typ == "heading":

@@ -1,30 +1,37 @@
 @charset "utf-8";
-html, body { margin:0; padding:0; background:#ffffff; }
-body { color:#1b1b22; font-family:Georgia, "Times New Roman", serif; line-height:1.66; }
+/* Apple Books paints the page for its dark theme and repaints text white
+   (Asset Guide, "Custom Text Colors with Dark Themes"). A page background here
+   would stay under that white text, so the surface is left undefined and the
+   reader owns it.  Declaring both schemes is a statement of intent only: it
+   does not lock the page and it cannot keep a background alive by itself. */
+:root { color-scheme: light dark; }
+html, body { margin:0; padding:0; }
+body { font-family:Georgia, "Times New Roman", serif; line-height:1.66; }
 .page { max-width:44em; margin:0 auto; padding:1.4em 1.15em 2.6em; }
 
-h1.ch-title { font-size:1.92em; line-height:1.24; margin:0 0 .35em; color:#1a1730; font-weight:700; }
+h1.ch-title { font-size:1.92em; line-height:1.24; margin:0 0 .35em; font-weight:700; }
 h1.ch-title .t-en { display:block; }
-h1.ch-title .t-zh { display:block; font-size:.78em; color:#4b4370; margin-top:.22em; letter-spacing:.14em; font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif; }
+h1.ch-title .t-zh { display:block; font-size:.78em; margin-top:.22em; letter-spacing:.14em; font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif; }
 
 .dateline { margin:.2em 0 1.7em; }
 .dateline .rule { border:0; border-top:1px solid #cfc6e6; margin:.2em 0 .55em; height:0; }
-.dateline .txt { font-size:.86em; color:#5a5480; letter-spacing:.05em; }
+.dateline .txt { font-size:.86em; letter-spacing:.05em; }
 .dateline .place { font-weight:600; }
-.dateline .sep { margin:0 .55em; color:#b9b1d4; }
-.dateline .date { letter-spacing:.16em; text-transform:uppercase; font-size:.8em; color:#8a83a8; }
-.dateline .zh-line { display:block; margin-top:.18em; font-size:.9em; color:#6a6390; font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif; }
+.dateline .sep { margin:0 .55em; }
+.dateline .date { letter-spacing:.16em; text-transform:uppercase; font-size:.8em; }
+.dateline .zh-line { display:block; margin-top:.18em; font-size:.9em; font-family:"Songti SC","Noto Serif CJK SC","SimSun",serif; }
 
 .pair { margin:0 0 1.12em; page-break-inside:avoid; }
-.pair p.en { margin:0 0 .16em; font-size:1em; color:#2f2f3a; }
-.pair p.zh { margin:0; font-size:1.01em; color:#14141a; line-height:1.92;
+.pair p.en { margin:0 0 .16em; font-size:1em; }
+.pair p.zh { margin:0; font-size:1.01em; line-height:1.92;
   border-left:2px solid #e7e1f3; padding-left:.62em;
   font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif; }
 .pair p.zh em, .pair p.en em { font-style:italic; }
 
-.scene-break { text-align:center; margin:1.9em 0; color:#9a92be; font-size:.86em; letter-spacing:.7em; }
+.scene-break { text-align:center; margin:1.9em 0; font-size:.86em; letter-spacing:.7em; }
 
-.lyric-pair { margin:1.5em 0; padding:.75em 1em; background:#f6f4fb; border-left:4px solid #6f66a8; border-radius:3px; page-break-inside:avoid; }
+.lyric-pair { margin:1.5em 0; padding:.75em 1em; background-color:#f6f4fb;
+  background-image:linear-gradient(#f6f4fb,#f6f4fb); border-left:4px solid #6f66a8; border-radius:3px; page-break-inside:avoid; }
 .lyric { margin:0 0 .32em; font-family:"Courier New",Courier,monospace; font-size:.82em; letter-spacing:.06em; text-transform:uppercase; color:#3f3a5c; }
 .lyric:last-child { margin-bottom:0; }
 .lyric-zh { text-transform:none; letter-spacing:.02em; color:#4a4568; font-size:.95em;
@@ -34,19 +41,36 @@ h1.ch-title .t-zh { display:block; font-size:.78em; color:#4b4370; margin-top:.2
 .msgtext { color:#d6e6ff; }
 
 /* ---------------- in-story device panels ---------------- */
-.device { background:#0a0e27; color:#b8d8ff; border-radius:12px; padding:15px 15px 11px; margin:1.6em 0;
+/* Apple's dark stylesheet resets `background-color` on everything and leaves
+   `background-image` alone, so a surface that must stay opaque carries its
+   colour twice: as background-color (the plain case) and as a same-colour
+   linear-gradient (the candidate that survives that reset).  Written as two
+   longhands on purpose -- a `background:` shorthand resets the other one.
+   Colour + gradient are measured to survive conversion in this round's probe;
+   whether the reader honours the gradient is device acceptance, not a claim
+   made here.  Scope: surfaces that carry text, not the small accent fills. */
+.device { background-color:#0a0e27; background-image:linear-gradient(#0a0e27,#0a0e27);
+  color:#b8d8ff; border-radius:12px; padding:15px 15px 11px; margin:1.6em 0;
   font-family:"Courier New",Courier,"Noto Sans Mono CJK SC",monospace; font-size:.84em; line-height:1.55;
   text-align:center; page-break-inside:avoid; }
 .device .en-line, .device .zh-line { display:block; }
 .device .zh-line { color:#9ec2f5; font-family:"Songti SC","Noto Serif CJK SC","SimSun",monospace; }
-.device .dv-title { background:#1a2a4a; border:1px solid #3d70c3; color:#cef; font-weight:bold; padding:9px 10px; text-align:left; }
-.device .dv-body { border:1px solid #2a4a7a; border-top:0; background:#0f1a3a; color:#b8d8ff; padding:9px 10px; text-align:left; }
+/* A cell that carries its own style declares a colour or size of its own (a
+   status mark is written 300% and yellow in the source).  Both lines of that
+   cell then take the cell's colour, so a mark keeps one meaning in the two
+   languages; every other cell keeps the panel inks above. */
+.device th[style] .zh-line, .device td[style] .zh-line { color:inherit; }
+.device .dv-title { background-color:#1a2a4a; background-image:linear-gradient(#1a2a4a,#1a2a4a);
+  border:1px solid #3d70c3; color:#cef; font-weight:bold; padding:9px 10px; text-align:left; }
+.device .dv-body { border:1px solid #2a4a7a; border-top:0; background-color:#0f1a3a;
+  background-image:linear-gradient(#0f1a3a,#0f1a3a); color:#b8d8ff; padding:9px 10px; text-align:left; }
 .device table.dv { width:100%; border-collapse:collapse; margin:0; table-layout:fixed; text-align:left; }
 .device th, .device td { border:1px solid #2a4a7a; padding:8px 9px; text-align:left; vertical-align:top;
   overflow-wrap:break-word; word-break:normal; }
-.device th { background:#1a2a4a; border-color:#3d70c3; color:#cef; font-weight:bold; word-break:keep-all; }
-.device td { background:#0f1a3a; color:#b8d8ff; }
-.device tr:nth-child(even) td { background:#12204a; }
+.device th { background-color:#1a2a4a; background-image:linear-gradient(#1a2a4a,#1a2a4a);
+  border-color:#3d70c3; color:#cef; font-weight:bold; word-break:keep-all; }
+.device td { background-color:#0f1a3a; background-image:linear-gradient(#0f1a3a,#0f1a3a); color:#b8d8ff; }
+.device tr:nth-child(even) td { background-color:#12204a; background-image:linear-gradient(#12204a,#12204a); }
 .device td.num, .device th.num { white-space:nowrap; word-break:keep-all; }
 .device .dv-list { margin:.1em 0 0; padding-left:1.15em; color:#b8d8ff; }
 .device .dv-list li { margin:0 0 .18em; }
@@ -84,18 +108,20 @@ h1.ch-title .t-zh { display:block; font-size:.78em; color:#4b4370; margin-top:.2
    Snowmoon-source/render_rich.cjs sets .dz-card{background:#1b2b36;color:#e6f4ff}
    and .device-view{background:#0a0e27;color:#e6f4ff} for exactly these blocks.
    Scope only the 8 <center> cards and 18-089's <pre>: no body text changes. */
-.pair .dv-center-block .dz-card { background:#1b2b36; color:#e6f4ff; border-radius:8px;
+.pair .dv-center-block .dz-card { background-color:#1b2b36; background-image:linear-gradient(#1b2b36,#1b2b36);
+  color:#e6f4ff; border-radius:8px;
   padding:20px 24px; margin:0; }
-.pair pre[style*="color:#fff"] { background:#0a0e27; border-radius:8px;
+.pair pre[style*="color:#fff"] { background-color:#0a0e27; background-image:linear-gradient(#0a0e27,#0a0e27);
+  border-radius:8px;
   padding:14px 18px; margin:6px 0; }
 
 /* ---------------- back matter ---------------- */
-.backmatter { margin-top:2.6em; border-top:1px solid #ddd6ea; padding-top:1em; font-size:.88em; color:#4a4560; }
-.backmatter .bm-title { font-size:1.05em; color:#3b3557; margin:0 0 .6em; letter-spacing:.04em; }
+.backmatter { margin-top:2.6em; border-top:1px solid #ddd6ea; padding-top:1em; font-size:.88em; }
+.backmatter .bm-title { font-size:1.05em; margin:0 0 .6em; letter-spacing:.04em; }
 .backmatter .bm-p { margin:0 0 .6em; line-height:1.8; }
 .backmatter .bm-notes { margin:.4em 0 0; padding-left:1.2em; }
 .backmatter .bm-notes li { margin-bottom:.4em; line-height:1.8; }
-.backmatter a { color:#5a4fa0; text-decoration:none; }
+.backmatter a { text-decoration:none; }
 
 @media (max-width: 520px) {
   .page { padding:1em .8em 2em; }

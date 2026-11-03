@@ -30,6 +30,7 @@ NEEDS_FULL_BOOK = (os.path.isdir(WORK) and
 NEEDS_WORK = unittest.skipUnless(NEEDS_FULL_BOOK, "full 32-chapter work/chapters not prepared")
 
 import render as R                                    # noqa: E402
+import build_full as B                                # noqa: E402
 from bs4 import BeautifulSoup, Tag                    # noqa: E402
 
 BLOCK_TAGS = {"div", "table", "p", "ul", "ol", "li", "blockquote", "pre",
@@ -484,6 +485,451 @@ class FigureInscriptions(unittest.TestCase):
         n = sum(len(BeautifulSoup(render(seg, zht)[0], "html.parser").find_all("img"))
                 for _, seg, zht in figure_segments())
         self.assertEqual(n, 112)
+
+
+# ------------------------------------------------- Apple Books theme contract
+CSS_PATH = os.path.join(ROOT, "book", "style_base.css")
+PANEL_CHAPTERS = [n for n in ("01", "02")
+                  if os.path.exists(os.path.join(WORK, n, "source.json"))]
+# regions that carry a surface+ink pair of their own (dark device chrome, card,
+# lyric block): a reader repainting text would leave them unreadable
+PAIRED_SURFACE_CLASSES = {"device", "dz-card", "lyric-pair"}
+PAGE_RULES = ("html, body", "html,body", "body", "html")
+
+
+def css_flat_rules(css):
+    """{selector: [declaration blocks]} for the sheet's flat rules."""
+    out = {}
+    css = re.sub(r"/\*.*?\*/", " ", css, flags=re.S)          # comments are not selectors
+    for sel, decls in re.findall(r"([^{}]+)\{([^{}]*)\}", css):
+        sel = " ".join(sel.split()).split(";")[-1].strip()   # drop a leading @charset
+        if sel.startswith("@") or not sel:
+            continue
+        out.setdefault(sel, []).append(decls)
+    return out
+
+
+@unittest.skipUnless(PANEL_CHAPTERS, "no prepared chapter to render")
+class AppleBooksThemeContract(unittest.TestCase):
+    """Apple Books' dark theme repaints text (Asset Guide, "Custom Text Colors
+    with Dark Themes"): white text everywhere, and the documented opt-out is
+    class="ibooks-dark-theme-use-custom-text-color" on the region itself.
+    So we must not paint the page surface, and every region that keeps its own
+    colours must carry that class."""
+
+    def test_page_surface_belongs_to_the_reader(self):
+        with open(CSS_PATH, encoding="utf-8") as fh:
+            rules = css_flat_rules(fh.read())
+        for sel in PAGE_RULES:
+            for decl in rules.get(sel, []):
+                self.assertNotRegex(
+                    decl, r"(?<![-\w])(background|background-color)\s*:",
+                    "%s must leave the page surface to the reader: %r" % (sel, decl))
+
+    def test_paired_surfaces_carry_the_apple_contract(self):
+        panels = 0
+        for ch in PANEL_CHAPTERS:
+            src, zmap = load_chapter(ch)
+            for seg in src["segments"]:
+                html, _ = render(seg, zmap.get(seg["id"], ""))
+                for tag in BeautifulSoup(html, "html.parser").find_all(True):
+                    classes = set(tag.get("class") or [])
+                    if not classes & PAIRED_SURFACE_CLASSES:
+                        continue
+                    panels += 1
+                    self.assertIn("ibooks-dark-theme-use-custom-text-color", classes,
+                                  "%s: %s panel not opted out of reader recolouring"
+                                  % (seg["id"], sorted(classes & PAIRED_SURFACE_CLASSES)))
+        self.assertGreater(panels, 0, "no paired-surface panel rendered in %s" % PANEL_CHAPTERS)
+
+
+# ------------------------------------------- source data kept, not decoration
+class CellStyleWhitelist(unittest.TestCase):
+    """A table cell's own style can carry data: the status mark in a device
+    panel is written 300% and yellow.  Only the declarations with meaning may
+    travel with the cell; layout stays in the stylesheet."""
+
+    def cell(self, style):
+        seg = {"id": "02-900", "type": "body", "device": "table",
+               "rich_html": ('<div class="device-view narrow-device-view"><table>'
+                             '<thead><tr><th style="%s">X</th></tr></thead></table></div>'
+                             % style)}
+        html, rep = render(seg, "| X |\n| --- |")
+        self.assertEqual(rep["unresolved"], [])
+        return BeautifulSoup(html, "html.parser").find("th")
+
+    def test_author_size_and_colour_survive(self):
+        th = self.cell("font-size:300%; color: #ff8")
+        style = th.get("style") or ""
+        self.assertIn("font-size:300%", nows(style))
+        self.assertEqual(colour_of(style), "#ff8")
+
+    def test_layout_only_declarations_are_still_dropped(self):
+        th = self.cell("width:6%; text-align:center; padding:2px")
+        self.assertIsNone(th.get("style"), "layout-only style leaked into the cell")
+
+    def test_every_source_font_size_reaches_the_rendered_cell(self):
+        checked = 0
+        for ch in PANEL_CHAPTERS:
+            src, zmap = load_chapter(ch)
+            for seg in src["segments"]:
+                for cell in source_root(seg).find_all(["td", "th"]):
+                    size = re.search(r"font-size\s*:\s*([^;\"']+)", cell.get("style") or "")
+                    if not size:
+                        continue
+                    checked += 1
+                    html, _ = render(seg, zmap.get(seg["id"], ""))
+                    want = nows(cell.get_text("", strip=True))
+                    got = [c for c in BeautifulSoup(html, "html.parser").find_all(["td", "th"])
+                           if nows(c.get_text("", strip=True)).startswith(want)]
+                    self.assertTrue(
+                        got and all(size.group(1).strip() in (c.get("style") or "") for c in got),
+                        "%s: source font-size %r lost from the cell"
+                        % (seg["id"], size.group(1).strip()))
+        if checked == 0:
+            self.skipTest("prepared chapters contain no cell with font-size")
+
+
+class SpeakerPalette(unittest.TestCase):
+    """The source stores a light AND a dark colour per speaker.  The sheet must
+    publish both from those saved tuples -- nothing is re-tinted downstream."""
+
+    LIGHT = "oklch(0.692 0.150 26.7)"
+    DARK = "oklch(0.851 0.150 26.7)"
+
+    def palette(self):
+        pal = R.Palette()
+        pal.idx("--spk-lt:%s;--spk-dk:%s" % (self.LIGHT, self.DARK))
+        return pal
+
+    def test_light_and_dark_rules_carry_the_saved_pair(self):
+        pal = self.palette()
+        lt = R.oklch_to_hex(0.692, 0.150, 26.7)
+        dk = R.oklch_to_hex(0.851, 0.150, 26.7)
+        self.assertNotEqual(lt, dk)
+        self.assertIn(".s1 { color:%s; }" % lt, pal.css())
+        self.assertIn(".s1 { color:%s; }" % dk, pal.dark_css())
+
+    def test_dark_rules_are_scoped_to_the_dark_scheme(self):
+        dark = self.palette().dark_css()
+        self.assertTrue(dark.startswith("@media (prefers-color-scheme: dark)"), dark)
+        self.assertNotIn("only", dark)
+
+    def test_a_speaker_without_a_dark_value_keeps_its_light_one(self):
+        pal = R.Palette()
+        pal.idx("--spk-lt:%s" % self.LIGHT)
+        lt = R.oklch_to_hex(0.692, 0.150, 26.7)
+        self.assertIn(".s1 { color:%s; }" % lt, pal.dark_css())
+
+
+class ThemeContractScope(unittest.TestCase):
+    """The marker is a local opt-out on the region that owns a colour: the
+    speaker span itself, never the paragraph or the page around it."""
+
+    def soup(self, html):
+        return BeautifulSoup(html, "html.parser")
+
+    def test_a_speaker_span_is_marked_but_its_paragraph_is_not(self):
+        html = R.theme_contract('<p class="en" lang="en"><span class="s2">t</span></p>')
+        soup = self.soup(html)
+        self.assertIn(R.THEME_CONTRACT, soup.find("span").get("class"))
+        self.assertNotIn(R.THEME_CONTRACT, soup.find("p").get("class") or [])
+
+    def test_a_folded_speaker_class_is_still_recognised(self):
+        # Calibre may collapse `.s1` to `.s`; the marker must survive that shape
+        html = R.theme_contract('<p class="en"><span class="s">t</span></p>')
+        self.assertIn(R.THEME_CONTRACT, self.soup(html).find("span").get("class"))
+
+    def test_ordinary_markup_stays_unmarked(self):
+        html = R.theme_contract('<div class="page"><p class="zh" lang="zh-Hans">'
+                                'a <span class="sep">\u00b7</span></p></div>')
+        self.assertEqual(html.count(R.THEME_CONTRACT), 0)
+
+    def test_a_document_without_markers_matches_zero(self):
+        """The packaging gate compares counts; 0 == 0 is a real pass, not a
+        skipped check, so a book with no such region still validates."""
+        text = '<html><body><p class="zh">plain</p></body></html>'
+        self.assertEqual(R.theme_contract(text), text)
+        self.assertEqual(R.theme_contract(text).count(R.THEME_CONTRACT), 0)
+
+
+class PaletteAuditContexts(unittest.TestCase):
+    """Light and dark rules give one class two colours: that is the author's
+    data, not a duplicate.  Two colours for one class inside the SAME context
+    still fail, so the audit keeps checking."""
+
+    def setUp(self):
+        self.pal = R.Palette()
+        self.pal.idx("--spk-lt:%s;--spk-dk:%s" % (SpeakerPalette.LIGHT, SpeakerPalette.DARK))
+        self.docs = ['<p><span class="s1">a</span></p>']
+
+    def audit(self, css, dark=None):
+        return B.palette_audit(css, self.docs, self.pal.dark_css() if dark is None else dark)
+
+    def test_light_and_dark_are_not_a_duplicate(self):
+        res = self.audit(self.pal.css())
+        self.assertTrue(res["ok"], res)
+        self.assertEqual(res["duplicate_class_with_different_colour"], {})
+
+    def test_a_dark_block_inside_the_sheet_is_read_as_the_dark_context(self):
+        res = self.audit(self.pal.css() + "\n" + self.pal.dark_css(), dark="")
+        self.assertTrue(res["ok"], res)
+
+    def test_two_colours_for_one_class_in_one_context_still_fail(self):
+        css = ".s1 { color:#101010; }\n.s1 { color:#202020; }"
+        self.assertFalse(self.audit(css)["ok"])
+
+    def test_a_palette_without_dark_rules_is_reported(self):
+        res = self.audit(self.pal.css(), dark="")
+        self.assertFalse(res["ok"])
+        self.assertEqual(res["dark_classes_missing"], ["s1"])
+
+    def test_an_undefined_class_is_still_caught(self):
+        res = self.audit(".s2 { color:#123456; }", dark=".s2 { color:#654321; }")
+        self.assertFalse(res["ok"])
+        self.assertEqual(res["classes_used_without_definition"], ["s1"])
+
+
+class AppleBooksDarkScheme(unittest.TestCase):
+    """The official example declares both schemes on :root and puts the dark
+    colours in a media query.  The declaration is a statement of intent: it
+    neither locks the page nor rescues a background the reader owns."""
+
+    def css(self):
+        with open(CSS_PATH, encoding="utf-8") as fh:
+            return fh.read()
+
+    def test_root_declares_both_schemes(self):
+        decls = " ".join(css_flat_rules(self.css()).get(":root", []))
+        self.assertRegex(decls, r"color-scheme\s*:\s*light\s+dark")
+        self.assertNotIn("only", decls)
+
+    def test_a_source_coloured_cell_gives_both_lines_one_colour(self):
+        rules = css_flat_rules(self.css())
+        guard = [s for s in rules if "zh-line" in s and "[style" in s and "inherit" in " ".join(rules[s])]
+        self.assertTrue(guard, "no cell-scoped inherit rule for a source colour")
+        self.assertIn("color:#9ec2f5", " ".join(rules.get(".device .zh-line", [])),
+                      "ordinary device Chinese lost its own ink")
+
+
+class ConvertedThemeWiring(unittest.TestCase):
+    """The dark half of each dialogue colour has to reach the converted package.
+
+    Calibre rewrites the class names (measured in this round's probe: source
+    `.s1` -> `.s`, `.s2` -> `.s1`) and flattens a media block that is already in
+    the sheet, so neither the source class names nor a pre-conversion media
+    query can carry the author's second colour.  The only stable handle is the
+    resolved light colour in the converted stylesheet.  Fixture below is shaped
+    like the converter's own output, not like our source sheet.
+    """
+
+    PAIRS = [("#c0392b", "#ff6b6b"), ("#2e86de", "#74b9ff")]
+
+    CONVERTED_CSS = """
+.calibre1 { color:#1b1b22; display:block; }
+.calibre5 { background-color:#1a2a4a; background-image:linear-gradient(#1a2a4a, #1a2a4a);
+  color:#ff8; font-size:300%; }
+.device { background-color:#0a0e27; background-image:linear-gradient(#0a0e27, #0a0e27);
+  color:#b8d8ff; }
+.s { color:#c0392b; }
+.s1 { color:#2e86de; }
+"""
+
+    DOC = ('<html><head><title>t</title></head><body>'
+           '<p class="en"><span class="s">alpha</span> and <span class="s1">beta</span></p>'
+           '<div class="device"><table><tr><th class="calibre5">\u2713</th>'
+           '<td><span class="zh-line">t</span></td></tr></table></div>'
+           '</body></html>')
+
+    def test_selectors_come_from_the_converted_colours_not_the_source_names(self):
+        sel, ambiguous = B.speaker_selector_map(self.CONVERTED_CSS, self.PAIRS)
+        self.assertEqual(sorted(sel), ["s", "s1"])
+        self.assertEqual(sel["s"], ("#c0392b", "#ff6b6b"))
+        self.assertEqual(sel["s1"], ("#2e86de", "#74b9ff"))
+        self.assertEqual(ambiguous, {}, "a generated class was taken for a speaker")
+        self.assertNotIn("calibre5", sel, "a 300% status cell is not a dialogue colour")
+
+    def test_two_classes_for_one_dialogue_colour_is_reported(self):
+        css = ".s { color:#c0392b; }\n.s1 { color:#c0392b; }\n.s2 { color:#2e86de; }"
+        sel, ambiguous = B.speaker_selector_map(css, self.PAIRS)
+        self.assertEqual(ambiguous.get("#c0392b"), ["s", "s1"])
+
+    def test_dark_block_names_the_converted_classes(self):
+        sel, _ = B.speaker_selector_map(self.CONVERTED_CSS, self.PAIRS)
+        block = B.dark_theme_style(sel)
+        self.assertIn("@media (prefers-color-scheme: dark)", block)
+        self.assertIn(".s { color:#ff6b6b; }", block)
+        self.assertIn(".s1 { color:#74b9ff; }", block)
+        self.assertNotIn("only", block.replace("prefers-color-scheme", ""))
+
+    def test_dark_block_also_restores_the_two_scheme_root_declaration(self):
+        """Calibre drops `:root{color-scheme:light dark}` from our sheet, so the
+        package never tells the reader that both themes are authored.  The block
+        we inject after conversion is the only place left to state it, and it has
+        to sit beside the media query -- inside it would apply to dark only."""
+        sel, _ = B.speaker_selector_map(self.CONVERTED_CSS, self.PAIRS)
+        block = B.dark_theme_style(sel)
+        root = re.search(r":root\s*\{[^}]*color-scheme\s*:\s*light\s+dark\s*;?[^}]*\}", block)
+        media = "@media (prefers-color-scheme: dark)"
+        self.assertIsNotNone(root, "injected block does not declare both schemes on :root")
+        self.assertLess(block.index(root.group(0)), block.index(media),
+                        ":root declaration must precede the media query, not live inside it")
+        self.assertNotIn(":root", block[block.index("{", block.index(media)):],
+                         ":root declaration must sit outside the media query body")
+        self.assertNotIn("only", block, "the declaration must not lock one scheme")
+
+    def test_one_pass_marks_the_spans_and_adds_the_dark_rules_once(self):
+        out, info = B.wire_theme(self.DOC, self.CONVERTED_CSS, self.PAIRS, R)
+        soup = BeautifulSoup(out, "html.parser")
+        spans = soup.find_all("span")
+        self.assertEqual([R.THEME_CONTRACT in (s.get("class") or []) for s in spans],
+                         [True, True, False], "speaker spans only, never the zh-line")
+        self.assertEqual(out.count("prefers-color-scheme: dark"), 1)
+        self.assertEqual(out.count("</style>"), 1)
+        again, _ = B.wire_theme(out, self.CONVERTED_CSS, self.PAIRS, R)
+        self.assertEqual(again.count("prefers-color-scheme: dark"), 1, "wiring is not idempotent")
+        self.assertEqual(again.count(R.THEME_CONTRACT), out.count(R.THEME_CONTRACT),
+                         "a second pass must not add markers")
+        self.assertEqual(info["selectors"], ["s", "s1"])
+
+    def test_wiring_changes_no_visible_text(self):
+        out, _ = B.wire_theme(self.DOC, self.CONVERTED_CSS, self.PAIRS, R)
+        self.assertEqual(B.text_of(out), B.text_of(self.DOC))
+
+    def test_a_document_without_speakers_gets_no_dark_block(self):
+        doc = ('<html><head></head><body><p class="zh">plain</p></body></html>')
+        out, _ = B.wire_theme(doc, self.CONVERTED_CSS, self.PAIRS, R)
+        self.assertEqual(out, doc)
+
+
+class PanelGradientGate(unittest.TestCase):
+    """The read-back gate must prove the gradient, not the colour.
+
+    Reproduced by the parent reviewer: delete every `background-image` from the
+    package and the old check still passed, because it only asked whether the
+    hex appeared somewhere in the sheet -- and the same hex is the
+    `background-color` of the very surface whose gradient was removed.
+    """
+
+    WITH_GRADIENT = (".device { background-color:#1a2a4a; "
+                     "background-image:linear-gradient(#1a2a4a, #1a2a4a); }")
+    WITHOUT_GRADIENT = (".device { background-color:#1a2a4a; }\n"
+                        ".calibre5 { background-color:#1a2a4a; color:#ff8; font-size:300%; }")
+
+    def test_a_same_colour_gradient_counts_only_when_the_declaration_exists(self):
+        self.assertIn(("#1a2a4a", "#1a2a4a"), B.gradient_endpoints(self.WITH_GRADIENT))
+
+    def test_the_bare_colour_never_stands_in_for_a_deleted_gradient(self):
+        self.assertEqual(set(), B.gradient_endpoints(self.WITHOUT_GRADIENT),
+                         "a background-color hex was accepted as a gradient")
+
+    def test_an_unrelated_gradient_does_not_cover_the_wanted_colour(self):
+        css = ".device { background-image:linear-gradient(#0a0e27, #0a0e27); }"
+        self.assertNotIn(("#1a2a4a", "#1a2a4a"), B.gradient_endpoints(css))
+
+
+PANEL_SURFACES = (
+    # surfaces that carry text and are meant to be opaque in the source; the
+    # probe shows background-color + a same-colour gradient survive conversion
+    ".device",
+    ".device th",
+    ".device td",
+    ".device tr:nth-child(even) td",
+    ".device .dv-title",
+    ".device .dv-body",
+    ".pair .dv-center-block .dz-card",
+    ".pair pre[style*=\"color:#fff\"]",
+    ".lyric-pair",
+)
+
+
+class PanelSurfaceBackground(unittest.TestCase):
+    """Apple's dark stylesheet clears `background-color` on everything; it does
+    not touch `background-image` (measured: a same-colour linear-gradient stays
+    bound to the panel).  The pair must therefore be written as two longhands on
+    the surfaces that carry text -- a `background:` shorthand would reset one of
+    them.  This is a candidate awaiting device acceptance, not a verified fix."""
+
+    def rules(self):
+        with open(CSS_PATH, encoding="utf-8") as fh:
+            return css_flat_rules(fh.read())
+
+    def test_every_text_surface_pairs_its_colour_with_a_gradient(self):
+        rules = self.rules()
+        for sel in PANEL_SURFACES:
+            self.assertIn(sel, rules, "panel surface %r missing from the sheet" % sel)
+            decl = " ".join(rules[sel])
+            colour = re.search(r"background-color\s*:\s*(#[0-9a-fA-F]{3,6})", decl)
+            grad = re.search(r"background-image\s*:\s*linear-gradient\(\s*(#[0-9a-fA-F]{3,6})\s*,"
+                             r"\s*(#[0-9a-fA-F]{3,6})\s*\)", decl)
+            self.assertIsNotNone(colour, "%s has no explicit background-color" % sel)
+            self.assertIsNotNone(grad, "%s has no linear-gradient background-image" % sel)
+            self.assertEqual(colour.group(1).lower(), grad.group(1).lower(), sel)
+            self.assertEqual(grad.group(1).lower(), grad.group(2).lower(), sel)
+
+    def test_no_panel_surface_uses_the_background_shorthand(self):
+        for sel in PANEL_SURFACES:
+            for decl in self.rules().get(sel, []):
+                self.assertNotRegex(decl, r"(?<![-a-z])background\s*:",
+                                    "%s uses the shorthand that resets the pair" % sel)
+
+    def test_ordinary_page_and_body_are_still_left_to_the_reader(self):
+        rules = self.rules()
+        for sel in ("html", "body", "html, body", ".page"):
+            for decl in rules.get(sel, []):
+                self.assertNotRegex(decl, r"(?<![-a-z])(background|background-image|background-color)\s*:",
+                                    "%s must stay the reader's surface: %r" % (sel, decl))
+
+
+# Ordinary text (body, headings, dateline, bilingual paragraphs, back matter)
+# must carry no foreground of its own: the reader paints the page and its text
+# together, so a fixed ink from a light theme is what goes unreadable on a dark
+# page.  Only regions that bring a complete surface with them keep their ink.
+ORDINARY_TEXT_SELECTORS = (
+    "body",
+    "h1.ch-title",
+    "h1.ch-title .t-zh",
+    ".dateline .txt",
+    ".dateline .sep",
+    ".dateline .date",
+    ".dateline .zh-line",
+    ".pair p.en",
+    ".pair p.zh",
+    ".scene-break",
+    ".backmatter",
+    ".backmatter .bm-title",
+    ".backmatter a",
+)
+LOCAL_SURFACE_SELECTORS = (".device", ".msgtext", ".lyric", ".lyric-zh",
+                           ".device .zh-line", ".pair .dv-center-block .dz-card")
+
+
+class OrdinaryTextInkOwnership(unittest.TestCase):
+    """A reader that repaints text for its dark theme cannot rescue an ink we
+    locked in the sheet: it only sees its own page.  So ordinary prose declares
+    no `color` at all and inherits whatever the reader is painting, while the
+    panels, cards and lyric block that draw their own surface keep theirs."""
+
+    def rules(self):
+        with open(CSS_PATH, encoding="utf-8") as fh:
+            return css_flat_rules(fh.read())
+
+    def test_ordinary_text_declares_no_fixed_foreground(self):
+        rules = self.rules()
+        offenders = []
+        for sel in ORDINARY_TEXT_SELECTORS:
+            for decl in rules.get(sel, []):
+                if re.search(r"(?<![-a-z])color\s*:", decl):
+                    offenders.append((sel, decl.strip()))
+        self.assertEqual(offenders, [],
+                         "ordinary text must inherit the reader's ink: %r" % (offenders,))
+
+    def test_regions_with_their_own_surface_keep_their_ink(self):
+        rules = self.rules()
+        for sel in LOCAL_SURFACE_SELECTORS:
+            self.assertIn(sel, rules, "%r disappeared from the sheet" % sel)
+            self.assertRegex(" ".join(rules[sel]), r"(?<![-a-z])color\s*:",
+                             "%s lost the ink of its own surface" % sel)
 
 
 if __name__ == "__main__":

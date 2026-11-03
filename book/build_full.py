@@ -416,10 +416,36 @@ def text_of(xhtml):
     return re.sub(r"\s+", " ", body).strip()
 
 
-def colour_map(css):
-    """class -> colour for the simple `.cls { ... color:#hex ... }` rules."""
+DARK_MEDIA = re.compile(r"@media[^{]*prefers-color-scheme\s*:\s*dark[^{]*\{")
+
+
+def split_dark_media(css):
+    """(light, dark) stylesheet text: the rules inside the dark-scheme media
+    block are the author's second colour, not a duplicate of the first."""
+    m = DARK_MEDIA.search(css or "")
+    if not m:
+        return css or "", ""
+    i, depth = m.end(), 1
+    while i < len(css) and depth:
+        depth += {"{": 1, "}": -1}.get(css[i], 0)
+        i += 1
+    return css[:m.start()] + css[i:], css[m.end():i - 1]
+
+
+def palette_defs(css):
+    """{class: {colours}} for the `.sN { color:#hex; }` rules of one context."""
     out = {}
-    for m in re.finditer(r"\.([A-Za-z][\w-]*)\s*\{[^}]*?color:\s*(#[0-9a-fA-F]{6})[^}]*\}", css):
+    for k, col in re.findall(r"\.s(\d+)\s*\{\s*color:\s*(#[0-9a-fA-F]{6})\s*;\s*\}", css or ""):
+        out.setdefault("s" + k, set()).add(col.lower())
+    return out
+
+
+def colour_map(css):
+    """class -> colour in the LIGHT context.  The dark block holds a second
+    value for the same class, so it is excluded instead of overwriting it."""
+    light, _dark = split_dark_media(css)
+    out = {}
+    for m in re.finditer(r"\.([A-Za-z][\w-]*)\s*\{[^}]*?color:\s*(#[0-9a-fA-F]{6})[^}]*\}", light):
         out.setdefault(m.group(1), m.group(2).lower())
     return out
 
@@ -433,6 +459,77 @@ def speaker_colours(doc, cmap):
             if re.fullmatch(r"s\d*", c):
                 out.append(cmap.get(c, "?"))
     return out
+
+
+def speaker_selector_map(css, pairs):
+    """converted class -> (light, dark) for the author's dialogue colours.
+
+    Calibre renumbers the speaker classes and drops a class combination, so the
+    class name in the package is not the one the source emitted (measured this
+    round: `.s1` came back as `.s`, `.s2` as `.s1`).  The resolved light colour
+    is the only stable handle: find which class in the CONVERTED sheet resolves
+    to each saved light value, and that class gets the saved dark value.
+
+    Returns (map, ambiguous).  Two classes with one dialogue colour would make
+    the mapping a guess, so it is reported instead of silently taking the first.
+    """
+    by_hex = {}
+    for cls, hexv in colour_map(css).items():
+        by_hex.setdefault(hexv, []).append(cls)
+    sel, ambiguous = {}, {}
+    for lt, dk in pairs or ():
+        found = sorted(by_hex.get(str(lt).lower(), []))
+        if len(found) > 1:
+            ambiguous[str(lt).lower()] = found
+        if found:
+            sel[found[0]] = (str(lt).lower(), str(dk).lower())
+    return sel, ambiguous
+
+
+DARK_OPEN = "@media (prefers-color-scheme: dark)"
+
+
+def dark_theme_style(sel_map):
+    """The author's own second colour, scoped to the dark scheme.
+
+    Written into the converted document, not into the sheet: a media block that
+    is already in the sheet when Calibre runs is flattened into the base rules
+    and only its dark values survive (measured), which would cost the light
+    theme.  Selectors are the converted ones, so the rule lands on the spans
+    that actually carry the colour.
+    """
+    rules = "\n".join(".%s { color:%s; }" % (c, sel_map[c][1]) for c in sorted(sel_map))
+    return ('<style type="text/css">\n/* the author\'s own dark value for each dialogue '
+            'class (injected after conversion) */\n'
+            '/* the source sheet declares both schemes on :root; the converter drops '
+            'it, so it is restored here, beside the media query and outside it */\n'
+            ':root { color-scheme: light dark; }\n%s {\n%s\n}\n</style>'
+            % (DARK_OPEN, rules))
+
+
+def inject_theme_style(html, block):
+    """Put the dark rules in the document's head, once."""
+    if not block or DARK_OPEN in html:
+        return html
+    i = html.lower().rfind("</head>")
+    if i < 0:
+        return html
+    return html[:i] + block + "\n" + html[i:]
+
+
+def wire_theme(html, css, pairs, renderer):
+    """(document, info): mark the converted speaker spans, add their dark rules.
+
+    Both halves in one pass because they must agree on the same class names.
+    A document with no dialogue colour is returned byte-identical.
+    """
+    sel_map, ambiguous = speaker_selector_map(css, pairs)
+    out = renderer.theme_contract(html, sel_map.keys())
+    # a document with no coloured dialogue needs no dark block: keep its bytes
+    if any(set(c.split()) & set(sel_map)
+           for c in re.findall(r'<span class="([^"]*)"', out)):
+        out = inject_theme_style(out, dark_theme_style(sel_map))
+    return out, {"selectors": sorted(sel_map), "ambiguous": ambiguous}
 
 
 def mem_available_mb():
@@ -451,24 +548,43 @@ def mem_available_mb():
         return None
 
 
-def palette_audit(css, docs):
-    defs = re.findall(r"\.s(\d+)\s*\{\s*color:\s*(#[0-9a-fA-F]{6})\s*;\s*\}", css)
-    by_class = {}
-    for k, col in defs:
-        by_class.setdefault("s" + k, set()).add(col.lower())
-    dup_class = {k: sorted(v) for k, v in by_class.items() if len(v) > 1}
-    colors = [list(v)[0] for v in by_class.values()]
-    dup_color = len(colors) != len(set(colors))
+def palette_audit(css, docs, dark_css=""):
+    """Audit the palette in its two theme contexts.
+
+    Each class must resolve to exactly ONE colour inside a context -- two values
+    for `.s3` in the same context is a real clash.  Light and dark disagreeing
+    is not a clash: that is the author's own pair, so the contexts are audited
+    separately and then required to cover the same classes.  The dark rules are
+    passed in because they are injected after conversion (Calibre flattens a
+    media block written before it, keeping only the dark values).
+    """
+    light_css, in_sheet_dark = split_dark_media(css)
+    by_ctx = {"light": palette_defs(light_css), "dark": palette_defs(dark_css or in_sheet_dark)}
+    dup_class = {ctx: {k: sorted(v) for k, v in defs.items() if len(v) > 1}
+                 for ctx, defs in by_ctx.items()}
+    dup_class = {ctx: d for ctx, d in dup_class.items() if d}
+    same_colour = {}
+    for ctx, defs in by_ctx.items():
+        colours = [list(v)[0] for v in defs.values()]
+        if len(colours) != len(set(colours)):
+            same_colour[ctx] = sorted(colours)
     used = set()
     for d in docs:
         for cl in re.findall(r'class="([^"]*)"', d):
             used |= set(cl.split())
     used_s = {c for c in used if re.fullmatch(r"s\d+", c)}
-    missing = sorted(used_s - set(by_class), key=lambda x: int(x[1:]))
-    return {"classes": len(by_class), "duplicate_class_with_different_colour": dup_class,
-            "same_colour_on_two_classes": dup_color,
+    light, dark = by_ctx["light"], by_ctx["dark"]
+    missing = sorted(used_s - set(light), key=lambda x: int(x[1:]))
+    dark_missing = sorted(set(light) - set(dark), key=lambda x: int(x[1:]))
+    dark_extra = sorted(set(dark) - set(light), key=lambda x: int(x[1:]))
+    return {"classes": len(light),
+            "duplicate_class_with_different_colour": dup_class,
+            "same_colour_on_two_classes": same_colour,
             "classes_used_without_definition": missing,
-            "ok": not dup_class and not dup_color and not missing and bool(by_class)}
+            "dark_classes_missing": dark_missing,
+            "dark_classes_unexpected": dark_extra,
+            "ok": (not dup_class and not same_colour and not missing
+                   and not dark_missing and not dark_extra and bool(light))}
 
 
 def scan_forbidden(docs):
@@ -563,7 +679,10 @@ def main():
             "title": title_en,
         })
 
-    # ---- book-level style (base + global palette) -----------------------
+    # ---- book-level style (base + light palette) ------------------------
+    # The dark rules are NOT written here: a media block in this sheet is
+    # flattened by Calibre and only its dark values survive (measured), so the
+    # dark half of each pair is injected into the converted documents instead.
     base_css = open(os.path.join(args.code_root, "style_base.css"), encoding="utf-8").read()
     css = base_css + "\n/* speaker colours: one global palette for the whole book */\n" + pal.css() + "\n"
     os.makedirs(os.path.join(out, "assets"), exist_ok=True)
@@ -622,7 +741,8 @@ def main():
         "html_asset_refs_missing": ref_problems,
         "html_forbidden": html_scan,
         "palette": palette_audit(css, [open(os.path.join(hdir, p), encoding="utf-8").read()
-                                       for p in os.listdir(hdir) if p.endswith(".html")]),
+                                       for p in os.listdir(hdir) if p.endswith(".html")],
+                                 pal.dark_css()),
     })
 
     fig_layout = [r for ch in chapters for f in ch["figures"] for r in f["layout"]]
@@ -775,7 +895,7 @@ def main():
 
     epub = os.path.join(out, stem + ".epub")
     status = convert(epub, source_epub, oebps, tmpdir, title, stem, images, chapters, docs,
-                     report, args.timeout, R, css)
+                     report, args.timeout, R, css, pal.pairs())
     report["checks"]["epub_status"] = status
     ok = (status == "ok") and not bad and not report["unresolved"]
     finish(report, out, 0 if ok else 1, "EPUB %s" % status)
@@ -790,8 +910,56 @@ def sha256(path):
     return h.hexdigest()
 
 
+def mark_theme_contract(epub, docs, report, R, pairs):
+    """Re-state the Apple Books opt-in on the converted documents, and give each
+    dialogue class its author's dark value.
+
+    Calibre folds every class combination into one generated class, so the
+    marker class render.py emits is gone by the time the reader sees the file
+    (measured: `class="device ibooks-..."` comes back as `class="device"`), and
+    the speaker classes are renumbered.  Both are written back here, resolved
+    from the colours in the converted stylesheet; every other byte of the member
+    is copied unchanged.
+    """
+    with zipfile.ZipFile(epub) as z:
+        items = [(info, z.read(info.filename)) for info in z.infolist()]
+    conv_css = "".join(data.decode("utf-8", "replace")
+                       for info, data in items if info.filename.endswith(".css"))
+    sel_map, ambiguous = speaker_selector_map(conv_css, pairs)
+    info_out = {"selectors": sorted(sel_map), "ambiguous": ambiguous}
+    tmp = epub + ".contract"
+    added, dark_docs = 0, 0
+    with zipfile.ZipFile(tmp, "w") as z:
+        for info, data in items:
+            if info.filename.endswith((".xhtml", ".html")):
+                text = data.decode("utf-8")
+                marked, _ = wire_theme(text, conv_css, pairs, R)
+                if marked != text:
+                    added += marked.count(R.THEME_CONTRACT) - text.count(R.THEME_CONTRACT)
+                    dark_docs += marked.count(DARK_OPEN) - text.count(DARK_OPEN)
+                    data = marked.encode("utf-8")
+            z.writestr(info, data)      # keeps each member's compress type and date
+    os.replace(tmp, epub)
+    want = sum(d.count(R.THEME_CONTRACT) for n, d in docs.items() if n.endswith(".xhtml"))
+    with zipfile.ZipFile(epub) as z:
+        got = sum(z.read(n).decode("utf-8").count(R.THEME_CONTRACT)
+                  for n in z.namelist() if n.endswith(".xhtml"))
+    info_out.update({"added": added, "expected": want, "in_epub": got,
+                     "documents_with_dark_rules": dark_docs})
+    report["checks"]["theme_contract"] = info_out
+    if ambiguous:
+        # a dialogue colour resolving to two classes cannot be wired blind
+        report["unresolved"].append({"id": "*", "reason": "ambiguous speaker classes: %s"
+                                     % ambiguous})
+        return False
+    # A real match, not a floor: one marker in the package per marker the source
+    # documents emitted.  A book with no paired panels needs zero, and 0 == 0 is
+    # a legitimate pass -- only a count that disagrees means the contract was lost.
+    return got == want
+
+
 def convert(epub, source_epub, oebps, tmpdir, title, stem, images, chapters, docs,
-            report, timeout, R, css):
+            report, timeout, R, css, pairs=()):
     """One Calibre run, low priority, no retry. Then read the result back."""
     exe = shutil.which("ebook-convert")
     report["checks"]["ebook_convert"] = exe
@@ -832,14 +1000,39 @@ def convert(epub, source_epub, oebps, tmpdir, title, stem, images, chapters, doc
         report["unresolved"].append({"id": "*", "reason": "ebook-convert rc=0 but wrote no file"})
         return "no-output-file"
 
-    post = readback(epub, chapters, docs, images, R, css)
+    if not mark_theme_contract(epub, docs, report, R, pairs):
+        report["unresolved"].append({"id": "*", "reason": "theme contract lost in conversion"})
+        return "theme-contract-lost"
+
+    post = readback(epub, chapters, docs, images, R, css, pairs)
     report["checks"]["epub"] = post
     for f in post["failures"]:
         report["unresolved"].append({"id": "*", "reason": "epub readback: %s" % f})
     return "ok" if not post["failures"] else "readback-failed"
 
 
-def readback(epub, chapters, docs, images, R, css_text=""):
+def hex6(h):
+    """`#abc` and `#aabbcc` compared on equal terms."""
+    h = str(h).lower()
+    return "#" + h[1] * 2 + h[2] * 2 + h[3] * 2 if len(h) == 4 else h
+
+
+def gradient_endpoints(css):
+    """Every `linear-gradient(...)` in the sheet as its normalized (first, last) hex pair.
+
+    The hex alone cannot prove the gradient survived: the same hex is the
+    `background-color` of the very rule whose `background-image` was dropped, so
+    a substring test passes on a package with every gradient deleted (reproduced
+    by the parent reviewer).  Only the declaration itself is evidence.
+    """
+    pairs = set()
+    for decl in re.findall(r"linear-gradient\((?:[^()]|\([^()]*\))*\)", css or "", re.I):
+        hexes = [hex6(h) for h in re.findall(r"#[0-9a-fA-F]{3,8}\b", decl)]
+        pairs.update(zip(hexes, hexes[1:]))
+    return pairs
+
+
+def readback(epub, chapters, docs, images, R, css_text="", pairs=()):
     """Independent checks on the converted file, not on our own assumptions."""
     res = {"bytes": os.path.getsize(epub), "sha256": sha256(epub), "failures": []}
     base_css_palette = "\n".join(re.findall(r"\.s\d+ \{ color:#[0-9a-fA-F]{6}; \}", css_text))
@@ -941,6 +1134,65 @@ def readback(epub, chapters, docs, images, R, css_text=""):
                                            % ch["n"])
             if res["css_oklch"] or res["css_var"]:
                 res["failures"].append("stylesheet relies on oklch/var()")
+            # the dark half of each pair must sit in the same document as the
+            # spans it colours, named with the class the package actually has;
+            # the author's own second value, not a recursion of the first
+            sel_map, ambiguous = speaker_selector_map(css, pairs)
+            res["dark_selectors"] = sorted(sel_map)
+            res["dark_ambiguous"] = ambiguous
+            if ambiguous:
+                res["failures"].append("one dialogue colour on several classes: %s" % ambiguous)
+            if pairs and not sel_map:
+                res["failures"].append("no dialogue class resolved in the converted sheet")
+            res["dark_rules"] = {}
+            for ch in chapters:
+                nm = "%02d" % ch["n"]
+                d = conv_docs[nm]
+                spans = [c.split() for c in re.findall(r'<span class="([^"]*)"', d)]
+                spk = [c for c in spans if set(c) & set(sel_map)]
+                classes = sorted({x for c in spk for x in c if x in sel_map})
+                unmarked = [c for c in spk if R.THEME_CONTRACT not in c]
+                missing = [x for x in classes
+                           if (".%s { color:%s; }" % (x, sel_map[x][1])) not in d]
+                prose_marked = len(re.findall(
+                    r"<(?:p|body)\b[^>]*class=\"[^\"]*%s" % R.THEME_CONTRACT, d))
+                res["dark_rules"][nm] = {
+                    "speaker_spans": len(spk), "classes": classes,
+                    "unmarked_spans": len(unmarked),
+                    "dark_block": DARK_OPEN in d, "dark_rules_missing": missing,
+                    "marker_on_prose": prose_marked}
+                if unmarked:
+                    res["failures"].append("ch%s: %d speaker spans not opted out"
+                                           % (nm, len(unmarked)))
+                if spk and not res["dark_rules"][nm]["dark_block"]:
+                    res["failures"].append("ch%s: no dark-scheme block for coloured dialogue" % nm)
+                if missing:
+                    res["failures"].append("ch%s: dark value missing for %s" % (nm, missing))
+                if prose_marked:
+                    res["failures"].append("ch%s: paragraph or body marked by the theme contract"
+                                           % nm)
+            # a status cell the source wrote 300% and yellow must still be in the
+            # package; the converter moves the inline style into a generated class
+            xhtml_docs = [d for n, d in docs.items() if n.endswith(".xhtml")]
+            res["status_mark"] = {"font_size": bool(re.search(r"font-size:\s*300%", css)),
+                                  "colour": bool(re.search(r"#ff8\b", css, re.I))}
+            if any("font-size:300%" in d for d in xhtml_docs) and not res["status_mark"]["font_size"]:
+                res["failures"].append("source cell size 300% missing from converted sheet")
+            if any("color:#ff8" in d for d in xhtml_docs) and not res["status_mark"]["colour"]:
+                res["failures"].append("source status colour #ff8 missing from converted sheet")
+            # the panel pair: colour + same-colour gradient, both carried through.
+            # the gradient is proved by its own declaration -- the hex is also the
+            # surface's background-color, so a substring hit proves nothing
+            want_grad = sorted(set(re.findall(
+                r"linear-gradient\(\s*(#[0-9a-fA-F]{3,6})\s*,\s*#[0-9a-fA-F]{3,6}\s*\)", css_text)))
+            declared = gradient_endpoints(css)
+            res["panel_gradients"] = {"wanted": want_grad,
+                                      "present": [g for g in want_grad
+                                                  if (hex6(g), hex6(g)) in declared],
+                                      "declared_gradients": len(declared),
+                                      "total_in_package": css.count("linear-gradient")}
+            if want_grad and len(res["panel_gradients"]["present"]) != len(want_grad):
+                res["failures"].append("panel background gradient lost in conversion")
         res["image_members"] = [n for n in names if n.lower().endswith(".svg")]
         res["image_count"] = len(res["image_members"])
         # no count gate: the converter may prune a copy no page references; a figure
