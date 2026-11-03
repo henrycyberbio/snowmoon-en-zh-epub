@@ -463,7 +463,8 @@
    "figure": {
     "en": "assets/ch19-fig01-en.svg",
     "zh": "assets/ch19-fig01-zh.svg",
-    "file": "ch19-fig01.svg"
+    "file": "ch19-fig01.svg",
+    "has_translation": false
    },
    "figure_labels": [],
    "inline": {
@@ -1338,7 +1339,8 @@
    "figure": {
     "en": "assets/ch19-fig02-en.svg",
     "zh": "assets/ch19-fig02-zh.svg",
-    "file": "ch19-fig02.svg"
+    "file": "ch19-fig02.svg",
+    "has_translation": false
    },
    "figure_labels": [
     "0x1b568a45...",

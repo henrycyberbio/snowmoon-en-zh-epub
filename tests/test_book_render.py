@@ -453,9 +453,13 @@ class FigureInscriptions(unittest.TestCase):
         soup = BeautifulSoup(html, "html.parser")
         wrap = soup.find("figure", class_="dv-fig-wrap")
         self.assertIsNotNone(wrap)
+        # prepare_inputs found no translation in this figure, so only the
+        # English art ships; the author's lines still appear in both languages.
+        fig = seg["figure"]
+        want_imgs = [fig["en"]] + ([fig["zh"]] if fig.get("has_translation", True) else [])
         imgs = wrap.find_all("img")
-        self.assertEqual(len(imgs), 2)
-        self.assertEqual(len(soup.find_all("img")), 2)     # no duplicated placeholder
+        self.assertEqual([i.get("src") for i in imgs], want_imgs)
+        self.assertEqual(len(soup.find_all("img")), len(want_imgs))  # no duplicated placeholder
         self.assertIsNone(soup.find("svg"))                # the drawing is not re-inlined
         want_en = nows(source_root(seg).get_text("", strip=False))
         want_zh = nows(MD_IMAGE.sub("", zht))
@@ -463,7 +467,8 @@ class FigureInscriptions(unittest.TestCase):
         self.assertEqual(len(caps), 2)
         self.assertEqual(nows(caps[0].get_text("", strip=False)), want_en)
         self.assertEqual(nows(caps[1].get_text("", strip=False)), want_zh)
-        for img, cap in ((imgs[0], caps[0]), (imgs[1], caps[1])):
+        paired = [caps[0]] + ([caps[1]] if len(want_imgs) == 2 else [])
+        for img, cap in zip(imgs, paired):
             self.assertIs(img.find_next_sibling(), cap)   # caption stays with its image
         self.assertEqual(len(caps[0].find_all("br")), 1)   # author's line break kept
         self.assertEqual(len(caps[1].find_all("br")), 1)
@@ -481,10 +486,30 @@ class FigureInscriptions(unittest.TestCase):
                 bad.append(seg["id"])
         self.assertEqual(bad, [], "caption block added to a plain figure")
 
-    def test_book_still_has_112_figure_images(self):
-        n = sum(len(BeautifulSoup(render(seg, zht)[0], "html.parser").find_all("img"))
-                for _, seg, zht in figure_segments())
-        self.assertEqual(n, 112)
+    def test_each_figure_shows_the_images_its_translation_state_calls_for(self):
+        """prepare_inputs derives has_translation per figure: no translation means
+        the original bytes ship once, a translation means the pair.  Two images
+        per figure was never the rule, so the count is re-derived here instead of
+        pinned to a total."""
+        figures, translated, images = 0, 0, 0
+        for _, seg, zht in figure_segments():
+            fig = seg.get("figure") or {}
+            self.assertIn("has_translation", fig,
+                          "%s: prepared figure must state has_translation" % seg["id"])
+            self.assertIsInstance(fig["has_translation"], bool,
+                                  "%s: has_translation must be a bool" % seg["id"])
+            imgs = BeautifulSoup(render(seg, zht)[0], "html.parser").find_all("img")
+            want = [fig["en"]] + ([fig["zh"]] if fig["has_translation"] else [])
+            self.assertEqual([i.get("src") for i in imgs], want,
+                             "%s: has_translation=%r" % (seg["id"], fig["has_translation"]))
+            figures += 1
+            translated += 1 if fig["has_translation"] else 0
+            images += len(imgs)
+        self.assertGreater(figures, 0, "no figure rendered")
+        self.assertGreater(translated, 0, "no translated figure: pair branch unproven")
+        self.assertGreater(figures - translated, 0,
+                           "no untranslated figure: single-image branch unproven")
+        self.assertEqual(images, 2 * translated + (figures - translated))
 
 
 # ------------------------------------------------- Apple Books theme contract
